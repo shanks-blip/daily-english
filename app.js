@@ -729,7 +729,7 @@ function renderSettings() {
     const on = st.settings.level === lv.id;
     html += '<button class="level-card' + (on ? " on" : "") + '" data-level="' + lv.id + '">' +
       '<div class="t">' + esc(lv.title) + '</div>' +
-      '<div class="d">' + esc(lv.desc) + '</div></button>';
+      '<div class="d">' + esc(lv.desc) + ' · ' + wordsOfLevel(lv.id).length + '단어</div></button>';
   });
 
   const goals = [4, 6, 8, 10];
