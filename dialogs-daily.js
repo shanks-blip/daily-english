@@ -67,4 +67,18 @@
     { sp: "A", en: "No problem. Sit back and relax—I'll have you out of here in about half an hour.", ko: "알겠습니다. 편히 기대서 쉬고 계세요—30분 정도면 끝날 거예요." }
   ]
 }]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0708", level: "lv4", icon: "🔧", title: "자동차 정비소에서 수리 맡기기",
+  lines: [
+    { sp: "B", en: "Hi, my car's been making this weird rattling noise, and the check-engine light just came on.", ko: "안녕하세요, 차에서 이상하게 덜컹거리는 소리가 나는데, 엔진 경고등도 방금 들어왔어요." },
+    { sp: "A", en: "Let's pop the hood and take a look. When did you first notice it acting up?", ko: "보닛 열고 한번 봅시다. 차가 말썽 부리기 시작한 게 언제부터예요?" },
+    { sp: "B", en: "About a week ago. I was hoping it was nothing, but it's only gotten worse.", ko: "일주일쯤 전에요. 별거 아니길 바랐는데, 점점 더 심해지기만 하네요." },
+    { sp: "A", en: "Could be the timing belt. I'll run a quick diagnostic before we jump to conclusions.", ko: "타이밍 벨트 문제일 수도 있어요. 성급하게 단정 짓기 전에 간단히 진단부터 돌려볼게요." },
+    { sp: "B", en: "Sounds good. Any idea what it'll run me, ballpark?", ko: "좋아요. 대충 얼마나 나올지 감이 오세요?" },
+    { sp: "A", en: "Hard to say until I get in there, but I'll call you with an estimate before I touch anything.", ko: "직접 들여다보기 전엔 말하기 어렵지만, 뭐라도 손대기 전에 견적 내서 전화드릴게요." },
+    { sp: "B", en: "I'd appreciate that. I can't afford to have it break down on the highway again.", ko: "그래 주시면 감사하죠. 또 고속도로에서 차가 퍼지면 정말 곤란하거든요." },
+    { sp: "A", en: "Totally understand. Leave it with me and I'll have it up and running by tomorrow afternoon.", ko: "충분히 이해해요. 저한테 맡겨 두시면 내일 오후까지 다시 굴러가게 해 드릴게요." }
+  ]
+}]);
 // end of dialogs-daily.js
