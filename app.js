@@ -297,8 +297,8 @@ function renderHome() {
 // ---------- 학습 ----------
 function newLearnSession() {
   const st = loadStore();
-  const list = wordsOfLevel(st.settings.level)
-    .filter(function (w) { return !st.progress[w.id]; })
+  const list = shuffle(wordsOfLevel(st.settings.level)
+    .filter(function (w) { return !st.progress[w.id]; }))
     .slice(0, st.settings.dailyGoal);
   if (list.length === 0) return { phase: "empty" };
   return { phase: "cards", list: list, ci: 0, quiz: null, score: null };

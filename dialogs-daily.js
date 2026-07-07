@@ -53,4 +53,18 @@
     ]
   }
 ]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0707", level: "lv3", icon: "💇", title: "미용실에서 원하는 스타일 말하기",
+  lines: [
+    { sp: "B", en: "Hi, I have a two o'clock appointment. I'd just like a trim—nothing drastic.", ko: "안녕하세요, 2시에 예약했는데요. 그냥 살짝 다듬기만 하고 크게 바꾸진 않을 거예요." },
+    { sp: "A", en: "Sure thing. How much length are we taking off today?", ko: "네, 알겠습니다. 오늘 길이는 얼마나 자를까요?" },
+    { sp: "B", en: "Just an inch or so. I'm trying to grow it out, but the ends are a mess.", ko: "2~3센티 정도만요. 기르는 중인데 끝이 좀 엉망이라서요." },
+    { sp: "A", en: "Got it. I'll clean up the split ends and add a few layers to give it some shape.", ko: "알겠어요. 갈라진 끝을 정리하고 층을 살짝 내서 모양을 잡아 드릴게요." },
+    { sp: "B", en: "That sounds perfect. Oh, and could you go a little lighter on the bangs?", ko: "딱 좋네요. 아, 그리고 앞머리는 조금만 가볍게 해 주시겠어요?" },
+    { sp: "A", en: "Absolutely. Do you want me to touch up your color while you're here?", ko: "그럼요. 오신 김에 염색도 손봐 드릴까요?" },
+    { sp: "B", en: "Maybe next time. Let's just play it safe today.", ko: "다음에 할게요. 오늘은 그냥 무난하게 가죠." },
+    { sp: "A", en: "No problem. Sit back and relax—I'll have you out of here in about half an hour.", ko: "알겠습니다. 편히 기대서 쉬고 계세요—30분 정도면 끝날 거예요." }
+  ]
+}]);
 // end of dialogs-daily.js
