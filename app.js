@@ -158,9 +158,10 @@ function blankify(w) {
 
 function choiceQ(w, pool) {
   const en2ko = Math.random() < 0.5;
-  const others = shuffle(pool.filter(function (p) {
-    return p.id !== w.id && (en2ko ? p.ko !== w.ko : p.en !== w.en);
-  })).slice(0, 3);
+  const diff = function (p) { return p.id !== w.id && (en2ko ? p.ko !== w.ko : p.en !== w.en); };
+  let cand = pool.filter(function (p) { return diff(p) && p.pos === w.pos; });
+  if (cand.length < 3) cand = pool.filter(diff);
+  const others = shuffle(cand).slice(0, 3);
   const correct = en2ko ? w.ko : w.en;
   const choices = shuffle([correct].concat(others.map(function (o) { return en2ko ? o.ko : o.en; })));
   return {
@@ -173,7 +174,10 @@ function choiceQ(w, pool) {
 }
 
 function blankQ(w, blanked, pool) {
-  const others = shuffle(pool.filter(function (p) { return p.id !== w.id && p.en !== w.en; })).slice(0, 3);
+  const diff = function (p) { return p.id !== w.id && p.en !== w.en; };
+  let cand = pool.filter(function (p) { return diff(p) && p.pos === w.pos; });
+  if (cand.length < 3) cand = pool.filter(diff);
+  const others = shuffle(cand).slice(0, 3);
   const choices = shuffle([w.en].concat(others.map(function (o) { return o.en; })));
   return {
     type: "blank", wordId: w.id, prompt: blanked,
@@ -448,7 +452,7 @@ function renderLearn() {
     document.getElementById("next-card").addEventListener("click", function () {
       if (isLast) {
         S.phase = "quiz";
-        S.quiz = { qs: makeQuestions(S.list, wordsOfLevel(loadStore().settings.level), false), i: 0, sel: null, results: [] };
+        S.quiz = { qs: makeQuestions(S.list, WORDS, false), i: 0, sel: null, results: [] };
       } else S.ci += 1;
       render();
     });
