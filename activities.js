@@ -17,7 +17,10 @@ function newListenSession() {
   if (pool.length < 4) return { phase: "empty" };
   const targets = shuffle(pool).slice(0, Math.min(10, pool.length));
   const qs = targets.map(function (w) {
-    const others = shuffle(pool.filter(function (p) { return p.id !== w.id && p.ko !== w.ko; })).slice(0, 3);
+    const diff = function (p) { return p.id !== w.id && p.ko !== w.ko; };
+    let cand = WORDS.filter(function (p) { return diff(p) && p.pos === w.pos; });
+    if (cand.length < 3) cand = WORDS.filter(diff);
+    const others = shuffle(cand).slice(0, 3);
     const choices = shuffle([w.ko].concat(others.map(function (o) { return o.ko; })));
     return { wordId: w.id, en: w.en, choices: choices, answer: choices.indexOf(w.ko) };
   });
@@ -113,7 +116,14 @@ function renderArrange() {
   if (S.phase === "quiz") {
     const q = S.qs[S.i];
     if (!q.shuffled) {
-      q.shuffled = shuffle(q.parts.map(function (p, i) { return { t: p, k: i }; }));
+      const inSent = {};
+      q.parts.forEach(function (p) { inSent[p.toLowerCase()] = 1; });
+      const COMMON = ["the", "a", "an", "is", "are", "was", "to", "and", "for", "in", "on", "of", "my", "your", "it", "you", "that", "this", "do", "not"];
+      const distract = shuffle(COMMON.filter(function (t) { return !inSent[t]; })).slice(0, 2);
+      q.shuffled = shuffle(
+        q.parts.map(function (p, i) { return { t: p, k: i }; })
+          .concat(distract.map(function (t, j) { return { t: t, k: 900 + j }; }))
+      );
     }
     const used = {};
     S.built.forEach(function (b) { used[b.k] = 1; });

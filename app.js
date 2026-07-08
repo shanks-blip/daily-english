@@ -452,7 +452,7 @@ function renderLearn() {
     document.getElementById("next-card").addEventListener("click", function () {
       if (isLast) {
         S.phase = "quiz";
-        S.quiz = { qs: makeQuestions(S.list, WORDS, false), i: 0, sel: null, results: [] };
+        S.quiz = { qs: makeQuestions(S.list.concat(shuffle(learnedWordList()).slice(0, 6)), WORDS, false), i: 0, sel: null, results: [] };
       } else S.ci += 1;
       render();
     });
