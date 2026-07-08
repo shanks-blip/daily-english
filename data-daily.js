@@ -47,4 +47,58 @@
   { id: "w729", en: "heaven", ko: "천국, 하늘; 더없는 행복", pos: "명사", exEn: "After that long hike, a hot shower felt like heaven.", exKo: "그 긴 등산 후에 뜨거운 샤워는 천국 같았어요.", unit: "ud0708" },
   { id: "w730", en: "independence", ko: "독립, 자립", pos: "명사", exEn: "Getting my first car gave me a real sense of independence.", exKo: "첫 차가 생기니까 진짜 독립한 기분이 들었어요.", unit: "ud0708" }
 ]);
+[].push.apply(UNITS, [
+  { id: "ud07081", level: "lv1", title: "데일리 7/8 · 기초" },
+  { id: "ud07082", level: "lv2", title: "데일리 7/8 · 중급" },
+  { id: "ud07083", level: "lv3", title: "데일리 7/8 · 고급" },
+  { id: "ud07084", level: "lv4", title: "데일리 7/8 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w731", en: "book", ko: "책; 예약하다", pos: "명사/동사", exEn: "I'm reading a really good book about space right now.", exKo: "저 지금 우주에 관한 정말 재미있는 책을 읽고 있어요.", unit: "ud07081" },
+  { id: "w732", en: "car", ko: "자동차, 차", pos: "명사", exEn: "We took the car because it was too cold to walk.", exKo: "걷기엔 너무 추워서 차를 타고 갔어요.", unit: "ud07081" },
+  { id: "w733", en: "house", ko: "집, 주택", pos: "명사", exEn: "Come over to my house for dinner tonight.", exKo: "오늘 저녁에 우리 집에 저녁 먹으러 와요.", unit: "ud07081" },
+  { id: "w734", en: "door", ko: "문", pos: "명사", exEn: "Someone is knocking on the front door.", exKo: "누가 현관문을 두드리고 있어요.", unit: "ud07081" },
+  { id: "w735", en: "read", ko: "읽다", pos: "동사", exEn: "I like to read for a while before I go to sleep.", exKo: "저는 자기 전에 잠깐 책을 읽는 걸 좋아해요.", unit: "ud07081" },
+  { id: "w736", en: "write", ko: "쓰다, 적다", pos: "동사", exEn: "Please write your name at the top of the page.", exKo: "페이지 맨 위에 이름을 써 주세요.", unit: "ud07081" },
+  { id: "w737", en: "open", ko: "열다; 열려 있는", pos: "동사/형용사", exEn: "Can you open the window? It's warm in here.", exKo: "창문 좀 열어 줄래요? 여기 좀 덥네요.", unit: "ud07081" },
+  { id: "w738", en: "close", ko: "닫다; 가까운", pos: "동사/형용사", exEn: "The store will close at nine tonight.", exKo: "그 가게는 오늘 밤 9시에 문을 닫아요.", unit: "ud07081" },
+  { id: "w739", en: "big", ko: "큰", pos: "형용사", exEn: "They live in a big house near the park.", exKo: "그들은 공원 근처의 큰 집에 살아요.", unit: "ud07081" },
+  { id: "w740", en: "small", ko: "작은", pos: "형용사", exEn: "I'd like a small coffee, please.", exKo: "작은 사이즈 커피 한 잔 주세요.", unit: "ud07081" }
+]);
+[].push.apply(WORDS, [
+  { id: "w741", en: "neighbor", ko: "이웃", pos: "명사", exEn: "My neighbor watches our dog whenever we're out of town.", exKo: "우리가 여행 갈 때마다 이웃이 우리 강아지를 봐 줘요.", unit: "ud07082" },
+  { id: "w742", en: "weekend", ko: "주말", pos: "명사", exEn: "Do you have any plans for the weekend?", exKo: "이번 주말에 무슨 계획 있어요?", unit: "ud07082" },
+  { id: "w743", en: "vacation", ko: "휴가, 방학", pos: "명사", exEn: "We're taking a vacation to the coast next month.", exKo: "다음 달에 해안으로 휴가를 갈 거예요.", unit: "ud07082" },
+  { id: "w744", en: "groceries", ko: "식료품, 장 본 것", pos: "명사", exEn: "Can you help me carry the groceries inside?", exKo: "장 본 것 안으로 들여놓는 것 좀 도와줄래요?", unit: "ud07082" },
+  { id: "w745", en: "elevator", ko: "엘리베이터", pos: "명사", exEn: "The elevator is broken, so we'll have to take the stairs.", exKo: "엘리베이터가 고장 나서 계단으로 가야 해요.", unit: "ud07082" },
+  { id: "w746", en: "recommend", ko: "추천하다", pos: "동사", exEn: "Can you recommend a good place for brunch around here?", exKo: "이 근처에 브런치 먹기 좋은 데 추천해 줄 수 있어요?", unit: "ud07082" },
+  { id: "w747", en: "remember", ko: "기억하다, 기억나다", pos: "동사", exEn: "Do you remember where we parked the car?", exKo: "우리 차 어디에 주차했는지 기억나요?", unit: "ud07082" },
+  { id: "w748", en: "forget", ko: "잊다, 잊어버리다", pos: "동사", exEn: "Don't forget to lock the door on your way out.", exKo: "나갈 때 문 잠그는 거 잊지 마세요.", unit: "ud07082" },
+  { id: "w749", en: "decide", ko: "결정하다, 정하다", pos: "동사", exEn: "We couldn't decide where to eat, so we just stayed home.", exKo: "어디서 먹을지 못 정해서 그냥 집에 있었어요.", unit: "ud07082" },
+  { id: "w750", en: "enjoy", ko: "즐기다, 즐거워하다", pos: "동사", exEn: "I really enjoy going for a walk after dinner.", exKo: "저는 저녁 먹고 산책하는 걸 정말 즐겨요.", unit: "ud07082" }
+]);
+[].push.apply(WORDS, [
+  { id: "w751", en: "random", ko: "무작위의; 뜬금없는, 갑작스러운", pos: "형용사", exEn: "This might sound random, but do you want to grab dinner tonight?", exKo: "좀 뜬금없이 들릴 수 있는데, 오늘 저녁 같이 먹을래요?", unit: "ud07083" },
+  { id: "w752", en: "hopefully", ko: "바라건대, 잘하면", pos: "부사", exEn: "Hopefully the weather clears up before the game starts.", exKo: "경기 시작 전에 날씨가 개면 좋겠어요.", unit: "ud07083" },
+  { id: "w753", en: "suppose", ko: "~라고 생각하다, 추측하다; 가정하다", pos: "동사", exEn: "I suppose we could leave a little earlier to beat the traffic.", exKo: "차 막히는 걸 피하려면 조금 일찍 나가도 될 것 같아요.", unit: "ud07083" },
+  { id: "w754", en: "tend", ko: "~하는 경향이 있다", pos: "동사", exEn: "I tend to overthink things when I'm stressed out.", exKo: "저는 스트레스를 받으면 뭐든 너무 깊이 생각하는 경향이 있어요.", unit: "ud07083" },
+  { id: "w755", en: "nearby", ko: "근처의; 가까이에", pos: "형용사/부사", exEn: "There's a nice little bakery nearby if you're hungry.", exKo: "배고프면 근처에 괜찮은 작은 빵집이 하나 있어요.", unit: "ud07083" },
+  { id: "w756", en: "noise", ko: "소음", pos: "명사", exEn: "The noise from the construction kept me up all night.", exKo: "공사 소음 때문에 밤새 잠을 못 잤어요.", unit: "ud07083" },
+  { id: "w757", en: "crash", ko: "충돌(하다); (컴퓨터·프로그램이) 갑자기 멈추다", pos: "명사/동사", exEn: "My laptop crashed right before I could save the file.", exKo: "파일을 저장하기 직전에 제 노트북이 갑자기 멈춰 버렸어요.", unit: "ud07083" },
+  { id: "w758", en: "brief", ko: "간단한, 짧은", pos: "형용사", exEn: "Let's keep the meeting brief since everyone's busy today.", exKo: "다들 오늘 바쁘니까 회의는 짧게 합시다.", unit: "ud07083" },
+  { id: "w759", en: "recognize", ko: "알아보다; 인정하다", pos: "동사", exEn: "I almost didn't recognize you with your new haircut!", exKo: "머리를 새로 해서 하마터면 못 알아볼 뻔했어요!", unit: "ud07083" },
+  { id: "w760", en: "valuable", ko: "소중한, 값진; 귀중한", pos: "형용사", exEn: "Thanks for the advice—it was really valuable to me.", exKo: "조언 고마워요—저한테 정말 소중했어요.", unit: "ud07083" }
+]);
+[].push.apply(WORDS, [
+  { id: "w761", en: "hit the nail on the head", ko: "정확히 맞히다, 핵심을 찌르다", pos: "이디엄", exEn: "You hit the nail on the head—that's exactly why the project fell apart.", exKo: "정확히 짚었어요—바로 그것 때문에 프로젝트가 무산된 거예요.", unit: "ud07084" },
+  { id: "w762", en: "on the same page", ko: "(서로) 같은 생각인, 뜻이 통하는", pos: "이디엄", exEn: "Before we start, let's make sure everyone's on the same page.", exKo: "시작하기 전에 다들 같은 생각인지 확인하고 갑시다.", unit: "ud07084" },
+  { id: "w763", en: "cut to the chase", ko: "본론으로 들어가다, 요점만 말하다", pos: "이디엄", exEn: "We don't have much time, so let me cut to the chase.", exKo: "시간이 별로 없으니 바로 본론으로 들어갈게요.", unit: "ud07084" },
+  { id: "w764", en: "get the hang of", ko: "~의 요령을 터득하다, ~에 익숙해지다", pos: "이디엄", exEn: "It's confusing at first, but you'll get the hang of it soon.", exKo: "처음엔 헷갈리지만, 금방 요령을 터득하게 될 거예요.", unit: "ud07084" },
+  { id: "w765", en: "a blessing in disguise", ko: "뜻밖의 좋은 결과, 전화위복", pos: "이디엄", exEn: "Losing that job turned out to be a blessing in disguise.", exKo: "그 직장을 잃은 게 알고 보니 전화위복이었어요.", unit: "ud07084" },
+  { id: "w766", en: "ring a bell", ko: "어디서 들어본 것 같다, 낯익다", pos: "이디엄", exEn: "Does that name ring a bell at all?", exKo: "그 이름 혹시 들어본 적 있어요?", unit: "ud07084" },
+  { id: "w767", en: "blunt", ko: "(말이) 직설적인, 무뚝뚝한", pos: "형용사", exEn: "Sorry to be so blunt, but I don't think this plan will work.", exKo: "너무 직설적이라 미안한데, 이 계획은 안 될 것 같아요.", unit: "ud07084" },
+  { id: "w768", en: "candid", ko: "솔직한, 숨김없는", pos: "형용사", exEn: "I appreciate you being so candid about the risks involved.", exKo: "관련된 위험에 대해 이렇게 솔직하게 말해 줘서 고마워요.", unit: "ud07084" },
+  { id: "w769", en: "vivid", ko: "생생한, 선명한", pos: "형용사", exEn: "I still have a vivid memory of my first day at that school.", exKo: "저는 그 학교에서의 첫날이 아직도 생생하게 기억나요.", unit: "ud07084" },
+  { id: "w770", en: "cope", ko: "(with) 대처하다, 감당하다, 견디다", pos: "동사", exEn: "It's been hard, but she's learning to cope with the stress.", exKo: "힘들긴 했지만, 그녀는 스트레스에 대처하는 법을 배우고 있어요.", unit: "ud07084" }
+]);
 // end of data-daily.js
