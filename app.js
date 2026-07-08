@@ -120,7 +120,22 @@ function speak(text) {
   const u = new SpeechSynthesisUtterance(text);
   u.lang = "en-US";
   u.rate = 0.9;
+  const st = loadStore();
+  if (st.settings && st.settings.voiceURI) {
+    const v = window.speechSynthesis.getVoices().filter(function (x) { return x.voiceURI === st.settings.voiceURI; })[0];
+    if (v) { u.voice = v; u.lang = v.lang; }
+  }
   window.speechSynthesis.speak(u);
+}
+
+function voiceLabel(v) {
+  const acc = { "en-US": "미국", "en-GB": "영국", "en-AU": "호주", "en-IN": "인도", "en-CA": "캐나다", "en-IE": "아일랜드", "en-ZA": "남아공", "en-NZ": "뉴질랜드" };
+  const label = acc[v.lang] || v.lang;
+  const n = (v.name || "").toLowerCase();
+  let g = "";
+  if (n.indexOf("female") >= 0) g = " · 여성";
+  else if (n.indexOf("male") >= 0) g = " · 남성";
+  return label + " · " + v.name + g;
 }
 
 function bindSpeakButtons(root) {
@@ -739,6 +754,23 @@ function renderSettings() {
   });
   html += '</div>';
 
+  const _synth = ("speechSynthesis" in window) ? window.speechSynthesis : null;
+  const _enV = _synth ? _synth.getVoices().filter(function (v) { return /^en[-_]?/i.test(v.lang); }) : [];
+  if (_synth && !_enV.length) { _synth.onvoiceschanged = function () { if (tab === "settings") render(); }; }
+  if (_synth) {
+    html += '<p class="section-title" style="margin-top:18px">발음 목소리</p><div class="card">';
+    if (_enV.length) {
+      html += '<select id="voice-sel" style="width:100%;padding:12px;border:1.5px solid var(--line);border-radius:13px;font-size:15px;font-family:inherit;background:#fff;color:var(--ink)"><option value="">기기 기본 음성</option>';
+      _enV.forEach(function (v) {
+        html += '<option value="' + esc(v.voiceURI) + '"' + (st.settings.voiceURI === v.voiceURI ? " selected" : "") + '>' + esc(voiceLabel(v)) + '</option>';
+      });
+      html += '</select><button class="btn-sm gray" id="voice-test" style="margin-top:12px">🔊 들어보기</button><p class="muted" style="margin-top:10px">기기에 설치된 영어 음성만 표시돼요. 새 단어·회화 모두 이 목소리로 읽습니다.</p>';
+    } else {
+      html += '<p class="muted">음성을 불러오는 중이거나 이 기기에 영어 음성이 없어요. 설정을 다시 열거나, 휴대폰 설정 → 접근성/음성 출력에서 영어 TTS 음성을 추가해 보세요.</p>';
+    }
+    html += '</div>';
+  }
+
   html += '<p class="section-title" style="margin-top:18px">데이터 백업</p>' +
     '<div class="card"><div class="btn-row" style="margin-top:0">' +
       '<button class="btn btn-ghost" id="export-btn">내보내기</button>' +
@@ -767,6 +799,11 @@ function renderSettings() {
       render();
     });
   });
+
+  const _vsel = document.getElementById("voice-sel");
+  if (_vsel) _vsel.addEventListener("change", function () { st.settings.voiceURI = _vsel.value; saveStore(st); });
+  const _vtest = document.getElementById("voice-test");
+  if (_vtest) _vtest.addEventListener("click", function () { speak("Hello! How are you today?"); });
 
   document.getElementById("export-btn").addEventListener("click", function () {
     const data = JSON.stringify(loadStore(), null, 2);
