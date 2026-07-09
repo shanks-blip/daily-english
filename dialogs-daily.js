@@ -81,4 +81,18 @@
     { sp: "A", en: "Totally understand. Leave it with me and I'll have it up and running by tomorrow afternoon.", ko: "충분히 이해해요. 저한테 맡겨 두시면 내일 오후까지 다시 굴러가게 해 드릴게요." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0710", level: "lv3", icon: "💪", title: "헬스장 회원 등록하기",
+  lines: [
+    { sp: "B", en: "Hi, I'm interested in signing up. What kind of membership plans do you offer?", ko: "안녕하세요, 등록하고 싶은데요. 어떤 회원권 종류가 있나요?" },
+    { sp: "A", en: "We've got a monthly plan and an annual one. The annual works out cheaper if you're in it for the long haul.", ko: "월간과 연간이 있어요. 오래 다니실 거면 연간이 더 저렴하게 나와요." },
+    { sp: "B", en: "That makes sense. Is there a sign-up fee I should know about?", ko: "그렇군요. 제가 알아 둬야 할 등록비가 따로 있나요?" },
+    { sp: "A", en: "There's a small one-time fee, but we're waiving it this month as a promotion.", ko: "일회성 소액 등록비가 있는데, 이번 달엔 프로모션으로 면제해 드리고 있어요." },
+    { sp: "B", en: "Great. Can I freeze my membership if I go out of town for a while?", ko: "좋네요. 한동안 여행 가면 회원권을 정지할 수 있나요?" },
+    { sp: "A", en: "Absolutely. Just give us a heads-up a few days in advance and we'll put it on hold.", ko: "그럼요. 며칠 전에 미리 알려만 주시면 정지해 드릴게요." },
+    { sp: "B", en: "Perfect. Let's go ahead and set it up.", ko: "완벽해요. 그럼 등록 진행할게요." },
+    { sp: "A", en: "Great choice! Let me get a few details, and I'll show you around afterward.", ko: "잘 결정하셨어요! 몇 가지 정보만 받고, 그다음에 시설을 구경시켜 드릴게요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
