@@ -219,6 +219,7 @@ function setTab(t) {
   if (t === "talk") talkS = { mode: "list" };
   if (t === "listen" && typeof newListenSession === "function") listenS = newListenSession();
   if (t === "arrange" && typeof newArrangeSession === "function") arrangeS = newArrangeSession();
+  if (t === "flash" && typeof newFlashSession === "function") flashS = newFlashSession();
   document.querySelectorAll("#nav button").forEach(function (b) {
     b.classList.toggle("on", b.getAttribute("data-tab") === t);
   });
@@ -235,6 +236,7 @@ function render() {
   else if (tab === "talk") renderTalk();
   else if (tab === "listen") renderListen();
   else if (tab === "arrange") renderArrange();
+  else if (tab === "flash" && typeof renderFlash === "function") renderFlash();
   else if (tab === "words") renderWords();
   else renderSettings();
   window.scrollTo(0, 0);

@@ -5,6 +5,7 @@
 
 var listenS = null;
 var arrangeS = null;
+var flashS = null;
 
 function learnedWordList() {
   const st = loadStore();
@@ -196,10 +197,76 @@ function finishArrange(S) {
   render();
 }
 
+// ---------- 단어 굳히기 (반복 플래시) ----------
+function newFlashSession() {
+  const st = loadStore();
+  const arr = Object.keys(st.progress).map(function (k) {
+    const p = st.progress[k]; return { p: p, w: wordById[p.id] };
+  }).filter(function (x) { return x.w; });
+  if (!arr.length) return { phase: "empty" };
+  arr.sort(function (a, b) {
+    const aw = isWeak(a.p) ? 0 : 1, bw = isWeak(b.p) ? 0 : 1;
+    if (aw !== bw) return aw - bw;
+    return (b.p.at || "").localeCompare(a.p.at || "");
+  });
+  const cards = shuffle(arr.slice(0, Math.min(12, arr.length)).map(function (x) { return x.w; }));
+  return { phase: "drill", cards: cards, i: 0, revealed: false };
+}
+
+function renderFlash() {
+  const S = flashS;
+  if (!S || S.phase === "empty") {
+    view.innerHTML = centerHtml("🔁", "반복할 단어가 아직 없어요", "단어를 먼저 배우면 여기서 반복 연습을 할 수 있어요.", "새 단어 배우기", "learn");
+    bindCenterBtn();
+    return;
+  }
+  if (S.phase === "drill") {
+    const w = S.cards[S.i];
+    let html = '<p class="section-title" style="color:var(--brand)">' + I_SPARK + ' 단어 굳히기 (' + (S.i + 1) + '/' + S.cards.length + ')</p>' +
+      '<div class="progress-top"><div style="width:' + (((S.i + 1) / S.cards.length) * 100) + '%"></div></div>' +
+      '<div class="card" style="text-align:center;padding:28px 18px">' +
+        '<div class="row" style="justify-content:center"><span class="word-en">' + esc(w.en) + '</span>' +
+        '<button class="speak-btn" data-say="' + esc(w.en) + '">' + SPK + '</button></div>';
+    if (S.revealed) {
+      html += '<p class="word-ko" style="margin-top:10px">' + esc(w.ko) + '</p>' +
+        '<div class="example" style="text-align:left"><div class="en">' + esc(w.exEn) + '</div>' +
+        '<div class="ko">' + esc(w.exKo) + '</div></div>';
+    } else {
+      html += '<p class="muted" style="margin-top:16px">뜻을 떠올려 본 뒤 눌러 확인하세요</p>';
+    }
+    html += '</div>';
+    html += S.revealed
+      ? '<button class="btn btn-primary" id="fl-next">' + (S.i + 1 >= S.cards.length ? "완료" : "다음 ▸") + '</button>'
+      : '<button class="btn btn-primary" id="fl-reveal">뜻 보기</button>';
+    view.innerHTML = html;
+    bindSpeakButtons(view);
+    if (!S.revealed) speak(w.en);
+    const rv = document.getElementById("fl-reveal");
+    if (rv) rv.addEventListener("click", function () { S.revealed = true; render(); });
+    const nx = document.getElementById("fl-next");
+    if (nx) nx.addEventListener("click", function () {
+      if (S.i + 1 >= S.cards.length) finishFlash(S);
+      else { S.i += 1; S.revealed = false; render(); }
+    });
+    return;
+  }
+  view.innerHTML = centerHtml("🎉", "단어 굳히기 완료!", S.cards.length + "개 단어를 반복했어요. 매일 반복하면 오래 기억에 남아요.", "홈으로", "home");
+  bindCenterBtn();
+}
+
+function finishFlash(S) {
+  const st = loadStore();
+  st.sessions.push({ date: todayStr(), type: "flash", count: S.cards.length, correct: S.cards.length });
+  saveStore(st);
+  S.phase = "done";
+  render();
+}
+
 // ---------- 홈: 오늘의 미션 카드 ----------
 const MISSIONS = [
   { key: "learn", icon: I_BOOK, label: "새 단어 학습", go: "learn" },
   { key: "review", icon: I_LOOP, label: "복습", go: "review" },
+  { key: "flash", icon: I_SPARK, label: "단어 굳히기", go: "flash" },
   { key: "listen", icon: I_HEAD, label: "듣기 퀴즈", go: "listen" },
   { key: "arrange", icon: I_SHAPES, label: "문장 만들기", go: "arrange" },
   { key: "talk", icon: I_MSG, label: "회화 한 편", go: "talk" },
