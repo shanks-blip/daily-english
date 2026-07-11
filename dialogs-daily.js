@@ -95,4 +95,17 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0712", level: "lv3", icon: "🛂", title: "공항 입국심사",
+  lines: [
+    { sp: "A", en: "Good morning. May I see your passport and customs form, please?", ko: "안녕하세요. 여권과 세관 신고서를 보여 주시겠어요?" },
+    { sp: "B", en: "Here you go. I filled out the form on the plane.", ko: "여기 있습니다. 신고서는 기내에서 작성했어요." },
+    { sp: "A", en: "What's the purpose of your visit, and how long are you planning to stay?", ko: "방문 목적이 무엇이고, 얼마나 머무를 예정인가요?" },
+    { sp: "B", en: "I'm here for sightseeing. I'll be staying for two weeks.", ko: "관광하러 왔어요. 2주 동안 머무를 예정입니다." },
+    { sp: "A", en: "Where will you be staying during your trip?", ko: "여행 중에는 어디에 머무실 건가요?" },
+    { sp: "B", en: "I've booked a hotel downtown. I can pull up the reservation on my phone if you need it.", ko: "시내 호텔을 예약했어요. 필요하시면 휴대폰으로 예약 내역을 띄워 드릴 수 있어요." },
+    { sp: "A", en: "That won't be necessary. Are you carrying more than ten thousand dollars in cash?", ko: "그럴 필요는 없습니다. 현금을 1만 달러 넘게 소지하고 계신가요?" },
+    { sp: "B", en: "No, nothing close to that. Just some spending money.", ko: "아니요, 그 근처도 안 돼요. 쓸 돈만 조금 있어요." }
+  ]
+}]);
 // end of dialogs-daily.js
