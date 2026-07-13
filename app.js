@@ -327,10 +327,26 @@ function renderHome() {
 // ---------- 학습 ----------
 function newLearnSession() {
   const st = loadStore();
-  const list = shuffle(wordsOfLevel(st.settings.level)
-    .filter(function (w) { return !st.progress[w.id]; }))
-    .slice(0, st.settings.dailyGoal);
-  if (list.length === 0) return { phase: "empty" };
+  const today = todayStr();
+  const lv = st.settings.level;
+  const goal = st.settings.dailyGoal;
+  const ds = st.dailySet;
+
+  // 그날 정해진 단어 세트를 고정: 같은 날·같은 레벨·같은 목표면 그대로 재사용
+  let list = null;
+  if (ds && ds.date === today && ds.level === lv && ds.goal === goal && ds.ids) {
+    list = ds.ids.map(function (id) { return wordById[id]; }).filter(Boolean);
+    if (!list.length) list = null;
+  }
+
+  // 없으면 오늘의 세트를 새로 뽑아 저장 (다음 재진입부터는 이 세트가 고정)
+  if (!list) {
+    list = shuffle(wordsOfLevel(lv).filter(function (w) { return !st.progress[w.id]; })).slice(0, goal);
+    if (list.length === 0) return { phase: "empty" };
+    st.dailySet = { date: today, level: lv, goal: goal, ids: list.map(function (w) { return w.id; }) };
+    saveStore(st);
+  }
+
   return { phase: "cards", list: list, ci: 0, quiz: null, score: null };
 }
 
@@ -870,7 +886,18 @@ document.querySelectorAll("#nav button").forEach(function (b) {
 setTab("home");
 
 if ("serviceWorker" in navigator) {
+  // 새 버전이 배포되면 새 서비스워커가 즉시 활성화되고, 페이지를 자동 새로고침해 최신본을 적용한다.
+  const _hadController = !!navigator.serviceWorker.controller;
+  let _reloading = false;
+  navigator.serviceWorker.addEventListener("controllerchange", function () {
+    if (!_hadController || _reloading) return; // 최초 설치 때는 새로고침하지 않음
+    _reloading = true;
+    window.location.reload();
+  });
   window.addEventListener("load", function () {
-    navigator.serviceWorker.register("sw.js").catch(function () { /* 오프라인 미지원 무시 */ });
+    navigator.serviceWorker.register("sw.js").then(function (reg) {
+      reg.update();                                                  // 열 때마다 새 버전 확인
+      setInterval(function () { reg.update(); }, 30 * 60 * 1000);    // 30분마다 재확인
+    }).catch(function () { /* 오프라인 미지원 무시 */ });
   });
 }
