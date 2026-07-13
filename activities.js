@@ -18,8 +18,10 @@ function newListenSession() {
   if (pool.length < 4) return { phase: "empty" };
   const targets = shuffle(pool).slice(0, Math.min(10, pool.length));
   const qs = targets.map(function (w) {
+    const lv = levelOf(w);
     const diff = function (p) { return p.id !== w.id && p.ko !== w.ko; };
-    let cand = WORDS.filter(function (p) { return diff(p) && p.pos === w.pos; });
+    let cand = WORDS.filter(function (p) { return diff(p) && levelOf(p) === lv && p.pos === w.pos; });
+    if (cand.length < 3) cand = WORDS.filter(function (p) { return diff(p) && levelOf(p) === lv; });
     if (cand.length < 3) cand = WORDS.filter(diff);
     const others = shuffle(cand).slice(0, 3);
     const choices = shuffle([w.ko].concat(others.map(function (o) { return o.ko; })));

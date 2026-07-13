@@ -42,6 +42,11 @@ function wordsOfLevel(levelId) {
   return WORDS.filter(function (w) { return unitById[w.unit].level === levelId; });
 }
 
+function levelOf(w) {
+  const u = unitById[w.unit];
+  return u ? u.level : null;
+}
+
 // ---------- 저장소 (localStorage) ----------
 function defaultStore() {
   return { progress: {}, sessions: [], dialogs: {}, settings: { dailyGoal: 6, level: "lv2" } };
@@ -158,8 +163,10 @@ function blankify(w) {
 
 function choiceQ(w, pool) {
   const en2ko = Math.random() < 0.5;
+  const lv = levelOf(w);
   const diff = function (p) { return p.id !== w.id && (en2ko ? p.ko !== w.ko : p.en !== w.en); };
-  let cand = pool.filter(function (p) { return diff(p) && p.pos === w.pos; });
+  let cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv && p.pos === w.pos; });
+  if (cand.length < 3) cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv; });
   if (cand.length < 3) cand = pool.filter(diff);
   const others = shuffle(cand).slice(0, 3);
   const correct = en2ko ? w.ko : w.en;
@@ -174,8 +181,10 @@ function choiceQ(w, pool) {
 }
 
 function blankQ(w, blanked, pool) {
+  const lv = levelOf(w);
   const diff = function (p) { return p.id !== w.id && p.en !== w.en; };
-  let cand = pool.filter(function (p) { return diff(p) && p.pos === w.pos; });
+  let cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv && p.pos === w.pos; });
+  if (cand.length < 3) cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv; });
   if (cand.length < 3) cand = pool.filter(diff);
   const others = shuffle(cand).slice(0, 3);
   const choices = shuffle([w.en].concat(others.map(function (o) { return o.en; })));
@@ -454,7 +463,9 @@ function renderLearn() {
     document.getElementById("next-card").addEventListener("click", function () {
       if (isLast) {
         S.phase = "quiz";
-        S.quiz = { qs: makeQuestions(S.list.concat(shuffle(learnedWordList()).slice(0, 6)), WORDS, false), i: 0, sel: null, results: [] };
+        const lvNow = loadStore().settings.level;
+        const mixIn = shuffle(learnedWordList().filter(function (x) { return levelOf(x) === lvNow; })).slice(0, 6);
+        S.quiz = { qs: makeQuestions(S.list.concat(mixIn), WORDS, false), i: 0, sel: null, results: [] };
       } else S.ci += 1;
       render();
     });
