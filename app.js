@@ -4,6 +4,8 @@
 
 // ---------- 유틸 ----------
 const LS_KEY = "daily-english-v1";
+// 배포 확인용 버전 — 설정 화면 맨 아래에 표시된다. 배포할 때마다 올린다.
+const APP_VERSION = "v8 (2026-07-14)";
 
 function todayStr(d) {
   d = d || new Date();
@@ -815,7 +817,7 @@ function renderSettings() {
     '<p class="muted" style="margin:8px 0 12px">모든 진도와 복습 일정이 삭제됩니다. 되돌릴 수 없어요.</p>' +
     '<button class="btn-sm red" id="reset-btn">전체 초기화</button></div>';
 
-  html += '<p class="footer-note">Daily English · 오프라인에서도 동작하는 나만의 영어 습관 앱</p>';
+  html += '<p class="footer-note">Daily English · 버전 ' + APP_VERSION + '</p>';
   view.innerHTML = html;
 
   view.querySelectorAll("[data-level]").forEach(function (b) {
