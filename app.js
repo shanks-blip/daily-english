@@ -5,7 +5,7 @@
 // ---------- 유틸 ----------
 const LS_KEY = "daily-english-v1";
 // 배포 확인용 버전 — 설정 화면 맨 아래에 표시된다. 배포할 때마다 올린다.
-const APP_VERSION = "v9 (2026-07-14)";
+const APP_VERSION = "v10 (2026-07-14)";
 
 function todayStr(d) {
   d = d || new Date();
@@ -350,7 +350,8 @@ function newLearnSession() {
     saveStore(st);
   }
 
-  return { phase: "cards", list: list, ci: 0, quiz: null, score: null };
+  // 그날의 "세트"는 고정되지만, 학습할 때 나오는 "순서"는 들어올 때마다 랜덤으로 섞는다.
+  return { phase: "cards", list: shuffle(list), ci: 0, quiz: null, score: null };
 }
 
 function wordCardHtml(w) {

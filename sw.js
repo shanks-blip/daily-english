@@ -1,5 +1,5 @@
 // 오프라인 지원 서비스워커 (네트워크 우선, 실패 시 캐시)
-const CACHE = "daily-english-v9";
+const CACHE = "daily-english-v10";
 const FILES = ["./", "index.html", "icons.js", "data.js", "data2.js", "data-lv4.js", "data-daily.js", "tips.js", "dialogs.js", "dialogs-extra.js", "dialogs-daily.js", "sentences.js", "app.js", "activities.js", "sync.js", "manifest.json", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", function (e) {
