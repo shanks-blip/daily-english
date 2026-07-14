@@ -5,7 +5,7 @@
 // ---------- 유틸 ----------
 const LS_KEY = "daily-english-v1";
 // 배포 확인용 버전 — 설정 화면 맨 아래에 표시된다. 배포할 때마다 올린다.
-const APP_VERSION = "v8 (2026-07-14)";
+const APP_VERSION = "v9 (2026-07-14)";
 
 function todayStr(d) {
   d = d || new Date();
@@ -51,7 +51,7 @@ function levelOf(w) {
 
 // ---------- 저장소 (localStorage) ----------
 function defaultStore() {
-  return { progress: {}, sessions: [], dialogs: {}, settings: { dailyGoal: 6, level: "lv2" } };
+  return { progress: {}, sessions: [], dialogs: {}, settings: { dailyGoal: 6, level: "lv2" }, dailySet: null };
 }
 
 function loadStore() {
@@ -65,6 +65,7 @@ function loadStore() {
         sessions: p.sessions || d.sessions,
         dialogs: p.dialogs || d.dialogs,
         settings: Object.assign(d.settings, p.settings || {}),
+        dailySet: p.dailySet || null,   // 그날 고정된 학습 단어 세트 (빠뜨리면 매번 새로 뽑힘)
       };
     }
   } catch (e) { /* 파손 데이터 무시 */ }
