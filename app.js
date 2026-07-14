@@ -5,7 +5,7 @@
 // ---------- 유틸 ----------
 const LS_KEY = "daily-english-v1";
 // 배포 확인용 버전 — 설정 화면 맨 아래에 표시된다. 배포할 때마다 올린다.
-const APP_VERSION = "v11 (2026-07-14)";
+const APP_VERSION = "v13 (2026-07-14)";
 
 function todayStr(d) {
   d = d || new Date();
@@ -51,7 +51,7 @@ function levelOf(w) {
 
 // ---------- 저장소 (localStorage) ----------
 function defaultStore() {
-  return { progress: {}, sessions: [], dialogs: {}, settings: { dailyGoal: 6, level: "lv2" }, dailySet: null };
+  return { progress: {}, sessions: [], dialogs: {}, settings: { dailyGoal: 6, level: "lv2" }, dailySet: null, sentSrs: {} };
 }
 
 function loadStore() {
@@ -66,6 +66,7 @@ function loadStore() {
         dialogs: p.dialogs || d.dialogs,
         settings: Object.assign(d.settings, p.settings || {}),
         dailySet: p.dailySet || null,   // 그날 고정된 학습 단어 세트 (빠뜨리면 매번 새로 뽑힘)
+        sentSrs: p.sentSrs || {},       // 회화 문장 복습(SRS) — 빠뜨리면 저장할 때마다 유실됨
       };
     }
   } catch (e) { /* 파손 데이터 무시 */ }
@@ -167,7 +168,8 @@ function blankify(w) {
 function choiceQ(w, pool) {
   const en2ko = Math.random() < 0.5;
   const lv = levelOf(w);
-  const diff = function (p) { return p.id !== w.id && (en2ko ? p.ko !== w.ko : p.en !== w.en); };
+  // en·ko 모두 달라야 오답 후보가 된다 (뜻이 같은 다른 단어가 보기로 나와 정답이 둘로 보이는 것 방지)
+  const diff = function (p) { return p.id !== w.id && p.ko !== w.ko && p.en !== w.en; };
   let cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv && p.pos === w.pos; });
   if (cand.length < 3) cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv; });
   if (cand.length < 3) cand = pool.filter(diff);
@@ -185,7 +187,7 @@ function choiceQ(w, pool) {
 
 function blankQ(w, blanked, pool) {
   const lv = levelOf(w);
-  const diff = function (p) { return p.id !== w.id && p.en !== w.en; };
+  const diff = function (p) { return p.id !== w.id && p.en !== w.en && p.ko !== w.ko; };
   let cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv && p.pos === w.pos; });
   if (cand.length < 3) cand = pool.filter(function (p) { return diff(p) && levelOf(p) === lv; });
   if (cand.length < 3) cand = pool.filter(diff);
@@ -268,7 +270,13 @@ function dailySentenceHtml() {
 
 function renderHome() {
   const st = loadStore();
-  const level = LEVELS.find(function (l) { return l.id === st.settings.level; });
+  // 저장된 레벨 id가 사라진 경우(예: 다른 버전 백업 가져오기)에도 홈이 죽지 않게 기본 레벨로 복구
+  let level = LEVELS.find(function (l) { return l.id === st.settings.level; });
+  if (!level) {
+    level = LEVELS[0];
+    st.settings.level = level.id;
+    saveStore(st);
+  }
   const levelWords = wordsOfLevel(st.settings.level);
   const learnedInLevel = levelWords.filter(function (w) { return st.progress[w.id]; }).length;
   const allProgress = Object.keys(st.progress).map(function (k) { return st.progress[k]; });
@@ -583,8 +591,13 @@ function dialogQuestions(dlg) {
     .filter(function (c) { return c.kw; });
   const picked = shuffle(cands).slice(0, 5);
   const poolKw = [];
+  const seenKw = {};
   DIALOGS.forEach(function (d) {
-    d.lines.forEach(function (l) { const k = keywordOf(l); if (k) poolKw.push(k); });
+    d.lines.forEach(function (l) {
+      const k = keywordOf(l);
+      // 중복 제거: 같은 단어가 두 번 들어가면 같은 보기가 두 개 나올 수 있다
+      if (k && !seenKw[k.toLowerCase()]) { seenKw[k.toLowerCase()] = 1; poolKw.push(k); }
+    });
   });
   return picked.map(function (c) {
     const re = new RegExp("\\b" + escapeRe(c.kw) + "\\b");

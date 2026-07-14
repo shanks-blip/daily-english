@@ -108,4 +108,17 @@
     { sp: "B", en: "No, nothing close to that. Just some spending money.", ko: "아니요, 그 근처도 안 돼요. 쓸 돈만 조금 있어요." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0714", level: "lv3", icon: "📮", title: "우체국에서 소포 보내기",
+  lines: [
+    { sp: "A", en: "Hi, I'd like to send this package to Korea. What are my options?", ko: "안녕하세요, 이 소포를 한국으로 보내고 싶은데요. 어떤 방법들이 있나요?" },
+    { sp: "B", en: "Sure. Priority mail takes about six to ten business days, or express gets it there in three to five.", ko: "네. 우선 취급 우편은 영업일 기준 6~10일 정도 걸리고, 특급은 3~5일이면 도착해요." },
+    { sp: "A", en: "How much would express run me? I don't want it to cost an arm and a leg.", ko: "특급은 얼마나 나올까요? 너무 비싸게 물고 싶지는 않아서요." },
+    { sp: "B", en: "Let me weigh it first. Okay, it comes out to about sixty-five dollars.", ko: "먼저 무게를 재 볼게요. 네, 대략 65달러 나오네요." },
+    { sp: "A", en: "That's steep. I'll just go with priority then. There are a few fragile items inside, though.", ko: "꽤 비싸네요. 그럼 그냥 우선 취급으로 할게요. 그런데 안에 깨지기 쉬운 물건이 몇 개 있어요." },
+    { sp: "B", en: "No problem, I'll mark it as fragile. You'll need to fill out this customs form with the contents and their value.", ko: "문제없어요, 파손 주의로 표시해 드릴게요. 이 세관 신고서에 내용물과 가격을 기입해 주셔야 해요." },
+    { sp: "A", en: "Got it. And can I get a tracking number so I can keep an eye on it?", ko: "알겠습니다. 그리고 배송 조회할 수 있게 추적 번호도 받을 수 있나요?" },
+    { sp: "B", en: "Of course, tracking is included. It'll be on your receipt.", ko: "물론이죠, 추적 서비스는 포함되어 있어요. 영수증에 나와 있을 거예요." }
+  ]
+}]);
 // end of dialogs-daily.js

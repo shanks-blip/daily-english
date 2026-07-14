@@ -27,7 +27,11 @@
   // ---------- 병합 (두 기기의 기록을 잃지 않게 합침) ----------
   function mergeStores(local, remote) {
     if (!remote) return local;
-    const out = { progress: {}, sessions: [], dialogs: {}, settings: local.settings };
+    const out = { progress: {}, sessions: [], dialogs: {}, settings: local.settings, dailySet: null };
+    // dailySet(그날 고정된 학습 세트) 보존: 오늘 날짜인 쪽 우선, 로컬 우선
+    const t = todayStr();
+    const lds = local.dailySet, rds = remote.dailySet;
+    out.dailySet = (lds && lds.date === t) ? lds : ((rds && rds.date === t) ? rds : (lds || rds || null));
     const ids = {};
     Object.keys(local.progress || {}).forEach(function (k) { ids[k] = 1; });
     Object.keys(remote.progress || {}).forEach(function (k) { ids[k] = 1; });
@@ -44,6 +48,17 @@
     });
     out.sessions.sort(function (a, b) { return a.date < b.date ? -1 : 1; });
     out.dialogs = Object.assign({}, remote.dialogs || {}, local.dialogs || {});
+    // 문장 복습(sentSrs)도 진도처럼 병합: 더 많이 연습된 쪽 우선
+    out.sentSrs = {};
+    const sids = {};
+    Object.keys(local.sentSrs || {}).forEach(function (k) { sids[k] = 1; });
+    Object.keys(remote.sentSrs || {}).forEach(function (k) { sids[k] = 1; });
+    Object.keys(sids).forEach(function (id) {
+      const a = (local.sentSrs || {})[id], b = (remote.sentSrs || {})[id];
+      if (!a) out.sentSrs[id] = b;
+      else if (!b) out.sentSrs[id] = a;
+      else out.sentSrs[id] = (a.ok + a.no) >= (b.ok + b.no) ? a : b;
+    });
     return out;
   }
   // 테스트용 노출
@@ -196,6 +211,7 @@
   renderSettings = function () {
     _origRenderSettings();
     buildCard().then(function (card) {
+      if (tab !== "settings") return; // 비동기 응답 전에 다른 탭으로 이동했으면 붙이지 않음
       const footer = view.querySelector(".footer-note");
       if (footer) view.insertBefore(card, footer);
       else view.appendChild(card);
