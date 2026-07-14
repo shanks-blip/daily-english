@@ -144,16 +144,16 @@
   { id: "w800", en: "wise", ko: "현명한, 지혜로운", pos: "형용사", exEn: "It would be wise to save some money for emergencies.", exKo: "비상시를 대비해 돈을 좀 모아 두는 게 현명할 거예요.", unit: "ud07103" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w801", en: "the last straw", ko: "더는 못 참을 마지막 한계, 인내의 한계", pos: "이디엄", exEn: "Being late again was the last straw for the manager.", exKo: "또 지각한 것이 매니저에게는 인내의 한계였어요.", unit: "ud07104" },
-  { id: "w802", en: "throw in the towel", ko: "포기하다, 손 들다", pos: "이디엄", exEn: "After months of trying, he finally threw in the towel.", exKo: "몇 달을 애쓴 끝에 그는 결국 포기했어요.", unit: "ud07104" },
-  { id: "w803", en: "make ends meet", ko: "근근이 먹고살다, 겨우 생활하다", pos: "이디엄", exEn: "With prices rising, it's getting harder to make ends meet.", exKo: "물가가 오르면서 먹고살기가 점점 더 힘들어지고 있어요.", unit: "ud07104" },
-  { id: "w804", en: "keep an eye on", ko: "~을 지켜보다, 살피다", pos: "이디엄", exEn: "Can you keep an eye on my bag while I run to the restroom?", exKo: "제가 화장실 잠깐 다녀오는 동안 가방 좀 봐 주실래요?", unit: "ud07104" },
-  { id: "w805", en: "get carried away", ko: "지나치게 몰두하다, 흥분해서 도를 넘다", pos: "이디엄", exEn: "Sorry, I got carried away and talked way too long.", exKo: "미안해요, 제가 너무 신나서 말이 길어졌네요.", unit: "ud07104" },
-  { id: "w806", en: "daunting", ko: "벅찬, 주눅 들게 하는, 만만찮은", pos: "형용사", exEn: "Starting a new job can feel pretty daunting at first.", exKo: "새 직장을 시작하는 건 처음엔 꽤 벅차게 느껴질 수 있어요.", unit: "ud07104" },
-  { id: "w807", en: "compelling", ko: "설득력 있는, 마음을 사로잡는", pos: "형용사", exEn: "She made a compelling argument for changing the plan.", exKo: "그녀는 계획을 바꾸자는 설득력 있는 주장을 폈어요.", unit: "ud07104" },
-  { id: "w808", en: "resent", ko: "원망하다, 못마땅하게 여기다", pos: "동사", exEn: "He started to resent having to work every weekend.", exKo: "그는 주말마다 일해야 하는 것을 원망하기 시작했어요.", unit: "ud07104" },
-  { id: "w809", en: "dread", ko: "몹시 두려워하다, 걱정하다", pos: "동사", exEn: "I've been dreading this meeting all week.", exKo: "저는 일주일 내내 이 회의를 몹시 걱정해 왔어요.", unit: "ud07104" },
-  { id: "w810", en: "reassure", ko: "안심시키다", pos: "동사", exEn: "The doctor reassured me that everything looked fine.", exKo: "의사가 다 괜찮아 보인다며 저를 안심시켜 줬어요.", unit: "ud07104" }
+  { id: "w2001", en: "the last straw", ko: "더는 못 참을 마지막 한계, 인내의 한계", pos: "이디엄", exEn: "Being late again was the last straw for the manager.", exKo: "또 지각한 것이 매니저에게는 인내의 한계였어요.", unit: "ud07104" },
+  { id: "w2002", en: "throw in the towel", ko: "포기하다, 손 들다", pos: "이디엄", exEn: "After months of trying, he finally threw in the towel.", exKo: "몇 달을 애쓴 끝에 그는 결국 포기했어요.", unit: "ud07104" },
+  { id: "w2003", en: "make ends meet", ko: "근근이 먹고살다, 겨우 생활하다", pos: "이디엄", exEn: "With prices rising, it's getting harder to make ends meet.", exKo: "물가가 오르면서 먹고살기가 점점 더 힘들어지고 있어요.", unit: "ud07104" },
+  { id: "w2004", en: "keep an eye on", ko: "~을 지켜보다, 살피다", pos: "이디엄", exEn: "Can you keep an eye on my bag while I run to the restroom?", exKo: "제가 화장실 잠깐 다녀오는 동안 가방 좀 봐 주실래요?", unit: "ud07104" },
+  { id: "w2005", en: "get carried away", ko: "지나치게 몰두하다, 흥분해서 도를 넘다", pos: "이디엄", exEn: "Sorry, I got carried away and talked way too long.", exKo: "미안해요, 제가 너무 신나서 말이 길어졌네요.", unit: "ud07104" },
+  { id: "w2006", en: "daunting", ko: "벅찬, 주눅 들게 하는, 만만찮은", pos: "형용사", exEn: "Starting a new job can feel pretty daunting at first.", exKo: "새 직장을 시작하는 건 처음엔 꽤 벅차게 느껴질 수 있어요.", unit: "ud07104" },
+  { id: "w2007", en: "compelling", ko: "설득력 있는, 마음을 사로잡는", pos: "형용사", exEn: "She made a compelling argument for changing the plan.", exKo: "그녀는 계획을 바꾸자는 설득력 있는 주장을 폈어요.", unit: "ud07104" },
+  { id: "w2008", en: "resent", ko: "원망하다, 못마땅하게 여기다", pos: "동사", exEn: "He started to resent having to work every weekend.", exKo: "그는 주말마다 일해야 하는 것을 원망하기 시작했어요.", unit: "ud07104" },
+  { id: "w2009", en: "dread", ko: "몹시 두려워하다, 걱정하다", pos: "동사", exEn: "I've been dreading this meeting all week.", exKo: "저는 일주일 내내 이 회의를 몹시 걱정해 왔어요.", unit: "ud07104" },
+  { id: "w2010", en: "reassure", ko: "안심시키다", pos: "동사", exEn: "The doctor reassured me that everything looked fine.", exKo: "의사가 다 괜찮아 보인다며 저를 안심시켜 줬어요.", unit: "ud07104" }
 ]);
 [].push.apply(UNITS, [
   { id: "ud07121", level: "lv1", title: "데일리 7/12 · 기초" },
@@ -162,52 +162,52 @@
   { id: "ud07124", level: "lv4", title: "데일리 7/12 · 뉘앙스" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w811", en: "dog", ko: "개, 강아지", pos: "명사", exEn: "My dog gets so excited when I come home.", exKo: "우리 개는 제가 집에 오면 엄청 신나 해요.", unit: "ud07121" },
-  { id: "w812", en: "cat", ko: "고양이", pos: "명사", exEn: "The cat is sleeping on the sofa again.", exKo: "고양이가 또 소파에서 자고 있어요.", unit: "ud07121" },
-  { id: "w813", en: "milk", ko: "우유", pos: "명사", exEn: "We're out of milk, so I'll grab some on the way home.", exKo: "우유가 떨어져서 집에 오는 길에 좀 사 올게요.", unit: "ud07121" },
-  { id: "w814", en: "apple", ko: "사과", pos: "명사", exEn: "Do you want an apple with your lunch?", exKo: "점심에 사과 하나 먹을래요?", unit: "ud07121" },
-  { id: "w815", en: "chair", ko: "의자", pos: "명사", exEn: "Pull up a chair and join us.", exKo: "의자 하나 끌어와서 같이 앉아요.", unit: "ud07121" },
-  { id: "w816", en: "table", ko: "탁자, 식탁", pos: "명사", exEn: "Can you set the table for dinner?", exKo: "저녁 먹게 식탁 좀 차려 줄래요?", unit: "ud07121" },
-  { id: "w817", en: "bed", ko: "침대", pos: "명사", exEn: "I usually go to bed around eleven.", exKo: "저는 보통 11시쯤 잠자리에 들어요.", unit: "ud07121" },
-  { id: "w818", en: "shoes", ko: "신발", pos: "명사", exEn: "Please take off your shoes at the door.", exKo: "문 앞에서 신발을 벗어 주세요.", unit: "ud07121" },
-  { id: "w819", en: "hat", ko: "모자", pos: "명사", exEn: "Wear a hat—it's really sunny out today.", exKo: "모자 써요—오늘 밖에 햇볕이 정말 강해요.", unit: "ud07121" },
-  { id: "w820", en: "rain", ko: "비; 비가 오다", pos: "명사/동사", exEn: "The rain finally stopped this afternoon.", exKo: "오늘 오후에 드디어 비가 그쳤어요.", unit: "ud07121" }
+  { id: "w2011", en: "dog", ko: "개, 강아지", pos: "명사", exEn: "My dog gets so excited when I come home.", exKo: "우리 개는 제가 집에 오면 엄청 신나 해요.", unit: "ud07121" },
+  { id: "w2012", en: "cat", ko: "고양이", pos: "명사", exEn: "The cat is sleeping on the sofa again.", exKo: "고양이가 또 소파에서 자고 있어요.", unit: "ud07121" },
+  { id: "w2013", en: "milk", ko: "우유", pos: "명사", exEn: "We're out of milk, so I'll grab some on the way home.", exKo: "우유가 떨어져서 집에 오는 길에 좀 사 올게요.", unit: "ud07121" },
+  { id: "w2014", en: "apple", ko: "사과", pos: "명사", exEn: "Do you want an apple with your lunch?", exKo: "점심에 사과 하나 먹을래요?", unit: "ud07121" },
+  { id: "w2015", en: "chair", ko: "의자", pos: "명사", exEn: "Pull up a chair and join us.", exKo: "의자 하나 끌어와서 같이 앉아요.", unit: "ud07121" },
+  { id: "w2016", en: "table", ko: "탁자, 식탁", pos: "명사", exEn: "Can you set the table for dinner?", exKo: "저녁 먹게 식탁 좀 차려 줄래요?", unit: "ud07121" },
+  { id: "w2017", en: "bed", ko: "침대", pos: "명사", exEn: "I usually go to bed around eleven.", exKo: "저는 보통 11시쯤 잠자리에 들어요.", unit: "ud07121" },
+  { id: "w2018", en: "shoes", ko: "신발", pos: "명사", exEn: "Please take off your shoes at the door.", exKo: "문 앞에서 신발을 벗어 주세요.", unit: "ud07121" },
+  { id: "w2019", en: "hat", ko: "모자", pos: "명사", exEn: "Wear a hat—it's really sunny out today.", exKo: "모자 써요—오늘 밖에 햇볕이 정말 강해요.", unit: "ud07121" },
+  { id: "w2020", en: "rain", ko: "비; 비가 오다", pos: "명사/동사", exEn: "The rain finally stopped this afternoon.", exKo: "오늘 오후에 드디어 비가 그쳤어요.", unit: "ud07121" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w821", en: "ceiling", ko: "천장", pos: "명사", exEn: "There's a water stain on the ceiling in the bathroom.", exKo: "욕실 천장에 물 얼룩이 있어요.", unit: "ud07122" },
-  { id: "w822", en: "stairs", ko: "계단", pos: "명사", exEn: "The elevator is broken, so we have to take the stairs.", exKo: "엘리베이터가 고장 나서 계단으로 가야 해요.", unit: "ud07122" },
-  { id: "w823", en: "closet", ko: "옷장, 벽장", pos: "명사", exEn: "My closet is so full I can't fit anything else in.", exKo: "옷장이 꽉 차서 더 이상 아무것도 못 넣어요.", unit: "ud07122" },
-  { id: "w824", en: "curtain", ko: "커튼", pos: "명사", exEn: "Could you open the curtains and let some light in?", exKo: "커튼 좀 걷어서 빛이 들어오게 해 줄래요?", unit: "ud07122" },
-  { id: "w825", en: "mirror", ko: "거울", pos: "명사", exEn: "Check yourself in the mirror before we leave.", exKo: "나가기 전에 거울로 한번 봐요.", unit: "ud07122" },
-  { id: "w826", en: "soap", ko: "비누", pos: "명사", exEn: "We're almost out of soap in the bathroom.", exKo: "욕실에 비누가 거의 다 떨어졌어요.", unit: "ud07122" },
-  { id: "w827", en: "vacuum", ko: "진공청소기; 청소기를 돌리다", pos: "명사/동사", exEn: "I need to vacuum the living room before guests arrive.", exKo: "손님 오기 전에 거실 청소기를 돌려야 해요.", unit: "ud07122" },
-  { id: "w828", en: "iron", ko: "다리미; 다림질하다", pos: "명사/동사", exEn: "I have to iron this shirt before the interview.", exKo: "면접 전에 이 셔츠를 다려야 해요.", unit: "ud07122" },
-  { id: "w829", en: "recycle", ko: "재활용하다", pos: "동사", exEn: "Don't forget to recycle those bottles and cans.", exKo: "그 병이랑 캔 재활용하는 거 잊지 마세요.", unit: "ud07122" },
-  { id: "w830", en: "charger", ko: "충전기", pos: "명사", exEn: "Can I borrow your phone charger for a minute?", exKo: "휴대폰 충전기 잠깐 빌릴 수 있을까요?", unit: "ud07122" }
+  { id: "w2021", en: "ceiling", ko: "천장", pos: "명사", exEn: "There's a water stain on the ceiling in the bathroom.", exKo: "욕실 천장에 물 얼룩이 있어요.", unit: "ud07122" },
+  { id: "w2022", en: "stairs", ko: "계단", pos: "명사", exEn: "The elevator is broken, so we have to take the stairs.", exKo: "엘리베이터가 고장 나서 계단으로 가야 해요.", unit: "ud07122" },
+  { id: "w2023", en: "closet", ko: "옷장, 벽장", pos: "명사", exEn: "My closet is so full I can't fit anything else in.", exKo: "옷장이 꽉 차서 더 이상 아무것도 못 넣어요.", unit: "ud07122" },
+  { id: "w2024", en: "curtain", ko: "커튼", pos: "명사", exEn: "Could you open the curtains and let some light in?", exKo: "커튼 좀 걷어서 빛이 들어오게 해 줄래요?", unit: "ud07122" },
+  { id: "w2025", en: "mirror", ko: "거울", pos: "명사", exEn: "Check yourself in the mirror before we leave.", exKo: "나가기 전에 거울로 한번 봐요.", unit: "ud07122" },
+  { id: "w2026", en: "soap", ko: "비누", pos: "명사", exEn: "We're almost out of soap in the bathroom.", exKo: "욕실에 비누가 거의 다 떨어졌어요.", unit: "ud07122" },
+  { id: "w2027", en: "vacuum", ko: "진공청소기; 청소기를 돌리다", pos: "명사/동사", exEn: "I need to vacuum the living room before guests arrive.", exKo: "손님 오기 전에 거실 청소기를 돌려야 해요.", unit: "ud07122" },
+  { id: "w2028", en: "iron", ko: "다리미; 다림질하다", pos: "명사/동사", exEn: "I have to iron this shirt before the interview.", exKo: "면접 전에 이 셔츠를 다려야 해요.", unit: "ud07122" },
+  { id: "w2029", en: "recycle", ko: "재활용하다", pos: "동사", exEn: "Don't forget to recycle those bottles and cans.", exKo: "그 병이랑 캔 재활용하는 거 잊지 마세요.", unit: "ud07122" },
+  { id: "w2030", en: "charger", ko: "충전기", pos: "명사", exEn: "Can I borrow your phone charger for a minute?", exKo: "휴대폰 충전기 잠깐 빌릴 수 있을까요?", unit: "ud07122" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w831", en: "witness", ko: "목격자; 목격하다", pos: "명사/동사", exEn: "Police are looking for anyone who witnessed the accident.", exKo: "경찰이 그 사고를 목격한 사람을 찾고 있어요.", unit: "ud07123" },
-  { id: "w832", en: "survive", ko: "살아남다, 견뎌 내다", pos: "동사", exEn: "I can barely survive the summer here without air conditioning.", exKo: "여기서는 에어컨 없이 여름을 버티기가 힘들어요.", unit: "ud07123" },
-  { id: "w833", en: "decade", ko: "10년", pos: "명사", exEn: "They've lived in that house for over a decade.", exKo: "그들은 그 집에서 10년 넘게 살았어요.", unit: "ud07123" },
-  { id: "w834", en: "trend", ko: "추세, 유행", pos: "명사", exEn: "Working from home has become a major trend since the pandemic.", exKo: "재택근무는 팬데믹 이후 큰 추세가 되었어요.", unit: "ud07123" },
-  { id: "w835", en: "wealth", ko: "부, 재산", pos: "명사", exEn: "He built his wealth by investing early in tech companies.", exKo: "그는 일찍부터 기술 기업에 투자해서 부를 쌓았어요.", unit: "ud07123" },
-  { id: "w836", en: "shame", ko: "아쉬운 일, 유감; 수치심", pos: "명사", exEn: "It's a shame you can't make it to the party.", exKo: "네가 파티에 못 온다니 정말 아쉽다.", unit: "ud07123" },
-  { id: "w837", en: "conduct", ko: "수행하다, 실시하다; 행동", pos: "동사/명사", exEn: "The company will conduct a survey of its customers next month.", exKo: "그 회사는 다음 달에 고객 설문 조사를 실시할 거예요.", unit: "ud07123" },
-  { id: "w838", en: "incident", ko: "사건, 일", pos: "명사", exEn: "There was a strange incident at the office yesterday.", exKo: "어제 사무실에서 이상한 일이 있었어요.", unit: "ud07123" },
-  { id: "w839", en: "constant", ko: "끊임없는, 지속적인", pos: "형용사", exEn: "The constant noise from the construction site is driving me crazy.", exKo: "공사장에서 나는 끊임없는 소음 때문에 미치겠어요.", unit: "ud07123" },
-  { id: "w840", en: "approval", ko: "승인, 허가; 찬성", pos: "명사", exEn: "We're still waiting for approval from the head office.", exKo: "아직 본사 승인을 기다리고 있어요.", unit: "ud07123" }
+  { id: "w2031", en: "witness", ko: "목격자; 목격하다", pos: "명사/동사", exEn: "Police are looking for anyone who witnessed the accident.", exKo: "경찰이 그 사고를 목격한 사람을 찾고 있어요.", unit: "ud07123" },
+  { id: "w2032", en: "survive", ko: "살아남다, 견뎌 내다", pos: "동사", exEn: "I can barely survive the summer here without air conditioning.", exKo: "여기서는 에어컨 없이 여름을 버티기가 힘들어요.", unit: "ud07123" },
+  { id: "w2033", en: "decade", ko: "10년", pos: "명사", exEn: "They've lived in that house for over a decade.", exKo: "그들은 그 집에서 10년 넘게 살았어요.", unit: "ud07123" },
+  { id: "w2034", en: "trend", ko: "추세, 유행", pos: "명사", exEn: "Working from home has become a major trend since the pandemic.", exKo: "재택근무는 팬데믹 이후 큰 추세가 되었어요.", unit: "ud07123" },
+  { id: "w2035", en: "wealth", ko: "부, 재산", pos: "명사", exEn: "He built his wealth by investing early in tech companies.", exKo: "그는 일찍부터 기술 기업에 투자해서 부를 쌓았어요.", unit: "ud07123" },
+  { id: "w2036", en: "shame", ko: "아쉬운 일, 유감; 수치심", pos: "명사", exEn: "It's a shame you can't make it to the party.", exKo: "네가 파티에 못 온다니 정말 아쉽다.", unit: "ud07123" },
+  { id: "w2037", en: "conduct", ko: "수행하다, 실시하다; 행동", pos: "동사/명사", exEn: "The company will conduct a survey of its customers next month.", exKo: "그 회사는 다음 달에 고객 설문 조사를 실시할 거예요.", unit: "ud07123" },
+  { id: "w2038", en: "incident", ko: "사건, 일", pos: "명사", exEn: "There was a strange incident at the office yesterday.", exKo: "어제 사무실에서 이상한 일이 있었어요.", unit: "ud07123" },
+  { id: "w2039", en: "constant", ko: "끊임없는, 지속적인", pos: "형용사", exEn: "The constant noise from the construction site is driving me crazy.", exKo: "공사장에서 나는 끊임없는 소음 때문에 미치겠어요.", unit: "ud07123" },
+  { id: "w2040", en: "approval", ko: "승인, 허가; 찬성", pos: "명사", exEn: "We're still waiting for approval from the head office.", exKo: "아직 본사 승인을 기다리고 있어요.", unit: "ud07123" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w841", en: "sugarcoat", ko: "(불편한 사실을) 듣기 좋게 포장하다", pos: "동사", exEn: "Don't sugarcoat it—just tell me what went wrong.", exKo: "포장하지 말고—뭐가 잘못됐는지 그냥 말해 줘.", unit: "ud07124" },
-  { id: "w842", en: "second-guess", ko: "(결정을) 뒤늦게 의심하다, 곱씹다", pos: "동사", exEn: "Stop second-guessing yourself; you made the right call.", exKo: "자꾸 자기 결정을 의심하지 마—올바른 판단이었어.", unit: "ud07124" },
-  { id: "w843", en: "wing it", ko: "준비 없이 즉흥적으로 하다", pos: "이디엄", exEn: "I didn't have time to prepare, so I'll just wing it.", exKo: "준비할 시간이 없어서 그냥 즉흥으로 할 거예요.", unit: "ud07124" },
-  { id: "w844", en: "cut it close", ko: "(시간·기한을) 아슬아슬하게 맞추다", pos: "이디엄", exEn: "We made the flight, but we really cut it close.", exKo: "비행기는 탔지만 정말 아슬아슬했어요.", unit: "ud07124" },
-  { id: "w845", en: "a long shot", ko: "가능성이 희박한 시도", pos: "이디엄", exEn: "It's a long shot, but I applied for the job anyway.", exKo: "가능성은 희박하지만 그래도 그 일자리에 지원했어요.", unit: "ud07124" },
-  { id: "w846", en: "petty", ko: "쪼잔한, 옹졸한; 사소한", pos: "형용사", exEn: "It sounds petty, but it really bothered me that he didn't say thanks.", exKo: "쪼잔하게 들리겠지만, 그가 고맙다는 말을 안 한 게 정말 신경 쓰였어요.", unit: "ud07124" },
-  { id: "w847", en: "flaky", ko: "약속을 잘 어기는, 미덥지 못한", pos: "형용사", exEn: "She's nice, but she's so flaky about plans.", exKo: "그녀는 착하지만 약속에 관해서는 정말 미덥지가 않아요.", unit: "ud07124" },
-  { id: "w848", en: "nitpick", ko: "사소한 것까지 트집 잡다", pos: "동사", exEn: "My boss nitpicks every little detail in my reports.", exKo: "상사가 제 보고서의 사소한 부분까지 다 트집을 잡아요.", unit: "ud07124" },
-  { id: "w849", en: "downplay", ko: "(중요성을) 축소해서 말하다, 대수롭지 않게 여기다", pos: "동사", exEn: "He tried to downplay the mistake, but everyone noticed.", exKo: "그는 실수를 대수롭지 않게 넘기려 했지만 모두가 알아챘어요.", unit: "ud07124" },
-  { id: "w850", en: "burn bridges", ko: "(관계를) 돌이킬 수 없게 망치다", pos: "이디엄", exEn: "Don't burn bridges when you quit—you may need those contacts later.", exKo: "퇴사할 때 관계를 망치지 마—나중에 그 인맥이 필요할 수도 있어.", unit: "ud07124" }
+  { id: "w2041", en: "sugarcoat", ko: "(불편한 사실을) 듣기 좋게 포장하다", pos: "동사", exEn: "Don't sugarcoat it—just tell me what went wrong.", exKo: "포장하지 말고—뭐가 잘못됐는지 그냥 말해 줘.", unit: "ud07124" },
+  { id: "w2042", en: "second-guess", ko: "(결정을) 뒤늦게 의심하다, 곱씹다", pos: "동사", exEn: "Stop second-guessing yourself; you made the right call.", exKo: "자꾸 자기 결정을 의심하지 마—올바른 판단이었어.", unit: "ud07124" },
+  { id: "w2043", en: "wing it", ko: "준비 없이 즉흥적으로 하다", pos: "이디엄", exEn: "I didn't have time to prepare, so I'll just wing it.", exKo: "준비할 시간이 없어서 그냥 즉흥으로 할 거예요.", unit: "ud07124" },
+  { id: "w2044", en: "cut it close", ko: "(시간·기한을) 아슬아슬하게 맞추다", pos: "이디엄", exEn: "We made the flight, but we really cut it close.", exKo: "비행기는 탔지만 정말 아슬아슬했어요.", unit: "ud07124" },
+  { id: "w2045", en: "a long shot", ko: "가능성이 희박한 시도", pos: "이디엄", exEn: "It's a long shot, but I applied for the job anyway.", exKo: "가능성은 희박하지만 그래도 그 일자리에 지원했어요.", unit: "ud07124" },
+  { id: "w2046", en: "petty", ko: "쪼잔한, 옹졸한; 사소한", pos: "형용사", exEn: "It sounds petty, but it really bothered me that he didn't say thanks.", exKo: "쪼잔하게 들리겠지만, 그가 고맙다는 말을 안 한 게 정말 신경 쓰였어요.", unit: "ud07124" },
+  { id: "w2047", en: "flaky", ko: "약속을 잘 어기는, 미덥지 못한", pos: "형용사", exEn: "She's nice, but she's so flaky about plans.", exKo: "그녀는 착하지만 약속에 관해서는 정말 미덥지가 않아요.", unit: "ud07124" },
+  { id: "w2048", en: "nitpick", ko: "사소한 것까지 트집 잡다", pos: "동사", exEn: "My boss nitpicks every little detail in my reports.", exKo: "상사가 제 보고서의 사소한 부분까지 다 트집을 잡아요.", unit: "ud07124" },
+  { id: "w2049", en: "downplay", ko: "(중요성을) 축소해서 말하다, 대수롭지 않게 여기다", pos: "동사", exEn: "He tried to downplay the mistake, but everyone noticed.", exKo: "그는 실수를 대수롭지 않게 넘기려 했지만 모두가 알아챘어요.", unit: "ud07124" },
+  { id: "w2050", en: "burn bridges", ko: "(관계를) 돌이킬 수 없게 망치다", pos: "이디엄", exEn: "Don't burn bridges when you quit—you may need those contacts later.", exKo: "퇴사할 때 관계를 망치지 마—나중에 그 인맥이 필요할 수도 있어.", unit: "ud07124" }
 ]);
 [].push.apply(UNITS, [
   { id: "ud07131", level: "lv1", title: "데일리 7/13 · 기초" },
@@ -216,51 +216,105 @@
   { id: "ud07134", level: "lv4", title: "데일리 7/13 · 뉘앙스" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w851", en: "fish", ko: "물고기; 생선", pos: "명사", exEn: "We're having fish for dinner tonight.", exKo: "오늘 저녁은 생선이에요.", unit: "ud07131" },
-  { id: "w852", en: "bird", ko: "새", pos: "명사", exEn: "Look at that bird on the fence!", exKo: "울타리 위에 있는 저 새 좀 봐!", unit: "ud07131" },
-  { id: "w853", en: "sun", ko: "해, 태양", pos: "명사", exEn: "The sun is so bright today.", exKo: "오늘 햇살이 정말 눈부셔요.", unit: "ud07131" },
-  { id: "w854", en: "moon", ko: "달", pos: "명사", exEn: "The moon looks really big tonight.", exKo: "오늘 밤 달이 정말 커 보여요.", unit: "ud07131" },
-  { id: "w855", en: "tree", ko: "나무", pos: "명사", exEn: "The kids are playing under the tree.", exKo: "아이들이 나무 아래에서 놀고 있어요.", unit: "ud07131" },
-  { id: "w856", en: "flower", ko: "꽃", pos: "명사", exEn: "These flowers smell so nice.", exKo: "이 꽃들 향기가 정말 좋아요.", unit: "ud07131" },
-  { id: "w857", en: "hand", ko: "손", pos: "명사", exEn: "Wash your hands before dinner.", exKo: "저녁 먹기 전에 손 씻으세요.", unit: "ud07131" },
-  { id: "w858", en: "eye", ko: "눈(신체)", pos: "명사", exEn: "Close your eyes and count to ten.", exKo: "눈을 감고 열까지 세어 보세요.", unit: "ud07131" },
-  { id: "w859", en: "hot", ko: "뜨거운, 더운", pos: "형용사", exEn: "Careful, the soup is really hot.", exKo: "조심해요, 수프가 정말 뜨거워요.", unit: "ud07131" },
-  { id: "w860", en: "cold", ko: "추운, 차가운", pos: "형용사", exEn: "It's so cold outside today.", exKo: "오늘 밖이 정말 추워요.", unit: "ud07131" }
+  { id: "w2051", en: "fish", ko: "물고기; 생선", pos: "명사", exEn: "We're having fish for dinner tonight.", exKo: "오늘 저녁은 생선이에요.", unit: "ud07131" },
+  { id: "w2052", en: "bird", ko: "새", pos: "명사", exEn: "Look at that bird on the fence!", exKo: "울타리 위에 있는 저 새 좀 봐!", unit: "ud07131" },
+  { id: "w2053", en: "sun", ko: "해, 태양", pos: "명사", exEn: "The sun is so bright today.", exKo: "오늘 햇살이 정말 눈부셔요.", unit: "ud07131" },
+  { id: "w2054", en: "moon", ko: "달", pos: "명사", exEn: "The moon looks really big tonight.", exKo: "오늘 밤 달이 정말 커 보여요.", unit: "ud07131" },
+  { id: "w2055", en: "tree", ko: "나무", pos: "명사", exEn: "The kids are playing under the tree.", exKo: "아이들이 나무 아래에서 놀고 있어요.", unit: "ud07131" },
+  { id: "w2056", en: "flower", ko: "꽃", pos: "명사", exEn: "These flowers smell so nice.", exKo: "이 꽃들 향기가 정말 좋아요.", unit: "ud07131" },
+  { id: "w2057", en: "hand", ko: "손", pos: "명사", exEn: "Wash your hands before dinner.", exKo: "저녁 먹기 전에 손 씻으세요.", unit: "ud07131" },
+  { id: "w2058", en: "eye", ko: "눈(신체)", pos: "명사", exEn: "Close your eyes and count to ten.", exKo: "눈을 감고 열까지 세어 보세요.", unit: "ud07131" },
+  { id: "w2059", en: "hot", ko: "뜨거운, 더운", pos: "형용사", exEn: "Careful, the soup is really hot.", exKo: "조심해요, 수프가 정말 뜨거워요.", unit: "ud07131" },
+  { id: "w2060", en: "cold", ko: "추운, 차가운", pos: "형용사", exEn: "It's so cold outside today.", exKo: "오늘 밖이 정말 추워요.", unit: "ud07131" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w861", en: "wipe", ko: "(천으로) 닦다", pos: "동사", exEn: "Can you wipe the table after dinner?", exKo: "저녁 먹고 나서 식탁 좀 닦아 줄래요?", unit: "ud07132" },
-  { id: "w862", en: "fold", ko: "접다; (빨래를) 개다", pos: "동사", exEn: "I still need to fold the laundry.", exKo: "아직 빨래를 개야 해요.", unit: "ud07132" },
-  { id: "w863", en: "sweep", ko: "(빗자루로) 쓸다", pos: "동사", exEn: "I'll sweep the kitchen floor real quick.", exKo: "부엌 바닥을 얼른 쓸게요.", unit: "ud07132" },
-  { id: "w864", en: "rinse", ko: "헹구다", pos: "동사", exEn: "Rinse the cups before you put them in the dishwasher.", exKo: "식기세척기에 넣기 전에 컵을 헹구세요.", unit: "ud07132" },
-  { id: "w865", en: "peel", ko: "껍질을 벗기다", pos: "동사", exEn: "Could you peel the potatoes for me?", exKo: "감자 껍질 좀 벗겨 줄래요?", unit: "ud07132" },
-  { id: "w866", en: "chop", ko: "잘게 썰다, 다지다", pos: "동사", exEn: "Chop the onions while I heat the pan.", exKo: "내가 팬을 달구는 동안 양파를 썰어 줘요.", unit: "ud07132" },
-  { id: "w867", en: "stir", ko: "젓다, 휘젓다", pos: "동사", exEn: "Keep stirring the sauce so it doesn't burn.", exKo: "소스가 타지 않게 계속 저어 주세요.", unit: "ud07132" },
-  { id: "w868", en: "pour", ko: "붓다, 따르다", pos: "동사", exEn: "Can you pour me a glass of water?", exKo: "물 한 잔만 따라 줄래요?", unit: "ud07132" },
-  { id: "w869", en: "trash", ko: "쓰레기", pos: "명사", exEn: "Don't forget to take out the trash tonight.", exKo: "오늘 밤에 쓰레기 내다 놓는 거 잊지 마세요.", unit: "ud07132" },
-  { id: "w870", en: "sink", ko: "싱크대, 세면대", pos: "명사", exEn: "Just leave the dishes in the sink; I'll wash them later.", exKo: "설거지거리는 그냥 싱크대에 두세요. 제가 나중에 씻을게요.", unit: "ud07132" }
+  { id: "w2061", en: "wipe", ko: "(천으로) 닦다", pos: "동사", exEn: "Can you wipe the table after dinner?", exKo: "저녁 먹고 나서 식탁 좀 닦아 줄래요?", unit: "ud07132" },
+  { id: "w2062", en: "fold", ko: "접다; (빨래를) 개다", pos: "동사", exEn: "I still need to fold the laundry.", exKo: "아직 빨래를 개야 해요.", unit: "ud07132" },
+  { id: "w2063", en: "sweep", ko: "(빗자루로) 쓸다", pos: "동사", exEn: "I'll sweep the kitchen floor real quick.", exKo: "부엌 바닥을 얼른 쓸게요.", unit: "ud07132" },
+  { id: "w2064", en: "rinse", ko: "헹구다", pos: "동사", exEn: "Rinse the cups before you put them in the dishwasher.", exKo: "식기세척기에 넣기 전에 컵을 헹구세요.", unit: "ud07132" },
+  { id: "w2065", en: "peel", ko: "껍질을 벗기다", pos: "동사", exEn: "Could you peel the potatoes for me?", exKo: "감자 껍질 좀 벗겨 줄래요?", unit: "ud07132" },
+  { id: "w2066", en: "chop", ko: "잘게 썰다, 다지다", pos: "동사", exEn: "Chop the onions while I heat the pan.", exKo: "내가 팬을 달구는 동안 양파를 썰어 줘요.", unit: "ud07132" },
+  { id: "w2067", en: "stir", ko: "젓다, 휘젓다", pos: "동사", exEn: "Keep stirring the sauce so it doesn't burn.", exKo: "소스가 타지 않게 계속 저어 주세요.", unit: "ud07132" },
+  { id: "w2068", en: "pour", ko: "붓다, 따르다", pos: "동사", exEn: "Can you pour me a glass of water?", exKo: "물 한 잔만 따라 줄래요?", unit: "ud07132" },
+  { id: "w2069", en: "trash", ko: "쓰레기", pos: "명사", exEn: "Don't forget to take out the trash tonight.", exKo: "오늘 밤에 쓰레기 내다 놓는 거 잊지 마세요.", unit: "ud07132" },
+  { id: "w2070", en: "sink", ko: "싱크대, 세면대", pos: "명사", exEn: "Just leave the dishes in the sink; I'll wash them later.", exKo: "설거지거리는 그냥 싱크대에 두세요. 제가 나중에 씻을게요.", unit: "ud07132" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w871", en: "depth", ko: "깊이", pos: "명사", exEn: "I was surprised by the depth of her knowledge on the topic.", exKo: "그 주제에 대한 그녀의 지식의 깊이에 놀랐어요.", unit: "ud07133" },
-  { id: "w872", en: "pattern", ko: "패턴, 양상", pos: "명사", exEn: "I've noticed a pattern in the way he avoids these questions.", exKo: "그가 이런 질문을 피하는 방식에서 일정한 패턴을 발견했어요.", unit: "ud07133" },
-  { id: "w873", en: "existence", ko: "존재", pos: "명사", exEn: "I didn't even know about the existence of this rule until today.", exKo: "오늘까지 이런 규정이 존재하는지도 몰랐어요.", unit: "ud07133" },
-  { id: "w874", en: "expression", ko: "표현; 표정", pos: "명사", exEn: "You should have seen the expression on his face.", exKo: "그 사람 표정을 봤어야 하는데.", unit: "ud07133" },
-  { id: "w875", en: "manner", ko: "방식, 태도", pos: "명사", exEn: "She handled the complaint in a very professional manner.", exKo: "그녀는 그 항의를 아주 프로다운 방식으로 처리했어요.", unit: "ud07133" },
-  { id: "w876", en: "origin", ko: "기원, 출처", pos: "명사", exEn: "Nobody knows the exact origin of the rumor.", exKo: "그 소문의 정확한 출처는 아무도 몰라요.", unit: "ud07133" },
-  { id: "w877", en: "victim", ko: "피해자", pos: "명사", exEn: "The victims of the flood are staying at a local shelter.", exKo: "홍수 피해자들은 지역 대피소에 머물고 있어요.", unit: "ud07133" },
-  { id: "w878", en: "arrest", ko: "체포하다; 체포", pos: "동사/명사", exEn: "The police arrested a suspect near the station last night.", exKo: "경찰이 어젯밤 역 근처에서 용의자를 체포했어요.", unit: "ud07133" },
-  { id: "w879", en: "portion", ko: "부분; (음식) 1인분", pos: "명사", exEn: "The portions at that restaurant are huge.", exKo: "그 식당은 음식 양이 엄청 많아요.", unit: "ud07133" },
-  { id: "w880", en: "height", ko: "높이, 키", pos: "명사", exEn: "He's about the same height as his dad now.", exKo: "그는 이제 아빠와 키가 거의 비슷해요.", unit: "ud07133" }
+  { id: "w2071", en: "depth", ko: "깊이", pos: "명사", exEn: "I was surprised by the depth of her knowledge on the topic.", exKo: "그 주제에 대한 그녀의 지식의 깊이에 놀랐어요.", unit: "ud07133" },
+  { id: "w2072", en: "pattern", ko: "패턴, 양상", pos: "명사", exEn: "I've noticed a pattern in the way he avoids these questions.", exKo: "그가 이런 질문을 피하는 방식에서 일정한 패턴을 발견했어요.", unit: "ud07133" },
+  { id: "w2073", en: "existence", ko: "존재", pos: "명사", exEn: "I didn't even know about the existence of this rule until today.", exKo: "오늘까지 이런 규정이 존재하는지도 몰랐어요.", unit: "ud07133" },
+  { id: "w2074", en: "expression", ko: "표현; 표정", pos: "명사", exEn: "You should have seen the expression on his face.", exKo: "그 사람 표정을 봤어야 하는데.", unit: "ud07133" },
+  { id: "w2075", en: "manner", ko: "방식, 태도", pos: "명사", exEn: "She handled the complaint in a very professional manner.", exKo: "그녀는 그 항의를 아주 프로다운 방식으로 처리했어요.", unit: "ud07133" },
+  { id: "w2076", en: "origin", ko: "기원, 출처", pos: "명사", exEn: "Nobody knows the exact origin of the rumor.", exKo: "그 소문의 정확한 출처는 아무도 몰라요.", unit: "ud07133" },
+  { id: "w2077", en: "victim", ko: "피해자", pos: "명사", exEn: "The victims of the flood are staying at a local shelter.", exKo: "홍수 피해자들은 지역 대피소에 머물고 있어요.", unit: "ud07133" },
+  { id: "w2078", en: "arrest", ko: "체포하다; 체포", pos: "동사/명사", exEn: "The police arrested a suspect near the station last night.", exKo: "경찰이 어젯밤 역 근처에서 용의자를 체포했어요.", unit: "ud07133" },
+  { id: "w2079", en: "portion", ko: "부분; (음식) 1인분", pos: "명사", exEn: "The portions at that restaurant are huge.", exKo: "그 식당은 음식 양이 엄청 많아요.", unit: "ud07133" },
+  { id: "w2080", en: "height", ko: "높이, 키", pos: "명사", exEn: "He's about the same height as his dad now.", exKo: "그는 이제 아빠와 키가 거의 비슷해요.", unit: "ud07133" }
 ]);
 [].push.apply(WORDS, [
-  { id: "w881", en: "backfire", ko: "(계획이) 역효과를 내다", pos: "동사", exEn: "My plan to surprise her totally backfired.", exKo: "그녀를 놀라게 하려던 내 계획은 완전히 역효과가 났어요.", unit: "ud07134" },
-  { id: "w882", en: "chime in", ko: "(대화에) 끼어들어 한마디 하다", pos: "구동사", exEn: "Feel free to chime in if you have any ideas.", exKo: "아이디어가 있으면 편하게 끼어들어 말해 주세요.", unit: "ud07134" },
-  { id: "w883", en: "fizzle out", ko: "흐지부지 사그라들다", pos: "구동사", exEn: "The excitement started to fizzle out by the second week.", exKo: "그 열기는 둘째 주쯤 되니 흐지부지 사그라들기 시작했어요.", unit: "ud07134" },
-  { id: "w884", en: "clingy", ko: "지나치게 들러붙는, 집착하는", pos: "형용사", exEn: "I like him, but he gets a little clingy sometimes.", exKo: "그를 좋아하긴 하는데, 가끔 좀 집착이 심할 때가 있어요.", unit: "ud07134" },
-  { id: "w885", en: "snarky", ko: "비꼬는, 빈정대는", pos: "형용사", exEn: "He made a snarky comment about my presentation.", exKo: "그가 제 발표에 대해 빈정대는 말을 했어요.", unit: "ud07134" },
-  { id: "w886", en: "gut feeling", ko: "직감", pos: "명사", exEn: "My gut feeling says we shouldn't sign this deal.", exKo: "제 직감으로는 이 계약에 서명하면 안 될 것 같아요.", unit: "ud07134" },
-  { id: "w887", en: "throw under the bus", ko: "(자기 이익을 위해) 남을 희생양으로 삼다", pos: "이디엄", exEn: "Don't throw me under the bus just to save yourself.", exKo: "너 혼자 살자고 나를 희생양으로 삼지 마.", unit: "ud07134" },
-  { id: "w888", en: "back to square one", ko: "원점으로 돌아간", pos: "이디엄", exEn: "The client rejected the design, so we're back to square one.", exKo: "클라이언트가 디자인을 거절해서 우리는 원점으로 돌아왔어요.", unit: "ud07134" },
-  { id: "w889", en: "long story short", ko: "간단히 말하자면", pos: "이디엄", exEn: "Long story short, we missed the flight and stayed another night.", exKo: "간단히 말하면, 비행기를 놓쳐서 하룻밤 더 묵었어요.", unit: "ud07134" },
-  { id: "w890", en: "iffy", ko: "확실치 않은, 미심쩍은", pos: "형용사", exEn: "The weather looks iffy, so let's have a backup plan.", exKo: "날씨가 어떻게 될지 몰라서, 예비 계획을 세워 둬요.", unit: "ud07134" }
+  { id: "w2081", en: "backfire", ko: "(계획이) 역효과를 내다", pos: "동사", exEn: "My plan to surprise her totally backfired.", exKo: "그녀를 놀라게 하려던 내 계획은 완전히 역효과가 났어요.", unit: "ud07134" },
+  { id: "w2082", en: "chime in", ko: "(대화에) 끼어들어 한마디 하다", pos: "구동사", exEn: "Feel free to chime in if you have any ideas.", exKo: "아이디어가 있으면 편하게 끼어들어 말해 주세요.", unit: "ud07134" },
+  { id: "w2083", en: "fizzle out", ko: "흐지부지 사그라들다", pos: "구동사", exEn: "The excitement started to fizzle out by the second week.", exKo: "그 열기는 둘째 주쯤 되니 흐지부지 사그라들기 시작했어요.", unit: "ud07134" },
+  { id: "w2084", en: "clingy", ko: "지나치게 들러붙는, 집착하는", pos: "형용사", exEn: "I like him, but he gets a little clingy sometimes.", exKo: "그를 좋아하긴 하는데, 가끔 좀 집착이 심할 때가 있어요.", unit: "ud07134" },
+  { id: "w2085", en: "snarky", ko: "비꼬는, 빈정대는", pos: "형용사", exEn: "He made a snarky comment about my presentation.", exKo: "그가 제 발표에 대해 빈정대는 말을 했어요.", unit: "ud07134" },
+  { id: "w2086", en: "gut feeling", ko: "직감", pos: "명사", exEn: "My gut feeling says we shouldn't sign this deal.", exKo: "제 직감으로는 이 계약에 서명하면 안 될 것 같아요.", unit: "ud07134" },
+  { id: "w2087", en: "throw under the bus", ko: "(자기 이익을 위해) 남을 희생양으로 삼다", pos: "이디엄", exEn: "Don't throw me under the bus just to save yourself.", exKo: "너 혼자 살자고 나를 희생양으로 삼지 마.", unit: "ud07134" },
+  { id: "w2088", en: "back to square one", ko: "원점으로 돌아간", pos: "이디엄", exEn: "The client rejected the design, so we're back to square one.", exKo: "클라이언트가 디자인을 거절해서 우리는 원점으로 돌아왔어요.", unit: "ud07134" },
+  { id: "w2089", en: "long story short", ko: "간단히 말하자면", pos: "이디엄", exEn: "Long story short, we missed the flight and stayed another night.", exKo: "간단히 말하면, 비행기를 놓쳐서 하룻밤 더 묵었어요.", unit: "ud07134" },
+  { id: "w2090", en: "iffy", ko: "확실치 않은, 미심쩍은", pos: "형용사", exEn: "The weather looks iffy, so let's have a backup plan.", exKo: "날씨가 어떻게 될지 몰라서, 예비 계획을 세워 둬요.", unit: "ud07134" }
+]);
+[].push.apply(UNITS, [
+  { id: "ud07141", level: "lv1", title: "데일리 7/14 · 기초" },
+  { id: "ud07142", level: "lv2", title: "데일리 7/14 · 중급" },
+  { id: "ud07143", level: "lv3", title: "데일리 7/14 · 고급" },
+  { id: "ud07144", level: "lv4", title: "데일리 7/14 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2091", en: "head", ko: "머리", pos: "명사", exEn: "Watch your head when you get in the car.", exKo: "차에 탈 때 머리 조심하세요.", unit: "ud07141" },
+  { id: "w2092", en: "face", ko: "얼굴", pos: "명사", exEn: "Go wash your face before breakfast.", exKo: "아침 먹기 전에 얼굴 씻고 와요.", unit: "ud07141" },
+  { id: "w2093", en: "hair", ko: "머리카락", pos: "명사", exEn: "I like your hair today. Did you get it cut?", exKo: "오늘 머리 예쁘네요. 자르셨어요?", unit: "ud07141" },
+  { id: "w2094", en: "arm", ko: "팔", pos: "명사", exEn: "He hurt his arm playing basketball.", exKo: "그는 농구하다가 팔을 다쳤어요.", unit: "ud07141" },
+  { id: "w2095", en: "leg", ko: "다리", pos: "명사", exEn: "My legs are sore from the long walk.", exKo: "오래 걸었더니 다리가 아파요.", unit: "ud07141" },
+  { id: "w2096", en: "foot", ko: "발", pos: "명사", exEn: "There's something in my shoe—my foot hurts.", exKo: "신발에 뭐가 들어갔나 봐요. 발이 아파요.", unit: "ud07141" },
+  { id: "w2097", en: "mouth", ko: "입", pos: "명사", exEn: "Don't talk with your mouth full.", exKo: "입에 음식 넣고 말하지 마세요.", unit: "ud07141" },
+  { id: "w2098", en: "cup", ko: "컵, 잔", pos: "명사", exEn: "Would you like a cup of coffee?", exKo: "커피 한 잔 드릴까요?", unit: "ud07141" },
+  { id: "w2099", en: "tea", ko: "차(마시는 것)", pos: "명사", exEn: "I usually drink tea in the morning.", exKo: "저는 보통 아침에 차를 마셔요.", unit: "ud07141" },
+  { id: "w2100", en: "juice", ko: "주스", pos: "명사", exEn: "The kids want orange juice with breakfast.", exKo: "아이들이 아침에 오렌지 주스를 마시고 싶대요.", unit: "ud07141" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2101", en: "snack", ko: "간식", pos: "명사", exEn: "I always keep some snacks in my desk drawer.", exKo: "저는 항상 책상 서랍에 간식을 좀 넣어 둬요.", unit: "ud07142" },
+  { id: "w2102", en: "chew", ko: "(음식을) 씹다", pos: "동사", exEn: "Chew your food slowly—we're not in a hurry.", exKo: "천천히 씹어 먹어요. 급할 거 없어요.", unit: "ud07142" },
+  { id: "w2103", en: "swallow", ko: "삼키다", pos: "동사", exEn: "This pill is hard to swallow without water.", exKo: "이 알약은 물 없이 삼키기 힘들어요.", unit: "ud07142" },
+  { id: "w2104", en: "sneeze", ko: "재채기하다", pos: "동사", exEn: "I can't stop sneezing because of my allergies.", exKo: "알레르기 때문에 재채기가 멈추질 않아요.", unit: "ud07142" },
+  { id: "w2105", en: "yawn", ko: "하품하다", pos: "동사", exEn: "He kept yawning during the meeting.", exKo: "그는 회의 내내 하품을 했어요.", unit: "ud07142" },
+  { id: "w2106", en: "bruise", ko: "멍; 멍들다", pos: "명사/동사", exEn: "I got a big bruise on my knee from the fall.", exKo: "넘어져서 무릎에 큰 멍이 들었어요.", unit: "ud07142" },
+  { id: "w2107", en: "bandage", ko: "붕대, 밴드", pos: "명사", exEn: "Put a bandage on that cut before it gets worse.", exKo: "더 심해지기 전에 그 상처에 밴드를 붙이세요.", unit: "ud07142" },
+  { id: "w2108", en: "stain", ko: "얼룩; 얼룩지게 하다", pos: "명사/동사", exEn: "I got a coffee stain on my white shirt.", exKo: "흰 셔츠에 커피 얼룩이 묻었어요.", unit: "ud07142" },
+  { id: "w2109", en: "detergent", ko: "세제", pos: "명사", exEn: "We're almost out of laundry detergent.", exKo: "세탁 세제가 거의 다 떨어졌어요.", unit: "ud07142" },
+  { id: "w2110", en: "reheat", ko: "(음식을) 다시 데우다", pos: "동사", exEn: "Just reheat the leftovers in the microwave.", exKo: "남은 음식은 그냥 전자레인지에 다시 데우세요.", unit: "ud07142" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2111", en: "represent", ko: "대표하다; 나타내다", pos: "동사", exEn: "She was chosen to represent our team at the conference.", exKo: "그녀가 콘퍼런스에서 우리 팀을 대표하도록 뽑혔어요.", unit: "ud07143" },
+  { id: "w2112", en: "category", ko: "범주, 부문", pos: "명사", exEn: "This expense doesn't fit into any category on the form.", exKo: "이 지출은 양식의 어떤 항목에도 해당하지 않아요.", unit: "ud07143" },
+  { id: "w2113", en: "ultimately", ko: "결국, 궁극적으로", pos: "부사", exEn: "Ultimately, it's your decision to make.", exKo: "결국 그건 당신이 내릴 결정이에요.", unit: "ud07143" },
+  { id: "w2114", en: "transportation", ko: "교통(수단), 운송", pos: "명사", exEn: "Public transportation here is surprisingly reliable.", exKo: "여기 대중교통은 놀랄 만큼 믿을 만해요.", unit: "ud07143" },
+  { id: "w2115", en: "employment", ko: "고용, 취업", pos: "명사", exEn: "The new factory will create a lot of employment in the area.", exKo: "새 공장이 그 지역에 많은 일자리를 만들어 낼 거예요.", unit: "ud07143" },
+  { id: "w2116", en: "opposition", ko: "반대; 야당", pos: "명사", exEn: "The plan faced strong opposition from local residents.", exKo: "그 계획은 지역 주민들의 강한 반대에 부딪혔어요.", unit: "ud07143" },
+  { id: "w2117", en: "scheme", ko: "계획, 제도; (부정한) 수법", pos: "명사", exEn: "It turned out the investment was just a scheme to take people's money.", exKo: "그 투자는 알고 보니 사람들 돈을 뜯어내려는 수법에 불과했어요.", unit: "ud07143" },
+  { id: "w2118", en: "expansion", ko: "확장, 확대", pos: "명사", exEn: "The company announced a major expansion into Asia.", exKo: "그 회사는 아시아로의 대규모 확장을 발표했어요.", unit: "ud07143" },
+  { id: "w2119", en: "personnel", ko: "직원(전체), 인사(부서)", pos: "명사", exEn: "Only authorized personnel are allowed in this area.", exKo: "이 구역은 허가받은 직원만 들어갈 수 있어요.", unit: "ud07143" },
+  { id: "w2120", en: "depression", ko: "우울증; 불황", pos: "명사", exEn: "He's been open about his struggle with depression.", exKo: "그는 우울증과 싸워 온 일을 솔직하게 이야기해 왔어요.", unit: "ud07143" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2121", en: "cut someone some slack", ko: "~를 좀 봐주다, 너그럽게 대하다", pos: "이디엄", exEn: "Cut him some slack—it's only his second day on the job.", exKo: "그 사람 좀 봐줘. 이제 출근 이틀째잖아.", unit: "ud07144" },
+  { id: "w2122", en: "get out of hand", ko: "걷잡을 수 없게 되다", pos: "이디엄", exEn: "The party got out of hand, so the neighbors called the police.", exKo: "파티가 걷잡을 수 없어져서 이웃들이 경찰을 불렀어요.", unit: "ud07144" },
+  { id: "w2123", en: "on thin ice", ko: "위태로운 상황인, 아슬아슬한", pos: "이디엄", exEn: "After missing two deadlines, he's on thin ice with the boss.", exKo: "마감을 두 번 놓친 뒤로 그는 상사에게 찍혀서 위태로운 상태예요.", unit: "ud07144" },
+  { id: "w2124", en: "wind down", ko: "(하루를 마치며) 긴장을 풀다; 서서히 마무리되다", pos: "구동사", exEn: "I like to wind down with a book before bed.", exKo: "저는 자기 전에 책을 읽으며 하루의 긴장을 푸는 걸 좋아해요.", unit: "ud07144" },
+  { id: "w2125", en: "bail on", ko: "(약속·모임을) 바람맞히다, 빠지다", pos: "구동사", exEn: "I'm sorry I bailed on dinner last night—something came up.", exKo: "어젯밤 저녁 약속 못 가서 미안해. 일이 좀 생겼어.", unit: "ud07144" },
+  { id: "w2126", en: "sketchy", ko: "수상쩍은, 어딘가 못 미더운", pos: "형용사", exEn: "That website looks sketchy—I wouldn't enter your card number.", exKo: "그 웹사이트 좀 수상해 보여. 카드 번호는 입력 안 하는 게 좋겠어.", unit: "ud07144" },
+  { id: "w2127", en: "salty", ko: "(속어) 토라진, 뾰로통한", pos: "형용사", exEn: "He's still salty about losing the game last week.", exKo: "그는 지난주 경기에서 진 것 때문에 아직도 뾰로통해 있어요.", unit: "ud07144" },
+  { id: "w2128", en: "standoffish", ko: "쌀쌀맞은, 거리를 두는", pos: "형용사", exEn: "She seemed standoffish at first, but she's actually really friendly.", exKo: "그녀는 처음엔 쌀쌀맞아 보였지만, 사실은 정말 다정해요.", unit: "ud07144" },
+  { id: "w2129", en: "pushover", ko: "만만한 사람, 호구", pos: "명사", exEn: "Don't be a pushover—tell them you need more time.", exKo: "만만하게 보이지 마. 시간이 더 필요하다고 말해.", unit: "ud07144" },
+  { id: "w2130", en: "no-brainer", ko: "고민할 필요도 없는 쉬운 결정", pos: "명사", exEn: "With that salary offer, taking the job was a no-brainer.", exKo: "그 연봉 제안이면 그 일을 수락하는 건 고민할 것도 없었죠.", unit: "ud07144" }
 ]);
 // end of data-daily.js
