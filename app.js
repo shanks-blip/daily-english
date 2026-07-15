@@ -5,7 +5,7 @@
 // ---------- 유틸 ----------
 const LS_KEY = "daily-english-v1";
 // 배포 확인용 버전 — 설정 화면 맨 아래에 표시된다. 배포할 때마다 올린다.
-const APP_VERSION = "v13 (2026-07-14)";
+const APP_VERSION = "v14 (2026-07-15)";
 
 function todayStr(d) {
   d = d || new Date();
