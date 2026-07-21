@@ -121,4 +121,55 @@
     { sp: "B", en: "Of course, tracking is included. It'll be on your receipt.", ko: "물론이죠, 추적 서비스는 포함되어 있어요. 영수증에 나와 있을 거예요." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0716", level: "lv3", icon: "🏢", title: "이웃과 소음 문제 이야기하기",
+  lines: [
+    { sp: "A", en: "Hey, sorry to bother you, but could you keep it down a bit after ten? The music comes right through the wall.", ko: "저기, 귀찮게 해서 미안한데, 10시 이후엔 소리 좀 줄여 줄 수 있어요? 음악이 벽을 그대로 타고 넘어와서요." },
+    { sp: "B", en: "Oh no, I'm so sorry. I had no idea it was that loud.", ko: "어머, 정말 죄송해요. 그렇게 시끄러운 줄 전혀 몰랐어요." },
+    { sp: "A", en: "It's usually fine, but I've got early shifts these days, and I've been putting up with it for a couple of weeks.", ko: "평소엔 괜찮은데, 요즘 아침 일찍 출근하거든요. 몇 주째 참고 있었어요." },
+    { sp: "B", en: "You should've told me sooner! I'll move the speaker away from the wall tonight.", ko: "진작 말씀하시지 그랬어요! 오늘 밤에 스피커를 벽에서 떨어뜨려 놓을게요." },
+    { sp: "A", en: "Thanks, I really appreciate it. Other than that, you've been a great neighbor.", ko: "고마워요, 정말 감사해요. 그것만 빼면 정말 좋은 이웃이세요." },
+    { sp: "B", en: "Ha, thanks. If it ever gets loud again, don't hesitate to knock on my door.", ko: "하하, 고맙습니다. 또 시끄러우면 망설이지 말고 문 두드리세요." },
+    { sp: "A", en: "Will do. Have a good night!", ko: "그럴게요. 좋은 밤 보내세요!" }
+  ]
+}]);
+[].push.apply(DIALOGS, [{
+  id: "dd0718", level: "lv3", icon: "💊", title: "약국에서 증상 말하고 약 사기",
+  lines: [
+    { sp: "A", en: "Hi, I think I'm coming down with a cold. Could you recommend something?", ko: "안녕하세요, 감기 기운이 있는 것 같은데요. 뭐 좀 추천해 주시겠어요?" },
+    { sp: "B", en: "Sure. What are your symptoms?", ko: "네. 증상이 어떠세요?" },
+    { sp: "A", en: "I've got a sore throat and a runny nose, and I can't stop sneezing.", ko: "목이 따갑고 콧물이 나고, 재채기가 멈추질 않아요." },
+    { sp: "B", en: "This one should do the trick. Take one tablet every six hours after meals.", ko: "이거면 효과가 있을 거예요. 식후 6시간마다 한 알씩 드세요." },
+    { sp: "A", en: "Will it make me drowsy? I have to drive to work.", ko: "먹으면 졸린가요? 운전해서 출근해야 하거든요." },
+    { sp: "B", en: "It can, so take the daytime kind in the morning. The drowsiness wears off after a few hours anyway.", ko: "그럴 수 있어요. 그러니 아침엔 주간용으로 드세요. 어차피 졸음은 몇 시간 지나면 가라앉아요." },
+    { sp: "A", en: "Perfect. I'll take a box, and some throat lozenges too, please.", ko: "좋네요. 한 통 주시고, 목캔디도 좀 주세요." },
+    { sp: "B", en: "That comes to twelve fifty. Feel better soon!", ko: "12달러 50센트입니다. 얼른 나으세요!" }
+  ]
+}]);
+[].push.apply(DIALOGS, [{
+  id: "dd0720", level: "lv3", icon: "👛", title: "분실물 센터에서 지갑 찾기",
+  lines: [
+    { sp: "A", en: "Excuse me, I think I left my wallet on the train this morning. Has anyone turned it in?", ko: "실례합니다, 오늘 아침 기차에 지갑을 두고 내린 것 같은데요. 혹시 들어온 물건 있나요?" },
+    { sp: "B", en: "Let me check. Can you describe it for me?", ko: "확인해 볼게요. 어떻게 생긴 지갑인지 설명해 주시겠어요?" },
+    { sp: "A", en: "It's a brown leather wallet with a small scratch on the corner. My ID and two credit cards are in it.", ko: "갈색 가죽 지갑이고 모서리에 작은 흠집이 있어요. 안에 신분증이랑 신용카드 두 장이 들어 있고요." },
+    { sp: "B", en: "Hmm, nothing matching that so far. When did you notice it was missing?", ko: "음, 아직 그런 지갑은 안 들어왔네요. 없어진 건 언제 아셨어요?" },
+    { sp: "A", en: "Around nine, right after I got off at Central Station. I retraced my steps, but no luck.", ko: "9시쯤에요, 센트럴역에서 내리자마자요. 왔던 길을 되짚어 봤는데 못 찾았어요." },
+    { sp: "B", en: "Okay, I'll file a report and keep an eye out. If it turns up, we'll call you right away.", ko: "알겠습니다. 신고 접수해 두고 계속 지켜볼게요. 지갑이 나오면 바로 전화드릴게요." },
+    { sp: "A", en: "I'd appreciate that. Should I cancel my cards in the meantime, just to be safe?", ko: "감사합니다. 혹시 모르니 그동안 카드는 정지해 두는 게 좋을까요?" },
+    { sp: "B", en: "I'd say so. Better safe than sorry.", ko: "그러는 게 좋겠어요. 나중에 후회하는 것보다 조심하는 게 낫죠." }
+  ]
+}]);
+[].push.apply(DIALOGS, [{
+  id: "dd0722", level: "lv3", icon: "📶", title: "인터넷 고장 신고 전화",
+  lines: [
+    { sp: "A", en: "Hi, my internet has been on the fritz since last night. It keeps cutting out every few minutes.", ko: "안녕하세요, 어젯밤부터 인터넷이 계속 말썽이에요. 몇 분마다 끊기네요." },
+    { sp: "B", en: "Sorry about that. Let me run a quick check on your line. Could you verify your account number?", ko: "불편을 드려 죄송합니다. 회선을 바로 점검해 볼게요. 계정 번호를 확인해 주시겠어요?" },
+    { sp: "A", en: "Sure, it's 5501-2277.", ko: "네, 5501-2277이에요." },
+    { sp: "B", en: "Thanks. I do see some signal issues on our end. Could you unplug the router and plug it back in?", ko: "감사합니다. 저희 쪽에서도 신호 문제가 확인되네요. 공유기를 뽑았다가 다시 꽂아 주시겠어요?" },
+    { sp: "A", en: "Okay, give me a second... All right, it's rebooting now.", ko: "네, 잠시만요... 좋아요, 지금 재부팅되고 있어요." },
+    { sp: "B", en: "Great. If it keeps acting up after this, we'll send a technician over tomorrow morning.", ko: "좋습니다. 이후에도 계속 말썽이면 내일 오전에 기사님을 보내 드릴게요." },
+    { sp: "A", en: "That works. Could you walk me through how to check the signal myself next time?", ko: "그러면 되겠네요. 다음번엔 제가 직접 신호를 확인할 수 있게 방법 좀 알려 주시겠어요?" },
+    { sp: "B", en: "Of course. I'll text you a link with step-by-step instructions.", ko: "물론이죠. 단계별 안내 링크를 문자로 보내 드릴게요." }
+  ]
+}]);
 // end of dialogs-daily.js
