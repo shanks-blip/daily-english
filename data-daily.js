@@ -671,4 +671,52 @@
   { id: "w2409", en: "dealbreaker", ko: "(관계·거래를 깨는) 결정적 결격 사유", pos: "명사", exEn: "Smoking is a dealbreaker for me in dating.", exKo: "저한테 흡연은 연애에서 절대 안 되는 조건이에요.", unit: "ud07224" },
   { id: "w2410", en: "know-it-all", ko: "아는 척하는 사람, 잘난 척쟁이", pos: "명사", exEn: "Nobody likes a know-it-all at meetings.", exKo: "회의 시간에 아는 척하는 사람은 아무도 안 좋아하죠.", unit: "ud07224" }
 ]);
+[].push.apply(UNITS, [
+  { id: "ud07231", level: "lv1", title: "데일리 7/23 · 기초" },
+  { id: "ud07232", level: "lv2", title: "데일리 7/23 · 중급" },
+  { id: "ud07233", level: "lv3", title: "데일리 7/23 · 고급" },
+  { id: "ud07234", level: "lv4", title: "데일리 7/23 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2411", en: "onion", ko: "양파", pos: "명사", exEn: "Chop the onion before you cook the meat.", exKo: "고기 굽기 전에 양파부터 썰어.", unit: "ud07231" },
+  { id: "w2412", en: "garlic", ko: "마늘", pos: "명사", exEn: "This soup needs more garlic.", exKo: "이 수프에는 마늘이 더 들어가야 해.", unit: "ud07231" },
+  { id: "w2413", en: "potato", ko: "감자", pos: "명사", exEn: "Do you want rice or a baked potato?", exKo: "밥으로 할래, 구운 감자로 할래?", unit: "ud07231" },
+  { id: "w2414", en: "carrot", ko: "당근", pos: "명사", exEn: "The kids don't like carrots in their soup.", exKo: "애들은 수프에 당근 들어가는 걸 안 좋아해요.", unit: "ud07231" },
+  { id: "w2415", en: "grape", ko: "포도", pos: "명사", exEn: "I bought a bag of grapes for a snack.", exKo: "간식으로 포도 한 봉지 샀어요.", unit: "ud07231" },
+  { id: "w2416", en: "peach", ko: "복숭아", pos: "명사", exEn: "This peach is so sweet and juicy.", exKo: "이 복숭아 진짜 달고 과즙이 많아.", unit: "ud07231" },
+  { id: "w2417", en: "pear", ko: "배(과일)", pos: "명사", exEn: "Would you like an apple or a pear?", exKo: "사과 드실래요, 배 드실래요?", unit: "ud07231" },
+  { id: "w2418", en: "lemon", ko: "레몬", pos: "명사", exEn: "Can I get some lemon in my water?", exKo: "물에 레몬 좀 넣어 주시겠어요?", unit: "ud07231" },
+  { id: "w2419", en: "comb", ko: "빗; 빗질하다", pos: "명사/동사", exEn: "I can't find my comb this morning.", exKo: "오늘 아침에 빗이 안 보이네.", unit: "ud07231" },
+  { id: "w2420", en: "toothpaste", ko: "치약", pos: "명사", exEn: "We're almost out of toothpaste.", exKo: "치약이 거의 다 떨어졌어.", unit: "ud07231" },
+  { id: "w2421", en: "staircase", ko: "계단(통)", pos: "명사", exEn: "Take the staircase on your left to the second floor.", exKo: "왼쪽 계단으로 2층으로 올라가세요.", unit: "ud07232" },
+  { id: "w2422", en: "escalator", ko: "에스컬레이터", pos: "명사", exEn: "The escalator is broken, so we have to walk up.", exKo: "에스컬레이터가 고장 나서 걸어 올라가야 해요.", unit: "ud07232" },
+  { id: "w2423", en: "pedestrian", ko: "보행자", pos: "명사", exEn: "Drivers must stop for pedestrians at the crosswalk.", exKo: "운전자는 횡단보도에서 보행자를 위해 멈춰야 해요.", unit: "ud07232" },
+  { id: "w2424", en: "utility", ko: "공과금; 공공 설비", pos: "명사", exEn: "My utility bill went way up this summer.", exKo: "이번 여름에 공과금이 확 올랐어요.", unit: "ud07232" },
+  { id: "w2425", en: "hiccup", ko: "딸꾹질; 작은 차질", pos: "명사", exEn: "I got the hiccups from eating too fast.", exKo: "너무 빨리 먹었더니 딸꾹질이 나요.", unit: "ud07232" },
+  { id: "w2426", en: "blender", ko: "믹서기", pos: "명사", exEn: "Throw the fruit in the blender with some ice.", exKo: "과일을 얼음이랑 같이 믹서기에 넣어.", unit: "ud07232" },
+  { id: "w2427", en: "kettle", ko: "주전자", pos: "명사", exEn: "I'll put the kettle on for some tea.", exKo: "차 마시게 주전자에 물 올릴게.", unit: "ud07232" },
+  { id: "w2428", en: "ointment", ko: "연고", pos: "명사", exEn: "Put some ointment on that cut so it doesn't get infected.", exKo: "덧나지 않게 그 상처에 연고 좀 발라.", unit: "ud07232" },
+  { id: "w2429", en: "painkiller", ko: "진통제", pos: "명사", exEn: "Take a painkiller if your headache gets worse.", exKo: "두통이 심해지면 진통제를 먹어.", unit: "ud07232" },
+  { id: "w2430", en: "laundromat", ko: "빨래방", pos: "명사", exEn: "I spend every Sunday morning at the laundromat.", exKo: "저는 일요일 아침마다 빨래방에서 시간을 보내요.", unit: "ud07232" },
+  { id: "w2431", en: "buckle down", ko: "마음 잡고 본격적으로 하다", pos: "구동사", exEn: "It's time to buckle down and finish this report.", exKo: "이제 마음 잡고 이 보고서를 끝낼 때야.", unit: "ud07233" },
+  { id: "w2432", en: "snap at", ko: "~에게 쏘아붙이다", pos: "구동사", exEn: "Sorry I snapped at you earlier. I didn't mean to snap at anyone.", exKo: "아까 쏘아붙여서 미안해. 누구한테 그러려던 건 아니었어.", unit: "ud07233" },
+  { id: "w2433", en: "tune out", ko: "귀를 닫다, 흘려듣다", pos: "구동사", exEn: "I just tune out when he starts complaining. It's easy to tune out background noise.", exKo: "그가 불평을 시작하면 난 그냥 귀를 닫아. 배경 소음은 흘려듣기 쉽거든.", unit: "ud07233" },
+  { id: "w2434", en: "mull over", ko: "곰곰이 생각하다", pos: "구동사", exEn: "Let me mull over your offer for a couple of days.", exKo: "그 제안은 며칠 곰곰이 생각해 볼게요.", unit: "ud07233" },
+  { id: "w2435", en: "branch out", ko: "(활동 범위를) 넓히다, 새 분야로 진출하다", pos: "구동사", exEn: "The bakery wants to branch out into coffee.", exKo: "그 빵집은 커피 쪽으로 사업을 넓히고 싶어 해요.", unit: "ud07233" },
+  { id: "w2436", en: "spell out", ko: "아주 자세히 설명하다", pos: "구동사", exEn: "Do I have to spell out everything for you?", exKo: "내가 하나하나 다 설명해 줘야 해?", unit: "ud07233" },
+  { id: "w2437", en: "reform", ko: "개혁; 개혁하다", pos: "명사/동사", exEn: "The city plans to reform its public transit system.", exKo: "시에서 대중교통 체계를 개혁할 계획이에요.", unit: "ud07233" },
+  { id: "w2438", en: "democracy", ko: "민주주의", pos: "명사", exEn: "Voting is one of the basics of democracy.", exKo: "투표는 민주주의의 기본 중 하나예요.", unit: "ud07233" },
+  { id: "w2439", en: "clinical", ko: "임상의; (감정 없이) 사무적인", pos: "형용사", exEn: "His answer was so clinical that it felt cold.", exKo: "그의 대답이 어찌나 사무적이던지 차갑게 느껴졌어요.", unit: "ud07233" },
+  { id: "w2440", en: "quote", ko: "인용하다; 견적(을 내다)", pos: "동사/명사", exEn: "The mechanic quoted me $300 for the repair.", exKo: "정비사가 수리비 견적을 300달러로 냈어요.", unit: "ud07233" },
+  { id: "w2441", en: "humblebrag", ko: "겸손한 척 은근히 자랑하기(하다)", pos: "명사/동사", exEn: "Saying 'ugh, my new car is too big to park' is a classic humblebrag.", exKo: "'아, 새 차가 너무 커서 주차가 힘드네'라는 말은 전형적인 은근 자랑이지.", unit: "ud07234" },
+  { id: "w2442", en: "gung-ho", ko: "(지나치게) 의욕이 넘치는", pos: "형용사", exEn: "He's really gung-ho about the new project.", exKo: "그는 새 프로젝트에 아주 의욕이 넘쳐요.", unit: "ud07234" },
+  { id: "w2443", en: "gaslight", ko: "(사실을 부정하며) 교묘하게 조종하다", pos: "동사", exEn: "Don't let him gaslight you into thinking it was your fault.", exKo: "그 사람이 네 잘못이라고 믿게 만들도록 두지 마.", unit: "ud07234" },
+  { id: "w2444", en: "string along", ko: "(확답 없이) 질질 끌며 붙잡아 두다", pos: "구동사", exEn: "She's just stringing him along. She'll never commit.", exKo: "그녀는 그를 그냥 질질 끌고 있는 거야. 절대 진지해지지 않을걸.", unit: "ud07234" },
+  { id: "w2445", en: "butter up", ko: "(잘 보이려고) 아부하다", pos: "구동사", exEn: "He's buttering up the boss before asking for a raise.", exKo: "그는 연봉 인상 얘기 꺼내기 전에 상사한테 아부하는 중이야.", unit: "ud07234" },
+  { id: "w2446", en: "rub off on", ko: "(성향·습관이) ~에게 옮다", pos: "구동사", exEn: "Her positive attitude is starting to rub off on the whole team.", exKo: "그녀의 긍정적인 태도가 팀 전체에 물들기 시작했어요.", unit: "ud07234" },
+  { id: "w2447", en: "take the edge off", ko: "(긴장·통증을) 조금 누그러뜨리다", pos: "이디엄", exEn: "A warm shower takes the edge off a stressful day.", exKo: "따뜻한 샤워는 힘들었던 하루의 피로를 좀 풀어 줘요.", unit: "ud07234" },
+  { id: "w2448", en: "one-up", ko: "한 수 위임을 과시하다, 맞자랑하다", pos: "동사", exEn: "Every time I share good news, he tries to one-up me.", exKo: "내가 좋은 소식을 말할 때마다 걔는 더 잘난 얘기로 받아치려 해.", unit: "ud07234" },
+  { id: "w2449", en: "guilt-trip", ko: "죄책감을 자극해 조종하다", pos: "동사/명사", exEn: "My mom guilt-tripped me into visiting every weekend.", exKo: "엄마가 죄책감 들게 해서 주말마다 찾아뵙게 됐어요.", unit: "ud07234" },
+  { id: "w2450", en: "phone it in", ko: "대충 하다, 성의 없이 때우다", pos: "이디엄", exEn: "You can tell the band phoned it in at last night's show.", exKo: "어젯밤 공연에서 그 밴드가 대충 한 게 티가 났어.", unit: "ud07234" }
+]);
 // end of data-daily.js
