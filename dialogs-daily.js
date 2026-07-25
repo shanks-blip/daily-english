@@ -172,4 +172,30 @@
     { sp: "B", en: "Of course. I'll text you a link with step-by-step instructions.", ko: "물론이죠. 단계별 안내 링크를 문자로 보내 드릴게요." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0724", level: "lv3", icon: "🏝️", title: "상사에게 휴가 요청하기",
+  lines: [
+    { sp: "A", en: "Do you have a minute? I wanted to put in for some vacation time next month.", ko: "잠깐 시간 되세요? 다음 달에 휴가를 좀 신청하고 싶어서요." },
+    { sp: "B", en: "Sure, have a seat. Which days did you have in mind?", ko: "그럼요, 앉으세요. 어느 날짜를 생각하고 있어요?" },
+    { sp: "A", en: "The week of the 15th, if that works. I know things get busy around then.", ko: "가능하다면 15일이 있는 주로요. 그때쯤 바빠지는 거 알아요." },
+    { sp: "B", en: "It's doable, but we'll be a little short-staffed. Can anyone cover for you?", ko: "가능하긴 한데 인력이 조금 부족할 거예요. 누가 대신 일해 줄 수 있나요?" },
+    { sp: "A", en: "Mia already offered to fill in while I'm out.", ko: "미아가 제가 없는 동안 대신해 주겠다고 이미 얘기했어요." },
+    { sp: "B", en: "Perfect. Just make sure your projects are wrapped up before you leave.", ko: "좋네요. 떠나기 전에 맡은 일들만 잘 마무리해 두세요." },
+    { sp: "A", en: "Will do. I'll block out time next week to hand everything off.", ko: "그럴게요. 다음 주에 시간을 비워서 업무 인수인계할게요." },
+    { sp: "B", en: "Sounds good. I'll approve the request this afternoon.", ko: "좋아요. 오늘 오후에 요청을 승인해 둘게요." }
+  ]
+}]);
+[].push.apply(DIALOGS, [{
+  id: "dd0726", level: "lv3", icon: "👔", title: "세탁소에 옷 맡기기",
+  lines: [
+    { sp: "A", en: "Hi, I'd like to drop off a couple of suits and this dress.", ko: "안녕하세요, 정장 두 벌이랑 이 원피스를 맡기려고요." },
+    { sp: "B", en: "Sure. Just so you know, there's a stubborn stain here on the collar.", ko: "네. 참고로 여기 옷깃에 잘 안 지워지는 얼룩이 있네요." },
+    { sp: "A", en: "Oh, I spilled some coffee on it. Do you think you can get it out?", ko: "아, 커피를 좀 흘렸어요. 그거 뺄 수 있을까요?" },
+    { sp: "B", en: "We'll do our best, but I can't promise it'll come out completely.", ko: "최선을 다해 볼게요. 다만 완전히 빠진다고 장담은 못 드려요." },
+    { sp: "A", en: "That's fine. By any chance, could I pick them up by Friday?", ko: "괜찮아요. 혹시 금요일까지 찾아갈 수 있을까요?" },
+    { sp: "B", en: "Friday's a bit tight, but we can rush it for a small extra fee.", ko: "금요일은 좀 빠듯한데, 약간의 추가 요금을 주시면 급하게 처리해 드릴 수 있어요." },
+    { sp: "A", en: "Let's do that. I'll swing by after work on Friday.", ko: "그렇게 할게요. 금요일에 퇴근하고 들를게요." },
+    { sp: "B", en: "Perfect. Here's your ticket—please don't lose it.", ko: "좋아요. 여기 접수증이요. 잃어버리지 마세요." }
+  ]
+}]);
 // end of dialogs-daily.js

@@ -816,4 +816,52 @@
   { id: "w2529", en: "read between the lines", ko: "행간을 읽다, 속뜻을 파악하다", pos: "이디엄", exEn: "She didn't say it directly, but if you read between the lines, she's upset.", exKo: "그녀가 대놓고 말하진 않았지만, 행간을 읽어 보면 화가 난 거예요.", unit: "ud07254" },
   { id: "w2530", en: "wrap your head around", ko: "(복잡한 것을) 완전히 이해하다", pos: "이디엄", exEn: "I still can't wrap my head around how it works.", exKo: "저는 그게 어떻게 돌아가는 건지 아직도 도무지 이해가 안 돼요.", unit: "ud07254" }
 ]);
+[].push.apply(UNITS, [
+  { id: "ud07261", level: "lv1", title: "데일리 7/26 · 기초" },
+  { id: "ud07262", level: "lv2", title: "데일리 7/26 · 중급" },
+  { id: "ud07263", level: "lv3", title: "데일리 7/26 · 고급" },
+  { id: "ud07264", level: "lv4", title: "데일리 7/26 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2531", en: "napkin", ko: "냅킨", pos: "명사", exEn: "Can you grab me a napkin? I spilled a little.", exKo: "냅킨 좀 갖다줄래요? 조금 흘렸어요.", unit: "ud07261" },
+  { id: "w2532", en: "chin", ko: "턱", pos: "명사", exEn: "He rested his chin on his hand while he was thinking.", exKo: "그는 생각하면서 턱을 손에 괴었어요.", unit: "ud07261" },
+  { id: "w2533", en: "knock", ko: "두드리다, 노크하다", pos: "동사", exEn: "Please knock before you come in.", exKo: "들어오기 전에 노크해 주세요.", unit: "ud07261" },
+  { id: "w2534", en: "nod", ko: "고개를 끄덕이다", pos: "동사", exEn: "Just nod if you understand what I mean.", exKo: "제 말이 이해되면 그냥 고개만 끄덕여요.", unit: "ud07261" },
+  { id: "w2535", en: "count", ko: "세다", pos: "동사", exEn: "Let's count to three and then start.", exKo: "셋까지 세고 나서 시작하자.", unit: "ud07261" },
+  { id: "w2536", en: "soft", ko: "부드러운, 푹신한", pos: "형용사", exEn: "This pillow is so soft and comfy.", exKo: "이 베개는 정말 푹신하고 편해요.", unit: "ud07261" },
+  { id: "w2537", en: "empty", ko: "빈, 비어 있는", pos: "형용사", exEn: "The fridge is almost empty again.", exKo: "냉장고가 또 거의 텅 비었어요.", unit: "ud07261" },
+  { id: "w2538", en: "upstairs", ko: "위층에, 위층으로", pos: "부사", exEn: "My room is upstairs, right next to the bathroom.", exKo: "제 방은 위층, 화장실 바로 옆에 있어요.", unit: "ud07261" },
+  { id: "w2539", en: "bridge", ko: "다리, 교량", pos: "명사", exEn: "We walked across the bridge to get downtown.", exKo: "우리는 시내로 가려고 다리를 걸어서 건넜어요.", unit: "ud07261" },
+  { id: "w2540", en: "island", ko: "섬", pos: "명사", exEn: "They spent their whole vacation on a small island.", exKo: "그들은 휴가 내내 작은 섬에서 지냈어요.", unit: "ud07261" },
+  { id: "w2541", en: "doorbell", ko: "초인종", pos: "명사", exEn: "Someone's at the door—I just heard the doorbell.", exKo: "누가 왔나 봐요. 방금 초인종 소리가 들렸어요.", unit: "ud07262" },
+  { id: "w2542", en: "garbage", ko: "쓰레기", pos: "명사", exEn: "Can you take out the garbage tonight?", exKo: "오늘 밤에 쓰레기 좀 내다 버려 줄래요?", unit: "ud07262" },
+  { id: "w2543", en: "lawn", ko: "잔디밭", pos: "명사", exEn: "He mows the lawn every weekend.", exKo: "그는 주말마다 잔디를 깎아요.", unit: "ud07262" },
+  { id: "w2544", en: "garage", ko: "차고", pos: "명사", exEn: "I parked the car in the garage.", exKo: "차를 차고에 세워 뒀어요.", unit: "ud07262" },
+  { id: "w2545", en: "fare", ko: "교통 요금, 운임", pos: "명사", exEn: "The bus fare went up again this year.", exKo: "올해 또 버스 요금이 올랐어요.", unit: "ud07262" },
+  { id: "w2546", en: "babysitter", ko: "아이를 봐 주는 사람", pos: "명사", exEn: "We hired a babysitter for Friday night.", exKo: "금요일 밤에 아이 봐 줄 사람을 구했어요.", unit: "ud07262" },
+  { id: "w2547", en: "hammer", ko: "망치", pos: "명사", exEn: "Could you hand me the hammer over there?", exKo: "저기 있는 망치 좀 건네줄래요?", unit: "ud07262" },
+  { id: "w2548", en: "wardrobe", ko: "옷장; 갖고 있는 옷 전부", pos: "명사", exEn: "She has a huge wardrobe packed with clothes.", exKo: "그녀는 옷으로 꽉 찬 커다란 옷장을 갖고 있어요.", unit: "ud07262" },
+  { id: "w2549", en: "commuter", ko: "통근자", pos: "명사", exEn: "The train was packed with commuters this morning.", exKo: "오늘 아침 기차는 통근하는 사람들로 꽉 찼어요.", unit: "ud07262" },
+  { id: "w2550", en: "remote", ko: "리모컨", pos: "명사", exEn: "Have you seen the TV remote anywhere?", exKo: "TV 리모컨 어디서 못 봤어요?", unit: "ud07262" },
+  { id: "w2551", en: "considerate", ko: "배려심 있는, 사려 깊은", pos: "형용사", exEn: "It was really considerate of you to call ahead.", exKo: "미리 전화해 주다니 정말 사려 깊네요.", unit: "ud07263" },
+  { id: "w2552", en: "insecure", ko: "자신 없는, 불안해하는", pos: "형용사", exEn: "He feels insecure about his accent when he speaks English.", exKo: "그는 영어로 말할 때 자기 억양에 자신 없어 해요.", unit: "ud07263" },
+  { id: "w2553", en: "cut back", ko: "줄이다", pos: "구동사", exEn: "I'm trying to cut back on coffee these days. We had to cut back on spending.", exKo: "요즘 커피를 줄여 보려고 해요. 우리는 지출을 줄여야 했어요.", unit: "ud07263" },
+  { id: "w2554", en: "brush off", ko: "대수롭지 않게 넘기다, 무시하다", pos: "구동사", exEn: "Don't just brush off his concerns like that. She brushed off the criticism and moved on.", exKo: "그의 걱정을 그렇게 흘려버리지 마요. 그녀는 비판을 대수롭지 않게 넘기고 넘어갔어요.", unit: "ud07263" },
+  { id: "w2555", en: "hold off", ko: "미루다, 보류하다", pos: "구동사", exEn: "Let's hold off on the decision until Monday. They decided to hold off on buying a house.", exKo: "월요일까지 결정을 미룹시다. 그들은 집 사는 걸 보류하기로 했어요.", unit: "ud07263" },
+  { id: "w2556", en: "setback", ko: "차질, 걸림돌", pos: "명사", exEn: "The project hit a major setback last week.", exKo: "그 프로젝트는 지난주에 큰 차질을 겪었어요.", unit: "ud07263" },
+  { id: "w2557", en: "hunch", ko: "직감, 예감", pos: "명사", exEn: "I have a hunch that she'll say yes.", exKo: "왠지 그녀가 승낙할 것 같은 예감이 들어요.", unit: "ud07263" },
+  { id: "w2558", en: "takeaway", ko: "핵심 요점, 얻어 가는 것", pos: "명사", exEn: "The main takeaway from the meeting was to move faster.", exKo: "회의에서 얻은 핵심은 더 빨리 움직이자는 거였어요.", unit: "ud07263" },
+  { id: "w2559", en: "prioritize", ko: "우선순위를 두다, 우선시하다", pos: "동사", exEn: "You need to prioritize your health over work.", exKo: "일보다 건강을 우선시해야 해요.", unit: "ud07263" },
+  { id: "w2560", en: "overthink", ko: "지나치게 생각하다, 곱씹다", pos: "동사", exEn: "Try not to overthink it and just give it a shot.", exKo: "너무 깊게 생각하지 말고 그냥 한번 해 봐요.", unit: "ud07263" },
+  { id: "w2561", en: "food for thought", ko: "곱씹어 볼 만한 것, 생각할 거리", pos: "이디엄", exEn: "That's an interesting point—definitely some food for thought.", exKo: "흥미로운 지적이네요. 곱씹어 볼 만한 이야기예요.", unit: "ud07264" },
+  { id: "w2562", en: "nudge", ko: "넌지시 권하다; 살짝 밀다", pos: "동사", exEn: "I had to nudge him a bit to finally apply for the job.", exKo: "결국 그가 그 일에 지원하도록 살짝 떠밀어야 했어요.", unit: "ud07264" },
+  { id: "w2563", en: "linger", ko: "자리를 뜨지 않고 오래 머물다; 여운이 남다", pos: "동사", exEn: "We lingered at the table long after dinner. The smell tends to linger for hours.", exKo: "우리는 저녁을 다 먹고도 한참 식탁에 앉아 있었어요. 그 냄새는 몇 시간씩 남아 있곤 해요.", unit: "ud07264" },
+  { id: "w2564", en: "dwindle", ko: "점점 줄어들다", pos: "동사", exEn: "Our savings started to dwindle after the move.", exKo: "이사한 뒤로 저축이 점점 줄어들기 시작했어요.", unit: "ud07264" },
+  { id: "w2565", en: "scoff", ko: "코웃음 치다, 비웃다", pos: "동사", exEn: "He scoffed at the idea at first, but it actually worked. Don't scoff—it might really help.", exKo: "그는 처음엔 그 아이디어를 코웃음 쳤지만, 사실 통했어요. 비웃지 마요, 진짜 도움이 될 수도 있어요.", unit: "ud07264" },
+  { id: "w2566", en: "wistful", ko: "아쉬운 듯한, 그리워하는", pos: "형용사", exEn: "She had a wistful look when she talked about her hometown.", exKo: "고향 이야기를 할 때 그녀는 아쉬운 듯한 표정을 지었어요.", unit: "ud07264" },
+  { id: "w2567", en: "smug", ko: "혼자 잘난 척하는, 우쭐대는", pos: "형용사", exEn: "He gave a smug smile after he won the bet.", exKo: "그는 내기에서 이기고 나서 우쭐대는 미소를 지었어요.", unit: "ud07264" },
+  { id: "w2568", en: "understated", ko: "절제된, 요란하지 않은", pos: "형용사", exEn: "Her style is elegant but understated.", exKo: "그녀의 스타일은 우아하면서도 튀지 않아요.", unit: "ud07264" },
+  { id: "w2569", en: "impeccable", ko: "흠잡을 데 없는, 완벽한", pos: "형용사", exEn: "His manners are absolutely impeccable.", exKo: "그의 매너는 정말 흠잡을 데가 없어요.", unit: "ud07264" },
+  { id: "w2570", en: "eloquent", ko: "언변이 뛰어난, 설득력 있게 말하는", pos: "형용사", exEn: "She gave an eloquent speech that moved everyone.", exKo: "그녀는 모두를 감동시킨 유창한 연설을 했어요.", unit: "ud07264" }
+]);
 // end of data-daily.js
