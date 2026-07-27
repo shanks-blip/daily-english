@@ -198,4 +198,17 @@
     { sp: "B", en: "Perfect. Here's your ticket—please don't lose it.", ko: "좋아요. 여기 접수증이요. 잃어버리지 마세요." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0728", level: "lv3", icon: "🐶", title: "이웃에게 반려견 봐 달라 부탁하기",
+  lines: [
+    { sp: "A", en: "Hey, I hate to ask on such short notice, but could you look after my dog this weekend?", ko: "저기, 이렇게 갑자기 부탁해서 미안한데, 이번 주말에 우리 강아지 좀 봐 줄 수 있어?" },
+    { sp: "B", en: "Sure, I'd be happy to. Are you heading out of town?", ko: "물론이지, 기꺼이 봐 줄게. 어디 멀리 가?" },
+    { sp: "A", en: "Yeah, a family thing came up. I'll be gone from Saturday morning till Sunday night.", ko: "응, 집안일이 좀 생겨서. 토요일 아침부터 일요일 밤까지 자리를 비워." },
+    { sp: "B", en: "No problem. What do I need to do, just feed her and let her out?", ko: "문제없어. 뭘 하면 돼? 그냥 밥 주고 밖에 좀 내보내면 돼?" },
+    { sp: "A", en: "Pretty much. Feed her twice a day, and take her for a short walk if you can swing it.", ko: "거의 그거야. 하루 두 번 밥 주고, 가능하면 잠깐 산책도 시켜 주면 좋고." },
+    { sp: "B", en: "Easy enough. Should I drop by your place, or are you leaving her with me?", ko: "그 정도야 쉽지. 내가 너희 집에 들르면 돼, 아니면 우리 집에 맡기는 거야?" },
+    { sp: "A", en: "I'll drop her off at yours—she settles in faster in a new place with company.", ko: "내가 너희 집에 데려다줄게. 걔는 같이 있어 주는 사람이 있으면 새 장소에도 금방 적응하거든." },
+    { sp: "B", en: "Works for me. Don't worry about a thing—she'll be in good hands.", ko: "난 좋아. 아무 걱정 하지 마. 잘 돌봐 줄게." }
+  ]
+}]);
 // end of dialogs-daily.js
