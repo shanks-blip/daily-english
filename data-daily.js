@@ -961,4 +961,53 @@
   { id: "w2649", en: "wary", ko: "경계하는, 조심스러운", pos: "형용사", exEn: "I'm a little wary of deals that sound too good.", exKo: "너무 좋아 보이는 조건은 좀 경계하게 돼.", unit: "ud07284" },
   { id: "w2650", en: "quaint", ko: "예스럽고 아기자기한, 정취 있는", pos: "형용사", exEn: "We stayed in a quaint little town by the sea.", exKo: "우리는 바닷가의 아기자기한 작은 마을에 묵었어.", unit: "ud07284" }
 ]);
+
+[].push.apply(UNITS, [
+  { id: "ud07291", level: "lv1", title: "데일리 7/29 · 기초" },
+  { id: "ud07292", level: "lv2", title: "데일리 7/29 · 중급" },
+  { id: "ud07293", level: "lv3", title: "데일리 7/29 · 고급" },
+  { id: "ud07294", level: "lv4", title: "데일리 7/29 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2651", en: "niece", ko: "조카 (여자)", pos: "명사", exEn: "My niece just turned five last week.", exKo: "우리 조카가 지난주에 다섯 살이 됐어.", unit: "ud07291" },
+  { id: "w2652", en: "bakery", ko: "빵집, 제과점", pos: "명사", exEn: "I bought fresh bread at the bakery.", exKo: "빵집에서 갓 구운 빵을 샀어.", unit: "ud07291" },
+  { id: "w2653", en: "cucumber", ko: "오이", pos: "명사", exEn: "Can you slice the cucumber for the salad?", exKo: "샐러드에 넣게 오이 좀 썰어 줄래?", unit: "ud07291" },
+  { id: "w2654", en: "lettuce", ko: "상추, 양상추", pos: "명사", exEn: "I put some lettuce on my sandwich.", exKo: "샌드위치에 상추를 좀 넣었어.", unit: "ud07291" },
+  { id: "w2655", en: "jar", ko: "병, 단지", pos: "명사", exEn: "There's a jar of jam in the fridge.", exKo: "냉장고에 잼 한 병 있어.", unit: "ud07291" },
+  { id: "w2656", en: "backyard", ko: "뒷마당", pos: "명사", exEn: "The kids are playing in the backyard.", exKo: "애들이 뒷마당에서 놀고 있어.", unit: "ud07291" },
+  { id: "w2657", en: "needle", ko: "바늘", pos: "명사", exEn: "I need a needle and thread to fix this.", exKo: "이거 고치려면 바늘하고 실이 필요해.", unit: "ud07291" },
+  { id: "w2658", en: "cap", ko: "(챙 달린) 모자, 뚜껑", pos: "명사", exEn: "He always wears a baseball cap.", exKo: "그는 늘 야구 모자를 쓰고 다녀.", unit: "ud07291" },
+  { id: "w2659", en: "boots", ko: "부츠, 장화", pos: "명사", exEn: "Put on your boots—it's snowing.", exKo: "부츠 신어, 눈 와.", unit: "ud07291" },
+  { id: "w2660", en: "stamp", ko: "우표", pos: "명사", exEn: "I need a stamp to mail this letter.", exKo: "이 편지 부치려면 우표가 필요해.", unit: "ud07291" },
+  { id: "w2661", en: "teamwork", ko: "팀워크, 협동", pos: "명사", exEn: "Winning this takes real teamwork.", exKo: "이걸 해내려면 진짜 팀워크가 필요해.", unit: "ud07292" },
+  { id: "w2662", en: "feedback", ko: "피드백, (개선을 위한) 의견", pos: "명사", exEn: "Thanks for the feedback on my draft.", exKo: "내 초안에 대한 의견 고마워.", unit: "ud07292" },
+  { id: "w2663", en: "checklist", ko: "체크리스트, 점검표", pos: "명사", exEn: "I made a checklist before the trip.", exKo: "여행 전에 체크리스트를 만들었어.", unit: "ud07292" },
+  { id: "w2664", en: "agenda", ko: "안건, (회의) 논의 사항", pos: "명사", exEn: "What's on the agenda for today's meeting?", exKo: "오늘 회의 안건이 뭐야?", unit: "ud07292" },
+  { id: "w2665", en: "spreadsheet", ko: "스프레드시트, 표 계산 문서", pos: "명사", exEn: "I tracked our budget in a spreadsheet.", exKo: "우리 예산을 스프레드시트로 관리했어.", unit: "ud07292" },
+  { id: "w2666", en: "printout", ko: "출력물, 프린트한 종이", pos: "명사", exEn: "Can you bring a printout of the report?", exKo: "그 보고서 출력물 좀 가져다줄래?", unit: "ud07292" },
+  { id: "w2667", en: "scanner", ko: "스캐너", pos: "명사", exEn: "Use the scanner to save the document.", exKo: "스캐너로 그 문서를 저장해.", unit: "ud07292" },
+  { id: "w2668", en: "adapter", ko: "어댑터, (전원) 변환기", pos: "명사", exEn: "Don't forget a travel adapter for Europe.", exKo: "유럽 갈 때 여행용 어댑터 잊지 마.", unit: "ud07292" },
+  { id: "w2669", en: "cord", ko: "(전기) 코드, 전선", pos: "명사", exEn: "The charger cord is too short.", exKo: "충전기 선이 너무 짧아.", unit: "ud07292" },
+  { id: "w2670", en: "intern", ko: "인턴", pos: "명사", exEn: "She started as an intern last summer.", exKo: "그녀는 지난여름에 인턴으로 시작했어.", unit: "ud07292" },
+  { id: "w2671", en: "bottleneck", ko: "병목, (진행을 막는) 정체 지점", pos: "명사", exEn: "Approvals are the real bottleneck here.", exKo: "여기서 진짜 걸림돌은 승인 단계야.", unit: "ud07293" },
+  { id: "w2672", en: "workaround", ko: "임시 해결책, 우회 방법", pos: "명사", exEn: "We found a quick workaround for the bug.", exKo: "우리는 그 버그의 임시 해결책을 금방 찾았어.", unit: "ud07293" },
+  { id: "w2673", en: "tradeoff", ko: "(장단점의) 맞교환, 절충", pos: "명사", exEn: "There's always a tradeoff between speed and quality.", exKo: "속도와 품질 사이에는 늘 맞바꿔야 하는 게 있어.", unit: "ud07293" },
+  { id: "w2674", en: "upkeep", ko: "유지 관리, 유지비", pos: "명사", exEn: "An old house needs a lot of upkeep.", exKo: "오래된 집은 유지 관리가 많이 들어.", unit: "ud07293" },
+  { id: "w2675", en: "downturn", ko: "(경기) 침체, 하락", pos: "명사", exEn: "Sales dropped during the economic downturn.", exKo: "경기 침체 때 매출이 떨어졌어.", unit: "ud07293" },
+  { id: "w2676", en: "breakthrough", ko: "돌파구, 획기적 발전", pos: "명사", exEn: "The team made a big breakthrough in the research.", exKo: "그 팀은 연구에서 큰 돌파구를 마련했어.", unit: "ud07293" },
+  { id: "w2677", en: "turnout", ko: "참가자 수, 투표율", pos: "명사", exEn: "The turnout for the event was huge.", exKo: "그 행사에 사람이 엄청 많이 왔어.", unit: "ud07293" },
+  { id: "w2678", en: "fallout", ko: "(부정적) 여파, 후유증", pos: "명사", exEn: "The company is still dealing with the fallout.", exKo: "그 회사는 아직도 그 여파를 수습하고 있어.", unit: "ud07293" },
+  { id: "w2679", en: "crackdown", ko: "(강력) 단속, 엄중 조치", pos: "명사", exEn: "There's a crackdown on illegal parking downtown.", exKo: "시내에서 불법 주차 단속이 벌어지고 있어.", unit: "ud07293" },
+  { id: "w2680", en: "standoff", ko: "대치, 교착 상태", pos: "명사", exEn: "The negotiations ended in a standoff.", exKo: "협상은 교착 상태로 끝났어.", unit: "ud07293" },
+  { id: "w2681", en: "brusque", ko: "퉁명스러운, 무뚝뚝한", pos: "형용사", exEn: "His brusque reply caught me off guard.", exKo: "그의 퉁명스러운 대답에 좀 당황했어.", unit: "ud07294" },
+  { id: "w2682", en: "jaded", ko: "싫증 난, 무덤덤해진", pos: "형용사", exEn: "After years of travel, she felt jaded about it.", exKo: "몇 년을 여행하고 나니 그녀는 그게 시들해졌어.", unit: "ud07294" },
+  { id: "w2683", en: "brazen", ko: "뻔뻔한, 대담한", pos: "형용사", exEn: "He told a brazen lie without even blinking.", exKo: "그는 눈 하나 깜짝 안 하고 뻔뻔한 거짓말을 했어.", unit: "ud07294" },
+  { id: "w2684", en: "coy", ko: "짐짓 수줍은 척하는, 내숭 떠는", pos: "형용사", exEn: "She got coy when I asked about her plans.", exKo: "그녀는 계획을 묻자 짐짓 말을 아꼈어.", unit: "ud07294" },
+  { id: "w2685", en: "demure", ko: "얌전한, 다소곳한", pos: "형용사", exEn: "She gave a demure little smile.", exKo: "그녀는 다소곳하게 살짝 미소를 지었어.", unit: "ud07294" },
+  { id: "w2686", en: "affable", ko: "서글서글한, 붙임성 있는", pos: "형용사", exEn: "Our new boss is really affable and easy to talk to.", exKo: "새 상사는 정말 서글서글하고 말 붙이기 편해.", unit: "ud07294" },
+  { id: "w2687", en: "taciturn", ko: "말수가 적은, 과묵한", pos: "형용사", exEn: "He's taciturn, but a good listener.", exKo: "그는 말수가 적지만 남의 말은 잘 들어 줘.", unit: "ud07294" },
+  { id: "w2688", en: "petulant", ko: "토라진, 심통 사나운", pos: "형용사", exEn: "She got petulant when things didn't go her way.", exKo: "그녀는 일이 뜻대로 안 되자 토라졌어.", unit: "ud07294" },
+  { id: "w2689", en: "fastidious", ko: "까다로운, 꼼꼼히 따지는", pos: "형용사", exEn: "He's fastidious about keeping his desk neat.", exKo: "그는 책상을 깔끔하게 유지하는 데 아주 까다로워.", unit: "ud07294" },
+  { id: "w2690", en: "obstinate", ko: "고집 센, 완고한", pos: "형용사", exEn: "The child was obstinate and refused to move.", exKo: "그 아이는 고집스럽게 꼼짝도 안 하려 했어.", unit: "ud07294" }
+]);
 // end of data-daily.js
