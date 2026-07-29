@@ -1010,4 +1010,52 @@
   { id: "w2689", en: "fastidious", ko: "까다로운, 꼼꼼히 따지는", pos: "형용사", exEn: "He's fastidious about keeping his desk neat.", exKo: "그는 책상을 깔끔하게 유지하는 데 아주 까다로워.", unit: "ud07294" },
   { id: "w2690", en: "obstinate", ko: "고집 센, 완고한", pos: "형용사", exEn: "The child was obstinate and refused to move.", exKo: "그 아이는 고집스럽게 꼼짝도 안 하려 했어.", unit: "ud07294" }
 ]);
+[].push.apply(UNITS, [
+  { id: "ud07301", level: "lv1", title: "데일리 7/30 · 기초" },
+  { id: "ud07302", level: "lv2", title: "데일리 7/30 · 중급" },
+  { id: "ud07303", level: "lv3", title: "데일리 7/30 · 고급" },
+  { id: "ud07304", level: "lv4", title: "데일리 7/30 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2691", en: "teacher", ko: "선생님, 교사", pos: "명사", exEn: "My teacher gave us a lot of homework today.", exKo: "선생님이 오늘 숙제를 잔뜩 내주셨어.", unit: "ud07301" },
+  { id: "w2692", en: "nurse", ko: "간호사", pos: "명사", exEn: "The nurse checked my temperature.", exKo: "간호사가 내 체온을 쟀어.", unit: "ud07301" },
+  { id: "w2693", en: "driver", ko: "운전자, 기사", pos: "명사", exEn: "The bus driver was really kind.", exKo: "버스 기사님이 아주 친절했어.", unit: "ud07301" },
+  { id: "w2694", en: "farmer", ko: "농부", pos: "명사", exEn: "The farmer grows rice and corn.", exKo: "그 농부는 쌀과 옥수수를 길러.", unit: "ud07301" },
+  { id: "w2695", en: "waiter", ko: "웨이터, 종업원", pos: "명사", exEn: "The waiter brought us some water.", exKo: "종업원이 우리에게 물을 가져다줬어.", unit: "ud07301" },
+  { id: "w2696", en: "button", ko: "단추, 버튼", pos: "명사", exEn: "Press the button to start the machine.", exKo: "기계를 켜려면 버튼을 눌러.", unit: "ud07301" },
+  { id: "w2697", en: "basket", ko: "바구니", pos: "명사", exEn: "She put the apples in a basket.", exKo: "그녀는 사과를 바구니에 담았어.", unit: "ud07301" },
+  { id: "w2698", en: "candle", ko: "양초", pos: "명사", exEn: "We lit a candle on the cake.", exKo: "우리는 케이크에 초를 켰어.", unit: "ud07301" },
+  { id: "w2699", en: "catch", ko: "잡다, 받다", pos: "동사", exEn: "Can you catch the ball?", exKo: "공 받을 수 있어?", unit: "ud07301" },
+  { id: "w2700", en: "throw", ko: "던지다", pos: "동사", exEn: "Don't throw the ball in the house.", exKo: "집 안에서 공 던지지 마.", unit: "ud07301" },
+  { id: "w2701", en: "beverage", ko: "음료", pos: "명사", exEn: "Would you like a hot or cold beverage?", exKo: "따뜻한 음료 드릴까요, 차가운 걸로 드릴까요?", unit: "ud07302" },
+  { id: "w2702", en: "appetizer", ko: "전채, 애피타이저", pos: "명사", exEn: "Let's order an appetizer before the main course.", exKo: "메인 요리 전에 애피타이저 하나 시키자.", unit: "ud07302" },
+  { id: "w2703", en: "messy", ko: "지저분한, 엉망인", pos: "형용사", exEn: "Sorry, my room is a bit messy right now.", exKo: "미안, 지금 방이 좀 지저분해.", unit: "ud07302" },
+  { id: "w2704", en: "tidy", ko: "깔끔한, 잘 정돈된", pos: "형용사", exEn: "She keeps her desk really tidy.", exKo: "그녀는 책상을 아주 깔끔하게 유지해.", unit: "ud07302" },
+  { id: "w2705", en: "spotless", ko: "티끌 하나 없이 깨끗한", pos: "형용사", exEn: "The kitchen was spotless after they cleaned.", exKo: "청소하고 나니 부엌이 티끌 하나 없이 깨끗했어.", unit: "ud07302" },
+  { id: "w2706", en: "subway", ko: "지하철", pos: "명사", exEn: "I take the subway to work every day.", exKo: "나는 매일 지하철로 출근해.", unit: "ud07302" },
+  { id: "w2707", en: "platform", ko: "(역의) 승강장", pos: "명사", exEn: "The train leaves from platform three.", exKo: "그 기차는 3번 승강장에서 출발해.", unit: "ud07302" },
+  { id: "w2708", en: "postcard", ko: "엽서", pos: "명사", exEn: "I sent you a postcard from Paris.", exKo: "파리에서 너한테 엽서 보냈어.", unit: "ud07302" },
+  { id: "w2709", en: "babysit", ko: "아이를 봐 주다", pos: "동사", exEn: "Could you babysit my kids on Friday night?", exKo: "금요일 밤에 우리 애들 좀 봐 줄 수 있어?", unit: "ud07302" },
+  { id: "w2710", en: "clog", ko: "막다, 막히게 하다", pos: "동사", exEn: "Hair can clog the drain over time.", exKo: "머리카락이 시간이 지나면 배수구를 막을 수 있어.", unit: "ud07302" },
+  { id: "w2711", en: "underestimate", ko: "과소평가하다, 얕보다", pos: "동사", exEn: "Don't underestimate how hard this test is.", exKo: "이 시험이 얼마나 어려운지 얕보지 마.", unit: "ud07303" },
+  { id: "w2712", en: "crave", ko: "몹시 원하다, 간절히 당기다", pos: "동사", exEn: "I've been craving spicy food all week.", exKo: "일주일 내내 매운 게 당겨.", unit: "ud07303" },
+  { id: "w2713", en: "bittersweet", ko: "시원섭섭한, 씁쓸하면서도 달콤한", pos: "형용사", exEn: "Graduating was a bittersweet moment for me.", exKo: "졸업은 나한텐 시원섭섭한 순간이었어.", unit: "ud07303" },
+  { id: "w2714", en: "burnout", ko: "번아웃, 극도의 피로", pos: "명사", exEn: "She took a break to recover from burnout.", exKo: "그녀는 번아웃에서 회복하려고 좀 쉬었어.", unit: "ud07303" },
+  { id: "w2715", en: "unwind", ko: "긴장을 풀다, 느긋하게 쉬다", pos: "동사", exEn: "I like to unwind with a book after work.", exKo: "나는 퇴근하고 책 읽으면서 긴장 푸는 걸 좋아해.", unit: "ud07303" },
+  { id: "w2716", en: "outweigh", ko: "~보다 더 크다, 능가하다", pos: "동사", exEn: "The benefits outweigh the risks here.", exKo: "여기선 이점이 위험보다 더 커.", unit: "ud07303" },
+  { id: "w2717", en: "bandwidth", ko: "(일을 감당할) 여력, 여유", pos: "명사", exEn: "I don't have the bandwidth to take on more work.", exKo: "일을 더 맡을 여력이 없어.", unit: "ud07303" },
+  { id: "w2718", en: "call off", ko: "취소하다, 중단하다", pos: "구동사", exEn: "They had to call off the game because of rain.", exKo: "비 때문에 경기를 취소해야 했어.", unit: "ud07303" },
+  { id: "w2719", en: "overrated", ko: "과대평가된", pos: "형용사", exEn: "That movie is pretty overrated, if you ask me.", exKo: "내 생각엔 그 영화 꽤 과대평가됐어.", unit: "ud07303" },
+  { id: "w2720", en: "hectic", ko: "정신없이 바쁜", pos: "형용사", exEn: "This week has been really hectic at work.", exKo: "이번 주 회사가 정말 정신없이 바빴어.", unit: "ud07303" },
+  { id: "w2721", en: "nuanced", ko: "미묘한 차이가 있는, 섬세한", pos: "형용사", exEn: "Her argument was more nuanced than I expected.", exKo: "그녀의 주장은 내 생각보다 훨씬 섬세했어.", unit: "ud07304" },
+  { id: "w2722", en: "overhyped", ko: "지나치게 띄워진, 과대 포장된", pos: "형용사", exEn: "The new phone felt overhyped to me.", exKo: "그 신제품 폰은 나한텐 너무 띄워진 느낌이었어.", unit: "ud07304" },
+  { id: "w2723", en: "lowkey", ko: "은근히, 남몰래 (요즘 구어체)", pos: "부사", exEn: "I'm lowkey excited about the trip.", exKo: "나 그 여행 은근히 기대돼.", unit: "ud07304" },
+  { id: "w2724", en: "dismissive", ko: "무시하는, 대수롭지 않게 여기는", pos: "형용사", exEn: "He was dismissive of my idea in the meeting.", exKo: "그는 회의에서 내 아이디어를 대수롭지 않게 넘겼어.", unit: "ud07304" },
+  { id: "w2725", en: "earnest", ko: "진지한, 진심 어린", pos: "형용사", exEn: "She made an earnest effort to fix things.", exKo: "그녀는 상황을 바로잡으려고 진심으로 애썼어.", unit: "ud07304" },
+  { id: "w2726", en: "wear thin", ko: "(인내심 등이) 바닥나다, 슬슬 안 통하다", pos: "숙어", exEn: "His excuses are starting to wear thin.", exKo: "그의 변명도 이제 슬슬 안 통하기 시작해.", unit: "ud07304" },
+  { id: "w2727", en: "draw the line", ko: "선을 긋다, 한계를 정하다", pos: "숙어", exEn: "I don't mind helping, but I draw the line at lending money.", exKo: "돕는 건 괜찮은데, 돈 빌려주는 건 선을 그어.", unit: "ud07304" },
+  { id: "w2728", en: "take a rain check", ko: "다음을 기약하다, 나중으로 미루다", pos: "숙어", exEn: "Can I take a rain check on dinner tonight?", exKo: "오늘 저녁은 다음으로 미뤄도 될까?", unit: "ud07304" },
+  { id: "w2729", en: "dawdle", ko: "꾸물거리다, 시간을 끌다", pos: "동사", exEn: "Stop dawdling or we'll miss the bus.", exKo: "꾸물거리지 마, 안 그럼 버스 놓쳐.", unit: "ud07304" },
+  { id: "w2730", en: "hedge", ko: "얼버무리다, 확답을 피하다", pos: "동사", exEn: "He hedged when I asked if he would commit.", exKo: "그는 확실히 할 거냐고 묻자 얼버무렸어.", unit: "ud07304" }
+]);
 // end of data-daily.js

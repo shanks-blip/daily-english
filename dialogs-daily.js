@@ -211,4 +211,17 @@
     { sp: "B", en: "Works for me. Don't worry about a thing—she'll be in good hands.", ko: "난 좋아. 아무 걱정 하지 마. 잘 돌봐 줄게." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0730", level: "lv3", icon: "📦", title: "친구에게 이사 도와달라 부탁하기",
+  lines: [
+    { sp: "A", en: "Hey, are you free this Saturday? I could really use a hand moving into my new place.", ko: "저기, 이번 토요일에 시간 돼? 새 집으로 이사하는데 손 좀 빌렸으면 해서." },
+    { sp: "B", en: "Yeah, I'm free. How much stuff are we talking about?", ko: "응, 시간 돼. 짐이 얼마나 되는데?" },
+    { sp: "A", en: "Not too much—mostly boxes and a couple of pieces of furniture. It shouldn't take all day.", ko: "그렇게 많진 않아. 대부분 상자들이랑 가구 몇 개 정도. 하루 종일 걸리진 않을 거야." },
+    { sp: "B", en: "Okay, count me in. Should I bring my brother? He could pitch in with the heavy stuff.", ko: "좋아, 나도 낄게. 우리 형 데려올까? 무거운 건 형이 거들어 줄 수 있어." },
+    { sp: "A", en: "That would be a lifesaver. The couch is the only thing I'm worried about.", ko: "그럼 완전 살았지. 소파가 유일하게 걱정되는 거야." },
+    { sp: "B", en: "No worries, we'll figure it out. What time should we swing by?", ko: "걱정 마, 어떻게든 될 거야. 몇 시에 들르면 돼?" },
+    { sp: "A", en: "Around nine, if that's not too early. I'll have coffee and pizza to make up for it.", ko: "너무 이르지 않으면 아홉 시쯤. 대신 커피랑 피자 준비해 놓을게." },
+    { sp: "B", en: "Sold. See you Saturday morning.", ko: "콜. 토요일 아침에 봐." }
+  ]
+}]);
 // end of dialogs-daily.js
