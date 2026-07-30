@@ -1058,4 +1058,53 @@
   { id: "w2729", en: "dawdle", ko: "꾸물거리다, 시간을 끌다", pos: "동사", exEn: "Stop dawdling or we'll miss the bus.", exKo: "꾸물거리지 마, 안 그럼 버스 놓쳐.", unit: "ud07304" },
   { id: "w2730", en: "hedge", ko: "얼버무리다, 확답을 피하다", pos: "동사", exEn: "He hedged when I asked if he would commit.", exKo: "그는 확실히 할 거냐고 묻자 얼버무렸어.", unit: "ud07304" }
 ]);
+
+[].push.apply(UNITS, [
+  { id: "ud07311", level: "lv1", title: "데일리 7/31 · 기초" },
+  { id: "ud07312", level: "lv2", title: "데일리 7/31 · 중급" },
+  { id: "ud07313", level: "lv3", title: "데일리 7/31 · 고급" },
+  { id: "ud07314", level: "lv4", title: "데일리 7/31 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2731", en: "bucket", ko: "양동이, 버킷", pos: "명사", exEn: "Fill the bucket with water and bring it here.", exKo: "양동이에 물을 채워서 여기로 가져와.", unit: "ud07311" },
+  { id: "w2732", en: "rope", ko: "밧줄, 로프", pos: "명사", exEn: "We used a rope to tie the boxes together.", exKo: "우리는 상자들을 묶으려고 밧줄을 썼어.", unit: "ud07311" },
+  { id: "w2733", en: "rabbit", ko: "토끼", pos: "명사", exEn: "My little sister keeps a pet rabbit at home.", exKo: "내 여동생은 집에서 토끼를 키워.", unit: "ud07311" },
+  { id: "w2734", en: "goat", ko: "염소", pos: "명사", exEn: "The goat was eating grass by the fence.", exKo: "염소가 울타리 옆에서 풀을 뜯고 있었어.", unit: "ud07311" },
+  { id: "w2735", en: "frog", ko: "개구리", pos: "명사", exEn: "We heard a frog croaking near the pond.", exKo: "우리는 연못 근처에서 개구리 우는 소리를 들었어.", unit: "ud07311" },
+  { id: "w2736", en: "ankle", ko: "발목", pos: "명사", exEn: "I twisted my ankle while running yesterday.", exKo: "어제 뛰다가 발목을 삐었어.", unit: "ud07311" },
+  { id: "w2737", en: "wrist", ko: "손목", pos: "명사", exEn: "She wears a watch on her left wrist.", exKo: "그녀는 왼쪽 손목에 시계를 차.", unit: "ud07311" },
+  { id: "w2738", en: "cheek", ko: "볼, 뺨", pos: "명사", exEn: "The baby's cheeks turned red in the cold.", exKo: "추위에 아기 볼이 빨개졌어.", unit: "ud07311" },
+  { id: "w2739", en: "lip", ko: "입술", pos: "명사", exEn: "My lips get dry every winter.", exKo: "겨울마다 입술이 건조해져.", unit: "ud07311" },
+  { id: "w2740", en: "tongue", ko: "혀", pos: "명사", exEn: "I burned my tongue on the hot soup.", exKo: "뜨거운 국에 혀를 데었어.", unit: "ud07311" },
+  { id: "w2741", en: "appetite", ko: "식욕, 입맛", pos: "명사", exEn: "I lost my appetite after the long flight.", exKo: "긴 비행 뒤에 입맛을 잃었어.", unit: "ud07312" },
+  { id: "w2742", en: "humidity", ko: "습도, 습기", pos: "명사", exEn: "The humidity makes summer here feel even hotter.", exKo: "습도 때문에 여기 여름은 더 덥게 느껴져.", unit: "ud07312" },
+  { id: "w2743", en: "itinerary", ko: "여행 일정(표)", pos: "명사", exEn: "Can you send me the itinerary for our trip?", exKo: "우리 여행 일정표 좀 보내줄래?", unit: "ud07312" },
+  { id: "w2744", en: "landmark", ko: "랜드마크, 눈에 띄는 명소", pos: "명사", exEn: "Let's meet in front of that famous landmark.", exKo: "그 유명한 랜드마크 앞에서 만나자.", unit: "ud07312" },
+  { id: "w2745", en: "passport", ko: "여권", pos: "명사", exEn: "Don't forget to bring your passport to the airport.", exKo: "공항에 여권 챙기는 거 잊지 마.", unit: "ud07312" },
+  { id: "w2746", en: "pantry", ko: "식료품 저장실, 팬트리", pos: "명사", exEn: "We keep snacks and canned food in the pantry.", exKo: "우리는 팬트리에 간식이랑 통조림을 보관해.", unit: "ud07312" },
+  { id: "w2747", en: "seasoning", ko: "양념, 조미료", pos: "명사", exEn: "This soup needs a bit more seasoning.", exKo: "이 국은 양념이 좀 더 필요해.", unit: "ud07312" },
+  { id: "w2748", en: "supervisor", ko: "상사, 감독관", pos: "명사", exEn: "I'll check with my supervisor before I decide.", exKo: "결정하기 전에 상사한테 확인해 볼게.", unit: "ud07312" },
+  { id: "w2749", en: "transaction", ko: "거래, 처리", pos: "명사", exEn: "The whole transaction only took a few minutes.", exKo: "거래 전체가 몇 분밖에 안 걸렸어.", unit: "ud07312" },
+  { id: "w2750", en: "turbulence", ko: "(비행 중) 난기류", pos: "명사", exEn: "We hit some turbulence over the mountains.", exKo: "산 위를 지날 때 난기류를 좀 만났어.", unit: "ud07312" },
+  { id: "w2751", en: "grapple", ko: "씨름하다, 고심하다", pos: "동사", exEn: "She's still grappling with how to break the news.", exKo: "그녀는 그 소식을 어떻게 전할지 아직 고심하고 있어.", unit: "ud07313" },
+  { id: "w2752", en: "juggle", ko: "(여러 일을) 동시에 해내다", pos: "동사", exEn: "He juggles a full-time job and night classes.", exKo: "그는 정규직 일과 야간 수업을 동시에 병행해.", unit: "ud07313" },
+  { id: "w2753", en: "escalate", ko: "확대되다, 악화되다", pos: "동사", exEn: "The argument quickly escalated into a fight.", exKo: "말다툼이 순식간에 싸움으로 번졌어.", unit: "ud07313" },
+  { id: "w2754", en: "sympathize", ko: "공감하다, 동정하다", pos: "동사", exEn: "I really sympathize with what you're going through.", exKo: "네가 겪고 있는 일에 정말 공감해.", unit: "ud07313" },
+  { id: "w2755", en: "wrap up", ko: "마무리하다, 끝내다", pos: "구동사", exEn: "Let's wrap up the meeting and grab lunch.", exKo: "회의 마무리하고 점심 먹으러 가자.", unit: "ud07313" },
+  { id: "w2756", en: "pull off", ko: "(어려운 일을) 해내다", pos: "구동사", exEn: "I can't believe she pulled off such a big project alone.", exKo: "그녀가 그렇게 큰 프로젝트를 혼자 해냈다니 믿기지 않아.", unit: "ud07313" },
+  { id: "w2757", en: "crack down", ko: "강력히 단속하다", pos: "구동사", exEn: "The city is cracking down on illegal parking.", exKo: "시에서 불법 주차를 강력히 단속하고 있어.", unit: "ud07313" },
+  { id: "w2758", en: "own up", ko: "(잘못을) 인정하다, 실토하다", pos: "구동사", exEn: "He finally owned up to his mistake.", exKo: "그는 결국 자기 실수를 인정했어.", unit: "ud07313" },
+  { id: "w2759", en: "provoke", ko: "자극하다, 도발하다", pos: "동사", exEn: "Don't provoke him when he's already upset.", exKo: "그가 이미 화나 있을 때 자극하지 마.", unit: "ud07313" },
+  { id: "w2760", en: "tolerate", ko: "참다, 용인하다", pos: "동사", exEn: "I can't tolerate that kind of rude behavior.", exKo: "난 그런 무례한 행동은 못 참아.", unit: "ud07313" },
+  { id: "w2761", en: "chicken out", ko: "겁먹고 그만두다, 꽁무니 빼다", pos: "숙어", exEn: "He was going to ask her out, but he chickened out.", exKo: "그는 그녀한테 데이트 신청하려다 겁먹고 그만뒀어.", unit: "ud07314" },
+  { id: "w2762", en: "cave in", ko: "(압박에) 굴복하다, 못 이기다", pos: "구동사", exEn: "She finally caved in and let the kids stay up late.", exKo: "그녀는 결국 못 이기고 애들이 늦게까지 안 자게 놔뒀어.", unit: "ud07314" },
+  { id: "w2763", en: "sidestep", ko: "(질문·문제를) 슬쩍 피하다", pos: "동사", exEn: "The mayor sidestepped every tough question.", exKo: "시장은 곤란한 질문마다 슬쩍 피해 갔어.", unit: "ud07314" },
+  { id: "w2764", en: "condescend", ko: "잘난 척하며 대하다, 아랫사람 취급하다", pos: "동사", exEn: "I hate the way he condescends to new employees.", exKo: "그가 신입 사원들을 아랫사람 취급하는 게 정말 싫어.", unit: "ud07314" },
+  { id: "w2765", en: "patronize", ko: "가르치려 들다, 아랫사람 대하듯 하다", pos: "동사", exEn: "Don't patronize me—I've done this before.", exKo: "날 가르치려 들지 마, 나도 전에 해봤어.", unit: "ud07314" },
+  { id: "w2766", en: "wince", ko: "(아파서·민망해서) 움찔하다", pos: "동사", exEn: "She winced when the doctor touched her bruise.", exKo: "의사가 멍을 건드리자 그녀는 움찔했어.", unit: "ud07314" },
+  { id: "w2767", en: "yearn", ko: "갈망하다, 그리워하다", pos: "동사", exEn: "After years abroad, he yearned for home cooking.", exKo: "몇 년을 해외에서 지낸 뒤, 그는 집밥을 그리워했어.", unit: "ud07314" },
+  { id: "w2768", en: "covet", ko: "(남의 것을) 탐내다", pos: "동사", exEn: "A lot of people covet that corner office.", exKo: "많은 사람들이 그 코너 사무실을 탐내.", unit: "ud07314" },
+  { id: "w2769", en: "ruthless", ko: "무자비한, 인정사정없는", pos: "형용사", exEn: "She's ruthless when it comes to closing a deal.", exKo: "그녀는 거래를 성사시킬 때만큼은 인정사정없어.", unit: "ud07314" },
+  { id: "w2770", en: "diplomatic", ko: "(사람을 대하는 게) 노련한, 요령 있는", pos: "형용사", exEn: "He found a diplomatic way to turn down the offer.", exKo: "그는 요령 있게 그 제안을 거절할 방법을 찾았어.", unit: "ud07314" }
+]);
 // end of data-daily.js
