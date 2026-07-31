@@ -224,4 +224,17 @@
     { sp: "B", en: "Sold. See you Saturday morning.", ko: "콜. 토요일 아침에 봐." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0801", level: "lv3", icon: "🧾", title: "식당에서 계산서 나눠 내기",
+  lines: [
+    { sp: "A", en: "That was a great meal. Should we just split the bill down the middle?", ko: "정말 잘 먹었다. 그냥 계산서 반씩 나눠서 낼까?" },
+    { sp: "B", en: "Honestly, I only had the salad, so maybe we should figure out who had what.", ko: "솔직히 난 샐러드만 먹어서, 누가 뭘 먹었는지 따져 보는 게 나을 것 같아." },
+    { sp: "A", en: "Fair enough. You chip in for your salad and a drink, and I'll cover the rest.", ko: "그게 맞겠다. 넌 샐러드랑 음료 값만 보태고, 나머지는 내가 낼게." },
+    { sp: "B", en: "Works for me. Want me to leave the tip so it evens out?", ko: "난 좋아. 그럼 균형 맞게 팁은 내가 남길까?" },
+    { sp: "A", en: "That'd be perfect. Do you want to just Venmo me your share later?", ko: "그럼 딱 좋겠다. 네 몫은 이따가 그냥 벤모로 보내 줄래?" },
+    { sp: "B", en: "Sure, I'll send it over as soon as we're back. Thanks for picking up the bigger part.", ko: "그래, 돌아가자마자 보낼게. 더 많이 내줘서 고마워." },
+    { sp: "A", en: "No problem—you can get the next one. Let's do this again soon.", ko: "괜찮아, 다음엔 네가 사면 돼. 조만간 또 오자." }
+  ]
+}]);
+
 // end of dialogs-daily.js

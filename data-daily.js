@@ -1107,4 +1107,54 @@
   { id: "w2769", en: "ruthless", ko: "무자비한, 인정사정없는", pos: "형용사", exEn: "She's ruthless when it comes to closing a deal.", exKo: "그녀는 거래를 성사시킬 때만큼은 인정사정없어.", unit: "ud07314" },
   { id: "w2770", en: "diplomatic", ko: "(사람을 대하는 게) 노련한, 요령 있는", pos: "형용사", exEn: "He found a diplomatic way to turn down the offer.", exKo: "그는 요령 있게 그 제안을 거절할 방법을 찾았어.", unit: "ud07314" }
 ]);
+
+[].push.apply(UNITS, [
+  { id: "ud08011", level: "lv1", title: "데일리 8/1 · 기초" },
+  { id: "ud08012", level: "lv2", title: "데일리 8/1 · 중급" },
+  { id: "ud08013", level: "lv3", title: "데일리 8/1 · 고급" },
+  { id: "ud08014", level: "lv4", title: "데일리 8/1 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2771", en: "puppy", ko: "강아지", pos: "명사", exEn: "Our new puppy chewed up one of my shoes.", exKo: "우리 새 강아지가 내 신발 한 짝을 다 물어뜯었어.", unit: "ud08011" },
+  { id: "w2772", en: "kitten", ko: "새끼 고양이", pos: "명사", exEn: "The kitten fell asleep in my lap.", exKo: "새끼 고양이가 내 무릎에서 잠들었어.", unit: "ud08011" },
+  { id: "w2773", en: "bee", ko: "벌", pos: "명사", exEn: "A bee landed on the flower next to me.", exKo: "벌 한 마리가 내 옆 꽃에 앉았어.", unit: "ud08011" },
+  { id: "w2774", en: "ant", ko: "개미", pos: "명사", exEn: "There are ants all over the kitchen floor.", exKo: "부엌 바닥에 개미가 잔뜩 있어.", unit: "ud08011" },
+  { id: "w2775", en: "hill", ko: "언덕", pos: "명사", exEn: "We rode our bikes down the hill.", exKo: "우리는 자전거를 타고 언덕을 내려갔어.", unit: "ud08011" },
+  { id: "w2776", en: "pond", ko: "연못", pos: "명사", exEn: "Some ducks were swimming in the pond.", exKo: "오리 몇 마리가 연못에서 헤엄치고 있었어.", unit: "ud08011" },
+  { id: "w2777", en: "seed", ko: "씨앗", pos: "명사", exEn: "She planted a few seeds in the garden.", exKo: "그녀는 정원에 씨앗 몇 개를 심었어.", unit: "ud08011" },
+  { id: "w2778", en: "nest", ko: "둥지", pos: "명사", exEn: "A bird built a nest under our roof.", exKo: "새 한 마리가 우리 지붕 밑에 둥지를 틀었어.", unit: "ud08011" },
+  { id: "w2779", en: "feather", ko: "깃털", pos: "명사", exEn: "I found a soft white feather on the ground.", exKo: "땅에서 부드러운 하얀 깃털을 하나 주웠어.", unit: "ud08011" },
+  { id: "w2780", en: "wing", ko: "날개", pos: "명사", exEn: "The bird spread its wings and flew away.", exKo: "새가 날개를 펼치고 날아갔어.", unit: "ud08011" },
+  { id: "w2781", en: "battery", ko: "건전지, 배터리", pos: "명사", exEn: "My phone battery is almost dead.", exKo: "내 폰 배터리가 거의 다 됐어.", unit: "ud08012" },
+  { id: "w2782", en: "barber", ko: "이발사", pos: "명사", exEn: "My barber always knows exactly how I like it.", exKo: "우리 이발사는 내가 어떻게 자르는 걸 좋아하는지 정확히 알아.", unit: "ud08012" },
+  { id: "w2783", en: "tailor", ko: "재단사, 수선사", pos: "명사", exEn: "I took the suit to a tailor to have it fixed.", exKo: "그 정장을 수선하려고 재단사한테 맡겼어.", unit: "ud08012" },
+  { id: "w2784", en: "vaccine", ko: "백신", pos: "명사", exEn: "I got my flu vaccine at the pharmacy.", exKo: "약국에서 독감 백신을 맞았어.", unit: "ud08012" },
+  { id: "w2785", en: "treadmill", ko: "러닝머신", pos: "명사", exEn: "I run on the treadmill when it rains.", exKo: "비 올 때는 러닝머신에서 뛰어.", unit: "ud08012" },
+  { id: "w2786", en: "renewal", ko: "갱신, 연장", pos: "명사", exEn: "My passport is up for renewal next month.", exKo: "내 여권은 다음 달에 갱신해야 해.", unit: "ud08012" },
+  { id: "w2787", en: "alarm", ko: "알람, 경보", pos: "명사", exEn: "I set an alarm for six in the morning.", exKo: "아침 여섯 시로 알람을 맞춰 놨어.", unit: "ud08012" },
+  { id: "w2788", en: "spice", ko: "향신료, 양념", pos: "명사", exEn: "This dish uses a lot of Indian spices.", exKo: "이 요리는 인도 향신료를 많이 써.", unit: "ud08012" },
+  { id: "w2789", en: "balcony", ko: "발코니", pos: "명사", exEn: "We had coffee out on the balcony.", exKo: "우리는 발코니에 나가서 커피를 마셨어.", unit: "ud08012" },
+  { id: "w2790", en: "driveway", ko: "(집) 진입로", pos: "명사", exEn: "He parked the car in the driveway.", exKo: "그는 진입로에 차를 세웠어.", unit: "ud08012" },
+  { id: "w2791", en: "confide", ko: "(비밀을) 털어놓다", pos: "동사", exEn: "She confided in me about her money troubles.", exKo: "그녀는 나한테 자기 돈 문제를 털어놨어.", unit: "ud08013" },
+  { id: "w2792", en: "vent", ko: "(감정을) 쏟아내다, 분풀이하다", pos: "동사", exEn: "He just needed to vent about his boss for a while.", exKo: "그는 그냥 잠깐 상사에 대해 분풀이할 데가 필요했던 거야.", unit: "ud08013" },
+  { id: "w2793", en: "bicker", ko: "(사소한 일로) 티격태격하다", pos: "동사", exEn: "The kids bickered over the last slice of pizza.", exKo: "애들이 마지막 피자 한 조각을 두고 티격태격했어.", unit: "ud08013" },
+  { id: "w2794", en: "mingle", ko: "(사람들과) 어울리다", pos: "동사", exEn: "Try to mingle a bit instead of standing in the corner.", exKo: "구석에 서 있지 말고 좀 어울려 봐.", unit: "ud08013" },
+  { id: "w2795", en: "loom", ko: "(안 좋은 일이) 다가오다, 어렴풋이 나타나다", pos: "동사", exEn: "The deadline is looming and I'm barely halfway done.", exKo: "마감이 코앞인데 겨우 절반밖에 못 끝냈어.", unit: "ud08013" },
+  { id: "w2796", en: "overlook", ko: "간과하다, 못 보고 넘어가다", pos: "동사", exEn: "I think we overlooked one small detail.", exKo: "우리가 작은 부분 하나를 놓친 것 같아.", unit: "ud08013" },
+  { id: "w2797", en: "improvise", ko: "즉흥적으로 하다, 임기응변하다", pos: "동사", exEn: "I forgot my notes, so I had to improvise the whole talk.", exKo: "메모를 깜빡해서 발표 전체를 즉흥으로 해야 했어.", unit: "ud08013" },
+  { id: "w2798", en: "freak out", ko: "기겁하다, 완전히 당황하다", pos: "구동사", exEn: "Don't freak out, but I dented the car a little.", exKo: "놀라지 말고 들어, 차를 살짝 찌그러뜨렸어.", unit: "ud08013" },
+  { id: "w2799", en: "slack off", ko: "게으름 피우다, 대충 하다", pos: "구동사", exEn: "He started slacking off once the boss left.", exKo: "상사가 나가자 그는 게으름을 피우기 시작했어.", unit: "ud08013" },
+  { id: "w2800", en: "blow over", ko: "(문제·소동이) 잠잠해지다", pos: "구동사", exEn: "Just wait a few days—this whole thing will blow over.", exKo: "며칠만 기다려 봐, 이 일도 다 잠잠해질 거야.", unit: "ud08013" },
+  { id: "w2801", en: "level-headed", ko: "침착한, 분별 있는", pos: "형용사", exEn: "We need someone level-headed to run the meeting.", exKo: "회의를 이끌 침착한 사람이 필요해.", unit: "ud08014" },
+  { id: "w2802", en: "two-faced", ko: "이중적인, 겉과 속이 다른", pos: "형용사", exEn: "I can't stand how two-faced she is with our friends.", exKo: "그녀가 우리 친구들한테 겉과 속이 다른 게 정말 못 참겠어.", unit: "ud08014" },
+  { id: "w2803", en: "hot-headed", ko: "다혈질의, 욱하는", pos: "형용사", exEn: "He's too hot-headed to handle customer complaints.", exKo: "그는 너무 다혈질이라 고객 불만을 처리하기 힘들어.", unit: "ud08014" },
+  { id: "w2804", en: "gutsy", ko: "배짱 있는, 대담한", pos: "형용사", exEn: "That was a gutsy move, quitting without another job lined up.", exKo: "다음 직장도 안 정하고 그만두다니, 참 배짱 있는 결정이었어.", unit: "ud08014" },
+  { id: "w2805", en: "touchy", ko: "(사람이) 예민한, (주제가) 민감한", pos: "형용사", exEn: "He gets touchy whenever you mention his ex.", exKo: "그는 전 여자친구 얘기만 나오면 예민해져.", unit: "ud08014" },
+  { id: "w2806", en: "spineless", ko: "줏대 없는, 겁 많은", pos: "형용사", exEn: "He was too spineless to stand up for his own team.", exKo: "그는 줏대가 없어서 자기 팀 편도 못 들었어.", unit: "ud08014" },
+  { id: "w2807", en: "drop the ball", ko: "(맡은 일을) 그르치다, 실수하다", pos: "숙어", exEn: "Sorry, I really dropped the ball on booking the venue.", exKo: "미안, 장소 예약 건은 내가 진짜 실수했어.", unit: "ud08014" },
+  { id: "w2808", en: "rock the boat", ko: "평지풍파를 일으키다, 문제를 만들다", pos: "숙어", exEn: "Everyone's happy, so let's not rock the boat.", exKo: "다들 만족하고 있으니 괜히 평지풍파 일으키지 말자.", unit: "ud08014" },
+  { id: "w2809", en: "let it slide", ko: "(그냥) 넘어가 주다, 눈감아 주다", pos: "숙어", exEn: "He was late again, but I decided to let it slide.", exKo: "그가 또 늦었지만 그냥 넘어가 주기로 했어.", unit: "ud08014" },
+  { id: "w2810", en: "blow off steam", ko: "스트레스를 풀다, 화를 삭이다", pos: "숙어", exEn: "I go for a run to blow off steam after work.", exKo: "나는 퇴근 후에 스트레스를 풀려고 달리기를 해.", unit: "ud08014" }
+]);
+
 // end of data-daily.js
