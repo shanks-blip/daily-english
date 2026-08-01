@@ -1157,4 +1157,53 @@
   { id: "w2810", en: "blow off steam", ko: "스트레스를 풀다, 화를 삭이다", pos: "숙어", exEn: "I go for a run to blow off steam after work.", exKo: "나는 퇴근 후에 스트레스를 풀려고 달리기를 해.", unit: "ud08014" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud08021", level: "lv1", title: "데일리 8/2 · 기초" },
+  { id: "ud08022", level: "lv2", title: "데일리 8/2 · 중급" },
+  { id: "ud08023", level: "lv3", title: "데일리 8/2 · 고급" },
+  { id: "ud08024", level: "lv4", title: "데일리 8/2 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2811", en: "sunny", ko: "화창한, 맑은", pos: "형용사", exEn: "It's really sunny today, so let's go to the park.", exKo: "오늘 진짜 화창하니까 공원에 가자.", unit: "ud08021" },
+  { id: "w2812", en: "cloudy", ko: "흐린, 구름 낀", pos: "형용사", exEn: "It's cloudy this morning, but it won't rain.", exKo: "오늘 아침엔 흐리지만 비는 안 올 거야.", unit: "ud08021" },
+  { id: "w2813", en: "windy", ko: "바람이 부는", pos: "형용사", exEn: "It's so windy that my hat blew off.", exKo: "바람이 너무 세서 모자가 날아갔어.", unit: "ud08021" },
+  { id: "w2814", en: "snowy", ko: "눈이 오는, 눈 덮인", pos: "형용사", exEn: "The roads are snowy, so please drive slowly.", exKo: "길에 눈이 쌓였으니까 천천히 운전해.", unit: "ud08021" },
+  { id: "w2815", en: "gloves", ko: "장갑", pos: "명사", exEn: "Wear your gloves—it's freezing outside.", exKo: "밖이 엄청 추우니까 장갑 껴.", unit: "ud08021" },
+  { id: "w2816", en: "mug", ko: "머그컵", pos: "명사", exEn: "She poured some coffee into a big mug.", exKo: "그녀는 큰 머그컵에 커피를 따랐어.", unit: "ud08021" },
+  { id: "w2817", en: "fridge", ko: "냉장고", pos: "명사", exEn: "There's some juice in the fridge if you want.", exKo: "마시고 싶으면 냉장고에 주스 좀 있어.", unit: "ud08021" },
+  { id: "w2818", en: "lamp", ko: "전등, 스탠드", pos: "명사", exEn: "Can you turn on the lamp? It's dark in here.", exKo: "전등 좀 켜 줄래? 여기 어두워.", unit: "ud08021" },
+  { id: "w2819", en: "gate", ko: "문, 대문", pos: "명사", exEn: "Please close the gate when you leave.", exKo: "나갈 때 대문 좀 닫아 줘.", unit: "ud08021" },
+  { id: "w2820", en: "fence", ko: "울타리, 담", pos: "명사", exEn: "The kids climbed over the fence to get the ball.", exKo: "아이들이 공을 주우러 울타리를 넘어갔어.", unit: "ud08021" },
+  { id: "w2821", en: "complaint", ko: "불평, 항의, 민원", pos: "명사", exEn: "I filed a complaint about the noisy neighbors.", exKo: "시끄러운 이웃 때문에 항의를 넣었어.", unit: "ud08022" },
+  { id: "w2822", en: "cancellation", ko: "취소", pos: "명사", exEn: "There's a fee if you make a last-minute cancellation.", exKo: "임박해서 취소하면 수수료가 있어.", unit: "ud08022" },
+  { id: "w2823", en: "refundable", ko: "환불 가능한", pos: "형용사", exEn: "Is this ticket refundable if my plans change?", exKo: "계획이 바뀌면 이 표 환불되나요?", unit: "ud08022" },
+  { id: "w2824", en: "installment", ko: "할부(금)", pos: "명사", exEn: "I paid for the laptop in six installments.", exKo: "노트북을 6개월 할부로 샀어.", unit: "ud08022" },
+  { id: "w2825", en: "expiration", ko: "만료, 유통기한", pos: "명사", exEn: "Check the expiration date before you drink the milk.", exKo: "우유 마시기 전에 유통기한 확인해.", unit: "ud08022" },
+  { id: "w2826", en: "nausea", ko: "메스꺼움, 구역질", pos: "명사", exEn: "The medicine really helped with the nausea.", exKo: "그 약이 메스꺼움에 정말 도움이 됐어.", unit: "ud08022" },
+  { id: "w2827", en: "swollen", ko: "부은, 부어오른", pos: "형용사", exEn: "My ankle is swollen after the fall.", exKo: "넘어진 뒤로 발목이 부었어.", unit: "ud08022" },
+  { id: "w2828", en: "spoiled", ko: "상한, (음식이) 썩은", pos: "형용사", exEn: "Throw it out—the meat smells spoiled.", exKo: "버려, 고기에서 상한 냄새 나.", unit: "ud08022" },
+  { id: "w2829", en: "fragile", ko: "깨지기 쉬운", pos: "형용사", exEn: "Handle the box carefully; it's fragile.", exKo: "상자 조심히 다뤄, 깨지기 쉬워.", unit: "ud08022" },
+  { id: "w2830", en: "carsick", ko: "차멀미하는", pos: "형용사", exEn: "I get carsick if I try to read in the car.", exKo: "차에서 책을 읽으려고 하면 멀미해.", unit: "ud08022" },
+  { id: "w2831", en: "dwell", ko: "(어떤 생각에) 연연하다, 곱씹다", pos: "동사", exEn: "Don't dwell on one bad review; just move on.", exKo: "안 좋은 평 하나에 연연하지 말고 넘어가.", unit: "ud08023" },
+  { id: "w2832", en: "nag", ko: "잔소리하다, 바가지 긁다", pos: "동사", exEn: "Stop nagging me—I'll get to it later.", exKo: "잔소리 좀 그만해, 이따 할게.", unit: "ud08023" },
+  { id: "w2833", en: "withhold", ko: "(정보 등을) 보류하다, 알려주지 않다", pos: "동사", exEn: "They withheld the results until Monday.", exKo: "그들은 결과를 월요일까지 알려주지 않았어.", unit: "ud08023" },
+  { id: "w2834", en: "concede", ko: "(마지못해) 인정하다, 양보하다", pos: "동사", exEn: "He finally conceded that he was wrong.", exKo: "그는 결국 자기가 틀렸다고 인정했어.", unit: "ud08023" },
+  { id: "w2835", en: "sulk", ko: "부루퉁하다, 뾰로통해지다", pos: "동사", exEn: "She sulked all evening after losing the game.", exKo: "그녀는 게임에서 지고 저녁 내내 부루퉁했어.", unit: "ud08023" },
+  { id: "w2836", en: "scramble", ko: "허둥지둥하다, 부랴부랴 하다", pos: "동사", exEn: "We scrambled to finish the report before noon.", exKo: "우리는 정오 전에 보고서를 끝내려고 허둥댔어.", unit: "ud08023" },
+  { id: "w2837", en: "dodge", ko: "(질문·책임을) 회피하다, 피하다", pos: "동사", exEn: "The politician dodged every tough question.", exKo: "그 정치인은 곤란한 질문을 다 피해 갔어.", unit: "ud08023" },
+  { id: "w2838", en: "lash out", ko: "버럭 화내다, 쏘아붙이다", pos: "구동사", exEn: "He lashed out at me for no real reason.", exKo: "그는 별 이유도 없이 나한테 버럭 화를 냈어.", unit: "ud08023" },
+  { id: "w2839", en: "smooth over", ko: "(갈등을) 원만히 수습하다", pos: "구동사", exEn: "She smoothed over the argument between the two teams.", exKo: "그녀가 두 팀 사이의 다툼을 원만히 수습했어.", unit: "ud08023" },
+  { id: "w2840", en: "stem from", ko: "~에서 비롯되다, 기인하다", pos: "구동사", exEn: "Most of the delays stem from poor planning.", exKo: "지연 대부분은 부실한 계획에서 비롯돼.", unit: "ud08023" },
+  { id: "w2841", en: "cut-throat", ko: "치열한, 무자비한", pos: "형용사", exEn: "The startup world is pretty cut-throat these days.", exKo: "요즘 스타트업 판은 경쟁이 아주 치열해.", unit: "ud08024" },
+  { id: "w2842", en: "half-baked", ko: "어설픈, 설익은(생각)", pos: "형용사", exEn: "That's a half-baked plan; we need more details.", exKo: "그건 어설픈 계획이야, 세부 사항이 더 필요해.", unit: "ud08024" },
+  { id: "w2843", en: "nerve-racking", ko: "몹시 긴장되는, 초조한", pos: "형용사", exEn: "Waiting for the test results was nerve-racking.", exKo: "검사 결과를 기다리는 게 정말 초조했어.", unit: "ud08024" },
+  { id: "w2844", en: "run-of-the-mill", ko: "평범한, 그저 그런", pos: "형용사", exEn: "It was just a run-of-the-mill action movie.", exKo: "그냥 그저 그런 액션 영화였어.", unit: "ud08024" },
+  { id: "w2845", en: "second nature", ko: "몸에 밴 습관, 자연스러운 일", pos: "숙어", exEn: "After years of driving, it's second nature to him.", exKo: "몇 년을 운전하다 보니 그에겐 몸에 배어 있어.", unit: "ud08024" },
+  { id: "w2846", en: "by the book", ko: "원칙대로, 규정대로", pos: "숙어", exEn: "Our manager does everything strictly by the book.", exKo: "우리 매니저는 뭐든 철저히 원칙대로 해.", unit: "ud08024" },
+  { id: "w2847", en: "come to terms with", ko: "(힘든 일을) 받아들이다, 감수하다", pos: "숙어", exEn: "It took her a while to come to terms with the loss.", exKo: "그녀가 그 상실을 받아들이는 데 시간이 좀 걸렸어.", unit: "ud08024" },
+  { id: "w2848", en: "out of the loop", ko: "상황을 모르는, 소외된", pos: "숙어", exEn: "I've been out of the loop since I changed teams.", exKo: "팀을 옮긴 뒤로 돌아가는 상황을 잘 몰라.", unit: "ud08024" },
+  { id: "w2849", en: "par for the course", ko: "흔히 있는 일, 예상된 일", pos: "숙어", exEn: "Long lines on Monday are par for the course.", exKo: "월요일에 줄이 긴 건 늘 있는 일이야.", unit: "ud08024" },
+  { id: "w2850", en: "a mixed bag", ko: "좋고 나쁨이 섞인 것, 각양각색", pos: "숙어", exEn: "The reviews were a mixed bag—some loved it, some hated it.", exKo: "평가가 엇갈렸어, 좋아한 사람도 싫어한 사람도 있었어.", unit: "ud08024" }
+]);
+
 // end of data-daily.js
