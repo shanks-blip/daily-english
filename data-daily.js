@@ -1206,4 +1206,53 @@
   { id: "w2850", en: "a mixed bag", ko: "좋고 나쁨이 섞인 것, 각양각색", pos: "숙어", exEn: "The reviews were a mixed bag—some loved it, some hated it.", exKo: "평가가 엇갈렸어, 좋아한 사람도 싫어한 사람도 있었어.", unit: "ud08024" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud08031", level: "lv1", title: "데일리 8/3 · 기초" },
+  { id: "ud08032", level: "lv2", title: "데일리 8/3 · 중급" },
+  { id: "ud08033", level: "lv3", title: "데일리 8/3 · 고급" },
+  { id: "ud08034", level: "lv4", title: "데일리 8/3 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2851", en: "jaw", ko: "턱", pos: "명사", exEn: "He clenched his jaw when he got angry.", exKo: "그는 화가 나자 턱을 꽉 물었어.", unit: "ud08031" },
+  { id: "w2852", en: "palm", ko: "손바닥", pos: "명사", exEn: "She held the coin in her palm.", exKo: "그녀는 동전을 손바닥에 쥐고 있었어.", unit: "ud08031" },
+  { id: "w2853", en: "forehead", ko: "이마", pos: "명사", exEn: "He wiped the sweat off his forehead.", exKo: "그는 이마의 땀을 닦았어.", unit: "ud08031" },
+  { id: "w2854", en: "cherry", ko: "체리", pos: "명사", exEn: "I put a cherry on top of the cake.", exKo: "케이크 위에 체리를 하나 올렸어.", unit: "ud08031" },
+  { id: "w2855", en: "mushroom", ko: "버섯", pos: "명사", exEn: "I don't like mushrooms on my pizza.", exKo: "난 피자에 버섯 올리는 거 안 좋아해.", unit: "ud08031" },
+  { id: "w2856", en: "corn", ko: "옥수수", pos: "명사", exEn: "We grilled some corn at the picnic.", exKo: "소풍에서 옥수수를 좀 구워 먹었어.", unit: "ud08031" },
+  { id: "w2857", en: "pumpkin", ko: "호박", pos: "명사", exEn: "We carved a pumpkin for Halloween.", exKo: "핼러윈 때 호박을 파서 조각했어.", unit: "ud08031" },
+  { id: "w2858", en: "rug", ko: "깔개, 러그", pos: "명사", exEn: "There's a soft rug in front of the sofa.", exKo: "소파 앞에 푹신한 러그가 깔려 있어.", unit: "ud08031" },
+  { id: "w2859", en: "boot", ko: "부츠, 장화", pos: "명사", exEn: "Put on your boots; it's snowing outside.", exKo: "밖에 눈 오니까 부츠 신어.", unit: "ud08031" },
+  { id: "w2860", en: "helmet", ko: "헬멧", pos: "명사", exEn: "Always wear a helmet when you ride a bike.", exKo: "자전거 탈 때는 항상 헬멧을 써.", unit: "ud08031" },
+  { id: "w2861", en: "noisy", ko: "시끄러운", pos: "형용사", exEn: "The restaurant was too noisy to talk.", exKo: "식당이 너무 시끄러워서 대화를 못 했어.", unit: "ud08032" },
+  { id: "w2862", en: "install", ko: "설치하다", pos: "동사", exEn: "Can you help me install this app?", exKo: "이 앱 설치하는 것 좀 도와줄래?", unit: "ud08032" },
+  { id: "w2863", en: "defrost", ko: "해동하다", pos: "동사", exEn: "Don't forget to defrost the chicken tonight.", exKo: "오늘 밤에 닭고기 해동하는 거 잊지 마.", unit: "ud08032" },
+  { id: "w2864", en: "roast", ko: "굽다, 로스트하다", pos: "동사", exEn: "I'm going to roast some vegetables for dinner.", exKo: "저녁으로 채소를 좀 구울 거야.", unit: "ud08032" },
+  { id: "w2865", en: "unpack", ko: "짐을 풀다", pos: "동사", exEn: "It took me all day to unpack after the move.", exKo: "이사하고 짐 푸는 데 하루 종일 걸렸어.", unit: "ud08032" },
+  { id: "w2866", en: "owe", ko: "빚지다, 갚아야 하다", pos: "동사", exEn: "I still owe you ten dollars from lunch.", exKo: "점심값 10달러 아직 너한테 갚아야 해.", unit: "ud08032" },
+  { id: "w2867", en: "subscribe", ko: "구독하다", pos: "동사", exEn: "I subscribe to a couple of cooking channels.", exKo: "요리 채널 몇 개 구독하고 있어.", unit: "ud08032" },
+  { id: "w2868", en: "download", ko: "내려받다, 다운로드하다", pos: "동사", exEn: "Download the file before you get on the plane.", exKo: "비행기 타기 전에 그 파일 받아 둬.", unit: "ud08032" },
+  { id: "w2869", en: "upload", ko: "올리다, 업로드하다", pos: "동사", exEn: "She uploaded the photos to the shared folder.", exKo: "그녀는 사진을 공유 폴더에 올렸어.", unit: "ud08032" },
+  { id: "w2870", en: "attach", ko: "첨부하다, 붙이다", pos: "동사", exEn: "Don't forget to attach the file to your email.", exKo: "이메일에 파일 첨부하는 거 잊지 마.", unit: "ud08032" },
+  { id: "w2871", en: "sink in", ko: "(완전히) 실감 나다, 이해되다", pos: "구동사", exEn: "It took a while for the good news to sink in.", exKo: "그 좋은 소식이 실감 나는 데 시간이 좀 걸렸어.", unit: "ud08033" },
+  { id: "w2872", en: "pitch in", ko: "(다 같이) 힘을 보태다, 거들다", pos: "구동사", exEn: "If everyone pitches in, we'll finish in an hour.", exKo: "다 같이 거들면 한 시간이면 끝나.", unit: "ud08033" },
+  { id: "w2873", en: "live up to", ko: "(기대에) 부응하다", pos: "구동사", exEn: "The movie didn't quite live up to the hype.", exKo: "그 영화는 소문만큼은 아니었어.", unit: "ud08033" },
+  { id: "w2874", en: "single out", ko: "콕 집어 지목하다", pos: "구동사", exEn: "The coach singled her out for praise.", exKo: "코치가 그녀를 콕 집어 칭찬했어.", unit: "ud08033" },
+  { id: "w2875", en: "opt out", ko: "(참여하지 않기로) 빠지다", pos: "구동사", exEn: "You can opt out of the newsletter anytime.", exKo: "뉴스레터는 언제든 수신 거부할 수 있어.", unit: "ud08033" },
+  { id: "w2876", en: "bail out", ko: "(곤경에서) 구해 주다", pos: "구동사", exEn: "My brother bailed me out when I was short on rent.", exKo: "월세가 부족할 때 형이 날 구해 줬어.", unit: "ud08033" },
+  { id: "w2877", en: "rein in", ko: "억제하다, 통제하다", pos: "구동사", exEn: "The company is trying to rein in spending.", exKo: "회사가 지출을 억제하려 하고 있어.", unit: "ud08033" },
+  { id: "w2878", en: "factor in", ko: "고려에 넣다, 감안하다", pos: "구동사", exEn: "Don't forget to factor in traffic on the way there.", exKo: "가는 길 교통 상황도 감안하는 거 잊지 마.", unit: "ud08033" },
+  { id: "w2879", en: "fend off", ko: "(질문·공격을) 막아내다, 받아치다", pos: "구동사", exEn: "She fended off all the reporters' questions.", exKo: "그녀는 기자들의 질문을 다 받아 넘겼어.", unit: "ud08033" },
+  { id: "w2880", en: "catch on", ko: "유행하다, 인기를 얻다", pos: "구동사", exEn: "The new app is really catching on with teens.", exKo: "그 새 앱이 십 대들 사이에서 정말 인기를 얻고 있어.", unit: "ud08033" },
+  { id: "w2881", en: "savvy", ko: "잘 아는, 요령 있는", pos: "형용사", exEn: "She's really savvy about social media marketing.", exKo: "그녀는 소셜 미디어 마케팅에 정말 훤해.", unit: "ud08034" },
+  { id: "w2882", en: "sleek", ko: "매끈한, 세련된", pos: "형용사", exEn: "He drove up in a sleek black car.", exKo: "그는 매끈한 검은 차를 타고 나타났어.", unit: "ud08034" },
+  { id: "w2883", en: "clunky", ko: "투박한, 거추장스러운", pos: "형용사", exEn: "The old software felt slow and clunky.", exKo: "그 옛날 소프트웨어는 느리고 투박했어.", unit: "ud08034" },
+  { id: "w2884", en: "sturdy", ko: "튼튼한, 견고한", pos: "형용사", exEn: "This table is sturdy enough to stand on.", exKo: "이 탁자는 위에 올라서도 될 만큼 튼튼해.", unit: "ud08034" },
+  { id: "w2885", en: "sluggish", ko: "굼뜬, 부진한", pos: "형용사", exEn: "I always feel sluggish after a big lunch.", exKo: "점심 많이 먹으면 늘 몸이 축 처져.", unit: "ud08034" },
+  { id: "w2886", en: "a double-edged sword", ko: "양날의 검", pos: "숙어", exEn: "Working from home is a double-edged sword.", exKo: "재택근무는 양날의 검이야.", unit: "ud08034" },
+  { id: "w2887", en: "the elephant in the room", ko: "다들 알지만 말 안 하는 민감한 문제", pos: "숙어", exEn: "Nobody wanted to mention the elephant in the room.", exKo: "아무도 그 껄끄러운 문제를 꺼내려 하지 않았어.", unit: "ud08034" },
+  { id: "w2888", en: "water under the bridge", ko: "이미 다 지나간 일", pos: "숙어", exEn: "We had a fight, but it's water under the bridge now.", exKo: "우리 싸우긴 했지만 이제 다 지난 일이야.", unit: "ud08034" },
+  { id: "w2889", en: "on cloud nine", ko: "하늘을 날 듯 행복한", pos: "숙어", exEn: "She's been on cloud nine since she got the job.", exKo: "그녀는 그 일자리를 얻은 뒤로 하늘을 날 듯 행복해해.", unit: "ud08034" },
+  { id: "w2890", en: "a wake-up call", ko: "경종, 정신 차리게 하는 계기", pos: "숙어", exEn: "The health scare was a real wake-up call for him.", exKo: "그 건강 문제는 그에게 진짜 경종이 됐어.", unit: "ud08034" }
+]);
+
 // end of data-daily.js

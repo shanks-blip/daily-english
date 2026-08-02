@@ -237,4 +237,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0803", level: "lv3", icon: "💼", title: "동료에게 회의 대신 참석 부탁하기",
+  lines: [
+    { sp: "A", en: "Hey, do you have a second? I'm in a real bind for tomorrow.", ko: "저기, 잠깐 시간 돼? 나 내일 때문에 진짜 곤란해서." },
+    { sp: "B", en: "Sure, what's up? You look stressed.", ko: "그럼, 무슨 일이야? 너 스트레스 받아 보여." },
+    { sp: "A", en: "My kid's got a doctor's appointment that clashes with the ten o'clock meeting. Could you fill in for me?", ko: "애 병원 예약이 10시 회의랑 겹쳐서. 나 대신 참석해 줄 수 있을까?" },
+    { sp: "B", en: "I can step in, no problem. Just walk me through what I need to cover.", ko: "내가 들어가 줄게, 문제없어. 내가 뭘 다뤄야 하는지만 짚어 줘." },
+    { sp: "A", en: "You're a lifesaver. I'll send you the slides and a quick rundown tonight.", ko: "너 진짜 은인이다. 오늘 밤에 슬라이드랑 간단한 요약 보내 줄게." },
+    { sp: "B", en: "Perfect. If anything comes up, I'll take notes and loop you in afterward.", ko: "좋아. 뭔 일 생기면 메모해 뒀다가 나중에 너한테 공유할게." },
+    { sp: "A", en: "Can't thank you enough. I owe you one.", ko: "정말 고마워. 내가 신세 졌다." },
+    { sp: "B", en: "Don't mention it—you'd do the same for me.", ko: "별말을. 너도 나한테 그렇게 해 줄 거잖아." }
+  ]
+}]);
+
 // end of dialogs-daily.js
