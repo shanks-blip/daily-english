@@ -1255,4 +1255,53 @@
   { id: "w2890", en: "a wake-up call", ko: "경종, 정신 차리게 하는 계기", pos: "숙어", exEn: "The health scare was a real wake-up call for him.", exKo: "그 건강 문제는 그에게 진짜 경종이 됐어.", unit: "ud08034" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud08041", level: "lv1", title: "데일리 8/4 · 기초" },
+  { id: "ud08042", level: "lv2", title: "데일리 8/4 · 중급" },
+  { id: "ud08043", level: "lv3", title: "데일리 8/4 · 고급" },
+  { id: "ud08044", level: "lv4", title: "데일리 8/4 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2891", en: "tray", ko: "쟁반", pos: "명사", exEn: "Can you grab a tray for the drinks?", exKo: "음료 담을 쟁반 좀 갖다줄래?", unit: "ud08041" },
+  { id: "w2892", en: "dish", ko: "접시", pos: "명사", exEn: "I'll wash the dishes after dinner.", exKo: "저녁 먹고 내가 설거지할게.", unit: "ud08041" },
+  { id: "w2893", en: "pot", ko: "냄비", pos: "명사", exEn: "There's some soup left in the pot.", exKo: "냄비에 수프가 좀 남아 있어.", unit: "ud08041" },
+  { id: "w2894", en: "straw", ko: "빨대", pos: "명사", exEn: "Do you want a straw for your drink?", exKo: "음료에 빨대 드릴까요?", unit: "ud08041" },
+  { id: "w2895", en: "apron", ko: "앞치마", pos: "명사", exEn: "Put on an apron so you don't get dirty.", exKo: "더러워지지 않게 앞치마 둘러.", unit: "ud08041" },
+  { id: "w2896", en: "couch", ko: "소파", pos: "명사", exEn: "Let's just relax on the couch tonight.", exKo: "오늘 밤은 그냥 소파에서 쉬자.", unit: "ud08041" },
+  { id: "w2897", en: "tent", ko: "텐트", pos: "명사", exEn: "It took us an hour to set up the tent.", exKo: "텐트 치는 데 한 시간 걸렸어.", unit: "ud08041" },
+  { id: "w2898", en: "sandal", ko: "샌들", pos: "명사", exEn: "I wear sandals all summer long.", exKo: "난 여름 내내 샌들을 신어.", unit: "ud08041" },
+  { id: "w2899", en: "fog", ko: "안개", pos: "명사", exEn: "The fog was so thick I could barely see.", exKo: "안개가 너무 짙어서 앞이 거의 안 보였어.", unit: "ud08041" },
+  { id: "w2900", en: "sunset", ko: "노을, 일몰", pos: "명사", exEn: "We watched the sunset from the beach.", exKo: "우리는 해변에서 노을을 봤어.", unit: "ud08041" },
+  { id: "w2901", en: "clearance", ko: "재고 정리 할인", pos: "명사", exEn: "I got these shoes on clearance for ten bucks.", exKo: "이 신발 재고 정리 할인해서 10달러에 샀어.", unit: "ud08042" },
+  { id: "w2902", en: "inventory", ko: "재고", pos: "명사", exEn: "The store is closed today for inventory.", exKo: "그 가게는 오늘 재고 조사 때문에 문 닫았어.", unit: "ud08042" },
+  { id: "w2903", en: "shipment", ko: "배송 물량", pos: "명사", exEn: "The new shipment arrives on Friday.", exKo: "새 배송 물량이 금요일에 도착해.", unit: "ud08042" },
+  { id: "w2904", en: "durable", ko: "튼튼한, 내구성 있는", pos: "형용사", exEn: "This backpack is really durable.", exKo: "이 배낭은 정말 튼튼해.", unit: "ud08042" },
+  { id: "w2905", en: "disposable", ko: "일회용의", pos: "형용사", exEn: "We used disposable cups for the party.", exKo: "파티 때 일회용 컵을 썼어.", unit: "ud08042" },
+  { id: "w2906", en: "declutter", ko: "물건을 정리해 줄이다", pos: "동사", exEn: "I spent the weekend trying to declutter my closet.", exKo: "주말 내내 옷장을 정리해서 물건을 좀 줄였어.", unit: "ud08042" },
+  { id: "w2907", en: "assemble", ko: "조립하다", pos: "동사", exEn: "It took me an hour to assemble the desk.", exKo: "책상 조립하는 데 한 시간 걸렸어.", unit: "ud08042" },
+  { id: "w2908", en: "renew", ko: "갱신하다", pos: "동사", exEn: "I need to renew my passport before the trip.", exKo: "여행 전에 여권을 갱신해야 해.", unit: "ud08042" },
+  { id: "w2909", en: "glitch", ko: "오류, 결함", pos: "명사", exEn: "There's a glitch in the app that keeps crashing it.", exKo: "앱에 자꾸 튕기게 만드는 오류가 있어.", unit: "ud08042" },
+  { id: "w2910", en: "reboot", ko: "재부팅하다", pos: "동사", exEn: "Try to reboot your laptop if it freezes.", exKo: "노트북이 멈추면 재부팅해 봐.", unit: "ud08042" },
+  { id: "w2911", en: "brace", ko: "대비하다, 마음의 준비를 하다", pos: "동사", exEn: "Brace yourself — the results aren't great.", exKo: "마음 단단히 먹어, 결과가 좋지 않아.", unit: "ud08043" },
+  { id: "w2912", en: "milestone", ko: "중요한 이정표", pos: "명사", exEn: "Turning thirty felt like a big milestone.", exKo: "서른이 되는 게 큰 이정표처럼 느껴졌어.", unit: "ud08043" },
+  { id: "w2913", en: "drawback", ko: "단점", pos: "명사", exEn: "The only drawback of this job is the commute.", exKo: "이 일의 유일한 단점은 통근 거리야.", unit: "ud08043" },
+  { id: "w2914", en: "perk", ko: "(직장 등의) 혜택", pos: "명사", exEn: "Free lunch is one of the best perks here.", exKo: "공짜 점심이 여기서 제일 좋은 혜택 중 하나야.", unit: "ud08043" },
+  { id: "w2915", en: "leverage", ko: "최대한 활용하다", pos: "동사", exEn: "She leveraged her contacts to land the deal.", exKo: "그녀는 인맥을 활용해서 그 거래를 따냈어.", unit: "ud08043" },
+  { id: "w2916", en: "tweak", ko: "살짝 손보다, 조정하다", pos: "동사", exEn: "I just need to tweak a few things before I send it.", exKo: "보내기 전에 몇 가지만 살짝 손보면 돼.", unit: "ud08043" },
+  { id: "w2917", en: "salvage", ko: "수습하다, 건져내다", pos: "동사", exEn: "We tried to salvage the trip after the flight got canceled.", exKo: "항공편이 취소된 뒤에도 여행을 어떻게든 살려보려 했어.", unit: "ud08043" },
+  { id: "w2918", en: "pinpoint", ko: "정확히 짚어내다", pos: "동사", exEn: "It's hard to pinpoint exactly what went wrong.", exKo: "정확히 뭐가 잘못됐는지 콕 집기가 어려워.", unit: "ud08043" },
+  { id: "w2919", en: "flinch", ko: "움찔하다", pos: "동사", exEn: "He didn't even flinch when the balloon popped.", exKo: "풍선이 터졌는데도 그는 꿈쩍도 안 했어.", unit: "ud08043" },
+  { id: "w2920", en: "mull", ko: "곰곰이 생각하다", pos: "동사", exEn: "Let me mull it over and get back to you.", exKo: "좀 곰곰이 생각해 보고 다시 연락할게.", unit: "ud08043" },
+  { id: "w2921", en: "elusive", ko: "잡히지 않는, 규정하기 힘든", pos: "형용사", exEn: "A good night's sleep has been elusive lately.", exKo: "요즘 푹 자는 게 참 쉽지 않네.", unit: "ud08044" },
+  { id: "w2922", en: "uncanny", ko: "소름 끼치게 정확한, 기이한", pos: "형용사", exEn: "She has an uncanny ability to guess what I'm thinking.", exKo: "그녀는 내 생각을 알아맞히는 묘한 능력이 있어.", unit: "ud08044" },
+  { id: "w2923", en: "redundant", ko: "불필요하게 겹치는", pos: "형용사", exEn: "That last sentence feels redundant — just cut it.", exKo: "그 마지막 문장은 사족 같아, 그냥 빼.", unit: "ud08044" },
+  { id: "w2924", en: "poignant", ko: "가슴 뭉클한", pos: "형용사", exEn: "The ending was quiet but really poignant.", exKo: "그 결말은 조용했지만 정말 가슴 뭉클했어.", unit: "ud08044" },
+  { id: "w2925", en: "candor", ko: "솔직함", pos: "명사", exEn: "I appreciate your candor about the situation.", exKo: "그 상황을 솔직하게 말해줘서 고마워.", unit: "ud08044" },
+  { id: "w2926", en: "glib", ko: "말만 번지르르한", pos: "형용사", exEn: "His apology sounded glib, not sincere.", exKo: "그의 사과는 진심이 아니라 그냥 입에 발린 소리 같았어.", unit: "ud08044" },
+  { id: "w2927", en: "terse", ko: "퉁명스럽게 짧은", pos: "형용사", exEn: "Her reply was terse, just \"fine.\"", exKo: "그녀의 답은 퉁명스럽게 딱 '됐어'뿐이었어.", unit: "ud08044" },
+  { id: "w2928", en: "succinct", ko: "간결한", pos: "형용사", exEn: "Keep the email succinct — people are busy.", exKo: "이메일은 간결하게 써, 다들 바쁘니까.", unit: "ud08044" },
+  { id: "w2929", en: "fleeting", ko: "순식간의, 잠깐의", pos: "형용사", exEn: "We only had a fleeting moment to talk.", exKo: "우리는 잠깐 이야기할 짧은 순간밖에 없었어.", unit: "ud08044" },
+  { id: "w2930", en: "shrewd", ko: "빈틈없이 영리한", pos: "형용사", exEn: "She's a shrewd negotiator — nothing gets past her.", exKo: "그녀는 빈틈없는 협상가라 뭐 하나 놓치는 법이 없어.", unit: "ud08044" }
+]);
+
 // end of data-daily.js
