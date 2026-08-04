@@ -251,4 +251,18 @@
   ]
 }]);
 
+
+[].push.apply(DIALOGS, [{
+  id: "dd0805", level: "lv3", icon: "⏰", title: "동료에게 마감 연장을 부탁하기",
+  lines: [
+    { sp: "A", en: "Hey, do you have a second? I wanted to talk about the report deadline.", ko: "저기, 잠깐 시간 돼요? 보고서 마감 얘기 좀 하고 싶어서요." },
+    { sp: "B", en: "Sure, what's up? Is everything okay?", ko: "그럼요, 무슨 일이에요? 별일 없죠?" },
+    { sp: "A", en: "I'm a bit swamped this week. Could we push the deadline back a couple of days?", ko: "이번 주에 일이 좀 몰려서요. 마감을 이틀 정도 미룰 수 있을까요?" },
+    { sp: "B", en: "I get it, things have been hectic. Let me check with the manager and get back to you.", ko: "이해해요, 요즘 정신없죠. 매니저에게 확인하고 다시 알려줄게요." },
+    { sp: "A", en: "Thanks, I really appreciate it. I'll try to catch up over the weekend.", ko: "고마워요, 정말 감사해요. 주말에 밀린 일을 따라잡아 볼게요." },
+    { sp: "B", en: "No worries. Just don't burn yourself out, okay?", ko: "괜찮아요. 그냥 너무 무리하지는 말아요, 알겠죠?" },
+    { sp: "A", en: "I'll pace myself. Thanks for being so understanding.", ko: "무리 안 할게요. 이해해 줘서 고마워요." }
+  ]
+}]);
+
 // end of dialogs-daily.js

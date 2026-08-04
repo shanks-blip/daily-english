@@ -1304,4 +1304,57 @@
   { id: "w2930", en: "shrewd", ko: "빈틈없이 영리한", pos: "형용사", exEn: "She's a shrewd negotiator — nothing gets past her.", exKo: "그녀는 빈틈없는 협상가라 뭐 하나 놓치는 법이 없어.", unit: "ud08044" }
 ]);
 
+
+[].push.apply(UNITS, [
+  { id: "ud08051", level: "lv1", title: "데일리 8/5 · 기초" },
+  { id: "ud08052", level: "lv2", title: "데일리 8/5 · 중급" },
+  { id: "ud08053", level: "lv3", title: "데일리 8/5 · 고급" },
+  { id: "ud08054", level: "lv4", title: "데일리 8/5 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w2931", unit: "ud08051", en: "grandson", ko: "손자", pos: "명사", exEn: "My grandson just started kindergarten.", exKo: "우리 손자가 이제 막 유치원에 들어갔어요." },
+  { id: "w2932", unit: "ud08051", en: "granddaughter", ko: "손녀", pos: "명사", exEn: "She reads a bedtime story to her granddaughter every night.", exKo: "그녀는 매일 밤 손녀에게 잠자리 동화를 읽어줘요." },
+  { id: "w2933", unit: "ud08051", en: "toddler", ko: "아장아장 걷는 아기", pos: "명사", exEn: "Our toddler is just learning to walk.", exKo: "우리 아기가 이제 막 걸음마를 배우고 있어요." },
+  { id: "w2934", unit: "ud08051", en: "watermelon", ko: "수박", pos: "명사", exEn: "Let's have some watermelon; it's so hot today.", exKo: "수박 좀 먹자, 오늘 너무 덥다." },
+  { id: "w2935", unit: "ud08051", en: "pancake", ko: "팬케이크", pos: "명사", exEn: "I made pancakes for breakfast this morning.", exKo: "오늘 아침으로 팬케이크를 만들었어." },
+  { id: "w2936", unit: "ud08051", en: "balloon", ko: "풍선", pos: "명사", exEn: "The kids filled the room with balloons.", exKo: "아이들이 방을 풍선으로 가득 채웠어." },
+  { id: "w2937", unit: "ud08051", en: "kite", ko: "연", pos: "명사", exEn: "We flew a kite at the park yesterday.", exKo: "우리는 어제 공원에서 연을 날렸어." },
+  { id: "w2938", unit: "ud08051", en: "crayon", ko: "크레용", pos: "명사", exEn: "She drew a house with a red crayon.", exKo: "그녀는 빨간 크레용으로 집을 그렸어." },
+  { id: "w2939", unit: "ud08051", en: "eraser", ko: "지우개", pos: "명사", exEn: "Can I borrow your eraser for a second?", exKo: "지우개 잠깐 빌려도 될까?" },
+  { id: "w2940", unit: "ud08051", en: "glue", ko: "풀, 접착제", pos: "명사", exEn: "Use some glue to stick the paper here.", exKo: "여기 종이 붙이려면 풀을 좀 써." },
+
+  { id: "w2941", unit: "ud08052", en: "permit", ko: "허가증", pos: "명사", exEn: "You need a permit to park on this street.", exKo: "이 거리에 주차하려면 허가증이 있어야 해요." },
+  { id: "w2942", unit: "ud08052", en: "boarding", ko: "탑승", pos: "명사", exEn: "Boarding for our flight starts in ten minutes.", exKo: "우리 비행기 탑승은 10분 후에 시작해요." },
+  { id: "w2943", unit: "ud08052", en: "vacancy", ko: "빈방, 공석", pos: "명사", exEn: "Sorry, the hotel has no vacancy tonight.", exKo: "죄송하지만 그 호텔은 오늘 밤 빈방이 없어요." },
+  { id: "w2944", unit: "ud08052", en: "estimate", ko: "견적", pos: "명사", exEn: "The mechanic gave me an estimate for the repair.", exKo: "정비사가 수리 견적을 줬어요." },
+  { id: "w2945", unit: "ud08052", en: "overdraft", ko: "초과 인출, 마이너스 통장", pos: "명사", exEn: "The bank charged me a fee for the overdraft.", exKo: "은행에서 초과 인출 수수료를 물렸어요." },
+  { id: "w2946", unit: "ud08052", en: "jet lag", ko: "시차 피로", pos: "명사", exEn: "I'm still fighting jet lag from the trip.", exKo: "여행 때문에 아직 시차 적응 중이에요." },
+  { id: "w2947", unit: "ud08052", en: "housekeeping", ko: "객실 청소, 살림", pos: "명사", exEn: "Housekeeping cleans the rooms every morning.", exKo: "객실 청소 담당이 매일 아침 방을 정리해요." },
+  { id: "w2948", unit: "ud08052", en: "defective", ko: "결함이 있는", pos: "형용사", exEn: "I returned the defective phone for a refund.", exKo: "결함이 있는 휴대폰을 환불받으려고 반품했어요." },
+  { id: "w2949", unit: "ud08052", en: "crutches", ko: "목발", pos: "명사", exEn: "He was on crutches for a month after the accident.", exKo: "그는 사고 후 한 달 동안 목발을 짚었어요." },
+  { id: "w2950", unit: "ud08052", en: "gratuity", ko: "봉사료, 팁", pos: "명사", exEn: "A gratuity is already included in the bill.", exKo: "계산서에 이미 봉사료가 포함되어 있어요." },
+
+  { id: "w2951", unit: "ud08053", en: "significantly", ko: "상당히, 크게", pos: "부사", exEn: "Sales have grown significantly this year.", exKo: "올해 매출이 상당히 늘었어요." },
+  { id: "w2952", unit: "ud08053", en: "suffering", ko: "고통", pos: "명사", exEn: "The war caused a lot of suffering.", exKo: "그 전쟁은 많은 고통을 초래했어요." },
+  { id: "w2953", unit: "ud08053", en: "fantasy", ko: "환상, 공상", pos: "명사", exEn: "He sometimes lives in a fantasy world.", exKo: "그는 가끔 공상 속 세계에 살아요." },
+  { id: "w2954", unit: "ud08053", en: "contest", ko: "대회, 경쟁", pos: "명사", exEn: "She won first place in the writing contest.", exKo: "그녀는 글쓰기 대회에서 1등을 했어요." },
+  { id: "w2955", unit: "ud08053", en: "debut", ko: "데뷔, 첫 등장", pos: "명사", exEn: "The band made their debut last year.", exKo: "그 밴드는 작년에 데뷔했어요." },
+  { id: "w2956", unit: "ud08053", en: "expressed", ko: "표현했다 (express의 과거형)", pos: "동사", exEn: "She expressed her concerns clearly at the meeting.", exKo: "그녀는 회의에서 우려를 분명히 표현했어요." },
+  { id: "w2957", unit: "ud08053", en: "revolution", ko: "혁명", pos: "명사", exEn: "The internet sparked a revolution in how we work.", exKo: "인터넷은 우리가 일하는 방식에 혁명을 일으켰어요." },
+  { id: "w2958", unit: "ud08053", en: "combat", ko: "막다, 싸우다; 전투", pos: "동사", exEn: "New rules were made to combat fraud.", exKo: "사기를 막기 위해 새 규정이 만들어졌어요." },
+  { id: "w2959", unit: "ud08053", en: "constitution", ko: "헌법", pos: "명사", exEn: "Free speech is protected by the constitution.", exKo: "표현의 자유는 헌법으로 보호돼요." },
+  { id: "w2960", unit: "ud08053", en: "creation", ko: "창작물, 창조", pos: "명사", exEn: "The cake was a beautiful creation.", exKo: "그 케이크는 정말 아름다운 작품이었어요." },
+
+  { id: "w2961", unit: "ud08054", en: "fishy", ko: "수상한, 의심스러운", pos: "형용사", exEn: "Something about his story sounds fishy.", exKo: "그의 이야기가 어딘가 수상해요." },
+  { id: "w2962", unit: "ud08054", en: "shady", ko: "미심쩍은, 수상쩍은", pos: "형용사", exEn: "That deal seems a little shady to me.", exKo: "그 거래는 내가 보기엔 좀 미심쩍어요." },
+  { id: "w2963", unit: "ud08054", en: "hefty", ko: "상당한, 두둑한", pos: "형용사", exEn: "They charged a hefty fee for the cancellation.", exKo: "취소하는 데 상당한 수수료를 물렸어요." },
+  { id: "w2964", unit: "ud08054", en: "moody", ko: "기분 기복이 심한", pos: "형용사", exEn: "He's been really moody all week.", exKo: "그는 이번 주 내내 기분 기복이 심했어요." },
+  { id: "w2965", unit: "ud08054", en: "groggy", ko: "몽롱한, 정신이 흐릿한", pos: "형용사", exEn: "I felt groggy after the long nap.", exKo: "긴 낮잠 후에 정신이 멍했어요." },
+  { id: "w2966", unit: "ud08054", en: "hungover", ko: "숙취에 시달리는", pos: "형용사", exEn: "She was too hungover to go to work.", exKo: "그녀는 숙취가 너무 심해 출근을 못 했어요." },
+  { id: "w2967", unit: "ud08054", en: "easygoing", ko: "느긋한, 태평한", pos: "형용사", exEn: "My boss is pretty easygoing about deadlines.", exKo: "우리 상사는 마감에 대해 꽤 느긋해요." },
+  { id: "w2968", unit: "ud08054", en: "upbeat", ko: "긍정적인, 활기찬", pos: "형용사", exEn: "She stayed upbeat despite the bad news.", exKo: "그녀는 안 좋은 소식에도 밝은 태도를 유지했어요." },
+  { id: "w2969", unit: "ud08054", en: "lukewarm", ko: "미온적인; 미지근한", pos: "형용사", exEn: "The audience gave a lukewarm response.", exKo: "관객은 미온적인 반응을 보였어요." },
+  { id: "w2970", unit: "ud08054", en: "mumble", ko: "중얼거리다, 웅얼거리다", pos: "동사", exEn: "Don't mumble; speak up so we can hear you.", exKo: "웅얼거리지 말고 잘 들리게 크게 말해요." }
+]);
+
 // end of data-daily.js
