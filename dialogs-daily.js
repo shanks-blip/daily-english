@@ -265,4 +265,226 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0810", level: "lv4", icon: "😮‍💨", title: "친구에게 속상한 일 털어놓기",
+  lines: [
+    { sp: "A", en: "I've got to get this off my chest — work has been a nightmare lately.", ko: "요즘 회사 일이 너무 엉망이라 이거 좀 털어놔야겠어." },
+    { sp: "B", en: "Of course, go ahead. What's been eating at you?", ko: "당연히 말해. 뭐가 그렇게 신경 쓰였는데?" },
+    { sp: "A", en: "My manager keeps piling on tasks and then brushes off my concerns.", ko: "매니저가 계속 일을 떠안기면서 내 걱정은 그냥 무시해버려." },
+    { sp: "B", en: "That's rough. You shouldn't bottle it all up like that.", ko: "그거 힘들겠다. 그렇게 혼자 다 담아두면 안 돼." },
+    { sp: "A", en: "I know. I just don't want to come across as a complainer.", ko: "알아. 그냥 불평만 하는 사람처럼 보이기는 싫어서." },
+    { sp: "B", en: "Speaking up isn't complaining. Maybe sit down and hash it out with him.", ko: "할 말 하는 건 불평이 아니야. 앉아서 그 사람이랑 터놓고 얘기해 보는 게 어때." },
+    { sp: "A", en: "You're right. I'll set up a meeting and lay it all out.", ko: "네 말이 맞아. 미팅을 잡아서 다 솔직하게 얘기할게." },
+    { sp: "B", en: "Good. And if you ever need to vent, I'm always here.", ko: "좋아. 그리고 답답할 때마다 언제든 나한테 털어놔." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0812", level: "lv3", icon: "🤝", title: "중고 거래로 물건 사고팔기",
+  lines: [
+    { sp: "A", en: "Hi, I'm here about the desk you posted online. Is it still up for grabs?", ko: "안녕하세요, 온라인에 올리신 책상 보고 왔는데요. 아직 살 수 있나요?" },
+    { sp: "B", en: "Yeah, it's still available. It's held up really well — barely a scratch on it.", ko: "네, 아직 있어요. 상태가 정말 좋아요. 흠집도 거의 없고요." },
+    { sp: "A", en: "It looks great. Would you be willing to knock a little off the price?", ko: "정말 괜찮네요. 가격을 조금만 깎아 주실 수 있을까요?" },
+    { sp: "B", en: "I can't go too low, but I'll throw in the desk lamp for free.", ko: "너무 많이는 못 깎아 드리는데, 대신 책상 램프를 공짜로 얹어 드릴게요." },
+    { sp: "A", en: "That works for me. I didn't come here to haggle over every dollar anyway.", ko: "그럼 됐어요. 어차피 한 푼까지 흥정하러 온 건 아니니까요." },
+    { sp: "B", en: "Great. Can you help me carry it out to your car?", ko: "좋아요. 차까지 같이 들고 나가는 것 좀 도와주실래요?" },
+    { sp: "A", en: "Sure thing. Let me settle up first — cash or transfer?", ko: "그럼요. 먼저 값부터 치를게요. 현금이 좋으세요, 계좌이체가 좋으세요?" },
+    { sp: "B", en: "Transfer is easier. Thanks for being so easy to deal with!", ko: "이체가 편해요. 거래가 수월해서 감사해요!" }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0814", level: "lv3", icon: "🧹", title: "새 룸메이트와 집안일 나누기",
+  lines: [
+    { sp: "A", en: "Now that we're both moved in, we should figure out the chores.", ko: "이제 둘 다 이사 들어왔으니 집안일을 좀 정해야겠어." },
+    { sp: "B", en: "Agreed. I don't want the dishes piling up like at my old place.", ko: "맞아. 예전 집에서처럼 설거지가 쌓이는 건 싫거든." },
+    { sp: "A", en: "How about we take turns with the kitchen every week?", ko: "주방은 매주 번갈아 가며 맡는 거 어때?" },
+    { sp: "B", en: "Works for me. And we can both pitch in on the bathroom.", ko: "난 좋아. 화장실은 둘이 같이 거들어서 하고." },
+    { sp: "A", en: "Deal. Just don't let the trash slide like some roommates do.", ko: "좋아. 다만 어떤 룸메들처럼 쓰레기 버리는 걸 미루지만 말자." },
+    { sp: "B", en: "Ha, I promise. Let's put it on a shared calendar so nothing falls through the cracks.", ko: "하하, 약속할게. 공유 캘린더에 올려서 빠지는 일 없게 하자." },
+    { sp: "A", en: "Perfect. That way no one can play dumb about whose turn it is.", ko: "완벽해. 그럼 누구 차례인지 모른 척할 수도 없지." },
+    { sp: "B", en: "Exactly. Living together should be a breeze if we stay on top of it.", ko: "그러니까. 잘만 챙기면 같이 사는 거 식은 죽 먹기지." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0819", level: "lv3", icon: "🧳", title: "친구와 주말 여행 계획 세우기",
+  lines: [
+    { sp: "A", en: "So, are you up for a quick getaway this weekend?", ko: "야, 이번 주말에 짧게 여행 갈 생각 있어?" },
+    { sp: "B", en: "I'm kind of on the fence—my budget's a little tight right now.", ko: "좀 애매해. 지금 주머니 사정이 빠듯하거든." },
+    { sp: "A", en: "We could keep it cheap and just drive up the coast.", ko: "싸게 다녀오면 되지. 그냥 해안 도로 따라 올라가는 거야." },
+    { sp: "B", en: "That actually sounds nice. Where would we crash for the night?", ko: "그거 괜찮네. 하룻밤은 어디서 묵고?" },
+    { sp: "A", en: "My cousin has a place we can use, so lodging is covered.", ko: "사촌 집을 쓸 수 있어서 숙소는 해결됐어." },
+    { sp: "B", en: "Okay, count me in. Let's just play it by ear once we're there.", ko: "좋아, 나 낄게. 가서는 그냥 상황 봐 가며 하자." },
+    { sp: "A", en: "Perfect. I'll pencil us in for Saturday morning.", ko: "완벽해. 토요일 아침으로 일단 잡아 둘게." },
+    { sp: "B", en: "Sounds good. I'll pack light so we can hit the road early.", ko: "좋아. 짐 가볍게 싸서 일찍 출발하자." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0821", level: "lv4", icon: "💼", title: "이직할지 친구와 고민 상담하기",
+  lines: [
+    { sp: "A", en: "I got a job offer, but I'm on the fence about taking it.", ko: "일자리 제안을 받았는데, 받아들일지 말지 망설이고 있어." },
+    { sp: "B", en: "Really? What's holding you back?", ko: "정말? 뭐가 걸리는데?" },
+    { sp: "A", en: "The pay is better, but I'd have to start over and learn the ropes again.", ko: "급여는 더 낫지만, 처음부터 다시 시작해서 요령을 익혀야 해." },
+    { sp: "B", en: "That's fair. Have you weighed the pros and cons?", ko: "그럴 만해. 장단점은 따져 봤어?" },
+    { sp: "A", en: "I have, but I keep going back and forth.", ko: "따져 봤는데도 자꾸 마음이 왔다 갔다 해." },
+    { sp: "B", en: "Honestly, you've been burning out at your current job for months.", ko: "솔직히 너 지금 직장에서 몇 달째 번아웃 상태였잖아." },
+    { sp: "A", en: "You have a point. Maybe it's time to take the plunge.", ko: "네 말도 일리가 있어. 어쩌면 과감히 뛰어들 때인지도 몰라." },
+    { sp: "B", en: "Sleep on it, but trust your gut in the end.", ko: "하룻밤 자면서 생각해 봐, 그래도 결국엔 네 직감을 믿어." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0823", level: "lv3", icon: "🙅", title: "친구의 부탁을 정중히 거절하기",
+  lines: [
+    { sp: "A", en: "Hey, could you help me move this Saturday?", ko: "야, 이번 주 토요일에 이사하는 것 좀 도와줄 수 있어?" },
+    { sp: "B", en: "I'd love to, but I'm already swamped this weekend.", ko: "정말 그러고 싶은데, 이번 주말엔 이미 일이 산더미야." },
+    { sp: "A", en: "No worries — I don't want to put you on the spot.", ko: "괜찮아. 곤란하게 만들고 싶진 않아." },
+    { sp: "B", en: "Can I take a rain check? I'll help you out next time for sure.", ko: "다음으로 미뤄도 될까? 다음번엔 꼭 도와줄게." },
+    { sp: "A", en: "Of course. I'll hold you to that, though.", ko: "물론이지. 대신 그 말 꼭 지키게 할 거야." },
+    { sp: "B", en: "Deal. And I'll make it up to you with dinner.", ko: "좋아. 대신 저녁 사면서 갚을게." },
+    { sp: "A", en: "Now you're talking. That lets you off the hook.", ko: "이제야 말이 통하네. 그럼 넌 봐준 걸로 할게." },
+    { sp: "B", en: "Ha! I'll gladly take it.", ko: "하하! 기꺼이 받아들이지." }
+  ]
+}]);
+
+
+[].push.apply(DIALOGS, [{
+  id: "dd0825", level: "lv3", icon: "📞", title: "구독 서비스 해지 전화하기",
+  lines: [
+    { sp: "A", en: "Hi, I'd like to cancel my subscription, effective today.", ko: "안녕하세요, 오늘부로 구독을 해지하고 싶은데요." },
+    { sp: "B", en: "I'm sorry to hear that. May I ask what's prompting the change?", ko: "그러시다니 아쉽네요. 어떤 이유로 바꾸시려는지 여쭤봐도 될까요?" },
+    { sp: "A", en: "Honestly, I'm just not using it enough to justify the cost.", ko: "솔직히 요금이 아깝지 않을 만큼 자주 쓰질 않아서요." },
+    { sp: "B", en: "I understand. I could knock 30% off for the next three months, if that helps.", ko: "이해합니다. 도움이 되신다면 앞으로 석 달간 30퍼센트 할인해 드릴 수 있어요." },
+    { sp: "A", en: "That's tempting, but I'd rather not be locked into another contract.", ko: "솔깃하긴 한데, 또 다른 약정에 묶이고 싶진 않아요." },
+    { sp: "B", en: "No strings attached — you can cancel anytime, with no penalty.", ko: "아무 조건 없어요. 언제든 위약금 없이 해지하실 수 있고요." },
+    { sp: "A", en: "I appreciate it, but I've made up my mind. Please go ahead and cancel it.", ko: "마음 써 주셔서 감사하지만 이미 마음을 정했어요. 그냥 해지해 주세요." },
+    { sp: "B", en: "Understood. You're all set — your access will run through the end of the month.", ko: "알겠습니다. 처리 다 됐고요, 이용은 이달 말까지 가능합니다." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0827", level: "lv3", icon: "📦", title: "잘못 배송된 택배 문의하기",
+  lines: [
+    { sp: "A", en: "Hi, I think my package was delivered to the wrong address.", ko: "안녕하세요, 제 택배가 엉뚱한 주소로 배송된 것 같아요." },
+    { sp: "B", en: "Im sorry about that. Let me look into it for you right now.", ko: "불편을 드려 죄송합니다. 지금 바로 확인해 볼게요." },
+    { sp: "A", en: "The tracking says it was left at the front door, but I never got it.", ko: "배송 조회에는 현관 앞에 뒀다고 나오는데, 저는 못 받았어요." },
+    { sp: "B", en: "It happens more than youd think. Ill try to track down the driver.", ko: "생각보다 자주 있는 일이에요. 기사님을 찾아볼게요." },
+    { sp: "A", en: "I really need it by Friday, so I hope we can sort this out quickly.", ko: "금요일까지 꼭 필요해서, 빨리 해결됐으면 좋겠어요." },
+    { sp: "B", en: "Ill flag it as urgent and send a replacement just in case.", ko: "긴급으로 표시하고 혹시 몰라 대체품도 보내 드릴게요." },
+    { sp: "A", en: "That would be a huge help. Thank you for jumping on it so fast.", ko: "그럼 정말 큰 도움이 돼요. 이렇게 빨리 처리해 주셔서 감사해요." },
+    { sp: "B", en: "No problem. Youll get a confirmation text once its back on the way.", ko: "천만에요. 다시 발송되면 확인 문자를 받으실 거예요." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0829", level: "lv3", icon: "✂️", title: "미용실에서 원하는 머리 스타일 설명하기",
+  lines: [
+    { sp: "A", en: "I was thinking of going for something a bit shorter this time.", ko: "이번엔 좀 더 짧게 가볼까 하는데요." },
+    { sp: "B", en: "Sure. Do you want me to just trim the ends, or take off some real length?", ko: "물론이죠. 끝만 다듬어 드릴까요, 아니면 길이를 확 줄여 드릴까요?" },
+    { sp: "A", en: "Take off a couple of inches, but please keep the bangs long.", ko: "5센티 정도 잘라 주시되, 앞머리는 길게 남겨 주세요." },
+    { sp: "B", en: "Got it. Are you trying to grow out this color, or should I touch up the roots?", ko: "알겠어요. 이 색을 기르시는 건가요, 아니면 뿌리만 새로 염색해 드릴까요?" },
+    { sp: "A", en: "Just touch up the roots for now. Im still second-guessing a full change.", ko: "지금은 뿌리만 손봐 주세요. 완전히 바꾸는 건 아직 망설여져서요." },
+    { sp: "B", en: "No rush. We can always go bolder next time once youre sure.", ko: "서두르실 것 없어요. 확신이 들면 다음에 더 과감하게 가도 되니까요." },
+    { sp: "A", en: "Perfect. I appreciate you not pushing me into anything drastic.", ko: "좋아요. 뭔가 과감한 걸 밀어붙이지 않아 주셔서 고마워요." },
+    { sp: "B", en: "Of course. Its your hair, so my job is just to make you happy with it.", ko: "당연하죠. 손님 머리인걸요, 그러니 제 일은 손님이 만족하시게 해 드리는 거예요." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0831", level: "lv3", icon: "🏡", title: "새로 이사 온 이웃과 처음 인사하기",
+  lines: [
+    { sp: "A", en: "Hi, I think we just moved in next door. I wanted to come by and introduce myself.", ko: "안녕하세요, 저희가 바로 옆집으로 막 이사 왔어요. 인사드리려고 잠깐 들렀어요." },
+    { sp: "B", en: "Oh, welcome to the neighborhood! How are you settling in so far?", ko: "아, 동네에 오신 걸 환영해요! 지금까지 자리는 좀 잡으셨어요?" },
+    { sp: "A", en: "Getting there, slowly. We're still surrounded by boxes, honestly.", ko: "천천히 되어 가고 있어요. 솔직히 아직 상자에 둘러싸여 있긴 해요." },
+    { sp: "B", en: "I've been there. If you ever need a hand, feel free to swing by anytime.", ko: "저도 그런 적 있어요. 혹시 일손이 필요하면 언제든 편하게 들르세요." },
+    { sp: "A", en: "That's really kind of you. By the way, is trash pickup on a certain day around here?", ko: "정말 친절하시네요. 그런데 이 동네는 쓰레기 수거가 정해진 요일에 하나요?" },
+    { sp: "B", en: "Wednesdays. Just put it out the night before and you'll be fine.", ko: "수요일이에요. 전날 밤에만 내놓으면 문제없어요." },
+    { sp: "A", en: "Good to know. Thanks for filling me in — we'll have you over once we're unpacked.", ko: "알아 두면 좋겠네요. 알려 주셔서 고마워요 — 짐 다 풀면 한번 초대할게요." },
+    { sp: "B", en: "I'd love that. Don't be a stranger in the meantime!", ko: "그럼 좋죠. 그동안에도 자주 얼굴 봐요!" }
+  ]
+}]);
+
+
+[].push.apply(DIALOGS, [{
+  id: "dd0902", level: "lv3", icon: "✈️", title: "기내에서 옆 승객에게 자리 바꿔 달라 부탁하기",
+  lines: [
+    { sp: "A", en: "Excuse me, would you mind swapping seats with me? My wife and I got split up during booking.", ko: "실례합니다, 저랑 자리 좀 바꿔 주실 수 있을까요? 예매하다가 아내랑 자리가 떨어져 버려서요." },
+    { sp: "B", en: "Oh, no problem at all. Is your seat also a window seat, or something else?", ko: "아, 전혀 문제없어요. 손님 자리도 창가 자리인가요, 아니면 다른 자리인가요?" },
+    { sp: "A", en: "It's an aisle seat, just two rows up. I really don't want to put you out, though.", ko: "통로 쪽 자리예요, 딱 두 줄 앞이에요. 그래도 폐 끼치고 싶진 않은데요." },
+    { sp: "B", en: "Honestly, I prefer the aisle anyway, so this actually works out for me.", ko: "솔직히 저는 통로 쪽을 더 좋아해서, 오히려 저한테 잘된 일이에요." },
+    { sp: "A", en: "That's a relief. Thank you so much — I owe you one.", ko: "다행이네요. 정말 감사해요 — 신세 졌어요." },
+    { sp: "B", en: "Don't mention it. Let me just grab my bag from the overhead bin.", ko: "별말씀을요. 머리 위 짐칸에서 가방만 좀 꺼낼게요." },
+    { sp: "A", en: "Take your time, no rush at all. I appreciate you being so easygoing about it.", ko: "천천히 하세요, 전혀 급하지 않아요. 이렇게 흔쾌히 응해 주셔서 고마워요." },
+    { sp: "B", en: "Of course. I'd want someone to do the same for me.", ko: "당연하죠. 저라도 누가 똑같이 해 주길 바랄 테니까요." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0904", level: "lv3", icon: "🍜", title: "동료들과 점심 메뉴 고르기",
+  lines: [
+    { sp: "A", en: "Hey, are you up for grabbing some lunch?", ko: "야, 점심 같이 먹을래?" },
+    { sp: "B", en: "Definitely. I am starving. What are you in the mood for?", ko: "완전 좋아. 배고파 죽겠어. 뭐 당겨?" },
+    { sp: "A", en: "I could go for some ramen, but I am easy either way.", ko: "라멘 당기긴 하는데, 난 아무거나 다 좋아." },
+    { sp: "B", en: "Ramen sounds great. There is a new place that just opened up around the corner.", ko: "라멘 좋지. 저 모퉁이에 새로 문 연 데가 있어." },
+    { sp: "A", en: "Perfect. Let us beat the rush and head out now.", ko: "딱이네. 붐비기 전에 지금 나가자." },
+    { sp: "B", en: "Good call. If we wait, we will be stuck in line forever.", ko: "좋은 생각이야. 꾸물대면 줄 서서 한참 기다려야 해." },
+    { sp: "A", en: "Then it is settled—ramen it is.", ko: "그럼 결정 났네. 라멘으로 하자." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0906", level: "lv3", icon: "💪", title: "헬스장 회원 등록 상담하기",
+  lines: [
+    { sp: "A", en: "Hi, I'm thinking about joining, but I'm still on the fence about the price.", ko: "안녕하세요, 등록할까 하는데 가격 때문에 아직 좀 망설여져요." },
+    { sp: "B", en: "No worries—let me talk you through the plans so you can see what fits.", ko: "걱정 마세요. 어떤 게 맞을지 요금제를 하나씩 설명해 드릴게요." },
+    { sp: "A", en: "That'd be great. I mostly want to work out a few times a week.", ko: "좋죠. 저는 주로 일주일에 몇 번 정도 운동하려고요." },
+    { sp: "B", en: "In that case, our basic plan should do the trick without breaking the bank.", ko: "그러시면 기본 회원권이면 부담 없이 딱일 거예요." },
+    { sp: "A", en: "Is there a contract, or can I cancel anytime if it doesn't work out?", ko: "약정이 있나요, 아니면 안 맞으면 언제든 해지할 수 있나요?" },
+    { sp: "B", en: "You can cancel whenever. There are no strings attached.", ko: "언제든 해지 가능해요. 아무런 조건도 없어요." },
+    { sp: "A", en: "Okay, that puts my mind at ease. Sign me up.", ko: "그럼 마음이 놓이네요. 등록할게요." },
+    { sp: "B", en: "Awesome. Let me get you set up right now.", ko: "좋아요. 지금 바로 등록해 드릴게요." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0908", level: "lv4", icon: "🤝", title: "팀 프로젝트에서 역할 나누기",
+  lines: [
+    { sp: "A", en: "Since we're both on this project, let's divvy up the work so nothing falls through the cracks.", ko: "우리 둘 다 이 프로젝트에 있으니까, 빠지는 것 없게 일을 나눠 보자." },
+    { sp: "B", en: "Sounds good. I'm happy to take on the research part if you handle the slides.", ko: "좋아. 네가 슬라이드 맡으면 나는 리서치 부분 기꺼이 맡을게." },
+    { sp: "A", en: "Perfect. Could you also pitch in on the client email? It's a bit much for one person.", ko: "완벽해. 고객 이메일도 좀 거들어 줄 수 있어? 혼자 하기엔 좀 많아서." },
+    { sp: "B", en: "No problem. Let's touch base every couple of days to stay on the same page.", ko: "문제없어. 서로 상황 맞추게 이틀에 한 번씩 상황 공유하자." },
+    { sp: "A", en: "Great idea. That'll keep us from stepping on each other's toes.", ko: "좋은 생각이야. 그래야 서로 일이 겹치지 않지." },
+    { sp: "B", en: "Exactly. I'll shoot you a message once I've made a dent in the research.", ko: "맞아. 리서치 좀 진척되면 내가 메시지 보낼게." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0910", level: "lv3", icon: "🛍️", title: "온라인으로 산 옷 반품·교환 요청하기",
+  lines: [
+    { sp: "A", en: "Hi, I ordered a jacket last week, but it came in the wrong size. I'd like to sort out an exchange.", ko: "안녕하세요, 지난주에 재킷을 주문했는데 사이즈가 잘못 왔어요. 교환하고 싶어서요." },
+    { sp: "B", en: "I'm sorry about that. Let me pull up your order and see what we can do.", ko: "불편을 드려 죄송해요. 주문 내역을 확인해서 어떻게 해 드릴 수 있을지 볼게요." },
+    { sp: "A", en: "Thanks. Ideally I'd like the same jacket, just one size up.", ko: "감사해요. 되도록 같은 재킷으로, 한 치수만 큰 걸로 받고 싶어요." },
+    { sp: "B", en: "Good news—we have it in stock, so I can send the new one right away.", ko: "좋은 소식이에요, 재고가 있어서 새 제품을 바로 보내 드릴 수 있어요." },
+    { sp: "A", en: "Great. Do I need to send the wrong one back first, or...?", ko: "잘됐네요. 잘못 온 걸 먼저 보내야 하나요, 아니면…?" },
+    { sp: "B", en: "No need to wait on that. We'll email you a prepaid label, so it won't cost you a thing.", ko: "그건 기다릴 필요 없어요. 선불 반송 라벨을 이메일로 보내 드릴 테니, 비용은 전혀 안 들어요." },
+    { sp: "A", en: "That's a relief. Thanks for turning this around so quickly.", ko: "다행이네요. 이렇게 빨리 처리해 주셔서 감사해요." },
+    { sp: "B", en: "My pleasure. You'll have the right size in a couple of days.", ko: "천만에요. 며칠 안에 맞는 사이즈를 받으실 거예요." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd0912", level: "lv3", icon: "💻", title: "전자제품 매장에서 노트북 추천받기",
+  lines: [
+    { sp: "A", en: "Hi, I'm looking for a laptop, but there are so many options I don't even know where to start.", ko: "안녕하세요, 노트북을 찾고 있는데 종류가 너무 많아서 어디서부터 봐야 할지 모르겠어요." },
+    { sp: "B", en: "No problem. If you tell me what you'll mainly use it for, I can help you narrow it down.", ko: "괜찮아요. 주로 어디에 쓰실지 말씀해 주시면 선택지를 좁혀 드릴게요." },
+    { sp: "A", en: "Mostly web browsing, but I do some video editing on the side.", ko: "주로 웹서핑인데, 부업으로 영상 편집도 좀 해요." },
+    { sp: "B", en: "In that case, I'd steer you toward this model—it handles editing without breaking a sweat.", ko: "그러시면 이 모델을 추천드려요. 편집도 거뜬히 돌아가거든요." },
+    { sp: "A", en: "It looks great, but honestly it's a bit out of my budget.", ko: "좋아 보이는데, 솔직히 제 예산을 좀 넘네요." },
+    { sp: "B", en: "It's on sale this week, and with performance like that, it's worth every penny.", ko: "이번 주에 할인 중이고, 이 정도 성능이면 그 값을 충분히 해요." },
+    { sp: "A", en: "All right, you've talked me into it. I'll take it.", ko: "좋아요, 마음이 넘어갔네요. 이걸로 할게요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
