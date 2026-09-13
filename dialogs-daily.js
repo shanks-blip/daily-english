@@ -486,5 +486,18 @@
     { sp: "A", en: "All right, you've talked me into it. I'll take it.", ko: "좋아요, 마음이 넘어갔네요. 이걸로 할게요." }
   ]
 }]);
+[].push.apply(DIALOGS, [{
+  id: "dd0914", level: "lv3", icon: "🍽️", title: "식당에 전화로 자리 예약하기",
+  lines: [
+    { sp: "A", en: "Hi, I'd like to book a table for four this Friday evening.", ko: "안녕하세요, 이번 주 금요일 저녁에 4인 테이블을 예약하고 싶은데요." },
+    { sp: "B", en: "Let me check for you... I'm afraid we're fully booked at seven.", ko: "확인해 볼게요... 죄송하지만 7시는 예약이 다 찼어요." },
+    { sp: "A", en: "Is there any way you could squeeze us in a bit earlier?", ko: "혹시 좀 더 이른 시간으로 저희를 넣어 주실 수 있을까요?" },
+    { sp: "B", en: "We could seat you at six, if that works for you.", ko: "6시면 자리를 드릴 수 있는데, 괜찮으시면요." },
+    { sp: "A", en: "Six works. Could we also get a table by the window?", ko: "6시 좋아요. 창가 자리로도 될까요?" },
+    { sp: "B", en: "I'll do my best, but I can't promise—it depends on how busy we get.", ko: "최선을 다해 볼게요, 그런데 장담은 못 해요. 얼마나 붐비는지에 따라 달라서요." },
+    { sp: "A", en: "No problem at all. Thanks for squeezing us in.", ko: "전혀 문제없어요. 자리 마련해 주셔서 감사해요." },
+    { sp: "B", en: "Of course. Just give us a heads-up if your plans change.", ko: "물론이죠. 혹시 일정이 바뀌면 미리 귀띔만 해 주세요." }
+  ]
+}]);
 
 // end of dialogs-daily.js

@@ -2899,4 +2899,59 @@
   { id: "w4210", en: "mollify", ko: "(화를) 달래다, 진정시키다", pos: "동사", exEn: "He tried to mollify the angry customer with a refund.", exKo: "그는 환불로 화난 손님을 달래려고 했어요.", unit: "ud09134" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09141", level: "lv1", title: "데일리 9/14 · 기초" },
+  { id: "ud09142", level: "lv2", title: "데일리 9/14 · 중급" },
+  { id: "ud09143", level: "lv3", title: "데일리 9/14 · 고급" },
+  { id: "ud09144", level: "lv4", title: "데일리 9/14 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4211", en: "mouse", ko: "쥐", pos: "명사", exEn: "A little mouse ran across the kitchen floor.", exKo: "작은 쥐 한 마리가 부엌 바닥을 가로질러 달려갔어요.", unit: "ud09141" },
+  { id: "w4212", en: "meat", ko: "고기", pos: "명사", exEn: "I don't eat much meat these days.", exKo: "요즘은 고기를 별로 안 먹어요.", unit: "ud09141" },
+  { id: "w4213", en: "restaurant", ko: "식당, 레스토랑", pos: "명사", exEn: "Let's try that new restaurant tonight.", exKo: "오늘 저녁에 저 새로 생긴 식당 가 봐요.", unit: "ud09141" },
+  { id: "w4214", en: "phone", ko: "전화, 전화기", pos: "명사", exEn: "My phone is almost out of battery.", exKo: "휴대폰 배터리가 거의 다 됐어요.", unit: "ud09141" },
+  { id: "w4215", en: "smile", ko: "미소; 미소 짓다", pos: "명사", exEn: "She gave me a warm smile.", exKo: "그녀가 저에게 따뜻한 미소를 지어 줬어요.", unit: "ud09141" },
+  { id: "w4216", en: "cry", ko: "울다", pos: "동사", exEn: "The baby started to cry in the middle of the night.", exKo: "아기가 한밤중에 울기 시작했어요.", unit: "ud09141" },
+  { id: "w4217", en: "laugh", ko: "웃다", pos: "동사", exEn: "His joke made everyone laugh.", exKo: "그의 농담에 다들 웃었어요.", unit: "ud09141" },
+  { id: "w4218", en: "cook", ko: "요리하다", pos: "동사", exEn: "I'll cook dinner for us tonight.", exKo: "오늘 저녁은 제가 요리할게요.", unit: "ud09141" },
+  { id: "w4219", en: "sit", ko: "앉다", pos: "동사", exEn: "Please sit here and wait for a minute.", exKo: "여기 앉아서 잠깐만 기다려 주세요.", unit: "ud09141" },
+  { id: "w4220", en: "stand", ko: "서다, 서 있다", pos: "동사", exEn: "Everyone had to stand during the ceremony.", exKo: "다들 행사 내내 서 있어야 했어요.", unit: "ud09141" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4221", en: "scooter", ko: "스쿠터, 킥보드", pos: "명사", exEn: "He rides a scooter to work every day.", exKo: "그는 매일 스쿠터를 타고 출근해요.", unit: "ud09142" },
+  { id: "w4222", en: "whiteboard", ko: "화이트보드", pos: "명사", exEn: "Let me write the schedule on the whiteboard.", exKo: "일정을 화이트보드에 적어 놓을게요.", unit: "ud09142" },
+  { id: "w4223", en: "quilt", ko: "누비이불, 퀼트", pos: "명사", exEn: "She pulled the quilt up to her chin.", exKo: "그녀는 누비이불을 턱까지 끌어올렸어요.", unit: "ud09142" },
+  { id: "w4224", en: "preheat", ko: "예열하다", pos: "동사", exEn: "Preheat the oven before you put the bread in.", exKo: "빵을 넣기 전에 오븐을 예열하세요.", unit: "ud09142" },
+  { id: "w4225", en: "grate", ko: "(강판에) 갈다", pos: "동사", exEn: "Can you grate some cheese for the pasta?", exKo: "파스타에 넣게 치즈 좀 갈아 줄래요?", unit: "ud09142" },
+  { id: "w4226", en: "cast", ko: "깁스, 석고 붕대", pos: "명사", exEn: "He broke his arm and now has a cast.", exKo: "그는 팔이 부러져서 지금 깁스를 하고 있어요.", unit: "ud09142" },
+  { id: "w4227", en: "sling", ko: "팔걸이 붕대", pos: "명사", exEn: "Her arm was in a sling after the fall.", exKo: "그녀는 넘어진 뒤 팔에 붕대를 걸고 있었어요.", unit: "ud09142" },
+  { id: "w4228", en: "webcam", ko: "웹캠", pos: "명사", exEn: "Turn on your webcam so we can see you.", exKo: "얼굴 보이게 웹캠 좀 켜 주세요.", unit: "ud09142" },
+  { id: "w4229", en: "conditioner", ko: "컨디셔너, 린스", pos: "명사", exEn: "I ran out of conditioner this morning.", exKo: "오늘 아침에 컨디셔너가 다 떨어졌어요.", unit: "ud09142" },
+  { id: "w4230", en: "router", ko: "(인터넷) 공유기, 라우터", pos: "명사", exEn: "Try restarting the router if the Wi-Fi is slow.", exKo: "와이파이가 느리면 공유기를 다시 켜 보세요.", unit: "ud09142" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4231", en: "carry out", ko: "수행하다, 실행하다", pos: "동사구", exEn: "The team will carry out the plan next week.", exKo: "그 팀이 다음 주에 그 계획을 실행할 거예요.", unit: "ud09143" },
+  { id: "w4232", en: "take on", ko: "(일·책임을) 떠맡다", pos: "동사구", exEn: "She decided to take on more responsibility at work.", exKo: "그녀는 회사에서 더 많은 책임을 떠맡기로 했어요.", unit: "ud09143" },
+  { id: "w4233", en: "point out", ko: "지적하다, 짚어 주다", pos: "동사구", exEn: "He was quick to point out my mistake.", exKo: "그는 재빨리 제 실수를 짚어 냈어요.", unit: "ud09143" },
+  { id: "w4234", en: "miffed", ko: "살짝 기분이 상한", pos: "형용사", exEn: "She was a little miffed that we started without her.", exKo: "우리가 자기 빼고 시작해서 그녀가 살짝 기분이 상했어요.", unit: "ud09143" },
+  { id: "w4235", en: "testy", ko: "신경질적인, 짜증을 잘 내는", pos: "형용사", exEn: "He gets testy when he hasn't had enough sleep.", exKo: "그는 잠을 충분히 못 자면 신경질적이 돼요.", unit: "ud09143" },
+  { id: "w4236", en: "rattled", ko: "당황한, 동요된", pos: "형용사", exEn: "The loud noise left her completely rattled.", exKo: "그 큰 소리에 그녀는 완전히 당황했어요.", unit: "ud09143" },
+  { id: "w4237", en: "downcast", ko: "풀이 죽은, 시무룩한", pos: "형용사", exEn: "He looked downcast after reading the email.", exKo: "그는 그 이메일을 읽고 나서 풀이 죽은 표정이었어요.", unit: "ud09143" },
+  { id: "w4238", en: "windfall", ko: "뜻밖의 횡재, 불로소득", pos: "명사", exEn: "The tax refund was an unexpected windfall.", exKo: "그 세금 환급은 뜻밖의 횡재였어요.", unit: "ud09143" },
+  { id: "w4239", en: "uptick", ko: "소폭 상승, 증가세", pos: "명사", exEn: "There's been a slight uptick in sales this month.", exKo: "이번 달에 매출이 소폭 늘었어요.", unit: "ud09143" },
+  { id: "w4240", en: "stalemate", ko: "교착 상태", pos: "명사", exEn: "The negotiations ended in a stalemate.", exKo: "협상은 교착 상태로 끝났어요.", unit: "ud09143" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4241", en: "berate", ko: "호되게 꾸짖다, 나무라다", pos: "동사", exEn: "The coach berated the players for their sloppy effort.", exKo: "코치는 선수들이 대충 한다고 호되게 나무랐어요.", unit: "ud09144" },
+  { id: "w4242", en: "assuage", ko: "(불안·고통을) 누그러뜨리다", pos: "동사", exEn: "Nothing could assuage her worries about the trip.", exKo: "그 무엇도 여행에 대한 그녀의 걱정을 누그러뜨리지 못했어요.", unit: "ud09144" },
+  { id: "w4243", en: "capitulate", ko: "굴복하다, 항복하다", pos: "동사", exEn: "After a long debate, he finally capitulated.", exKo: "긴 논쟁 끝에 그는 마침내 굴복했어요.", unit: "ud09144" },
+  { id: "w4244", en: "vacillate", ko: "망설이다, 갈팡질팡하다", pos: "동사", exEn: "She tends to vacillate between the two options.", exKo: "그녀는 두 선택지 사이에서 갈팡질팡하는 편이에요.", unit: "ud09144" },
+  { id: "w4245", en: "disconsolate", ko: "슬픔에 잠긴, 위로가 안 되는", pos: "형용사", exEn: "He was disconsolate after losing his beloved dog.", exKo: "그는 아끼던 반려견을 잃고 슬픔에 잠겨 있었어요.", unit: "ud09144" },
+  { id: "w4246", en: "ebullient", ko: "활기 넘치는, 열정적인", pos: "형용사", exEn: "She was ebullient after hearing the good news.", exKo: "그녀는 좋은 소식을 듣고 활기가 넘쳤어요.", unit: "ud09144" },
+  { id: "w4247", en: "circumspect", ko: "신중한, 조심스러운", pos: "형용사", exEn: "Be circumspect about what you share online.", exKo: "온라인에 뭘 올릴지는 신중하게 생각해요.", unit: "ud09144" },
+  { id: "w4248", en: "the lion's share", ko: "가장 큰 몫, 대부분", pos: "표현", exEn: "He took the lion's share of the credit for the project.", exKo: "그는 그 프로젝트 공로의 가장 큰 몫을 가져갔어요.", unit: "ud09144" },
+  { id: "w4249", en: "throw a curveball", ko: "예상 밖의 상황을 던지다", pos: "표현", exEn: "The interviewer threw me a curveball with that question.", exKo: "면접관이 그 질문으로 예상 밖의 상황을 던졌어요.", unit: "ud09144" },
+  { id: "w4250", en: "throw caution to the wind", ko: "앞뒤 안 가리고 과감히 하다", pos: "표현", exEn: "They threw caution to the wind and booked the trip.", exKo: "그들은 앞뒤 안 가리고 과감히 그 여행을 예약했어요.", unit: "ud09144" }
+]);
+
 // end of data-daily.js
