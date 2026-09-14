@@ -2954,4 +2954,59 @@
   { id: "w4250", en: "throw caution to the wind", ko: "앞뒤 안 가리고 과감히 하다", pos: "표현", exEn: "They threw caution to the wind and booked the trip.", exKo: "그들은 앞뒤 안 가리고 과감히 그 여행을 예약했어요.", unit: "ud09144" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09151", level: "lv1", title: "데일리 9/15 · 기초" },
+  { id: "ud09152", level: "lv2", title: "데일리 9/15 · 중급" },
+  { id: "ud09153", level: "lv3", title: "데일리 9/15 · 고급" },
+  { id: "ud09154", level: "lv4", title: "데일리 9/15 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4251", en: "robe", ko: "가운, 실내복", pos: "명사", exEn: "She put on a robe after her shower.", exKo: "그녀는 샤워를 하고 나서 가운을 걸쳤어요.", unit: "ud09151" },
+  { id: "w4252", en: "hail", ko: "우박", pos: "명사", exEn: "Hail started to fall during the storm.", exKo: "폭풍이 부는 동안 우박이 떨어지기 시작했어요.", unit: "ud09151" },
+  { id: "w4253", en: "blizzard", ko: "눈보라", pos: "명사", exEn: "The blizzard closed every school in town.", exKo: "눈보라 때문에 동네 모든 학교가 문을 닫았어요.", unit: "ud09151" },
+  { id: "w4254", en: "shadow", ko: "그림자", pos: "명사", exEn: "The tree cast a long shadow on the grass.", exKo: "나무가 잔디밭에 긴 그림자를 드리웠어요.", unit: "ud09151" },
+  { id: "w4255", en: "smoke", ko: "연기", pos: "명사", exEn: "I saw smoke coming from the kitchen.", exKo: "부엌에서 연기가 나는 걸 봤어요.", unit: "ud09151" },
+  { id: "w4256", en: "spark", ko: "불꽃, 불똥", pos: "명사", exEn: "A spark from the fire landed on the floor.", exKo: "불에서 튄 불똥이 바닥에 떨어졌어요.", unit: "ud09151" },
+  { id: "w4257", en: "tide", ko: "조수, 밀물과 썰물", pos: "명사", exEn: "The tide comes in every evening.", exKo: "매일 저녁이면 밀물이 들어와요.", unit: "ud09151" },
+  { id: "w4258", en: "lizard", ko: "도마뱀", pos: "명사", exEn: "A small lizard ran up the wall.", exKo: "작은 도마뱀 한 마리가 벽을 타고 올라갔어요.", unit: "ud09151" },
+  { id: "w4259", en: "toad", ko: "두꺼비", pos: "명사", exEn: "We found a toad near the pond.", exKo: "우리는 연못 근처에서 두꺼비를 발견했어요.", unit: "ud09151" },
+  { id: "w4260", en: "sprout", ko: "새싹; 싹이 트다", pos: "동사", exEn: "The seeds will sprout in about a week.", exKo: "씨앗은 일주일쯤 지나면 싹이 터요.", unit: "ud09151" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4261", en: "dice", ko: "깍둑썰기하다", pos: "동사", exEn: "Dice the onion into small cubes.", exKo: "양파를 작은 큐브 모양으로 깍둑썰기하세요.", unit: "ud09152" },
+  { id: "w4262", en: "garnish", ko: "고명을 얹다; 고명", pos: "동사", exEn: "Garnish the soup with a little parsley.", exKo: "수프에 파슬리를 조금 얹어 고명으로 내세요.", unit: "ud09152" },
+  { id: "w4263", en: "sprinkle", ko: "(가루 등을) 뿌리다", pos: "동사", exEn: "Sprinkle some salt over the fries.", exKo: "감자튀김에 소금을 조금 뿌리세요.", unit: "ud09152" },
+  { id: "w4264", en: "mash", ko: "으깨다", pos: "동사", exEn: "Mash the potatoes until they're smooth.", exKo: "감자를 부드러워질 때까지 으깨세요.", unit: "ud09152" },
+  { id: "w4265", en: "freckle", ko: "주근깨", pos: "명사", exEn: "She has cute freckles across her nose.", exKo: "그녀는 코 위에 귀여운 주근깨가 있어요.", unit: "ud09152" },
+  { id: "w4266", en: "dimple", ko: "보조개", pos: "명사", exEn: "He gets a dimple when he smiles.", exKo: "그는 웃으면 보조개가 생겨요.", unit: "ud09152" },
+  { id: "w4267", en: "ponytail", ko: "하나로 묶은 머리, 포니테일", pos: "명사", exEn: "She tied her hair up in a ponytail.", exKo: "그녀는 머리를 하나로 묶어 포니테일을 했어요.", unit: "ud09152" },
+  { id: "w4268", en: "braid", ko: "땋은 머리; 머리를 땋다", pos: "명사", exEn: "Can you braid my hair before school?", exKo: "학교 가기 전에 머리 좀 땋아 줄래요?", unit: "ud09152" },
+  { id: "w4269", en: "mustache", ko: "콧수염", pos: "명사", exEn: "He grew a mustache over the summer.", exKo: "그는 여름 동안 콧수염을 길렀어요.", unit: "ud09152" },
+  { id: "w4270", en: "skewer", ko: "꼬치, 꼬챙이", pos: "명사", exEn: "Put the vegetables on a skewer for the grill.", exKo: "채소를 꼬치에 꿰어 그릴에 구워요.", unit: "ud09152" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4271", en: "nod off", ko: "깜빡 졸다", pos: "동사구", exEn: "Try not to nod off during the movie.", exKo: "영화 보는 동안 깜빡 졸지 않게 조심해요.", unit: "ud09153" },
+  { id: "w4272", en: "fess up", ko: "(잘못을) 실토하다", pos: "동사구", exEn: "Just fess up if you broke the vase.", exKo: "네가 꽃병을 깼으면 그냥 실토해.", unit: "ud09153" },
+  { id: "w4273", en: "egg on", ko: "부추기다, 꼬드기다", pos: "동사구", exEn: "Don't egg him on to do something risky.", exKo: "그가 위험한 짓을 하도록 부추기지 마요.", unit: "ud09153" },
+  { id: "w4274", en: "flip out", ko: "발끈하다, 몹시 흥분하다", pos: "동사구", exEn: "She flipped out when she saw the mess.", exKo: "그녀는 그 난장판을 보고 발끈했어요.", unit: "ud09153" },
+  { id: "w4275", en: "psych up", ko: "(마음을) 단단히 먹다", pos: "동사구", exEn: "I need to psych myself up before the interview.", exKo: "면접 전에 마음을 단단히 먹어야 해요.", unit: "ud09153" },
+  { id: "w4276", en: "grouchy", ko: "투덜대는, 심술궂은", pos: "형용사", exEn: "He's always grouchy before his morning coffee.", exKo: "그는 아침 커피를 마시기 전엔 늘 투덜대요.", unit: "ud09153" },
+  { id: "w4277", en: "queasy", ko: "속이 메스꺼운", pos: "형용사", exEn: "The boat ride made me feel queasy.", exKo: "배를 탔더니 속이 메스꺼웠어요.", unit: "ud09153" },
+  { id: "w4278", en: "woozy", ko: "어질어질한", pos: "형용사", exEn: "I felt woozy after standing up too fast.", exKo: "너무 빨리 일어났더니 어질어질했어요.", unit: "ud09153" },
+  { id: "w4279", en: "peckish", ko: "출출한, 약간 배고픈", pos: "형용사", exEn: "I'm feeling a bit peckish before dinner.", exKo: "저녁 먹기 전인데 좀 출출하네요.", unit: "ud09153" },
+  { id: "w4280", en: "irate", ko: "몹시 화난", pos: "형용사", exEn: "An irate customer demanded a full refund.", exKo: "몹시 화가 난 손님이 전액 환불을 요구했어요.", unit: "ud09153" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4281", en: "off the cuff", ko: "즉석에서, 준비 없이", pos: "표현", exEn: "He gave the whole speech off the cuff.", exKo: "그는 연설 전체를 원고 없이 즉석에서 했어요.", unit: "ud09154" },
+  { id: "w4282", en: "extricate", ko: "(곤경에서) 빼내다, 벗어나게 하다", pos: "동사", exEn: "It took her years to extricate herself from the debt.", exKo: "그녀가 빚에서 벗어나는 데 몇 년이 걸렸어요.", unit: "ud09154" },
+  { id: "w4283", en: "lambaste", ko: "맹비난하다", pos: "동사", exEn: "Critics lambaste any film that copies others.", exKo: "평론가들은 남을 베낀 영화라면 무엇이든 맹비난해요.", unit: "ud09154" },
+  { id: "w4284", en: "wheedle", ko: "감언이설로 구슬리다", pos: "동사", exEn: "She tried to wheedle a discount out of the clerk.", exKo: "그녀는 점원을 구슬려 할인을 받아 내려 했어요.", unit: "ud09154" },
+  { id: "w4285", en: "admonish", ko: "타이르다, 훈계하다", pos: "동사", exEn: "Teachers often admonish students for showing up late.", exKo: "선생님들은 학생들이 지각하면 곧잘 타일러요.", unit: "ud09154" },
+  { id: "w4286", en: "exonerate", ko: "혐의를 벗겨 주다, 무죄를 입증하다", pos: "동사", exEn: "New evidence could exonerate the accused man.", exKo: "새로운 증거가 피고인의 무죄를 입증해 줄 수도 있어요.", unit: "ud09154" },
+  { id: "w4287", en: "irascible", ko: "화를 잘 내는, 성마른", pos: "형용사", exEn: "Her irascible boss snapped at everyone.", exKo: "성마른 그녀의 상사는 모두에게 짜증을 냈어요.", unit: "ud09154" },
+  { id: "w4288", en: "abrasive", ko: "(태도가) 거슬리는, 무례한", pos: "형용사", exEn: "His abrasive manner puts people off.", exKo: "그의 거슬리는 태도는 사람들을 불쾌하게 해요.", unit: "ud09154" },
+  { id: "w4289", en: "urbane", ko: "세련되고 점잖은", pos: "형용사", exEn: "The host was urbane and effortlessly charming.", exKo: "진행자는 세련되고 자연스럽게 매력적이었어요.", unit: "ud09154" },
+  { id: "w4290", en: "wily", ko: "교활한, 약삭빠른", pos: "형용사", exEn: "The wily fox outsmarted the hunters.", exKo: "약삭빠른 여우가 사냥꾼들을 따돌렸어요.", unit: "ud09154" }
+]);
+
 // end of data-daily.js
