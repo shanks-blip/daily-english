@@ -500,4 +500,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0916", level: "lv3", icon: "✂️", title: "미용실에서 원하는 머리 설명하기",
+  lines: [
+    { sp: "B", en: "Hi! So what are we doing with your hair today?", ko: "안녕하세요! 오늘 머리는 어떻게 해 드릴까요?" },
+    { sp: "A", en: "I’ve been growing it out, but the ends look pretty rough.", ko: "계속 기르는 중인데, 끝부분이 좀 상해 보여서요." },
+    { sp: "B", en: "Got it. Do you want to keep the length and just tidy it up?", ko: "알겠어요. 길이는 살리고 다듬기만 할까요?" },
+    { sp: "A", en: "Yeah, just take a little off the ends and clean up the layers.", ko: "네, 끝만 살짝 치고 레이어만 정리해 주세요." },
+    { sp: "B", en: "Sure. Want me to trim your bangs too, or let them grow out?", ko: "좋아요. 앞머리도 다듬을까요, 아니면 계속 기를까요?" },
+    { sp: "A", en: "Let them grow out for now. I’m trying to switch up my look.", ko: "일단 계속 기를게요. 스타일에 변화를 좀 주려고요." },
+    { sp: "B", en: "Sounds good. I’ll blend everything so it grows out evenly.", ko: "좋아요. 골고루 자라도록 자연스럽게 이어 드릴게요." },
+    { sp: "A", en: "Perfect. I’ll leave it in your hands.", ko: "완벽해요. 알아서 잘 부탁드릴게요." }
+  ]
+}]);
+
 // end of dialogs-daily.js

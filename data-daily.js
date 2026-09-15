@@ -3009,4 +3009,53 @@
   { id: "w4290", en: "wily", ko: "교활한, 약삭빠른", pos: "형용사", exEn: "The wily fox outsmarted the hunters.", exKo: "약삭빠른 여우가 사냥꾼들을 따돌렸어요.", unit: "ud09154" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09161", level: "lv1", title: "데일리 9/16 · 기초" },
+  { id: "ud09162", level: "lv2", title: "데일리 9/16 · 중급" },
+  { id: "ud09163", level: "lv3", title: "데일리 9/16 · 고급" },
+  { id: "ud09164", level: "lv4", title: "데일리 9/16 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4291", en: "nostril", ko: "콧구멍", pos: "명사", exEn: "I felt a tickle in my left nostril.", exKo: "왼쪽 콧구멍이 간질간질했어요.", unit: "ud09161" },
+  { id: "w4292", en: "paw", ko: "(동물의) 발", pos: "명사", exEn: "The cat rested its paw on my hand.", exKo: "고양이가 내 손 위에 앞발을 올려놓았어요.", unit: "ud09161" },
+  { id: "w4293", en: "tail", ko: "꼬리", pos: "명사", exEn: "The dog wagged its tail happily.", exKo: "강아지가 신나서 꼬리를 흔들었어요.", unit: "ud09161" },
+  { id: "w4294", en: "beak", ko: "부리", pos: "명사", exEn: "The bird cracked the seed with its beak.", exKo: "새가 부리로 씨앗을 깨뜨렸어요.", unit: "ud09161" },
+  { id: "w4295", en: "thorn", ko: "가시", pos: "명사", exEn: "A thorn from the rose pricked my finger.", exKo: "장미 가시에 손가락이 찔렸어요.", unit: "ud09161" },
+  { id: "w4296", en: "stump", ko: "나무 그루터기", pos: "명사", exEn: "We sat on an old stump to rest.", exKo: "우리는 오래된 그루터기에 앉아 쉬었어요.", unit: "ud09161" },
+  { id: "w4297", en: "dew", ko: "이슬", pos: "명사", exEn: "The grass was wet with morning dew.", exKo: "풀이 아침 이슬에 젖어 있었어요.", unit: "ud09161" },
+  { id: "w4298", en: "ash", ko: "재", pos: "명사", exEn: "Gray ash was left after the fire.", exKo: "불이 꺼진 뒤 회색 재가 남았어요.", unit: "ud09161" },
+  { id: "w4299", en: "crust", ko: "(빵의) 겉껍질", pos: "명사", exEn: "I like the crunchy crust of fresh bread.", exKo: "저는 갓 구운 빵의 바삭한 껍질을 좋아해요.", unit: "ud09161" },
+  { id: "w4300", en: "yolk", ko: "노른자", pos: "명사", exEn: "She separated the yolk from the white.", exKo: "그녀는 노른자와 흰자를 분리했어요.", unit: "ud09161" },
+  { id: "w4301", en: "swipe", ko: "(화면을) 밀어 넘기다", pos: "동사", exEn: "Swipe left to see the next photo.", exKo: "다음 사진을 보려면 왼쪽으로 밀어 넘기세요.", unit: "ud09162" },
+  { id: "w4302", en: "scroll", ko: "화면을 내리다, 스크롤하다", pos: "동사", exEn: "I scrolled down to read the comments.", exKo: "저는 댓글을 읽으려고 화면을 아래로 내렸어요.", unit: "ud09162" },
+  { id: "w4303", en: "refresh", ko: "새로고침하다", pos: "동사", exEn: "Try refreshing the page if it won’t load.", exKo: "페이지가 안 열리면 새로고침해 보세요.", unit: "ud09162" },
+  { id: "w4304", en: "zoom", ko: "확대하다, 당기다", pos: "동사", exEn: "Zoom in a bit so I can read the text.", exKo: "글씨를 읽을 수 있게 조금 확대해 주세요.", unit: "ud09162" },
+  { id: "w4305", en: "preorder", ko: "예약 주문하다", pos: "동사", exEn: "I preordered the game before it sold out.", exKo: "저는 그 게임이 품절되기 전에 예약 주문했어요.", unit: "ud09162" },
+  { id: "w4306", en: "dim", ko: "(불빛을) 어둡게 하다", pos: "동사", exEn: "Can you dim the lights a little?", exKo: "불빛을 조금 어둡게 해 줄 수 있어요?", unit: "ud09162" },
+  { id: "w4307", en: "blur", ko: "흐릿하게 하다", pos: "동사", exEn: "They blurred out the faces in the video.", exKo: "그들은 영상 속 얼굴들을 흐릿하게 처리했어요.", unit: "ud09162" },
+  { id: "w4308", en: "hem", ko: "(옷의) 단", pos: "명사", exEn: "The hem of my pants came loose.", exKo: "제 바지 단이 풀렸어요.", unit: "ud09162" },
+  { id: "w4309", en: "rush", ko: "서두르다", pos: "동사", exEn: "There’s no need to rush; take your time.", exKo: "서두를 필요 없어요, 천천히 하세요.", unit: "ud09162" },
+  { id: "w4310", en: "pause", ko: "잠시 멈추다", pos: "동사", exEn: "Let’s pause the movie and grab a snack.", exKo: "영화를 잠깐 멈추고 간식 좀 가져오자.", unit: "ud09162" },
+  { id: "w4311", en: "win over", ko: "마음을 사로잡다, 설득하다", pos: "구동사", exEn: "Her honesty slowly won over the whole team.", exKo: "그녀의 솔직함이 팀 전체의 마음을 서서히 사로잡았어요.", unit: "ud09163" },
+  { id: "w4312", en: "laugh off", ko: "웃어넘기다", pos: "구동사", exEn: "He just laughed off the criticism.", exKo: "그는 그 비판을 그냥 웃어넘겼어요.", unit: "ud09163" },
+  { id: "w4313", en: "shake off", ko: "떨쳐내다", pos: "구동사", exEn: "I can’t shake off this nagging cold.", exKo: "이 지긋지긋한 감기를 떨쳐낼 수가 없어요.", unit: "ud09163" },
+  { id: "w4314", en: "clamp down", ko: "단속하다, 엄하게 규제하다", pos: "구동사", exEn: "The city is clamping down on illegal parking.", exKo: "시에서 불법 주차를 강하게 단속하고 있어요.", unit: "ud09163" },
+  { id: "w4315", en: "zero in", ko: "집중하다, 정조준하다", pos: "구동사", exEn: "Let’s zero in on the real problem here.", exKo: "여기서 진짜 문제에 집중해 봅시다.", unit: "ud09163" },
+  { id: "w4316", en: "conjure up", ko: "떠올리게 하다, 만들어내다", pos: "구동사", exEn: "That smell conjures up memories of childhood.", exKo: "그 냄새는 어린 시절 기억을 떠올리게 해요.", unit: "ud09163" },
+  { id: "w4317", en: "hover", ko: "맴돌다, 서성이다", pos: "동사", exEn: "A waiter hovered near our table all night.", exKo: "웨이터가 밤새 우리 테이블 근처를 맴돌았어요.", unit: "ud09163" },
+  { id: "w4318", en: "hustle", ko: "바삐 움직이다, 부지런히 뛰다", pos: "동사", exEn: "She’s always hustling to grow her business.", exKo: "그녀는 사업을 키우려고 늘 부지런히 뛰어요.", unit: "ud09163" },
+  { id: "w4319", en: "goof off", ko: "빈둥거리다, 농땡이 부리다", pos: "구동사", exEn: "Stop goofing off and finish your report.", exKo: "그만 빈둥거리고 보고서 마무리해요.", unit: "ud09163" },
+  { id: "w4320", en: "geek out", ko: "(무언가에) 열광하다, 파고들다", pos: "구동사", exEn: "We geeked out over the new phone for hours.", exKo: "우리는 새 휴대폰에 몇 시간을 열광했어요.", unit: "ud09163" },
+  { id: "w4321", en: "nonplussed", ko: "어리둥절한, 얼떨떨한", pos: "형용사", exEn: "She looked nonplussed by the sudden question.", exKo: "그녀는 갑작스러운 질문에 어리둥절한 표정이었어요.", unit: "ud09164" },
+  { id: "w4322", en: "prim", ko: "새침한, 깔끔 떠는", pos: "형용사", exEn: "He gave a prim little nod and said nothing.", exKo: "그는 새침하게 살짝 고개만 끄덕이고 아무 말도 안 했어요.", unit: "ud09164" },
+  { id: "w4323", en: "scruffy", ko: "꾀죄죄한, 추레한", pos: "형용사", exEn: "He showed up in a scruffy old jacket.", exKo: "그는 꾀죄죄한 낡은 재킷을 입고 나타났어요.", unit: "ud09164" },
+  { id: "w4324", en: "paltry", ko: "하찮은, 쥐꼬리만 한", pos: "형용사", exEn: "They offered a paltry sum for all that work.", exKo: "그들은 그 많은 일에 쥐꼬리만 한 금액을 제시했어요.", unit: "ud09164" },
+  { id: "w4325", en: "thrifty", ko: "알뜰한, 검소한", pos: "형용사", exEn: "My grandmother was thrifty but never cheap.", exKo: "우리 할머니는 알뜰하셨지만 결코 인색하진 않으셨어요.", unit: "ud09164" },
+  { id: "w4326", en: "stingy", ko: "인색한, 짠", pos: "형용사", exEn: "Don’t be so stingy with the toppings.", exKo: "토핑 좀 그렇게 짜게 굴지 마세요.", unit: "ud09164" },
+  { id: "w4327", en: "deft", ko: "능숙한, 솜씨 좋은", pos: "형용사", exEn: "With a few deft moves, she fixed the zipper.", exKo: "몇 번의 능숙한 손놀림으로 그녀는 지퍼를 고쳤어요.", unit: "ud09164" },
+  { id: "w4328", en: "inept", ko: "서투른, 무능한", pos: "형용사", exEn: "The manager was well-meaning but inept.", exKo: "그 관리자는 선의는 있었지만 무능했어요.", unit: "ud09164" },
+  { id: "w4329", en: "rambling", ko: "두서없는, 장황한", pos: "형용사", exEn: "He gave a long, rambling explanation.", exKo: "그는 길고 두서없는 설명을 늘어놓았어요.", unit: "ud09164" },
+  { id: "w4330", en: "ample", ko: "충분한, 넉넉한", pos: "형용사", exEn: "We had ample time to catch the train.", exKo: "우리는 기차를 탈 시간이 넉넉했어요.", unit: "ud09164" }
+]);
+
 // end of data-daily.js
