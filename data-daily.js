@@ -3058,4 +3058,53 @@
   { id: "w4330", en: "ample", ko: "충분한, 넉넉한", pos: "형용사", exEn: "We had ample time to catch the train.", exKo: "우리는 기차를 탈 시간이 넉넉했어요.", unit: "ud09164" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09171", level: "lv1", title: "데일리 9/17 · 기초" },
+  { id: "ud09172", level: "lv2", title: "데일리 9/17 · 중급" },
+  { id: "ud09173", level: "lv3", title: "데일리 9/17 · 고급" },
+  { id: "ud09174", level: "lv4", title: "데일리 9/17 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4331", en: "stair", ko: "계단(한 칸)", pos: "명사", exEn: "Watch your step on the top stair.", exKo: "맨 위 계단 조심해.", unit: "ud09171" },
+  { id: "w4332", en: "noon", ko: "정오, 낮 12시", pos: "명사", exEn: "Let's meet at noon for lunch.", exKo: "점심 먹게 정오에 만나자.", unit: "ud09171" },
+  { id: "w4333", en: "mist", ko: "옅은 안개", pos: "명사", exEn: "There was a light mist over the lake this morning.", exKo: "오늘 아침 호수 위에 옅은 안개가 꼈어.", unit: "ud09171" },
+  { id: "w4334", en: "pea", ko: "완두콩", pos: "명사", exEn: "My kid won't eat a single pea.", exKo: "우리 애는 완두콩 하나도 안 먹어.", unit: "ud09171" },
+  { id: "w4335", en: "beet", ko: "비트(붉은 채소)", pos: "명사", exEn: "I added a beet to the salad.", exKo: "샐러드에 비트를 넣었어.", unit: "ud09171" },
+  { id: "w4336", en: "path", ko: "길, 오솔길", pos: "명사", exEn: "We followed the path through the park.", exKo: "우리는 공원을 가로지르는 길을 따라갔어.", unit: "ud09171" },
+  { id: "w4337", en: "bell", ko: "종, 벨", pos: "명사", exEn: "Ring the bell when dinner is ready.", exKo: "저녁 준비되면 벨 눌러.", unit: "ud09171" },
+  { id: "w4338", en: "dock", ko: "부두, 선착장", pos: "명사", exEn: "The boat is tied up at the dock.", exKo: "배가 부두에 묶여 있어.", unit: "ud09171" },
+  { id: "w4339", en: "meadow", ko: "초원, 풀밭", pos: "명사", exEn: "The kids ran across the meadow.", exKo: "아이들이 풀밭을 가로질러 뛰었어.", unit: "ud09171" },
+  { id: "w4340", en: "clay", ko: "점토, 찰흙", pos: "명사", exEn: "The kids made bowls out of clay.", exKo: "아이들이 찰흙으로 그릇을 만들었어.", unit: "ud09171" },
+  { id: "w4341", en: "mow", ko: "(잔디를) 깎다", pos: "동사", exEn: "I have to mow the lawn this weekend.", exKo: "이번 주말에 잔디 깎아야 해.", unit: "ud09172" },
+  { id: "w4342", en: "polish", ko: "광을 내다, 닦다", pos: "동사", exEn: "He polished his shoes before the interview.", exKo: "그는 면접 전에 구두를 닦았어.", unit: "ud09172" },
+  { id: "w4343", en: "crouch", ko: "쭈그리고 앉다", pos: "동사", exEn: "She crouched down to talk to the toddler.", exKo: "그녀는 쭈그려 앉아 아기와 얘기했어.", unit: "ud09172" },
+  { id: "w4344", en: "fasten", ko: "매다, 채우다", pos: "동사", exEn: "Please fasten your seatbelt.", exKo: "안전벨트를 매 주세요.", unit: "ud09172" },
+  { id: "w4345", en: "loosen", ko: "느슨하게 하다, 풀다", pos: "동사", exEn: "He loosened his tie after work.", exKo: "그는 퇴근 후 넥타이를 느슨하게 풀었어.", unit: "ud09172" },
+  { id: "w4346", en: "tighten", ko: "조이다, 단단히 하다", pos: "동사", exEn: "Can you tighten this screw for me?", exKo: "이 나사 좀 조여 줄래?", unit: "ud09172" },
+  { id: "w4347", en: "shred", ko: "잘게 자르다, 분쇄하다", pos: "동사", exEn: "Make sure to shred those old documents.", exKo: "그 오래된 서류들은 꼭 분쇄해.", unit: "ud09172" },
+  { id: "w4348", en: "spread", ko: "펴 바르다, 펼치다", pos: "동사", exEn: "She spread butter on the toast.", exKo: "그녀는 토스트에 버터를 발랐어.", unit: "ud09172" },
+  { id: "w4349", en: "chill", ko: "차게 식히다", pos: "동사", exEn: "Chill the drinks before the guests arrive.", exKo: "손님 오기 전에 음료를 차게 식혀 둬.", unit: "ud09172" },
+  { id: "w4350", en: "tuck", ko: "밀어 넣다, 집어넣다", pos: "동사", exEn: "Tuck your shirt in before the meeting.", exKo: "회의 전에 셔츠 좀 넣어.", unit: "ud09172" },
+  { id: "w4351", en: "mutter", ko: "중얼거리다", pos: "동사", exEn: "He muttered something under his breath and walked off.", exKo: "그는 뭔가 낮게 중얼거리더니 가버렸어.", unit: "ud09173" },
+  { id: "w4352", en: "elaborate", ko: "자세히 설명하다", pos: "동사", exEn: "Could you elaborate on your last point?", exKo: "방금 말씀하신 부분 좀 더 자세히 설명해 주실래요?", unit: "ud09173" },
+  { id: "w4353", en: "summarize", ko: "요약하다", pos: "동사", exEn: "Let me summarize what we agreed on.", exKo: "우리가 합의한 걸 제가 요약해 볼게요.", unit: "ud09173" },
+  { id: "w4354", en: "paraphrase", ko: "바꿔 말하다, 다른 말로 풀다", pos: "동사", exEn: "Just paraphrase it in your own words.", exKo: "그냥 네 말로 바꿔서 말해 봐.", unit: "ud09173" },
+  { id: "w4355", en: "fabricate", ko: "지어내다, 날조하다", pos: "동사", exEn: "He fabricated the whole story to avoid trouble.", exKo: "그는 곤란해지지 않으려고 이야기를 통째로 지어냈어.", unit: "ud09173" },
+  { id: "w4356", en: "distort", ko: "왜곡하다", pos: "동사", exEn: "The media distorted what she actually said.", exKo: "언론이 그녀가 실제로 한 말을 왜곡했어.", unit: "ud09173" },
+  { id: "w4357", en: "infer", ko: "추론하다, 미루어 짐작하다", pos: "동사", exEn: "From his tone, I inferred he was upset.", exKo: "말투를 보고 그가 화났다고 짐작했어.", unit: "ud09173" },
+  { id: "w4358", en: "allude", ko: "넌지시 말하다, 암시하다", pos: "동사", exEn: "She alluded to some problems at home.", exKo: "그녀는 집안 문제를 넌지시 내비쳤어.", unit: "ud09173" },
+  { id: "w4359", en: "glance", ko: "흘낏 보다", pos: "동사", exEn: "He glanced at his watch and stood up.", exKo: "그는 시계를 흘낏 보더니 일어섰어.", unit: "ud09173" },
+  { id: "w4360", en: "dissuade", ko: "단념시키다, 말리다", pos: "동사", exEn: "I tried to dissuade him from quitting.", exKo: "나는 그가 그만두지 못하게 말려 봤어.", unit: "ud09173" },
+  { id: "w4361", en: "tinker", ko: "이리저리 만지작거리다, 손보다", pos: "동사", exEn: "He likes to tinker with old radios on weekends.", exKo: "그는 주말이면 오래된 라디오를 만지작거리며 손보는 걸 좋아해.", unit: "ud09174" },
+  { id: "w4362", en: "tamper", ko: "함부로 손대다, 조작하다", pos: "동사", exEn: "Someone tampered with the lock on the back door.", exKo: "누군가 뒷문 자물쇠에 손을 댔어.", unit: "ud09174" },
+  { id: "w4363", en: "bungle", ko: "서툴게 망치다", pos: "동사", exEn: "They completely bungled the product launch.", exKo: "그들은 제품 출시를 완전히 망쳐 버렸어.", unit: "ud09174" },
+  { id: "w4364", en: "fumble", ko: "더듬거리다, 만지작대다", pos: "동사", exEn: "He fumbled for his keys in the dark.", exKo: "그는 어둠 속에서 열쇠를 더듬거리며 찾았어.", unit: "ud09174" },
+  { id: "w4365", en: "flounder", ko: "허둥대다, 갈팡질팡하다", pos: "동사", exEn: "She floundered for an answer during the interview.", exKo: "그녀는 면접에서 답을 못 찾고 허둥댔어.", unit: "ud09174" },
+  { id: "w4366", en: "unravel", ko: "(계획 등이) 풀리다, 무너지다", pos: "동사", exEn: "The whole plan started to unravel at the last minute.", exKo: "막판에 계획 전체가 무너지기 시작했어.", unit: "ud09174" },
+  { id: "w4367", en: "veer", ko: "방향을 홱 틀다", pos: "동사", exEn: "The car suddenly veered to the left.", exKo: "차가 갑자기 왼쪽으로 홱 틀었어.", unit: "ud09174" },
+  { id: "w4368", en: "hoard", ko: "사재기하다, 쟁여 두다", pos: "동사", exEn: "People started to hoard toilet paper.", exKo: "사람들이 휴지를 사재기하기 시작했어.", unit: "ud09174" },
+  { id: "w4369", en: "taper", ko: "점점 줄이다, 서서히 줄다", pos: "동사", exEn: "Let's taper off the meetings next month.", exKo: "다음 달에는 회의를 점점 줄여 나가자.", unit: "ud09174" },
+  { id: "w4370", en: "sprawl", ko: "큰대자로 뻗다", pos: "동사", exEn: "He sprawled out on the couch after work.", exKo: "그는 퇴근 후 소파에 큰대자로 뻗었어.", unit: "ud09174" }
+]);
+
 // end of data-daily.js
