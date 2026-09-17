@@ -3107,4 +3107,54 @@
   { id: "w4370", en: "sprawl", ko: "큰대자로 뻗다", pos: "동사", exEn: "He sprawled out on the couch after work.", exKo: "그는 퇴근 후 소파에 큰대자로 뻗었어.", unit: "ud09174" }
 ]);
 
+
+[].push.apply(UNITS, [
+  { id: "ud09181", level: "lv1", title: "데일리 9/18 · 기초" },
+  { id: "ud09182", level: "lv2", title: "데일리 9/18 · 중급" },
+  { id: "ud09183", level: "lv3", title: "데일리 9/18 · 고급" },
+  { id: "ud09184", level: "lv4", title: "데일리 9/18 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4371", en: "apricot", ko: "살구", pos: "명사", exEn: "I had a fresh apricot for breakfast this morning.", exKo: "오늘 아침으로 신선한 살구를 하나 먹었어요.", unit: "ud09181" },
+  { id: "w4372", en: "walnut", ko: "호두", pos: "명사", exEn: "Can you add some walnuts to the salad?", exKo: "샐러드에 호두 좀 넣어 줄래요?", unit: "ud09181" },
+  { id: "w4373", en: "popcorn", ko: "팝콘", pos: "명사", exEn: "Let's make some popcorn before the movie starts.", exKo: "영화 시작하기 전에 팝콘 좀 만들자.", unit: "ud09181" },
+  { id: "w4374", en: "lobster", ko: "바닷가재", pos: "명사", exEn: "We had lobster for dinner on our trip.", exKo: "여행 가서 저녁으로 바닷가재를 먹었어요.", unit: "ud09181" },
+  { id: "w4375", en: "oyster", ko: "굴", pos: "명사", exEn: "I don't really like the taste of raw oysters.", exKo: "저는 생굴 맛을 별로 안 좋아해요.", unit: "ud09181" },
+  { id: "w4376", en: "earring", ko: "귀걸이", pos: "명사", exEn: "I think I lost one of my earrings at the party.", exKo: "파티에서 귀걸이 한 짝을 잃어버린 것 같아요.", unit: "ud09181" },
+  { id: "w4377", en: "hoodie", ko: "후드티", pos: "명사", exEn: "It's cold, so grab your hoodie before we leave.", exKo: "추우니까 나가기 전에 후드티 챙겨.", unit: "ud09181" },
+  { id: "w4378", en: "marshmallow", ko: "마시멜로", pos: "명사", exEn: "The kids roasted marshmallows over the fire.", exKo: "아이들이 불에 마시멜로를 구웠어요.", unit: "ud09181" },
+  { id: "w4379", en: "harmonica", ko: "하모니카", pos: "명사", exEn: "My grandfather taught me how to play the harmonica.", exKo: "할아버지가 하모니카 부는 법을 가르쳐 주셨어요.", unit: "ud09181" },
+  { id: "w4380", en: "chestnut", ko: "밤(견과)", pos: "명사", exEn: "In winter, we love to buy roasted chestnuts on the street.", exKo: "겨울이면 우리는 길거리에서 군밤 사 먹는 걸 좋아해요.", unit: "ud09181" },
+  { id: "w4381", en: "compass", ko: "나침반", pos: "명사", exEn: "Bring a compass in case we lose the trail.", exKo: "길을 잃을 수도 있으니 나침반을 챙겨.", unit: "ud09182" },
+  { id: "w4382", en: "lantern", ko: "랜턴, 등불", pos: "명사", exEn: "We hung a lantern outside the tent.", exKo: "우리는 텐트 밖에 랜턴을 걸어 뒀어요.", unit: "ud09182" },
+  { id: "w4383", en: "goggles", ko: "물안경, 고글", pos: "명사", exEn: "Don't forget your goggles if you're going to swim.", exKo: "수영할 거면 물안경 잊지 마.", unit: "ud09182" },
+  { id: "w4384", en: "snorkel", ko: "스노클", pos: "명사", exEn: "You can rent a snorkel down by the beach.", exKo: "해변 쪽에서 스노클을 빌릴 수 있어요.", unit: "ud09182" },
+  { id: "w4385", en: "paddle", ko: "노; 노를 젓다", pos: "명사/동사", exEn: "We took turns holding the paddle in the canoe.", exKo: "우리는 카누에서 번갈아 가며 노를 잡았어요.", unit: "ud09182" },
+  { id: "w4386", en: "racket", ko: "라켓", pos: "명사", exEn: "I need to restring my tennis racket.", exKo: "테니스 라켓 줄을 다시 매야 해요.", unit: "ud09182" },
+  { id: "w4387", en: "seaweed", ko: "미역, 해조류", pos: "명사", exEn: "This soup has some seaweed in it.", exKo: "이 국에는 미역이 좀 들어 있어요.", unit: "ud09182" },
+  { id: "w4388", en: "tofu", ko: "두부", pos: "명사", exEn: "I usually add tofu to make the dish healthier.", exKo: "저는 보통 두부를 넣어서 요리를 더 건강하게 만들어요.", unit: "ud09182" },
+  { id: "w4389", en: "cauliflower", ko: "콜리플라워", pos: "명사", exEn: "She swapped rice for cauliflower to cut carbs.", exKo: "그녀는 탄수화물을 줄이려고 밥 대신 콜리플라워를 썼어요.", unit: "ud09182" },
+  { id: "w4390", en: "zucchini", ko: "애호박", pos: "명사", exEn: "Could you slice the zucchini for the stir-fry?", exKo: "볶음 요리에 넣게 애호박 좀 썰어 줄래요?", unit: "ud09182" },
+  { id: "w4391", en: "bottle up", ko: "(감정을) 억누르다", pos: "구동사", exEn: "You shouldn't bottle up your feelings like that.", exKo: "그렇게 감정을 억누르기만 하면 안 돼.", unit: "ud09183" },
+  { id: "w4392", en: "cough up", ko: "(마지못해) 돈을 내다", pos: "구동사", exEn: "We had to cough up a lot of money for repairs.", exKo: "우리는 수리비로 큰돈을 마지못해 내야 했어요.", unit: "ud09183" },
+  { id: "w4393", en: "ease off", ko: "완화되다, 누그러지다", pos: "구동사", exEn: "The rain should ease off by this afternoon.", exKo: "비는 오늘 오후쯤이면 잦아들 거예요.", unit: "ud09183" },
+  { id: "w4394", en: "snap up", ko: "잽싸게 채가다, 얼른 사다", pos: "구동사", exEn: "The concert tickets got snapped up in minutes.", exKo: "콘서트 표는 몇 분 만에 순식간에 다 팔렸어요.", unit: "ud09183" },
+  { id: "w4395", en: "sound out", ko: "의중을 떠보다", pos: "구동사", exEn: "Let me sound out my boss before we decide.", exKo: "결정하기 전에 제가 상사 의중을 좀 떠볼게요.", unit: "ud09183" },
+  { id: "w4396", en: "stir up", ko: "부추기다, 불러일으키다", pos: "구동사", exEn: "That comment really stirred up a lot of anger online.", exKo: "그 말이 온라인에서 정말 많은 분노를 불러일으켰어요.", unit: "ud09183" },
+  { id: "w4397", en: "prop up", ko: "떠받치다, 지탱하다", pos: "구동사", exEn: "They used savings to prop up the failing business.", exKo: "그들은 저축한 돈으로 기울어 가는 사업을 떠받쳤어요.", unit: "ud09183" },
+  { id: "w4398", en: "rake in", ko: "(돈을) 많이 벌어들이다", pos: "구동사", exEn: "That little café is raking in money these days.", exKo: "그 작은 카페가 요즘 돈을 엄청 벌어들이고 있어요.", unit: "ud09183" },
+  { id: "w4399", en: "lament", ko: "한탄하다, 애석해하다", pos: "동사", exEn: "She lamented how quickly the summer had passed.", exKo: "그녀는 여름이 얼마나 빨리 지나갔는지 한탄했어요.", unit: "ud09183" },
+  { id: "w4400", en: "heed", ko: "주의를 기울이다, 유념하다", pos: "동사", exEn: "He didn't heed the warnings and got lost.", exKo: "그는 경고에 유념하지 않다가 길을 잃었어요.", unit: "ud09183" },
+  { id: "w4401", en: "adamant", ko: "요지부동의, 단호한", pos: "형용사", exEn: "She was adamant about not changing the plan.", exKo: "그녀는 계획을 바꾸지 않겠다고 단호했어요.", unit: "ud09184" },
+  { id: "w4402", en: "callous", ko: "냉담한, 무정한", pos: "형용사", exEn: "It was pretty callous of him to laugh at that.", exKo: "그걸 보고 웃다니 그 사람 참 무정하더라.", unit: "ud09184" },
+  { id: "w4403", en: "haughty", ko: "거만한, 오만한", pos: "형용사", exEn: "She gave me a haughty look and walked away.", exKo: "그녀는 거만한 눈빛을 보내고는 가 버렸어요.", unit: "ud09184" },
+  { id: "w4404", en: "placid", ko: "차분한, 잔잔한", pos: "형용사", exEn: "The lake was perfectly placid at dawn.", exKo: "새벽에 호수는 더없이 잔잔했어요.", unit: "ud09184" },
+  { id: "w4405", en: "staunch", ko: "확고한, 굳건한", pos: "형용사", exEn: "He's a staunch supporter of the local team.", exKo: "그는 지역 팀의 확고한 지지자예요.", unit: "ud09184" },
+  { id: "w4406", en: "tepid", ko: "미지근한; 미온적인", pos: "형용사", exEn: "The audience gave only a tepid response.", exKo: "관객은 미온적인 반응만 보였어요.", unit: "ud09184" },
+  { id: "w4407", en: "sultry", ko: "무더운, 후텁지근한", pos: "형용사", exEn: "It was a sultry August afternoon.", exKo: "무더운 8월 오후였어요.", unit: "ud09184" },
+  { id: "w4408", en: "vex", ko: "짜증나게 하다, 성가시게 하다", pos: "동사", exEn: "It really vexes me when people are late.", exKo: "사람들이 늦으면 정말 짜증이 나요.", unit: "ud09184" },
+  { id: "w4409", en: "thwart", ko: "좌절시키다, 저지하다", pos: "동사", exEn: "Bad weather thwarted our travel plans.", exKo: "궂은 날씨가 우리 여행 계획을 무산시켰어요.", unit: "ud09184" },
+  { id: "w4410", en: "divulge", ko: "누설하다, 밝히다", pos: "동사", exEn: "He refused to divulge where he got the money.", exKo: "그는 그 돈을 어디서 구했는지 밝히기를 거부했어요.", unit: "ud09184" }
+]);
+
 // end of data-daily.js

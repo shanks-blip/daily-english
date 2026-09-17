@@ -514,4 +514,19 @@
   ]
 }]);
 
+
+[].push.apply(DIALOGS, [{
+  id: "dd0918", level: "lv3", icon: "☕", title: "카페에서 우연히 옛 동료와 근황 나누기",
+  lines: [
+    { sp: "A", en: "Wait, is that you? I haven't seen you in ages!", ko: "잠깐, 너 맞지? 진짜 오랜만이다!" },
+    { sp: "B", en: "Oh my gosh, hi! I didn't expect to run into you here.", ko: "세상에, 안녕! 여기서 마주칠 줄은 몰랐네." },
+    { sp: "A", en: "I know, right? So what have you been up to lately?", ko: "그러니까 말이야! 요즘 어떻게 지내?" },
+    { sp: "B", en: "I actually switched jobs last spring. Let me fill you in over coffee.", ko: "사실 지난봄에 이직했어. 커피 마시면서 자세히 얘기해 줄게." },
+    { sp: "A", en: "I'd love that. I've been meaning to catch up with you for months.", ko: "완전 좋지. 몇 달 전부터 너랑 얘기 좀 나누고 싶었거든." },
+    { sp: "B", en: "Same here. Honestly, I nearly lost touch with everyone from the old team.", ko: "나도 그래. 솔직히 예전 팀 사람들이랑 거의 연락이 끊길 뻔했어." },
+    { sp: "A", en: "Let's not let that happen. We should grab dinner sometime soon.", ko: "그러지 말자. 조만간 같이 저녁 한번 먹자." },
+    { sp: "B", en: "Definitely. Let me grab our drinks first, then we can settle in.", ko: "당연하지. 내가 음료 먼저 가져올게, 그다음 자리 잡고 얘기하자." }
+  ]
+}]);
+
 // end of dialogs-daily.js
