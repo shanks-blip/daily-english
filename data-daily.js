@@ -3157,4 +3157,53 @@
   { id: "w4410", en: "divulge", ko: "누설하다, 밝히다", pos: "동사", exEn: "He refused to divulge where he got the money.", exKo: "그는 그 돈을 어디서 구했는지 밝히기를 거부했어요.", unit: "ud09184" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09191", level: "lv1", title: "데일리 9/19 · 기초" },
+  { id: "ud09192", level: "lv2", title: "데일리 9/19 · 중급" },
+  { id: "ud09193", level: "lv3", title: "데일리 9/19 · 고급" },
+  { id: "ud09194", level: "lv4", title: "데일리 9/19 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4411", en: "hop", ko: "깡충 뛰다", pos: "동사", exEn: "The kids love to hop around the yard like little bunnies.", exKo: "아이들은 마당에서 토끼처럼 깡충깡충 뛰어다니는 걸 좋아해요.", unit: "ud09191" },
+  { id: "w4412", en: "plant", ko: "(씨앗·나무를) 심다", pos: "동사", exEn: "Let's plant some tomatoes in the backyard this spring.", exKo: "올봄에 뒷마당에 토마토 좀 심자.", unit: "ud09191" },
+  { id: "w4413", en: "feed", ko: "먹이를 주다", pos: "동사", exEn: "Did you feed the dog this morning?", exKo: "오늘 아침에 강아지 밥 줬어?", unit: "ud09191" },
+  { id: "w4414", en: "sew", ko: "바느질하다, 꿰매다", pos: "동사", exEn: "Can you sew this button back on my shirt?", exKo: "내 셔츠에 이 단추 좀 다시 달아 줄래?", unit: "ud09191" },
+  { id: "w4415", en: "pet", ko: "반려동물", pos: "명사", exEn: "We got a new pet last weekend—a little kitten.", exKo: "지난 주말에 새 반려동물이 생겼어. 조그만 새끼 고양이야.", unit: "ud09191" },
+  { id: "w4416", en: "shell", ko: "껍데기, 조개껍질", pos: "명사", exEn: "She collected pretty shells along the beach.", exKo: "그녀는 해변을 따라 예쁜 조개껍질을 모았어요.", unit: "ud09191" },
+  { id: "w4417", en: "claw", ko: "(동물의) 발톱", pos: "명사", exEn: "The cat scratched the couch with its claws.", exKo: "고양이가 발톱으로 소파를 긁었어요.", unit: "ud09191" },
+  { id: "w4418", en: "fur", ko: "(동물의) 털", pos: "명사", exEn: "This blanket is as soft as a cat's fur.", exKo: "이 담요는 고양이 털처럼 부드러워요.", unit: "ud09191" },
+  { id: "w4419", en: "bush", ko: "덤불, 관목", pos: "명사", exEn: "A little bird is hiding in the bush.", exKo: "작은 새 한 마리가 덤불 속에 숨어 있어요.", unit: "ud09191" },
+  { id: "w4420", en: "net", ko: "그물, 망", pos: "명사", exEn: "The fishermen pulled the net full of fish onto the boat.", exKo: "어부들이 물고기가 가득한 그물을 배 위로 끌어 올렸어요.", unit: "ud09191" },
+  { id: "w4421", en: "nursery", ko: "어린이집, 탁아소", pos: "명사", exEn: "We drop our son off at the nursery before work.", exKo: "우리는 출근 전에 아들을 어린이집에 맡겨요.", unit: "ud09192" },
+  { id: "w4422", en: "dormitory", ko: "기숙사", pos: "명사", exEn: "She's living in a dormitory during her first year of college.", exKo: "그녀는 대학 1학년 동안 기숙사에서 지내고 있어요.", unit: "ud09192" },
+  { id: "w4423", en: "syllabus", ko: "강의 계획서", pos: "명사", exEn: "The professor handed out the syllabus on the first day.", exKo: "교수님이 첫날에 강의 계획서를 나눠 주셨어요.", unit: "ud09192" },
+  { id: "w4424", en: "transcript", ko: "성적 증명서", pos: "명사", exEn: "You'll need to submit your transcript with the application.", exKo: "지원서와 함께 성적 증명서를 제출해야 해요.", unit: "ud09192" },
+  { id: "w4425", en: "resignation", ko: "사직, 사임", pos: "명사", exEn: "He handed in his resignation after ten years at the company.", exKo: "그는 회사에서 10년을 일한 뒤 사직서를 냈어요.", unit: "ud09192" },
+  { id: "w4426", en: "pension", ko: "연금", pos: "명사", exEn: "My grandfather lives comfortably on his pension.", exKo: "우리 할아버지는 연금으로 편안하게 지내세요.", unit: "ud09192" },
+  { id: "w4427", en: "commission", ko: "수수료, 커미션", pos: "명사", exEn: "The agent gets a commission on every house she sells.", exKo: "그 중개인은 집을 팔 때마다 수수료를 받아요.", unit: "ud09192" },
+  { id: "w4428", en: "premium", ko: "(보험) 보험료; 고급의", pos: "명사", exEn: "Our health insurance premium went up again this year.", exKo: "우리 건강보험료가 올해 또 올랐어요.", unit: "ud09192" },
+  { id: "w4429", en: "presentation", ko: "발표, 프레젠테이션", pos: "명사", exEn: "I'm a little nervous about my presentation tomorrow.", exKo: "내일 발표 때문에 조금 긴장돼요.", unit: "ud09192" },
+  { id: "w4430", en: "seminar", ko: "세미나", pos: "명사", exEn: "There's a marketing seminar downtown this weekend.", exKo: "이번 주말에 시내에서 마케팅 세미나가 열려요.", unit: "ud09192" },
+  { id: "w4431", en: "rack up", ko: "(비용·점수를) 쌓다, 누적하다", pos: "구동사", exEn: "He racked up a huge phone bill while traveling abroad.", exKo: "그는 해외여행 중에 어마어마한 전화 요금을 쌓았어요.", unit: "ud09193" },
+  { id: "w4432", en: "tag along", ko: "(남을) 따라나서다, 붙어 다니다", pos: "구동사", exEn: "Do you mind if I tag along to the store?", exKo: "가게에 같이 따라가도 괜찮을까?", unit: "ud09193" },
+  { id: "w4433", en: "bewilder", ko: "어리둥절하게 하다, 당황시키다", pos: "동사", exEn: "The new subway map completely bewildered the tourists.", exKo: "새 지하철 노선도가 관광객들을 완전히 어리둥절하게 만들었어요.", unit: "ud09193" },
+  { id: "w4434", en: "reproach", ko: "책망하다, 나무라다", pos: "동사", exEn: "She reproached him for forgetting their anniversary.", exKo: "그녀는 기념일을 잊어버린 그를 나무랐어요.", unit: "ud09193" },
+  { id: "w4435", en: "squirm", ko: "몸을 뒤틀다, 안절부절못하다", pos: "동사", exEn: "The kids started to squirm halfway through the long ceremony.", exKo: "아이들이 긴 행사 중간쯤부터 몸을 배배 꼬기 시작했어요.", unit: "ud09193" },
+  { id: "w4436", en: "stave off", ko: "(안 좋은 일을) 막다, 모면하다", pos: "구동사", exEn: "I had a snack to stave off my hunger until dinner.", exKo: "저녁 먹기 전까지 배고픔을 달래려고 간식을 좀 먹었어요.", unit: "ud09193" },
+  { id: "w4437", en: "usher in", ko: "(새 시대 등을) 열다, 도래시키다", pos: "구동사", exEn: "The new CEO ushered in a wave of big changes.", exKo: "새 CEO가 큰 변화의 물결을 몰고 왔어요.", unit: "ud09193" },
+  { id: "w4438", en: "whittle down", ko: "조금씩 줄이다, 깎아 나가다", pos: "구동사", exEn: "We whittled down the guest list to just close friends.", exKo: "우리는 손님 명단을 가까운 친구들만 남기고 줄였어요.", unit: "ud09193" },
+  { id: "w4439", en: "scowl", ko: "인상을 쓰다, 노려보다", pos: "동사", exEn: "He scowled at me when I interrupted his nap.", exKo: "내가 낮잠을 방해하자 그가 나를 노려봤어요.", unit: "ud09193" },
+  { id: "w4440", en: "pander", ko: "(저급하게) 영합하다, 비위를 맞추다", pos: "동사", exEn: "That show just panders to whatever's trending online.", exKo: "그 프로그램은 그저 온라인에서 유행하는 것에 영합할 뿐이에요.", unit: "ud09193" },
+  { id: "w4441", en: "kick the bucket", ko: "죽다, 뻗다 (속어)", pos: "이디엄", exEn: "My old car finally kicked the bucket last week.", exKo: "우리 낡은 차가 지난주에 결국 완전히 맛이 갔어요.", unit: "ud09194" },
+  { id: "w4442", en: "the whole shebang", ko: "이것저것 전부, 몽땅", pos: "이디엄", exEn: "For our anniversary we did the whole shebang—dinner, flowers, and a show.", exKo: "기념일에 우리는 저녁 식사에 꽃, 공연까지 몽땅 다 챙겼어요.", unit: "ud09194" },
+  { id: "w4443", en: "have a chip on your shoulder", ko: "괜히 시비조다, 앙금을 품고 있다", pos: "이디엄", exEn: "Ever since he got passed over, he's had a chip on his shoulder.", exKo: "승진에서 밀린 뒤로 그는 늘 뭔가 앙금을 품고 있어요.", unit: "ud09194" },
+  { id: "w4444", en: "go down the rabbit hole", ko: "(한 가지에) 깊이 빠져들다", pos: "이디엄", exEn: "I went down the rabbit hole watching cooking videos all night.", exKo: "밤새 요리 영상을 보다가 완전히 빠져들어 버렸어요.", unit: "ud09194" },
+  { id: "w4445", en: "move the goalposts", ko: "(도중에) 기준을 바꿔 버리다", pos: "이디엄", exEn: "Every time I finish a task, my boss moves the goalposts.", exKo: "내가 일을 끝낼 때마다 상사가 기준을 바꿔 버려요.", unit: "ud09194" },
+  { id: "w4446", en: "by the skin of your teeth", ko: "간신히, 가까스로", pos: "이디엄", exEn: "We caught the last train by the skin of our teeth.", exKo: "우리는 마지막 기차를 가까스로 잡아탔어요.", unit: "ud09194" },
+  { id: "w4447", en: "split hairs", ko: "사소한 것까지 따지다, 트집을 잡다", pos: "이디엄", exEn: "Let's not split hairs over who paid last time.", exKo: "지난번에 누가 계산했는지 사소한 걸로 따지지 말자.", unit: "ud09194" },
+  { id: "w4448", en: "break new ground", ko: "새 지평을 열다, 개척하다", pos: "이디엄", exEn: "Their research is breaking new ground in cancer treatment.", exKo: "그들의 연구는 암 치료 분야에서 새 지평을 열고 있어요.", unit: "ud09194" },
+  { id: "w4449", en: "a storm in a teacup", ko: "별것 아닌 일로 벌이는 소란", pos: "이디엄", exEn: "The whole argument was just a storm in a teacup.", exKo: "그 다툼은 결국 별것 아닌 일로 벌인 소란일 뿐이었어요.", unit: "ud09194" },
+  { id: "w4450", en: "paint yourself into a corner", ko: "스스로 궁지에 몰아넣다", pos: "이디엄", exEn: "By promising everyone a raise, he painted himself into a corner.", exKo: "모두에게 임금 인상을 약속하는 바람에 그는 스스로 궁지에 몰렸어요.", unit: "ud09194" }
+]);
+
 // end of data-daily.js
