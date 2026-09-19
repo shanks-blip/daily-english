@@ -3206,4 +3206,54 @@
   { id: "w4450", en: "paint yourself into a corner", ko: "스스로 궁지에 몰아넣다", pos: "이디엄", exEn: "By promising everyone a raise, he painted himself into a corner.", exKo: "모두에게 임금 인상을 약속하는 바람에 그는 스스로 궁지에 몰렸어요.", unit: "ud09194" }
 ]);
 
+
+[].push.apply(UNITS, [
+  { id: "ud09201", level: "lv1", title: "데일리 9/20 · 기초" },
+  { id: "ud09202", level: "lv2", title: "데일리 9/20 · 중급" },
+  { id: "ud09203", level: "lv3", title: "데일리 9/20 · 고급" },
+  { id: "ud09204", level: "lv4", title: "데일리 9/20 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4451", en: "dress", ko: "원피스, 드레스", pos: "명사", exEn: "She wore a red dress to the party.", exKo: "그녀는 파티에 빨간 원피스를 입고 갔어요.", unit: "ud09201" },
+  { id: "w4452", en: "skirt", ko: "치마, 스커트", pos: "명사", exEn: "This skirt is a little too long for me.", exKo: "이 치마는 저한테 살짝 길어요.", unit: "ud09201" },
+  { id: "w4453", en: "roof", ko: "지붕", pos: "명사", exEn: "A cat is sleeping on the roof.", exKo: "고양이 한 마리가 지붕 위에서 자고 있어요.", unit: "ud09201" },
+  { id: "w4454", en: "yard", ko: "마당, 뜰", pos: "명사", exEn: "The kids are playing in the yard.", exKo: "아이들이 마당에서 놀고 있어요.", unit: "ud09201" },
+  { id: "w4455", en: "toilet", ko: "변기, 화장실", pos: "명사", exEn: "The toilet in the bathroom is broken again.", exKo: "화장실 변기가 또 고장 났어요.", unit: "ud09201" },
+  { id: "w4456", en: "shower", ko: "샤워; 샤워하다", pos: "명사", exEn: "I take a shower every morning before work.", exKo: "저는 출근 전에 매일 아침 샤워를 해요.", unit: "ud09201" },
+  { id: "w4457", en: "glass", ko: "유리잔; 유리", pos: "명사", exEn: "Can I get a glass of water, please?", exKo: "물 한 잔 주시겠어요?", unit: "ud09201" },
+  { id: "w4458", en: "orange", ko: "오렌지; 주황색", pos: "명사", exEn: "I peeled an orange for my son.", exKo: "아들에게 오렌지를 까 줬어요.", unit: "ud09201" },
+  { id: "w4459", en: "boat", ko: "배, 보트", pos: "명사", exEn: "We rented a small boat at the lake.", exKo: "우리는 호수에서 작은 보트를 빌렸어요.", unit: "ud09201" },
+  { id: "w4460", en: "truck", ko: "트럭", pos: "명사", exEn: "A delivery truck is parked outside.", exKo: "배달 트럭이 밖에 세워져 있어요.", unit: "ud09201" },
+  { id: "w4461", en: "threshold", ko: "문턱, 문지방", pos: "명사", exEn: "The threshold was so high I almost tripped over it.", exKo: "문턱이 너무 높아서 하마터면 걸려 넘어질 뻔했어요.", unit: "ud09202" },
+  { id: "w4462", en: "shed", ko: "창고, 헛간", pos: "명사", exEn: "We keep the lawn mower in the shed out back.", exKo: "잔디깎이는 뒤쪽 창고에 넣어 둬요.", unit: "ud09202" },
+  { id: "w4463", en: "nozzle", ko: "분사구, 노즐", pos: "명사", exEn: "Point the hose nozzle away from the window.", exKo: "호스 노즐을 창문 반대쪽으로 향하게 하세요.", unit: "ud09202" },
+  { id: "w4464", en: "dripping", ko: "물이 뚝뚝 떨어지는", pos: "형용사", exEn: "The kitchen faucet is dripping again.", exKo: "부엌 수도꼭지에서 또 물이 뚝뚝 떨어져요.", unit: "ud09202" },
+  { id: "w4465", en: "rusty", ko: "녹슨", pos: "형용사", exEn: "The old gate is completely rusty now.", exKo: "낡은 대문이 이제 완전히 녹슬었어요.", unit: "ud09202" },
+  { id: "w4466", en: "squeaky", ko: "삐걱거리는", pos: "형용사", exEn: "The bedroom door is really squeaky.", exKo: "침실 문이 정말 삐걱거려요.", unit: "ud09202" },
+  { id: "w4467", en: "crumbs", ko: "부스러기, 빵가루", pos: "명사", exEn: "There were crumbs all over the table.", exKo: "식탁 위에 온통 빵부스러기가 있었어요.", unit: "ud09202" },
+  { id: "w4468", en: "clutter", ko: "잡동사니, 어수선함", pos: "명사", exEn: "My desk is buried under all this clutter.", exKo: "제 책상이 이 잡동사니에 파묻혀 있어요.", unit: "ud09202" },
+  { id: "w4469", en: "perishable", ko: "상하기 쉬운 (식품)", pos: "형용사", exEn: "Keep perishable items in the fridge.", exKo: "상하기 쉬운 식품은 냉장고에 보관하세요.", unit: "ud09202" },
+  { id: "w4470", en: "backordered", ko: "재고가 없어 입고 대기 중인", pos: "형용사", exEn: "The chair I wanted is backordered for a month.", exKo: "제가 원하던 의자가 한 달이나 입고 대기 중이래요.", unit: "ud09202" },
+  { id: "w4471", en: "knuckle down", ko: "본격적으로 열심히 하다", pos: "구동사", exEn: "I really need to knuckle down and finish this report.", exKo: "이제 정신 차리고 이 보고서를 끝내야 해요.", unit: "ud09203" },
+  { id: "w4472", en: "wound up", ko: "잔뜩 긴장한, 흥분한", pos: "형용사", exEn: "He was too wound up to sleep the night before the interview.", exKo: "면접 전날 밤 그는 너무 긴장해서 잠을 못 잤어요.", unit: "ud09203" },
+  { id: "w4473", en: "let down", ko: "실망시키다", pos: "구동사", exEn: "I promise I won't let you down this time.", exKo: "이번엔 절대 너를 실망시키지 않을게.", unit: "ud09203" },
+  { id: "w4474", en: "reel off", ko: "막힘없이 줄줄 읊다", pos: "구동사", exEn: "He can reel off stats without even looking at his notes.", exKo: "그는 메모를 보지도 않고 통계를 줄줄 읊을 수 있어요.", unit: "ud09203" },
+  { id: "w4475", en: "peter out", ko: "점점 사그라들다, 흐지부지되다", pos: "구동사", exEn: "Their enthusiasm began to peter out after the first week.", exKo: "그들의 열정은 첫 주가 지나자 점점 사그라들기 시작했어요.", unit: "ud09203" },
+  { id: "w4476", en: "pore over", ko: "~을 꼼꼼히 들여다보다", pos: "구동사", exEn: "I like to pore over maps before a big trip.", exKo: "저는 큰 여행을 앞두고 지도를 꼼꼼히 들여다보는 걸 좋아해요.", unit: "ud09203" },
+  { id: "w4477", en: "elated", ko: "마냥 신이 난, 뛸 듯이 기쁜", pos: "형용사", exEn: "She was elated when she finally got the job.", exKo: "그녀는 마침내 취업이 되자 뛸 듯이 기뻐했어요.", unit: "ud09203" },
+  { id: "w4478", en: "glum", ko: "시무룩한, 침울한", pos: "형용사", exEn: "Why do you look so glum today?", exKo: "오늘 왜 그렇게 시무룩해 보여?", unit: "ud09203" },
+  { id: "w4479", en: "recoil", ko: "움찔 물러나다, 질겁하다", pos: "동사", exEn: "Most people recoil at the sight of a snake.", exKo: "대부분의 사람들은 뱀을 보면 움찔 물러나요.", unit: "ud09203" },
+  { id: "w4480", en: "stoked", ko: "완전 신난, 잔뜩 기대되는", pos: "형용사", exEn: "I'm so stoked about the concert tonight.", exKo: "오늘 밤 콘서트 때문에 완전 신났어요.", unit: "ud09203" },
+  { id: "w4481", en: "get your act together", ko: "정신 차리고 제대로 하다", pos: "이디엄", exEn: "You need to get your act together before finals week.", exKo: "기말고사 주간 전에 정신 차리고 제대로 해야 해.", unit: "ud09204" },
+  { id: "w4482", en: "every cloud has a silver lining", ko: "아무리 안 좋은 일에도 좋은 면은 있다", pos: "이디엄", exEn: "Losing that job hurt, but every cloud has a silver lining.", exKo: "그 일을 잃은 건 아팠지만, 나쁜 일에도 다 좋은 면은 있는 법이야.", unit: "ud09204" },
+  { id: "w4483", en: "weather the storm", ko: "힘든 시기를 버텨 내다", pos: "이디엄", exEn: "Small shops struggled to weather the storm last year.", exKo: "작은 가게들은 작년에 힘든 시기를 버텨 내느라 고생했어요.", unit: "ud09204" },
+  { id: "w4484", en: "caught red-handed", ko: "현행범으로 딱 걸리다", pos: "이디엄", exEn: "He was caught red-handed taking cookies from the jar.", exKo: "그는 통에서 쿠키를 몰래 꺼내다가 딱 걸렸어요.", unit: "ud09204" },
+  { id: "w4485", en: "fit as a fiddle", ko: "아주 건강한, 정정한", pos: "이디엄", exEn: "My grandpa is ninety and still fit as a fiddle.", exKo: "우리 할아버지는 아흔인데도 여전히 정정하세요.", unit: "ud09204" },
+  { id: "w4486", en: "in the nick of time", ko: "아슬아슬하게 제때에", pos: "이디엄", exEn: "We got there in the nick of time to catch the train.", exKo: "우리는 아슬아슬하게 제때 도착해서 기차를 탔어요.", unit: "ud09204" },
+  { id: "w4487", en: "off the beaten path", ko: "사람들이 잘 안 가는, 외진", pos: "이디엄", exEn: "We found a cozy cafe off the beaten path.", exKo: "우리는 사람들이 잘 안 가는 곳에서 아늑한 카페를 발견했어요.", unit: "ud09204" },
+  { id: "w4488", en: "take the plunge", ko: "큰맘 먹고 과감히 시작하다", pos: "이디엄", exEn: "I finally decided to take the plunge and start my own business.", exKo: "저는 마침내 큰맘 먹고 제 사업을 시작하기로 했어요.", unit: "ud09204" },
+  { id: "w4489", en: "throw someone for a loop", ko: "~를 크게 당황시키다", pos: "이디엄", exEn: "That surprise question really threw me for a loop.", exKo: "그 뜻밖의 질문에 저는 완전히 당황했어요.", unit: "ud09204" },
+  { id: "w4490", en: "bells and whistles", ko: "부가 기능, 화려한 옵션들", pos: "이디엄", exEn: "I just want a basic phone without all the bells and whistles.", exKo: "저는 온갖 부가 기능 없는 기본 휴대폰이면 돼요.", unit: "ud09204" }
+]);
+
 // end of data-daily.js

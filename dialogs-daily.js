@@ -529,4 +529,19 @@
   ]
 }]);
 
+
+[].push.apply(DIALOGS, [{
+  id: "dd0920", level: "lv3", icon: "✈️", title: "공항 보안 검색대 통과하기",
+  lines: [
+    { sp: "B", en: "Next in line, please. Go ahead and place your bags on the belt.", ko: "다음 분 오세요. 가방을 벨트 위에 올려 주세요." },
+    { sp: "A", en: "Sure. Do I need to take my laptop out of the bag?", ko: "네. 노트북은 가방에서 꺼내야 하나요?" },
+    { sp: "B", en: "Yes, please take it out and put it in a separate bin.", ko: "네, 꺼내서 별도 바구니에 담아 주세요." },
+    { sp: "A", en: "Got it. Should I take off my shoes and belt too?", ko: "알겠습니다. 신발이랑 벨트도 벗어야 하나요?" },
+    { sp: "B", en: "Shoes can stay on, but empty out your pockets before you walk through.", ko: "신발은 신으셔도 되고, 통과하기 전에 주머니는 다 비워 주세요." },
+    { sp: "A", en: "Okay. I think I left a water bottle in my bag by mistake.", ko: "네. 실수로 가방에 물병을 두고 온 것 같아요." },
+    { sp: "B", en: "No worries, just toss it in the bin over there and we'll rescan the bag.", ko: "괜찮습니다, 저기 통에 버려 주시면 가방을 다시 검사할게요." },
+    { sp: "A", en: "Thanks for being so patient. It's my first time flying in a while.", ko: "친절하게 봐주셔서 감사해요. 오랜만에 비행기를 타는 거라서요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
