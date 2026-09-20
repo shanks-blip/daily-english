@@ -3256,4 +3256,54 @@
   { id: "w4490", en: "bells and whistles", ko: "부가 기능, 화려한 옵션들", pos: "이디엄", exEn: "I just want a basic phone without all the bells and whistles.", exKo: "저는 온갖 부가 기능 없는 기본 휴대폰이면 돼요.", unit: "ud09204" }
 ]);
 
+
+[].push.apply(UNITS, [
+  { id: "ud09211", level: "lv1", title: "데일리 9/21 · 기초" },
+  { id: "ud09212", level: "lv2", title: "데일리 9/21 · 중급" },
+  { id: "ud09213", level: "lv3", title: "데일리 9/21 · 고급" },
+  { id: "ud09214", level: "lv4", title: "데일리 9/21 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4491", en: "chest", ko: "가슴; 큰 상자, 궤", pos: "명사", exEn: "He felt a sharp pain in his chest.", exKo: "그는 가슴에 날카로운 통증을 느꼈어요.", unit: "ud09211" },
+  { id: "w4492", en: "strawberry", ko: "딸기", pos: "명사", exEn: "I put fresh strawberries on top of the cake.", exKo: "케이크 위에 신선한 딸기를 올렸어요.", unit: "ud09211" },
+  { id: "w4493", en: "desk", ko: "책상", pos: "명사", exEn: "There are too many books on my desk.", exKo: "제 책상 위에 책이 너무 많아요.", unit: "ud09211" },
+  { id: "w4494", en: "bathtub", ko: "욕조", pos: "명사", exEn: "The kids love playing in the bathtub.", exKo: "아이들은 욕조에서 노는 걸 아주 좋아해요.", unit: "ud09211" },
+  { id: "w4495", en: "pen", ko: "펜, 볼펜", pos: "명사", exEn: "Can I borrow your pen for a second?", exKo: "펜 잠깐 빌려도 될까요?", unit: "ud09211" },
+  { id: "w4496", en: "pencil", ko: "연필", pos: "명사", exEn: "She drew the picture with a pencil.", exKo: "그녀는 연필로 그림을 그렸어요.", unit: "ud09211" },
+  { id: "w4497", en: "sea", ko: "바다", pos: "명사", exEn: "We watched the sun set over the sea.", exKo: "우리는 바다 너머로 해가 지는 걸 바라봤어요.", unit: "ud09211" },
+  { id: "w4498", en: "road", ko: "길, 도로", pos: "명사", exEn: "This road leads to the beach.", exKo: "이 길은 해변으로 이어져요.", unit: "ud09211" },
+  { id: "w4499", en: "street", ko: "거리, 길거리", pos: "명사", exEn: "There is a nice coffee shop across the street.", exKo: "길 건너편에 괜찮은 커피숍이 있어요.", unit: "ud09211" },
+  { id: "w4500", en: "park", ko: "공원", pos: "명사", exEn: "Let's take a walk in the park after lunch.", exKo: "점심 먹고 공원에서 산책하자.", unit: "ud09211" },
+  { id: "w4501", en: "housework", ko: "집안일", pos: "명사", exEn: "We split the housework evenly on weekends.", exKo: "우리는 주말에 집안일을 똑같이 나눠서 해요.", unit: "ud09212" },
+  { id: "w4502", en: "waitress", ko: "(여성) 종업원, 웨이트리스", pos: "명사", exEn: "The waitress recommended the grilled salmon.", exKo: "종업원이 구운 연어를 추천해 줬어요.", unit: "ud09212" },
+  { id: "w4503", en: "picnic", ko: "소풍, 피크닉", pos: "명사", exEn: "We had a picnic by the river on Sunday.", exKo: "우리는 일요일에 강가에서 피크닉을 했어요.", unit: "ud09212" },
+  { id: "w4504", en: "parking meter", ko: "주차 요금 정산기", pos: "명사", exEn: "I need some coins for the parking meter.", exKo: "주차 요금 정산기에 넣을 동전이 좀 필요해요.", unit: "ud09212" },
+  { id: "w4505", en: "speed limit", ko: "제한 속도", pos: "명사", exEn: "The speed limit on this street is 30.", exKo: "이 길의 제한 속도는 30이에요.", unit: "ud09212" },
+  { id: "w4506", en: "flat tire", ko: "펑크 난 타이어", pos: "명사", exEn: "We got a flat tire on the way home.", exKo: "우리는 집에 오는 길에 타이어가 펑크 났어요.", unit: "ud09212" },
+  { id: "w4507", en: "headlight", ko: "(자동차) 전조등, 헤드라이트", pos: "명사", exEn: "Don't forget to turn on your headlights at night.", exKo: "밤에는 전조등 켜는 걸 잊지 마세요.", unit: "ud09212" },
+  { id: "w4508", en: "turn signal", ko: "방향 지시등, 깜빡이", pos: "명사", exEn: "He changed lanes without using his turn signal.", exKo: "그는 깜빡이도 안 켜고 차선을 바꿨어요.", unit: "ud09212" },
+  { id: "w4509", en: "sick day", ko: "병가 (하루 쉬는 날)", pos: "명사", exEn: "I'm taking a sick day because I have a bad cold.", exKo: "독감이 심해서 오늘 병가를 낼 거예요.", unit: "ud09212" },
+  { id: "w4510", en: "cover letter", ko: "자기소개서, 커버레터", pos: "명사", exEn: "Attach your résumé and a short cover letter.", exKo: "이력서와 짧은 자기소개서를 첨부해 주세요.", unit: "ud09212" },
+  { id: "w4511", en: "turnaround", ko: "(상황의) 반전, 호전; 처리 시간", pos: "명사", exEn: "The company made an impressive turnaround last quarter.", exKo: "그 회사는 지난 분기에 인상적인 반전을 이뤄 냈어요.", unit: "ud09213" },
+  { id: "w4512", en: "stopgap", ko: "임시방편, 땜질용", pos: "명사", exEn: "This is just a stopgap until we hire someone.", exKo: "이건 사람을 채용할 때까지의 임시방편일 뿐이에요.", unit: "ud09213" },
+  { id: "w4513", en: "upside", ko: "긍정적인 면, 좋은 점", pos: "명사", exEn: "The upside of working from home is no commute.", exKo: "재택근무의 좋은 점은 출퇴근이 없다는 거예요.", unit: "ud09213" },
+  { id: "w4514", en: "slowdown", ko: "둔화, 경기 침체", pos: "명사", exEn: "Retailers are bracing for an economic slowdown.", exKo: "소매업체들은 경기 둔화에 대비하고 있어요.", unit: "ud09213" },
+  { id: "w4515", en: "shakeup", ko: "(조직의) 대대적 개편, 물갈이", pos: "명사", exEn: "There was a major shakeup in management this week.", exKo: "이번 주에 경영진이 대대적으로 개편됐어요.", unit: "ud09213" },
+  { id: "w4516", en: "letdown", ko: "실망스러운 일, 기대에 못 미침", pos: "명사", exEn: "After all the hype, the movie was a letdown.", exKo: "그렇게 기대를 모았는데 그 영화는 실망스러웠어요.", unit: "ud09213" },
+  { id: "w4517", en: "foresight", ko: "선견지명, 앞을 내다보는 능력", pos: "명사", exEn: "She had the foresight to save for tough times.", exKo: "그녀는 어려운 시기를 대비해 저축해 둘 선견지명이 있었어요.", unit: "ud09213" },
+  { id: "w4518", en: "mindset", ko: "사고방식, 마음가짐", pos: "명사", exEn: "You need a positive mindset to get through this.", exKo: "이걸 헤쳐 나가려면 긍정적인 마음가짐이 필요해요.", unit: "ud09213" },
+  { id: "w4519", en: "momentum", ko: "(일의) 탄력, 추진력", pos: "명사", exEn: "The team is finally gaining some momentum.", exKo: "그 팀이 마침내 어느 정도 탄력을 받고 있어요.", unit: "ud09213" },
+  { id: "w4520", en: "benchmark", ko: "기준점, 비교 잣대", pos: "명사", exEn: "We use last year's sales as a benchmark.", exKo: "우리는 작년 매출을 기준점으로 삼아요.", unit: "ud09213" },
+  { id: "w4521", en: "browbeat", ko: "윽박질러 강요하다, 겁줘서 시키다", pos: "동사", exEn: "Don't let them browbeat you into signing anything.", exKo: "그들이 윽박질러서 당신에게 뭔가 서명하게 두지 마세요.", unit: "ud09214" },
+  { id: "w4522", en: "chew out", ko: "호되게 꾸짖다, 크게 혼내다", pos: "구동사", exEn: "My boss chewed me out for being late again.", exKo: "상사가 또 지각했다고 저를 호되게 혼냈어요.", unit: "ud09214" },
+  { id: "w4523", en: "sweet-talk", ko: "달콤한 말로 구슬리다", pos: "동사", exEn: "He tried to sweet-talk his way out of trouble.", exKo: "그는 달콤한 말로 곤경에서 빠져나가려 했어요.", unit: "ud09214" },
+  { id: "w4524", en: "strong-arm", ko: "강압적으로 밀어붙이다, 완력으로 강요하다", pos: "동사", exEn: "They strong-armed him into taking the deal.", exKo: "그들은 그를 강압적으로 밀어붙여 그 거래를 받아들이게 했어요.", unit: "ud09214" },
+  { id: "w4525", en: "freeload", ko: "빌붙어 살다, 얻어먹기만 하다", pos: "동사", exEn: "He's been freeloading off his friends for months.", exKo: "그는 몇 달째 친구들에게 빌붙어 지내고 있어요.", unit: "ud09214" },
+  { id: "w4526", en: "sandbag", ko: "엄살 부려 실력을 숨기다, 일부러 못하는 척하다", pos: "동사", exEn: "He was sandbagging the whole game, then crushed us.", exKo: "그는 경기 내내 못하는 척하다가 우리를 완전히 이겼어요.", unit: "ud09214" },
+  { id: "w4527", en: "gush over", ko: "~에 대해 호들갑스럽게 칭찬하다", pos: "구동사", exEn: "Everyone was gushing over the new baby.", exKo: "모두가 새로 태어난 아기를 보고 호들갑스럽게 칭찬했어요.", unit: "ud09214" },
+  { id: "w4528", en: "talk up", ko: "치켜세우다, 좋게 부풀려 말하다", pos: "구동사", exEn: "The agent really talked up the apartment.", exKo: "중개인이 그 아파트를 아주 좋게 부풀려 말했어요.", unit: "ud09214" },
+  { id: "w4529", en: "balk", ko: "주저하다, 망설이며 거부하다", pos: "동사", exEn: "She balked at the idea of moving so far away.", exKo: "그녀는 그렇게 멀리 이사 가는 생각에 망설이며 꺼렸어요.", unit: "ud09214" },
+  { id: "w4530", en: "boast", ko: "뽐내다, 자랑하다", pos: "동사", exEn: "He likes to boast about his new car.", exKo: "그는 새 차에 대해 자랑하는 걸 좋아해요.", unit: "ud09214" }
+]);
+
 // end of data-daily.js
