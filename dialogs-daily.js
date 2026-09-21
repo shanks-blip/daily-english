@@ -544,4 +544,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0922", level: "lv3", icon: "🦷", title: "치과에서 검진받고 치료 상담하기",
+  lines: [
+    { sp: "A", en: "So, what brings you in today?", ko: "오늘은 어떤 일로 오셨어요?" },
+    { sp: "B", en: "I've been putting off a checkup for about two years, honestly.", ko: "솔직히 검진을 한 이 년쯤 미루고 있었어요." },
+    { sp: "A", en: "Any pain, or are you just due for a cleaning?", ko: "통증이 있으세요, 아니면 스케일링할 때가 된 건가요?" },
+    { sp: "B", en: "There's a dull ache on the lower left when I drink something cold.", ko: "찬 걸 마실 때 왼쪽 아래가 은근히 시려요." },
+    { sp: "A", en: "That usually points to a small cavity. Let's take an X-ray and go from there.", ko: "보통 작은 충치 신호예요. X레이부터 찍고 거기서 다음을 정하죠." },
+    { sp: "B", en: "If it is a cavity, can we get it over with today?", ko: "충치면 오늘 한 번에 끝낼 수 있을까요?" },
+    { sp: "A", en: "If it's shallow, yes. If it runs deep, I'd rather hold off and do it properly next week.", ko: "얕으면 가능해요. 깊으면 미뤘다가 다음 주에 제대로 하는 게 나아요." },
+    { sp: "B", en: "Fair enough. Better safe than sorry, I guess.", ko: "그러시죠. 나중에 후회하느니 조심하는 게 낫겠죠." }
+  ]
+}]);
+
 // end of dialogs-daily.js

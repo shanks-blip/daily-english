@@ -3306,4 +3306,53 @@
   { id: "w4530", en: "boast", ko: "뽐내다, 자랑하다", pos: "동사", exEn: "He likes to boast about his new car.", exKo: "그는 새 차에 대해 자랑하는 걸 좋아해요.", unit: "ud09214" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09221", level: "lv1", title: "데일리 9/22 · 기초" },
+  { id: "ud09222", level: "lv2", title: "데일리 9/22 · 중급" },
+  { id: "ud09223", level: "lv3", title: "데일리 9/22 · 고급" },
+  { id: "ud09224", level: "lv4", title: "데일리 9/22 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4531", en: "hi", ko: "안녕 (가벼운 인사)", pos: "감탄사", exEn: "Hi, how's it going?", exKo: "안녕, 어떻게 지내?", unit: "ud09221" },
+  { id: "w4532", en: "bye", ko: "잘 가, 안녕 (헤어질 때)", pos: "감탄사", exEn: "Bye, see you tomorrow!", exKo: "잘 가, 내일 봐!", unit: "ud09221" },
+  { id: "w4533", en: "zero", ko: "영, 0", pos: "명사", exEn: "The score was three to zero.", exKo: "점수는 3 대 0이었어요.", unit: "ud09221" },
+  { id: "w4534", en: "half", ko: "절반, 반", pos: "명사", exEn: "I only ate half of my sandwich.", exKo: "저는 샌드위치를 반만 먹었어요.", unit: "ud09221" },
+  { id: "w4535", en: "dozen", ko: "12개, 한 다스", pos: "명사", exEn: "Can you grab a dozen eggs on the way home?", exKo: "집에 오는 길에 달걀 한 판만 사다 줄래?", unit: "ud09221" },
+  { id: "w4536", en: "kid", ko: "아이, 꼬마", pos: "명사", exEn: "Their kid just started kindergarten.", exKo: "그 집 아이가 이제 막 유치원에 들어갔어요.", unit: "ud09221" },
+  { id: "w4537", en: "boy", ko: "남자아이, 소년", pos: "명사", exEn: "The boy next door is really polite.", exKo: "옆집 남자아이는 정말 예의가 바라요.", unit: "ud09221" },
+  { id: "w4538", en: "girl", ko: "여자아이, 소녀", pos: "명사", exEn: "That girl in the red jacket is my niece.", exKo: "빨간 재킷 입은 저 여자아이가 제 조카예요.", unit: "ud09221" },
+  { id: "w4539", en: "drive", ko: "운전하다", pos: "동사", exEn: "I usually drive to work on Mondays.", exKo: "저는 월요일엔 보통 차로 출근해요.", unit: "ud09221" },
+  { id: "w4540", en: "hold", ko: "들다, 잡다", pos: "동사", exEn: "Could you hold this for a second?", exKo: "이것 좀 잠깐 들어 줄래요?", unit: "ud09221" },
+  { id: "w4541", en: "suite", ko: "스위트룸, 특실", pos: "명사", exEn: "We got upgraded to a suite for free.", exKo: "우리 무료로 스위트룸으로 업그레이드됐어.", unit: "ud09222" },
+  { id: "w4542", en: "concierge", ko: "컨시어지 (호텔 안내 담당 직원)", pos: "명사", exEn: "Ask the concierge to book us a taxi.", exKo: "컨시어지한테 택시 좀 불러 달라고 해요.", unit: "ud09222" },
+  { id: "w4543", en: "amenity", ko: "편의시설, 부대 서비스", pos: "명사", exEn: "The gym is my favorite amenity in this building.", exKo: "이 건물 편의시설 중에 헬스장이 제일 마음에 들어요.", unit: "ud09222" },
+  { id: "w4544", en: "keypad", ko: "번호 키패드", pos: "명사", exEn: "Just punch the code into the keypad by the door.", exKo: "문 옆 키패드에 번호만 누르면 돼요.", unit: "ud09222" },
+  { id: "w4545", en: "window seat", ko: "창가 자리", pos: "명사", exEn: "I always ask for a window seat on long flights.", exKo: "저는 장거리 비행엔 항상 창가 자리를 달라고 해요.", unit: "ud09222" },
+  { id: "w4546", en: "client", ko: "고객, 의뢰인", pos: "명사", exEn: "I have a call with a client at three.", exKo: "3시에 고객이랑 통화가 있어요.", unit: "ud09222" },
+  { id: "w4547", en: "cubicle", ko: "칸막이로 나눈 사무실 자리", pos: "명사", exEn: "My cubicle is right next to the copy machine.", exKo: "제 자리는 복사기 바로 옆이에요.", unit: "ud09222" },
+  { id: "w4548", en: "handout", ko: "유인물, 나눠 주는 자료", pos: "명사", exEn: "Did everyone get a handout?", exKo: "다들 유인물 받으셨나요?", unit: "ud09222" },
+  { id: "w4549", en: "deliverable", ko: "(업무상 내놓아야 할) 결과물", pos: "명사", exEn: "The first deliverable is due next Friday.", exKo: "첫 번째 결과물은 다음 주 금요일까지예요.", unit: "ud09222" },
+  { id: "w4550", en: "timesheet", ko: "근무 시간 기록표", pos: "명사", exEn: "Don't forget to submit your timesheet by Friday.", exKo: "금요일까지 근무 시간표 내는 거 잊지 마세요.", unit: "ud09222" },
+  { id: "w4551", en: "hear out", ko: "(말을) 끝까지 들어주다", pos: "구동사", exEn: "Just hear me out before you say no.", exKo: "거절하기 전에 일단 끝까지 들어 봐.", unit: "ud09223" },
+  { id: "w4552", en: "think through", ko: "차근차근 따져 보다", pos: "구동사", exEn: "Let's think this through before we commit.", exKo: "결정하기 전에 이걸 차근차근 따져 보자.", unit: "ud09223" },
+  { id: "w4553", en: "flake out", ko: "(약속을) 갑자기 펑크 내다", pos: "구동사", exEn: "He flaked out on us again last night.", exKo: "걔 어젯밤에 또 약속 펑크 냈어.", unit: "ud09223" },
+  { id: "w4554", en: "snap out of", ko: "(안 좋은 기분에서) 정신 차리고 벗어나다", pos: "구동사", exEn: "You need to snap out of it and get moving.", exKo: "그만 털어 내고 이제 좀 움직여.", unit: "ud09223" },
+  { id: "w4555", en: "perk up", ko: "기운이 나다, 생기가 돌다", pos: "구동사", exEn: "She perked up as soon as the food arrived.", exKo: "음식이 나오자마자 그녀는 기운이 났어요.", unit: "ud09223" },
+  { id: "w4556", en: "loosen up", ko: "긴장을 풀다, 편해지다", pos: "구동사", exEn: "Have a drink and loosen up a little.", exKo: "한 잔 하고 긴장 좀 풀어.", unit: "ud09223" },
+  { id: "w4557", en: "grow on", ko: "(처음엔 별로였다가) 점점 마음에 들다", pos: "구동사", exEn: "I hated this song at first, but it's growing on me.", exKo: "처음엔 이 노래 싫었는데 점점 좋아지네.", unit: "ud09223" },
+  { id: "w4558", en: "breeze through", ko: "수월하게 해치우다", pos: "구동사", exEn: "She breezed through the interview without breaking a sweat.", exKo: "그녀는 땀 한 방울 안 흘리고 면접을 가볍게 통과했어요.", unit: "ud09223" },
+  { id: "w4559", en: "heartwarming", ko: "마음이 훈훈해지는", pos: "형용사", exEn: "That was the most heartwarming story I've heard all year.", exKo: "올해 들은 이야기 중에 제일 훈훈했어요.", unit: "ud09223" },
+  { id: "w4560", en: "reserved", ko: "말수가 적은, 내성적인", pos: "형용사", exEn: "He's a bit reserved until you get to know him.", exKo: "그 사람은 친해지기 전까진 좀 말수가 적어요.", unit: "ud09223" },
+  { id: "w4561", en: "better safe than sorry", ko: "나중에 후회하느니 미리 조심하는 게 낫다", pos: "관용구", exEn: "Bring an umbrella — better safe than sorry.", exKo: "우산 챙겨. 나중에 후회하느니 미리 조심하는 게 낫지.", unit: "ud09224" },
+  { id: "w4562", en: "elicit", ko: "(반응·정보를) 끌어내다", pos: "동사", exEn: "His joke didn't elicit a single laugh.", exKo: "그의 농담은 웃음 하나 끌어내지 못했어요.", unit: "ud09224" },
+  { id: "w4563", en: "forgo", ko: "(좋은 것을) 포기하다, 그냥 넘기다", pos: "동사", exEn: "I decided to forgo dessert tonight.", exKo: "오늘 밤은 디저트를 건너뛰기로 했어요.", unit: "ud09224" },
+  { id: "w4564", en: "indulge", ko: "마음껏 누리다, 실컷 즐기다", pos: "동사", exEn: "Go ahead and indulge — it's your birthday.", exKo: "마음껏 즐겨. 네 생일이잖아.", unit: "ud09224" },
+  { id: "w4565", en: "fathom", ko: "(도무지) 헤아리다, 이해하다", pos: "동사", exEn: "I can't fathom why she'd quit a job like that.", exKo: "그런 직장을 왜 그만뒀는지 도무지 이해가 안 돼요.", unit: "ud09224" },
+  { id: "w4566", en: "convoluted", ko: "복잡하게 뒤엉킨, 지나치게 꼬인", pos: "형용사", exEn: "The rules are so convoluted that nobody follows them.", exKo: "규정이 너무 복잡하게 꼬여서 아무도 안 지켜요.", unit: "ud09224" },
+  { id: "w4567", en: "immaculate", ko: "티 하나 없이 깔끔한", pos: "형용사", exEn: "His apartment is always immaculate.", exKo: "그의 집은 항상 티 하나 없이 깔끔해요.", unit: "ud09224" },
+  { id: "w4568", en: "grueling", ko: "진이 빠질 만큼 혹독한", pos: "형용사", exEn: "It was a grueling twelve-hour shift.", exKo: "진이 다 빠지는 12시간 근무였어요.", unit: "ud09224" },
+  { id: "w4569", en: "seamless", ko: "이음매가 안 느껴질 만큼 매끄러운", pos: "형용사", exEn: "The transition to the new system was seamless.", exKo: "새 시스템으로 넘어가는 과정이 아주 매끄러웠어요.", unit: "ud09224" },
+  { id: "w4570", en: "scathing", ko: "신랄한, 사정없이 비판적인", pos: "형용사", exEn: "The critic wrote a scathing review of the film.", exKo: "그 평론가는 영화에 대해 신랄한 리뷰를 썼어요.", unit: "ud09224" }
+]);
+
 // end of data-daily.js
