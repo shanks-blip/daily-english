@@ -3355,4 +3355,53 @@
   { id: "w4570", en: "scathing", ko: "신랄한, 사정없이 비판적인", pos: "형용사", exEn: "The critic wrote a scathing review of the film.", exKo: "그 평론가는 영화에 대해 신랄한 리뷰를 썼어요.", unit: "ud09224" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09231", level: "lv1", title: "데일리 9/23 · 기초" },
+  { id: "ud09232", level: "lv2", title: "데일리 9/23 · 중급" },
+  { id: "ud09233", level: "lv3", title: "데일리 9/23 · 고급" },
+  { id: "ud09234", level: "lv4", title: "데일리 9/23 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4571", en: "bike", ko: "자전거", pos: "명사", exEn: "I ride my bike to work every day.", exKo: "저는 매일 자전거 타고 출근해요.", unit: "ud09231" },
+  { id: "w4572", en: "cake", ko: "케이크", pos: "명사", exEn: "She baked a chocolate cake for his birthday.", exKo: "그녀는 그의 생일에 초콜릿 케이크를 구웠어요.", unit: "ud09231" },
+  { id: "w4573", en: "pink", ko: "분홍색의", pos: "형용사", exEn: "My little sister only wears pink shoes.", exKo: "제 여동생은 분홍색 신발만 신어요.", unit: "ud09231" },
+  { id: "w4574", en: "paint", ko: "페인트를 칠하다; 물감", pos: "동사", exEn: "We're going to paint the living room this weekend.", exKo: "이번 주말에 거실에 페인트를 칠할 거예요.", unit: "ud09231" },
+  { id: "w4575", en: "circle", ko: "동그라미, 원", pos: "명사", exEn: "Draw a circle around the right answer.", exKo: "정답에 동그라미를 치세요.", unit: "ud09231" },
+  { id: "w4576", en: "horn", ko: "(차의) 경적; (동물의) 뿔", pos: "명사", exEn: "The driver behind me honked his horn.", exKo: "뒤차 운전자가 경적을 울렸어요.", unit: "ud09231" },
+  { id: "w4577", en: "midnight", ko: "자정, 밤 열두 시", pos: "명사", exEn: "The store closes at midnight.", exKo: "그 가게는 자정에 문을 닫아요.", unit: "ud09231" },
+  { id: "w4578", en: "baker", ko: "제빵사", pos: "명사", exEn: "The baker starts working at four in the morning.", exKo: "제빵사는 새벽 네 시에 일을 시작해요.", unit: "ud09231" },
+  { id: "w4579", en: "hostess", ko: "(식당의) 안내 직원; 여주인", pos: "명사", exEn: "The hostess will show you to your table.", exKo: "안내 직원이 자리까지 안내해 드릴 거예요.", unit: "ud09231" },
+  { id: "w4580", en: "turkey", ko: "칠면조", pos: "명사", exEn: "We eat turkey every Thanksgiving.", exKo: "저희는 추수감사절마다 칠면조를 먹어요.", unit: "ud09231" },
+  { id: "w4581", en: "factory", ko: "공장", pos: "명사", exEn: "My dad worked at a car factory for thirty years.", exKo: "아빠는 자동차 공장에서 30년 동안 일하셨어요.", unit: "ud09232" },
+  { id: "w4582", en: "pilot", ko: "조종사", pos: "명사", exEn: "The pilot announced that we'd land in ten minutes.", exKo: "조종사가 10분 뒤에 착륙한다고 안내했어요.", unit: "ud09232" },
+  { id: "w4583", en: "concert", ko: "콘서트, 공연", pos: "명사", exEn: "We got last-minute tickets to the concert.", exKo: "막판에 콘서트 티켓을 구했어요.", unit: "ud09232" },
+  { id: "w4584", en: "campus", ko: "캠퍼스, 교정", pos: "명사", exEn: "There's a great coffee shop right off campus.", exKo: "캠퍼스 바로 앞에 괜찮은 커피숍이 있어요.", unit: "ud09232" },
+  { id: "w4585", en: "plastic", ko: "플라스틱(의)", pos: "명사", exEn: "Could I get a plastic bag for these?", exKo: "이것들 담을 비닐봉지 하나 받을 수 있을까요?", unit: "ud09232" },
+  { id: "w4586", en: "golf", ko: "골프", pos: "명사", exEn: "He plays golf every Sunday morning.", exKo: "그는 일요일 아침마다 골프를 쳐요.", unit: "ud09232" },
+  { id: "w4587", en: "manager", ko: "관리자, 매니저", pos: "명사", exEn: "Let me talk to my manager and get back to you.", exKo: "매니저랑 얘기해 보고 다시 알려 드릴게요.", unit: "ud09232" },
+  { id: "w4588", en: "grocery cart", ko: "장바구니 카트", pos: "명사", exEn: "Someone left a grocery cart in the parking lot.", exKo: "누가 주차장에 카트를 그냥 두고 갔어요.", unit: "ud09232" },
+  { id: "w4589", en: "break room", ko: "(직장의) 휴게실", pos: "명사", exEn: "There's leftover pizza in the break room.", exKo: "휴게실에 피자 남은 거 있어요.", unit: "ud09232" },
+  { id: "w4590", en: "debit card", ko: "체크카드", pos: "명사", exEn: "I'll just put it on my debit card.", exKo: "그냥 체크카드로 계산할게요.", unit: "ud09232" },
+  { id: "w4591", en: "track down", ko: "수소문해서 찾아내다", pos: "구동사", exEn: "It took me a week to track down his new number.", exKo: "그의 새 번호를 알아내는 데 일주일 걸렸어요.", unit: "ud09233" },
+  { id: "w4592", en: "pick up on", ko: "(미묘한 것을) 눈치채다, 알아차리다", pos: "구동사", exEn: "She picked up on the tension right away.", exKo: "그녀는 분위기가 어색한 걸 바로 눈치챘어요.", unit: "ud09233" },
+  { id: "w4593", en: "amount to", ko: "결국 ~인 셈이다, ~에 이르다", pos: "구동사", exEn: "All that work didn't amount to much.", exKo: "그 고생이 결국 별 소용이 없었어요.", unit: "ud09233" },
+  { id: "w4594", en: "set aside", ko: "따로 떼어 두다; (감정을) 접어 두다", pos: "구동사", exEn: "Let's set aside our differences for one night.", exKo: "오늘 하루만 서로 다른 점은 접어 둡시다.", unit: "ud09233" },
+  { id: "w4595", en: "square away", ko: "말끔히 정리하다, 처리해 두다", pos: "구동사", exEn: "I need to square away a few things before I leave.", exKo: "떠나기 전에 몇 가지 정리해 둬야 해요.", unit: "ud09233" },
+  { id: "w4596", en: "second wind", ko: "(지쳤다가) 되살아난 기운", pos: "명사", exEn: "I got a second wind around eleven and finished it.", exKo: "열한 시쯤 다시 기운이 나서 끝까지 했어요.", unit: "ud09233" },
+  { id: "w4597", en: "homesick", ko: "향수병에 걸린, 집이 그리운", pos: "형용사", exEn: "I got really homesick during my first month abroad.", exKo: "해외 생활 첫 달에는 집이 정말 많이 그리웠어요.", unit: "ud09233" },
+  { id: "w4598", en: "closure", ko: "(일을) 매듭짓는 느낌, 마음의 정리", pos: "명사", exEn: "She needed one last conversation to get closure.", exKo: "그녀는 마음을 정리하려면 마지막 대화 한 번이 필요했어요.", unit: "ud09233" },
+  { id: "w4599", en: "grudge", ko: "(오래 품는) 앙금, 원한", pos: "명사", exEn: "He still holds a grudge over something I said in 2019.", exKo: "그는 2019년에 제가 한 말을 아직도 마음에 담아 두고 있어요.", unit: "ud09233" },
+  { id: "w4600", en: "dreadful", ko: "끔찍한, 정말 형편없는", pos: "형용사", exEn: "The weather was dreadful the whole trip.", exKo: "여행 내내 날씨가 끔찍했어요.", unit: "ud09233" },
+  { id: "w4601", en: "go down a rabbit hole", ko: "(하나 파다가) 끝도 없이 빠져들다", pos: "관용구", exEn: "I went down a rabbit hole reading reviews at 2 a.m.", exKo: "새벽 두 시에 후기 읽다가 끝도 없이 빠져들었어요.", unit: "ud09234" },
+  { id: "w4602", en: "touch a nerve", ko: "(예민한) 정곡을 건드리다", pos: "관용구", exEn: "I guess I touched a nerve — he got quiet.", exKo: "제가 정곡을 건드렸나 봐요. 그가 조용해졌어요.", unit: "ud09234" },
+  { id: "w4603", en: "blow out of proportion", ko: "실제보다 부풀려서 크게 만들다", pos: "관용구", exEn: "The media blew the whole thing out of proportion.", exKo: "언론이 그 일을 실제보다 훨씬 크게 부풀렸어요.", unit: "ud09234" },
+  { id: "w4604", en: "a tough pill to swallow", ko: "받아들이기 힘든 일", pos: "관용구", exEn: "Getting passed over was a tough pill to swallow.", exKo: "승진에서 밀린 건 받아들이기 힘든 일이었어요.", unit: "ud09234" },
+  { id: "w4605", en: "walk on eggshells", ko: "(눈치 보며) 조심조심 행동하다", pos: "관용구", exEn: "Everyone walks on eggshells around him lately.", exKo: "요즘 다들 그 사람 눈치를 보며 조심조심해요.", unit: "ud09234" },
+  { id: "w4606", en: "steer clear of", ko: "(일부러) 멀리하다, 피하다", pos: "구동사", exEn: "I steer clear of that topic at family dinners.", exKo: "가족 식사 자리에서 그 주제는 아예 피해요.", unit: "ud09234" },
+  { id: "w4607", en: "gut-wrenching", ko: "속이 뒤틀릴 만큼 괴로운", pos: "형용사", exEn: "Saying goodbye at the airport was gut-wrenching.", exKo: "공항에서 작별 인사하는 게 속이 다 뒤틀릴 만큼 힘들었어요.", unit: "ud09234" },
+  { id: "w4608", en: "exasperating", ko: "사람 속을 뒤집어 놓는, 진 빠지게 하는", pos: "형용사", exEn: "Dealing with their customer service is exasperating.", exKo: "거기 고객센터 상대하는 건 정말 진이 빠져요.", unit: "ud09234" },
+  { id: "w4609", en: "underwhelming", ko: "기대에 한참 못 미치는", pos: "형용사", exEn: "The sequel was honestly underwhelming.", exKo: "속편은 솔직히 기대에 한참 못 미쳤어요.", unit: "ud09234" },
+  { id: "w4610", en: "endearing", ko: "정이 가는, 사랑스러운", pos: "형용사", exEn: "His awkward laugh is weirdly endearing.", exKo: "그의 어색한 웃음이 묘하게 정이 가요.", unit: "ud09234" }
+]);
+
 // end of data-daily.js
