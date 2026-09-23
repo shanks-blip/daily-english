@@ -3404,4 +3404,53 @@
   { id: "w4610", en: "endearing", ko: "정이 가는, 사랑스러운", pos: "형용사", exEn: "His awkward laugh is weirdly endearing.", exKo: "그의 어색한 웃음이 묘하게 정이 가요.", unit: "ud09234" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09241", level: "lv1", title: "데일리 9/24 · 기초" },
+  { id: "ud09242", level: "lv2", title: "데일리 9/24 · 중급" },
+  { id: "ud09243", level: "lv3", title: "데일리 9/24 · 고급" },
+  { id: "ud09244", level: "lv4", title: "데일리 9/24 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4611", en: "hundred", ko: "백, 100", pos: "수사", exEn: "It's about a hundred dollars for both.", exKo: "둘 합쳐서 백 달러쯤 해요.", unit: "ud09241" },
+  { id: "w4612", en: "thousand", ko: "천, 1,000", pos: "수사", exEn: "The new couch cost almost a thousand bucks.", exKo: "새 소파가 거의 천 달러나 했어요.", unit: "ud09241" },
+  { id: "w4613", en: "Monday", ko: "월요일", pos: "명사", exEn: "I have a dentist appointment on Monday.", exKo: "월요일에 치과 예약이 있어요.", unit: "ud09241" },
+  { id: "w4614", en: "Friday", ko: "금요일", pos: "명사", exEn: "Let's grab dinner on Friday night.", exKo: "금요일 밤에 저녁 먹어요.", unit: "ud09241" },
+  { id: "w4615", en: "red", ko: "빨간, 빨간색", pos: "형용사", exEn: "I'm looking for a red jacket in medium.", exKo: "빨간 재킷 미디엄 사이즈 찾고 있어요.", unit: "ud09241" },
+  { id: "w4616", en: "sandwich", ko: "샌드위치", pos: "명사", exEn: "I'll just have a turkey sandwich for lunch.", exKo: "점심은 그냥 칠면조 샌드위치 먹을게요.", unit: "ud09241" },
+  { id: "w4617", en: "ice cream", ko: "아이스크림", pos: "명사", exEn: "Do you want to get some ice cream after dinner?", exKo: "저녁 먹고 아이스크림 먹으러 갈래요?", unit: "ud09241" },
+  { id: "w4618", en: "post office", ko: "우체국", pos: "명사", exEn: "Is there a post office near here?", exKo: "이 근처에 우체국 있어요?", unit: "ud09241" },
+  { id: "w4619", en: "wake up", ko: "(잠에서) 깨다, 일어나다", pos: "구동사", exEn: "I usually wake up around seven.", exKo: "저는 보통 일곱 시쯤 일어나요.", unit: "ud09241" },
+  { id: "w4620", en: "teach", ko: "가르치다", pos: "동사", exEn: "My mom teaches third grade.", exKo: "우리 엄마는 초등학교 3학년을 가르쳐요.", unit: "ud09241" },
+  { id: "w4621", en: "daycare", ko: "어린이집, 탁아 시설", pos: "명사", exEn: "I have to pick up my son from daycare by six.", exKo: "여섯 시까지 아들을 어린이집에서 데려와야 해요.", unit: "ud09242" },
+  { id: "w4622", en: "sore throat", ko: "목 아픔, 인후통", pos: "명사", exEn: "I woke up with a sore throat this morning.", exKo: "아침에 일어났더니 목이 아파요.", unit: "ud09242" },
+  { id: "w4623", en: "runny nose", ko: "콧물(이 나는 코)", pos: "명사", exEn: "It's just a runny nose — I'm fine, really.", exKo: "그냥 콧물 좀 나는 거예요. 진짜 괜찮아요.", unit: "ud09242" },
+  { id: "w4624", en: "drive-through", ko: "드라이브스루", pos: "명사", exEn: "Let's just hit the drive-through on the way home.", exKo: "집에 가는 길에 그냥 드라이브스루 들르자.", unit: "ud09242" },
+  { id: "w4625", en: "decaf", ko: "디카페인 커피", pos: "명사", exEn: "Can I get a decaf latte? I can't have caffeine this late.", exKo: "디카페인 라테로 주실래요? 이 시간엔 카페인 먹으면 안 돼서요.", unit: "ud09242" },
+  { id: "w4626", en: "parking ticket", ko: "주차 위반 딱지", pos: "명사", exEn: "I got a parking ticket because the meter ran out.", exKo: "주차 미터기 시간이 끝나서 딱지를 뗐어요.", unit: "ud09242" },
+  { id: "w4627", en: "garage sale", ko: "(집 앞) 중고 물품 세일", pos: "명사", exEn: "We're having a garage sale this Saturday.", exKo: "이번 토요일에 집 앞에서 중고 물건 팔아요.", unit: "ud09242" },
+  { id: "w4628", en: "group chat", ko: "단톡방, 그룹 채팅", pos: "명사", exEn: "I'll send the address in the group chat.", exKo: "주소는 단톡방에 올릴게요.", unit: "ud09242" },
+  { id: "w4629", en: "lunch break", ko: "점심시간", pos: "명사", exEn: "I'll call you back on my lunch break.", exKo: "점심시간에 다시 전화할게요.", unit: "ud09242" },
+  { id: "w4630", en: "day off", ko: "쉬는 날, 휴무", pos: "명사", exEn: "I'm taking a day off next Friday.", exKo: "다음 주 금요일에 하루 쉬어요.", unit: "ud09242" },
+  { id: "w4631", en: "hold out on", ko: "(정보·몫을) 숨기고 안 알려 주다", pos: "구동사", exEn: "You're holding out on me — what really happened?", exKo: "나한테 뭐 숨기는 거 있지? 진짜 무슨 일이었어?", unit: "ud09243" },
+  { id: "w4632", en: "rattle off", ko: "(외운 것을) 줄줄 읊다", pos: "구동사", exEn: "She rattled off the whole menu from memory.", exKo: "그녀는 메뉴 전체를 외워서 줄줄 읊었어요.", unit: "ud09243" },
+  { id: "w4633", en: "scrape by", ko: "겨우겨우 먹고살다, 간신히 버티다", pos: "구동사", exEn: "We scraped by on one income for a year.", exKo: "우리는 일 년 동안 외벌이로 겨우 버텼어요.", unit: "ud09243" },
+  { id: "w4634", en: "spring for", ko: "(남을 위해) 한턱내다, 큰맘 먹고 돈을 쓰다", pos: "구동사", exEn: "I'll spring for pizza if you guys help me move.", exKo: "이사 도와주면 피자는 내가 쏠게.", unit: "ud09243" },
+  { id: "w4635", en: "whip up", ko: "(음식을) 뚝딱 만들어 내다", pos: "구동사", exEn: "Give me ten minutes and I'll whip up some pasta.", exKo: "십 분만 주면 파스타 뚝딱 만들어 줄게.", unit: "ud09243" },
+  { id: "w4636", en: "crop up", ko: "(예상치 못하게) 불쑥 생기다", pos: "구동사", exEn: "Something cropped up at work, so I'll be late.", exKo: "회사에 갑자기 일이 생겨서 좀 늦을 거야.", unit: "ud09243" },
+  { id: "w4637", en: "mix up", ko: "헷갈리다, 뒤섞다", pos: "구동사", exEn: "I always mix up their names — they look so alike.", exKo: "둘 이름을 맨날 헷갈려요. 너무 닮았거든요.", unit: "ud09243" },
+  { id: "w4638", en: "lull", ko: "(활동 사이의) 잠잠한 때, 소강상태", pos: "명사", exEn: "There's usually a lull around three, so come by then.", exKo: "보통 세 시쯤 한가해지니까 그때 들러요.", unit: "ud09243" },
+  { id: "w4639", en: "stint", ko: "(일정 기간의) 근무·활동 기간", pos: "명사", exEn: "I did a short stint as a bartender in college.", exKo: "대학 때 잠깐 바텐더로 일했어요.", unit: "ud09243" },
+  { id: "w4640", en: "qualm", ko: "꺼림칙함, 양심의 가책", pos: "명사", exEn: "I have no qualms about asking for a raise.", exKo: "월급 올려 달라고 하는 데 전혀 거리낌 없어요.", unit: "ud09243" },
+  { id: "w4641", en: "ruffle feathers", ko: "(남의) 심기를 건드리다", pos: "관용구", exEn: "I don't want to ruffle any feathers, but this plan won't work.", exKo: "괜히 심기 건드리고 싶진 않은데, 이 계획은 안 될 거예요.", unit: "ud09244" },
+  { id: "w4642", en: "nip in the bud", ko: "싹을 자르다, 초기에 막다", pos: "관용구", exEn: "Let's nip this in the bud before it becomes a habit.", exKo: "습관 되기 전에 초장에 잡읍시다.", unit: "ud09244" },
+  { id: "w4643", en: "through the grapevine", ko: "소문으로, 건너 건너 듣다", pos: "관용구", exEn: "I heard through the grapevine that she's quitting.", exKo: "그녀가 그만둔다는 얘기를 건너 건너 들었어요.", unit: "ud09244" },
+  { id: "w4644", en: "bury the hatchet", ko: "화해하다, 앙금을 풀다", pos: "관용구", exEn: "It's been ten years — maybe it's time to bury the hatchet.", exKo: "벌써 십 년이야. 이제 그만 화해할 때도 됐지.", unit: "ud09244" },
+  { id: "w4645", en: "put a damper on", ko: "(분위기·계획에) 찬물을 끼얹다", pos: "관용구", exEn: "The rain put a damper on our barbecue.", exKo: "비 때문에 바비큐 분위기가 확 식었어요.", unit: "ud09244" },
+  { id: "w4646", en: "smell a rat", ko: "뭔가 수상한 낌새를 채다", pos: "관용구", exEn: "When he offered to pay, I started to smell a rat.", exKo: "그가 계산하겠다고 할 때부터 뭔가 수상하다 싶었어요.", unit: "ud09244" },
+  { id: "w4647", en: "not my cup of tea", ko: "내 취향은 아니다", pos: "관용구", exEn: "Horror movies just aren't my cup of tea.", exKo: "공포 영화는 그냥 제 취향이 아니에요.", unit: "ud09244" },
+  { id: "w4648", en: "leave someone hanging", ko: "(대답·연락 없이) 사람을 기다리게 두다", pos: "관용구", exEn: "Don't leave me hanging — did you get the job or not?", exKo: "애태우지 말고 말해 봐. 붙었어, 안 붙었어?", unit: "ud09244" },
+  { id: "w4649", en: "disheveled", ko: "(머리·옷이) 흐트러진, 부스스한", pos: "형용사", exEn: "He showed up disheveled, like he'd slept in his car.", exKo: "그는 차에서 잔 사람처럼 부스스한 몰골로 나타났어요.", unit: "ud09244" },
+  { id: "w4650", en: "smarmy", ko: "(가식적으로) 알랑거리는, 느끼한", pos: "형용사", exEn: "The salesman was so smarmy I walked right out.", exKo: "판매원이 너무 느끼하게 알랑거려서 그냥 나와 버렸어요.", unit: "ud09244" }
+]);
+
 // end of data-daily.js

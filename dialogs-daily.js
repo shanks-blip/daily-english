@@ -558,4 +558,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0924", level: "lv3", icon: "🚗", title: "렌터카 빌리며 보험 옵션 고르기",
+  lines: [
+    { sp: "A", en: "Hi, I have a reservation under Kim — a compact for three days.", ko: "안녕하세요, 김으로 예약했어요. 소형차로 사흘이요." },
+    { sp: "B", en: "Got it. Would you like to add our full coverage? It's thirty bucks a day.", ko: "네, 확인됐습니다. 종합 보험 추가하시겠어요? 하루 30달러예요." },
+    { sp: "A", en: "Hmm, my credit card covers rentals, I think. Let me double-check before I commit.", ko: "음, 제 신용카드에 렌터카 보험이 있을 거예요. 결정하기 전에 한 번 확인해 볼게요." },
+    { sp: "B", en: "Sure. Just so you know, it doesn't usually cover liability.", ko: "그러세요. 참고로 카드 보험은 보통 대인·대물 배상은 안 돼요." },
+    { sp: "A", en: "Good point. Then I'll go with liability only and skip the rest.", ko: "좋은 지적이네요. 그럼 배상 책임 보험만 하고 나머진 뺄게요." },
+    { sp: "B", en: "Sounds good. Also, we're out of compacts, so I can bump you up to a midsize at no charge.", ko: "좋습니다. 그리고 소형차가 다 나가서 중형차로 무료 업그레이드해 드릴게요." },
+    { sp: "A", en: "Oh, nice! Is there anything I should look out for when I return it?", ko: "오, 좋네요! 반납할 때 주의할 거 있나요?" },
+    { sp: "B", en: "Just bring it back with a full tank, or we'll charge you for the gas.", ko: "기름만 가득 채워서 오세요. 안 그러면 기름값이 청구돼요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
