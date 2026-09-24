@@ -3453,4 +3453,53 @@
   { id: "w4650", en: "smarmy", ko: "(가식적으로) 알랑거리는, 느끼한", pos: "형용사", exEn: "The salesman was so smarmy I walked right out.", exKo: "판매원이 너무 느끼하게 알랑거려서 그냥 나와 버렸어요.", unit: "ud09244" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09251", level: "lv1", title: "데일리 9/25 · 기초" },
+  { id: "ud09252", level: "lv2", title: "데일리 9/25 · 중급" },
+  { id: "ud09253", level: "lv3", title: "데일리 9/25 · 고급" },
+  { id: "ud09254", level: "lv4", title: "데일리 9/25 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4651", en: "bank", ko: "은행", pos: "명사", exEn: "I need to stop by the bank before it closes.", exKo: "은행 문 닫기 전에 잠깐 들러야 해요.", unit: "ud09251" },
+  { id: "w4652", en: "station", ko: "역, 정거장", pos: "명사", exEn: "Let's meet in front of the station at six.", exKo: "6시에 역 앞에서 만나요.", unit: "ud09251" },
+  { id: "w4653", en: "taxi", ko: "택시", pos: "명사", exEn: "It's raining, so let's just take a taxi.", exKo: "비 오니까 그냥 택시 타요.", unit: "ud09251" },
+  { id: "w4654", en: "corner", ko: "모퉁이, 구석", pos: "명사", exEn: "The café is right around the corner.", exKo: "카페는 바로 저 모퉁이 돌면 있어요.", unit: "ud09251" },
+  { id: "w4655", en: "straight", ko: "똑바로, 곧장", pos: "부사", exEn: "Go straight for two blocks and turn left.", exKo: "두 블록 쭉 직진하다가 왼쪽으로 도세요.", unit: "ud09251" },
+  { id: "w4656", en: "tonight", ko: "오늘 밤", pos: "부사", exEn: "Are you free tonight?", exKo: "오늘 밤에 시간 있어요?", unit: "ud09251" },
+  { id: "w4657", en: "vegetable", ko: "채소", pos: "명사", exEn: "My son won't eat any vegetables.", exKo: "우리 아들은 채소를 하나도 안 먹어요.", unit: "ud09251" },
+  { id: "w4658", en: "police officer", ko: "경찰관", pos: "명사", exEn: "A police officer helped me find my way.", exKo: "경찰관 한 분이 길 찾는 걸 도와줬어요.", unit: "ud09251" },
+  { id: "w4659", en: "get up", ko: "(잠자리에서) 일어나다", pos: "동사구", exEn: "I get up at seven every morning.", exKo: "저는 매일 아침 7시에 일어나요.", unit: "ud09251" },
+  { id: "w4660", en: "full", ko: "배부른; 가득 찬", pos: "형용사", exEn: "No more for me, thanks. I'm full.", exKo: "전 그만 먹을게요, 고마워요. 배불러요.", unit: "ud09251" },
+  { id: "w4661", en: "round trip", ko: "왕복 (여행·표)", pos: "명사", exEn: "How much is a round trip ticket to Chicago?", exKo: "시카고 왕복표는 얼마예요?", unit: "ud09252" },
+  { id: "w4662", en: "thaw", ko: "(얼린 것을) 녹이다, 해동하다", pos: "동사", exEn: "Don't forget to thaw the chicken before dinner.", exKo: "저녁 전에 닭고기 해동하는 거 잊지 마.", unit: "ud09252" },
+  { id: "w4663", en: "cutting board", ko: "도마", pos: "명사", exEn: "Use the other cutting board for raw meat.", exKo: "생고기는 다른 도마를 써.", unit: "ud09252" },
+  { id: "w4664", en: "oven mitt", ko: "오븐 장갑", pos: "명사", exEn: "Grab an oven mitt. That tray is really hot.", exKo: "오븐 장갑 껴. 그 판 엄청 뜨거워.", unit: "ud09252" },
+  { id: "w4665", en: "in stock", ko: "재고가 있는", pos: "형용사구", exEn: "Do you have this in stock in a medium?", exKo: "이거 미디엄 사이즈 재고 있어요?", unit: "ud09252" },
+  { id: "w4666", en: "cut in line", ko: "새치기하다", pos: "동사구", exEn: "Hey, that guy just cut in line!", exKo: "저기요, 저 사람 방금 새치기했어요!", unit: "ud09252" },
+  { id: "w4667", en: "to-go", ko: "포장(테이크아웃)용의", pos: "형용사", exEn: "Can I get a to-go box for the rest?", exKo: "남은 거 포장해 갈 용기 좀 주실래요?", unit: "ud09252" },
+  { id: "w4668", en: "side dish", ko: "반찬, 곁들임 요리", pos: "명사", exEn: "I'll bring a side dish to the potluck.", exKo: "포틀럭 파티에 곁들임 요리 하나 가져갈게.", unit: "ud09252" },
+  { id: "w4669", en: "speed bump", ko: "과속방지턱", pos: "명사", exEn: "Slow down, there's a speed bump ahead.", exKo: "속도 줄여, 앞에 과속방지턱 있어.", unit: "ud09252" },
+  { id: "w4670", en: "tow", ko: "(차를) 견인하다", pos: "동사", exEn: "If you park here, they'll tow your car.", exKo: "여기 주차하면 차 견인해 가요.", unit: "ud09252" },
+  { id: "w4671", en: "pent-up", ko: "(감정이) 억눌려 쌓인", pos: "형용사", exEn: "He finally let out all that pent-up anger.", exKo: "그는 억눌러 왔던 화를 결국 다 터뜨렸어요.", unit: "ud09253" },
+  { id: "w4672", en: "butt in", ko: "(대화에) 끼어들다, 참견하다", pos: "동사구", exEn: "Sorry to butt in, but I think you're both right.", exKo: "끼어들어서 미안한데, 내 생각엔 둘 다 맞는 것 같아.", unit: "ud09253" },
+  { id: "w4673", en: "rapport", ko: "친밀한 관계, 신뢰감", pos: "명사", exEn: "She has a great rapport with her students.", exKo: "그녀는 학생들과 사이가 정말 좋아요.", unit: "ud09253" },
+  { id: "w4674", en: "stigma", ko: "낙인, 오명", pos: "명사", exEn: "There's still a stigma around asking for help.", exKo: "도움을 청하는 걸 부끄럽게 보는 시선이 아직 있어요.", unit: "ud09253" },
+  { id: "w4675", en: "volatile", ko: "변덕스러운, 불안정한", pos: "형용사", exEn: "The market has been really volatile this week.", exKo: "이번 주엔 시장이 정말 오락가락했어요.", unit: "ud09253" },
+  { id: "w4676", en: "lenient", ko: "관대한, 너그러운", pos: "형용사", exEn: "My parents were pretty lenient about curfew.", exKo: "우리 부모님은 귀가 시간에 꽤 너그러우셨어요.", unit: "ud09253" },
+  { id: "w4677", en: "flabbergasted", ko: "어안이 벙벙한, 기가 막힌", pos: "형용사", exEn: "I was flabbergasted when I saw the bill.", exKo: "청구서 보고 기가 막혀서 말이 안 나왔어요.", unit: "ud09253" },
+  { id: "w4678", en: "bashful", ko: "수줍어하는, 숫기 없는", pos: "형용사", exEn: "He gets a little bashful around new people.", exKo: "그는 처음 보는 사람 앞에서 좀 수줍어해요.", unit: "ud09253" },
+  { id: "w4679", en: "remorseful", ko: "후회하는, 뉘우치는", pos: "형용사", exEn: "He seemed truly remorseful about what he said.", exKo: "그는 자기가 한 말을 진심으로 후회하는 것 같았어요.", unit: "ud09253" },
+  { id: "w4680", en: "prickly", ko: "까칠한, 예민한", pos: "형용사", exEn: "She gets prickly if you ask about her ex.", exKo: "전 남자친구 얘기만 꺼내면 그녀는 까칠해져요.", unit: "ud09253" },
+  { id: "w4681", en: "in the weeds", ko: "자잘한 일에 파묻혀 정신없는; 세부사항에 빠진", pos: "관용구", exEn: "Sorry, I'm totally in the weeds today. Can we talk tomorrow?", exKo: "미안, 오늘 일에 완전 파묻혀 있어. 내일 얘기해도 될까?", unit: "ud09254" },
+  { id: "w4682", en: "sour grapes", ko: "(못 가진 걸) 깎아내리는 심보, 여우의 신 포도", pos: "관용구", exEn: "He says the job wasn't worth it, but that's just sour grapes.", exKo: "그 자리 별거 아니었다고 하는데, 그냥 못 먹는 감 찔러보는 거지.", unit: "ud09254" },
+  { id: "w4683", en: "cry wolf", ko: "괜히 거짓 경보를 울리다, 양치기 소년처럼 굴다", pos: "관용구", exEn: "If you keep crying wolf, no one will believe you when it's real.", exKo: "자꾸 양치기 소년처럼 굴면 진짜일 때 아무도 안 믿어줘.", unit: "ud09254" },
+  { id: "w4684", en: "kick the can down the road", ko: "(문제 해결을) 뒤로 미루다", pos: "관용구", exEn: "We can't keep kicking the can down the road on this budget issue.", exKo: "이 예산 문제를 계속 뒤로 미룰 수는 없어요.", unit: "ud09254" },
+  { id: "w4685", en: "out of left field", ko: "뜬금없이, 난데없이", pos: "관용구", exEn: "His question came totally out of left field.", exKo: "그의 질문은 완전 뜬금없었어요.", unit: "ud09254" },
+  { id: "w4686", en: "a drop in the bucket", ko: "새 발의 피, 조족지혈", pos: "관용구", exEn: "Fifty bucks is a drop in the bucket compared to what we owe.", exKo: "우리가 갚아야 할 돈에 비하면 50달러는 새 발의 피야.", unit: "ud09254" },
+  { id: "w4687", en: "rest on your laurels", ko: "과거 성공에 안주하다", pos: "관용구", exEn: "Great quarter, but let's not rest on our laurels.", exKo: "이번 분기 잘했지만, 거기에 안주하지는 맙시다.", unit: "ud09254" },
+  { id: "w4688", en: "perfunctory", ko: "형식적인, 건성인", pos: "형용사", exEn: "He gave me a perfunctory hug and left.", exKo: "그는 건성으로 한 번 안아주고는 가 버렸어요.", unit: "ud09254" },
+  { id: "w4689", en: "sanctimonious", ko: "독실한 척하는, 도덕군자인 척하는", pos: "형용사", exEn: "I don't need a sanctimonious lecture from you.", exKo: "너한테 도덕군자인 척하는 설교는 필요 없어.", unit: "ud09254" },
+  { id: "w4690", en: "schlep", ko: "(무거운 걸) 낑낑대며 끌고 가다; 힘들게 오가다", pos: "동사", exEn: "I had to schlep all these groceries up four flights of stairs.", exKo: "이 장 본 걸 다 들고 4층까지 낑낑대며 올라가야 했어요.", unit: "ud09254" }
+]);
+
 // end of data-daily.js
