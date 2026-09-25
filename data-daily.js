@@ -3502,4 +3502,53 @@
   { id: "w4690", en: "schlep", ko: "(무거운 걸) 낑낑대며 끌고 가다; 힘들게 오가다", pos: "동사", exEn: "I had to schlep all these groceries up four flights of stairs.", exKo: "이 장 본 걸 다 들고 4층까지 낑낑대며 올라가야 했어요.", unit: "ud09254" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09261", level: "lv1", title: "데일리 9/26 · 기초" },
+  { id: "ud09262", level: "lv2", title: "데일리 9/26 · 중급" },
+  { id: "ud09263", level: "lv3", title: "데일리 9/26 · 고급" },
+  { id: "ud09264", level: "lv4", title: "데일리 9/26 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4691", en: "hotel", ko: "호텔", pos: "명사", exEn: "Our hotel is right next to the beach.", exKo: "우리 호텔은 해변 바로 옆이야.", unit: "ud09261" },
+  { id: "w4692", en: "train", ko: "기차, 열차", pos: "명사", exEn: "The train leaves in ten minutes. Hurry up!", exKo: "기차 10분 뒤에 출발해. 서둘러!", unit: "ud09261" },
+  { id: "w4693", en: "winter", ko: "겨울", pos: "명사", exEn: "Winter here is really cold and dark.", exKo: "여기 겨울은 정말 춥고 해가 짧아.", unit: "ud09261" },
+  { id: "w4694", en: "summer", ko: "여름", pos: "명사", exEn: "We go camping every summer.", exKo: "우리는 여름마다 캠핑 가.", unit: "ud09261" },
+  { id: "w4695", en: "belly", ko: "배(신체)", pos: "명사", exEn: "The baby laughs when you tickle her belly.", exKo: "아기 배를 간질이면 까르르 웃어.", unit: "ud09261" },
+  { id: "w4696", en: "office", ko: "사무실", pos: "명사", exEn: "I'll be in the office until five today.", exKo: "오늘 다섯 시까지 사무실에 있을 거야.", unit: "ud09261" },
+  { id: "w4697", en: "map", ko: "지도", pos: "명사", exEn: "Can you show me on the map where we are?", exKo: "지금 우리가 어디 있는지 지도에서 보여줄래?", unit: "ud09261" },
+  { id: "w4698", en: "seat", ko: "자리, 좌석", pos: "명사", exEn: "Is this seat taken?", exKo: "이 자리 주인 있어요?", unit: "ud09261" },
+  { id: "w4699", en: "jeans", ko: "청바지", pos: "명사", exEn: "I usually just wear jeans and a T-shirt.", exKo: "난 보통 그냥 청바지에 티셔츠 입어.", unit: "ud09261" },
+  { id: "w4700", en: "market", ko: "시장", pos: "명사", exEn: "Let's buy some fruit at the market.", exKo: "시장에서 과일 좀 사자.", unit: "ud09261" },
+  { id: "w4701", en: "lost and found", ko: "분실물 보관소", pos: "명사", exEn: "Did you check the lost and found for your jacket?", exKo: "재킷 찾으러 분실물 보관소는 가 봤어?", unit: "ud09262" },
+  { id: "w4702", en: "late fee", ko: "연체료", pos: "명사", exEn: "If you pay after the 5th, there's a late fee.", exKo: "5일 넘어서 내면 연체료가 붙어요.", unit: "ud09262" },
+  { id: "w4703", en: "fender bender", ko: "가벼운 접촉 사고", pos: "명사", exEn: "Sorry I'm late. I got into a little fender bender.", exKo: "늦어서 미안. 가벼운 접촉 사고가 있었어.", unit: "ud09262" },
+  { id: "w4704", en: "doggy bag", ko: "(식당의) 남은 음식 포장 봉투", pos: "명사", exEn: "I can't finish this. Can I get a doggy bag?", exKo: "이거 다 못 먹겠어요. 남은 거 싸 갈 수 있을까요?", unit: "ud09262" },
+  { id: "w4705", en: "screenshot", ko: "화면 캡처, 스크린숏", pos: "명사", exEn: "Just send me a screenshot of the error.", exKo: "에러 화면 캡처해서 보내 줘.", unit: "ud09262" },
+  { id: "w4706", en: "due date", ko: "마감일, 예정일", pos: "명사", exEn: "When's the due date for the rent?", exKo: "월세 내는 날이 언제예요?", unit: "ud09262" },
+  { id: "w4707", en: "price tag", ko: "가격표", pos: "명사", exEn: "I forgot to take the price tag off the gift.", exKo: "선물에 붙은 가격표 떼는 걸 깜빡했어.", unit: "ud09262" },
+  { id: "w4708", en: "shopping cart", ko: "쇼핑 카트", pos: "명사", exEn: "Grab a shopping cart. We need a lot of stuff.", exKo: "쇼핑 카트 하나 가져와. 살 게 많아.", unit: "ud09262" },
+  { id: "w4709", en: "field trip", ko: "현장 학습, 견학", pos: "명사", exEn: "My son's class is going on a field trip to the aquarium.", exKo: "아들네 반이 수족관으로 현장 학습 가.", unit: "ud09262" },
+  { id: "w4710", en: "report card", ko: "성적표", pos: "명사", exEn: "She was nervous about showing her parents her report card.", exKo: "그녀는 부모님께 성적표 보여드리는 걸 걱정했어.", unit: "ud09262" },
+  { id: "w4711", en: "skate by", ko: "대충 적당히 넘어가다", pos: "동사구", exEn: "You can't just skate by on charm forever.", exKo: "언제까지나 매력만으로 대충 넘어갈 순 없어.", unit: "ud09263" },
+  { id: "w4712", en: "ward off", ko: "(병·위험 등을) 막다, 물리치다", pos: "동사구", exEn: "I drink ginger tea to ward off colds.", exKo: "감기 안 걸리려고 생강차를 마셔.", unit: "ud09263" },
+  { id: "w4713", en: "cool off", ko: "(화·열기를) 식히다, 진정하다", pos: "동사구", exEn: "Let's take a break and cool off before we say something we regret.", exKo: "후회할 말 하기 전에 잠깐 쉬면서 좀 식히자.", unit: "ud09263" },
+  { id: "w4714", en: "liven up", ko: "활기를 불어넣다", pos: "동사구", exEn: "Some music might liven up the party.", exKo: "음악 좀 틀면 파티 분위기가 살아날 거야.", unit: "ud09263" },
+  { id: "w4715", en: "lead on", ko: "(마음 있는 척) 희망 고문하다", pos: "동사구", exEn: "If you're not interested, don't lead him on.", exKo: "관심 없으면 그 사람 희망 고문하지 마.", unit: "ud09263" },
+  { id: "w4716", en: "pout", ko: "입을 삐죽 내밀다, 뾰로통하다", pos: "동사", exEn: "He's been pouting ever since we said no to pizza.", exKo: "피자 안 된다고 한 뒤로 걔 계속 뾰로통해 있어.", unit: "ud09263" },
+  { id: "w4717", en: "spiteful", ko: "앙심을 품은, 심술궂은", pos: "형용사", exEn: "That was a spiteful thing to say.", exKo: "그건 심술궂은 말이었어.", unit: "ud09263" },
+  { id: "w4718", en: "unnerved", ko: "불안해진, 겁먹은", pos: "형용사", exEn: "I was a little unnerved by how quiet the house was.", exKo: "집이 너무 조용해서 좀 섬뜩했어.", unit: "ud09263" },
+  { id: "w4719", en: "dumbfounded", ko: "말문이 막힌, 어리둥절한", pos: "형용사", exEn: "We were dumbfounded when he quit on the spot.", exKo: "그가 그 자리에서 그만둔다고 해서 우린 말문이 막혔어.", unit: "ud09263" },
+  { id: "w4720", en: "starstruck", ko: "(유명인을 보고) 넋이 나간", pos: "형용사", exEn: "I got totally starstruck when I saw her at the airport.", exKo: "공항에서 그녀를 보고 완전 넋이 나갔어.", unit: "ud09263" },
+  { id: "w4721", en: "bark up the wrong tree", ko: "헛다리 짚다, 엉뚱한 사람을 탓하다", pos: "관용구", exEn: "If you think I took your charger, you're barking up the wrong tree.", exKo: "내가 네 충전기 가져갔다고 생각하면 헛다리 짚은 거야.", unit: "ud09264" },
+  { id: "w4722", en: "save face", ko: "체면을 지키다", pos: "관용구", exEn: "He apologized in private so she could save face.", exKo: "그녀 체면이 상하지 않게 그는 따로 사과했어.", unit: "ud09264" },
+  { id: "w4723", en: "go back to the drawing board", ko: "처음부터 다시 구상하다", pos: "관용구", exEn: "The client hated it, so it's back to the drawing board.", exKo: "고객이 싫어해서 처음부터 다시 짜야 해.", unit: "ud09264" },
+  { id: "w4724", en: "get off on the wrong foot", ko: "첫 단추를 잘못 끼우다, 첫인상이 어긋나다", pos: "관용구", exEn: "I think we got off on the wrong foot. Can we start over?", exKo: "우리 첫 단추를 잘못 끼운 것 같아요. 다시 시작할까요?", unit: "ud09264" },
+  { id: "w4725", en: "keep someone at arm's length", ko: "~와 거리를 두다", pos: "관용구", exEn: "She keeps everyone at arm's length until she trusts them.", exKo: "그녀는 믿음이 생기기 전까진 모두와 거리를 둬.", unit: "ud09264" },
+  { id: "w4726", en: "stick your neck out", ko: "위험을 무릅쓰고 나서다", pos: "관용구", exEn: "I stuck my neck out for you, so don't let me down.", exKo: "내가 너 위해 총대 멘 거니까 실망시키지 마.", unit: "ud09264" },
+  { id: "w4727", en: "chalk it up to", ko: "~ 탓으로 돌리다, ~ 덕분으로 치다", pos: "관용구", exEn: "Let's just chalk it up to bad luck and move on.", exKo: "그냥 운이 나빴다 치고 넘어가자.", unit: "ud09264" },
+  { id: "w4728", en: "blithe", ko: "(심각한 일에) 태평한, 속 편한", pos: "형용사", exEn: "She had a blithe attitude about the deadline.", exKo: "그녀는 마감에 대해 태평했어.", unit: "ud09264" },
+  { id: "w4729", en: "magnanimous", ko: "(패자·상대에게) 너그러운, 아량 있는", pos: "형용사", exEn: "He was magnanimous in victory and thanked his opponent.", exKo: "그는 이기고도 너그럽게 상대에게 고맙다고 했어.", unit: "ud09264" },
+  { id: "w4730", en: "obfuscate", ko: "(일부러) 흐리다, 헷갈리게 만들다", pos: "동사", exEn: "The contract seems designed to obfuscate the fees.", exKo: "그 계약서는 일부러 수수료를 헷갈리게 해 놓은 것 같아.", unit: "ud09264" }
+]);
+
 // end of data-daily.js

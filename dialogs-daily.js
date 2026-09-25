@@ -572,4 +572,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0926", level: "lv3", icon: "💸", title: "친구에게 빌려준 돈 돌려달라고 말하기",
+  lines: [
+    { sp: "A", en: "Hey, got a sec? There's something I've been meaning to bring up.", ko: "잠깐 시간 돼? 꺼내려고 벼르던 얘기가 있어서." },
+    { sp: "B", en: "Uh-oh, that sounds serious. What's up?", ko: "어, 뭔가 심각한데. 무슨 일이야?" },
+    { sp: "A", en: "Remember the 300 bucks I lent you back in July? I'm a little strapped for cash this month.", ko: "7월에 빌려준 300달러 기억나? 이번 달에 내가 좀 쪼들려서." },
+    { sp: "B", en: "Oh man, I totally forgot. I'm so sorry — I should've paid you back ages ago.", ko: "아 이런, 완전 잊고 있었어. 진짜 미안해. 진작 갚았어야 했는데." },
+    { sp: "A", en: "It's okay. I just didn't want it to turn into a weird thing between us.", ko: "괜찮아. 그냥 이게 우리 사이에 어색한 일로 번지는 게 싫었어." },
+    { sp: "B", en: "I get it. Can I send 150 now and the rest on payday, next Friday?", ko: "이해해. 지금 150 보내고 나머지는 다음 주 금요일 월급날 줘도 될까?" },
+    { sp: "A", en: "That works for me. Thanks for not making it awkward.", ko: "그럼 좋아. 어색하게 안 만들어 줘서 고마워." },
+    { sp: "B", en: "Thanks for being cool about it. Next coffee's on me.", ko: "너도 좋게 넘어가 줘서 고마워. 다음 커피는 내가 살게." }
+  ]
+}]);
+
 // end of dialogs-daily.js
