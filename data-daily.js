@@ -3551,4 +3551,53 @@
   { id: "w4730", en: "obfuscate", ko: "(일부러) 흐리다, 헷갈리게 만들다", pos: "동사", exEn: "The contract seems designed to obfuscate the fees.", exKo: "그 계약서는 일부러 수수료를 헷갈리게 해 놓은 것 같아.", unit: "ud09264" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09271", level: "lv1", title: "데일리 9/27 · 기초" },
+  { id: "ud09272", level: "lv2", title: "데일리 9/27 · 중급" },
+  { id: "ud09273", level: "lv3", title: "데일리 9/27 · 고급" },
+  { id: "ud09274", level: "lv4", title: "데일리 9/27 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4731", en: "homework", ko: "숙제", pos: "명사", exEn: "I have to finish my homework before dinner.", exKo: "저녁 먹기 전에 숙제 끝내야 해.", unit: "ud09271" },
+  { id: "w4732", en: "classroom", ko: "교실", pos: "명사", exEn: "The classroom was empty when I got there.", exKo: "내가 갔을 땐 교실이 비어 있었어.", unit: "ud09271" },
+  { id: "w4733", en: "bride", ko: "신부", pos: "명사", exEn: "The bride looked so happy walking down the aisle.", exKo: "신부가 입장하는데 정말 행복해 보였어.", unit: "ud09271" },
+  { id: "w4734", en: "groom", ko: "신랑", pos: "명사", exEn: "The groom was so nervous he forgot his speech.", exKo: "신랑이 너무 긴장해서 축사를 까먹었어.", unit: "ud09271" },
+  { id: "w4735", en: "mustard", ko: "머스터드, 겨자", pos: "명사", exEn: "Do you want ketchup or mustard on your hot dog?", exKo: "핫도그에 케첩 뿌려 줄까, 머스터드 뿌려 줄까?", unit: "ud09271" },
+  { id: "w4736", en: "lollipop", ko: "막대사탕", pos: "명사", exEn: "The doctor gave my son a lollipop after his shot.", exKo: "주사 맞고 나서 의사 선생님이 아들한테 막대사탕을 줬어.", unit: "ud09271" },
+  { id: "w4737", en: "blueberry", ko: "블루베리", pos: "명사", exEn: "I put a handful of blueberries in my yogurt every morning.", exKo: "매일 아침 요거트에 블루베리를 한 줌 넣어 먹어.", unit: "ud09271" },
+  { id: "w4738", en: "avocado", ko: "아보카도", pos: "명사", exEn: "This avocado isn't ripe yet. It's still hard.", exKo: "이 아보카도 아직 안 익었어. 여전히 딱딱해.", unit: "ud09271" },
+  { id: "w4739", en: "twice", ko: "두 번", pos: "부사", exEn: "I called her twice, but she didn't pick up.", exKo: "두 번이나 전화했는데 안 받더라.", unit: "ud09271" },
+  { id: "w4740", en: "million", ko: "백만", pos: "수사", exEn: "The house costs over a million dollars.", exKo: "그 집은 백만 달러가 넘어.", unit: "ud09271" },
+  { id: "w4741", en: "jump-start", ko: "(방전된 차에) 점프 시동을 걸다", pos: "동사", exEn: "My battery died. Can you help me jump-start my car?", exKo: "배터리가 나갔어. 차 점프 좀 도와줄 수 있어?", unit: "ud09272" },
+  { id: "w4742", en: "tow truck", ko: "견인차", pos: "명사", exEn: "We had to call a tow truck after the car broke down.", exKo: "차가 고장 나서 견인차를 불러야 했어.", unit: "ud09272" },
+  { id: "w4743", en: "itchy", ko: "가려운", pos: "형용사", exEn: "This sweater is so itchy. I can't wear it.", exKo: "이 스웨터 너무 따가워서 못 입겠어.", unit: "ud09272" },
+  { id: "w4744", en: "cough drop", ko: "목캔디, 기침 사탕", pos: "명사", exEn: "Do you have a cough drop? My throat is killing me.", exKo: "목캔디 있어? 목이 너무 아파.", unit: "ud09272" },
+  { id: "w4745", en: "braces", ko: "치아 교정기", pos: "명사", exEn: "I had braces for two years in middle school.", exKo: "중학교 때 2년 동안 교정기 꼈어.", unit: "ud09272" },
+  { id: "w4746", en: "nail polish", ko: "매니큐어", pos: "명사", exEn: "She changes her nail polish color every week.", exKo: "그녀는 매주 매니큐어 색을 바꿔.", unit: "ud09272" },
+  { id: "w4747", en: "speakerphone", ko: "스피커폰", pos: "명사", exEn: "Put me on speakerphone so everyone can hear.", exKo: "다들 들을 수 있게 스피커폰으로 해 줘.", unit: "ud09272" },
+  { id: "w4748", en: "tantrum", ko: "(아이의) 떼, 성질부림", pos: "명사", exEn: "My daughter threw a tantrum in the middle of the store.", exKo: "딸이 가게 한복판에서 떼를 썼어.", unit: "ud09272" },
+  { id: "w4749", en: "sleep in", ko: "늦잠 자다(일부러 푹 자다)", pos: "구동사", exEn: "It's Saturday, so I'm going to sleep in.", exKo: "토요일이니까 늦잠 좀 잘 거야.", unit: "ud09272" },
+  { id: "w4750", en: "missed call", ko: "부재중 전화", pos: "명사", exEn: "I have three missed calls from my mom.", exKo: "엄마한테서 부재중 전화가 세 통 와 있어.", unit: "ud09272" },
+  { id: "w4751", en: "ride out", ko: "(힘든 시기를) 버텨 내다", pos: "구동사", exEn: "We'll just have to ride out the storm until things get better.", exKo: "상황이 나아질 때까지 그냥 버티는 수밖에 없어.", unit: "ud09273" },
+  { id: "w4752", en: "root for", ko: "~을 응원하다", pos: "구동사", exEn: "Who are you rooting for in the game tonight?", exKo: "오늘 밤 경기에서 누구 응원해?", unit: "ud09273" },
+  { id: "w4753", en: "shell out", ko: "(마지못해 큰돈을) 쓰다, 내다", pos: "구동사", exEn: "I had to shell out 500 bucks to fix my phone.", exKo: "폰 고치느라 500달러나 깨졌어.", unit: "ud09273" },
+  { id: "w4754", en: "whistleblower", ko: "내부 고발자", pos: "명사", exEn: "The whistleblower revealed that the company hid the test results.", exKo: "내부 고발자가 회사가 검사 결과를 숨겼다고 폭로했어.", unit: "ud09273" },
+  { id: "w4755", en: "ceasefire", ko: "휴전", pos: "명사", exEn: "Both sides agreed to a ceasefire over the holidays.", exKo: "양측은 연휴 동안 휴전하기로 합의했어.", unit: "ud09273" },
+  { id: "w4756", en: "incumbent", ko: "현직자; 현직의", pos: "명사", exEn: "The incumbent is expected to win reelection easily.", exKo: "현직 후보가 무난히 재선될 거라는 전망이야.", unit: "ud09273" },
+  { id: "w4757", en: "tariff", ko: "관세", pos: "명사", exEn: "New tariffs could make imported cars more expensive.", exKo: "새 관세 때문에 수입차 가격이 오를 수도 있어.", unit: "ud09273" },
+  { id: "w4758", en: "retail", ko: "소매, 소매업", pos: "명사", exEn: "She's worked in retail for ten years, so she knows how to deal with customers.", exKo: "그녀는 10년 동안 매장 일을 해서 손님 응대를 잘 알아.", unit: "ud09273" },
+  { id: "w4759", en: "incensed", ko: "격분한, 몹시 화난", pos: "형용사", exEn: "He was incensed when he found out they'd lied to him.", exKo: "그는 자기한테 거짓말한 걸 알고 몹시 화가 났어.", unit: "ud09273" },
+  { id: "w4760", en: "landslide", ko: "압도적 승리; 산사태", pos: "명사", exEn: "She won the election by a landslide.", exKo: "그녀는 선거에서 압승했어.", unit: "ud09273" },
+  { id: "w4761", en: "weasel out of", ko: "(교묘하게) ~에서 빠져나가다", pos: "관용구", exEn: "He always finds a way to weasel out of doing the dishes.", exKo: "걔는 늘 설거지에서 요리조리 빠져나갈 방법을 찾아.", unit: "ud09274" },
+  { id: "w4762", en: "foot the bill", ko: "비용을 떠맡다, 계산하다", pos: "관용구", exEn: "The company is footing the bill for our trip.", exKo: "이번 출장비는 회사가 다 대 준대.", unit: "ud09274" },
+  { id: "w4763", en: "ironclad", ko: "확실한, 빈틈없는", pos: "형용사", exEn: "He has an ironclad alibi, so it couldn't have been him.", exKo: "그는 빈틈없는 알리바이가 있어서 범인일 수 없어.", unit: "ud09274" },
+  { id: "w4764", en: "leave no stone unturned", ko: "샅샅이 다 뒤지다, 모든 수단을 다 쓰다", pos: "관용구", exEn: "We'll leave no stone unturned until we find out what happened.", exKo: "무슨 일이 있었는지 알아낼 때까지 샅샅이 다 뒤질 거야.", unit: "ud09274" },
+  { id: "w4765", en: "a hill to die on", ko: "목숨 걸고 지킬 문제(끝까지 고집할 일)", pos: "관용구", exEn: "It's just a paint color. It's not a hill to die on.", exKo: "그냥 페인트 색이잖아. 목숨 걸 일은 아니야.", unit: "ud09274" },
+  { id: "w4766", en: "lay it on thick", ko: "과하게 칭찬하다, 너무 오버하다", pos: "관용구", exEn: "You're laying it on a little thick, don't you think?", exKo: "좀 오버하는 거 같지 않아?", unit: "ud09274" },
+  { id: "w4767", en: "pass the buck", ko: "책임을 떠넘기다", pos: "관용구", exEn: "Stop passing the buck and admit it was your mistake.", exKo: "책임 떠넘기지 말고 네 실수라고 인정해.", unit: "ud09274" },
+  { id: "w4768", en: "hem and haw", ko: "(대답을) 우물쭈물하다, 망설이다", pos: "관용구", exEn: "When I asked him about the money, he just hemmed and hawed.", exKo: "돈 얘기를 꺼내니까 그냥 우물쭈물하더라.", unit: "ud09274" },
+  { id: "w4769", en: "galling", ko: "(억울해서) 속 터지는, 약 오르는", pos: "형용사", exEn: "It's galling to see him take credit for my work.", exKo: "걔가 내 일로 공을 가로채는 걸 보니 속이 터져.", unit: "ud09274" },
+  { id: "w4770", en: "pithy", ko: "짧고 핵심을 찌르는", pos: "형용사", exEn: "She always has a pithy comeback ready.", exKo: "그녀는 늘 짧고 날카로운 받아치기를 준비해 둬.", unit: "ud09274" }
+]);
+
 // end of data-daily.js
