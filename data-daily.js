@@ -3600,4 +3600,53 @@
   { id: "w4770", en: "pithy", ko: "짧고 핵심을 찌르는", pos: "형용사", exEn: "She always has a pithy comeback ready.", exKo: "그녀는 늘 짧고 날카로운 받아치기를 준비해 둬.", unit: "ud09274" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09281", level: "lv1", title: "데일리 9/28 · 기초" },
+  { id: "ud09282", level: "lv2", title: "데일리 9/28 · 중급" },
+  { id: "ud09283", level: "lv3", title: "데일리 9/28 · 고급" },
+  { id: "ud09284", level: "lv4", title: "데일리 9/28 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4771", en: "blue", ko: "파란색; 파란", pos: "명사/형용사", exEn: "My favorite color is blue.", exKo: "내가 제일 좋아하는 색은 파란색이야.", unit: "ud09281" },
+  { id: "w4772", en: "green", ko: "초록색; 초록의", pos: "명사/형용사", exEn: "The light turned green, so go ahead.", exKo: "신호 초록불로 바뀌었어, 가도 돼.", unit: "ud09281" },
+  { id: "w4773", en: "yellow", ko: "노란색; 노란", pos: "명사/형용사", exEn: "She's wearing a yellow raincoat.", exKo: "그녀는 노란 우비를 입고 있어.", unit: "ud09281" },
+  { id: "w4774", en: "twenty", ko: "스물, 20", pos: "숫자", exEn: "It's about twenty minutes from here.", exKo: "여기서 한 20분 정도 걸려.", unit: "ud09281" },
+  { id: "w4775", en: "thirty", ko: "서른, 30", pos: "숫자", exEn: "I'll be there in thirty minutes.", exKo: "30분 후에 도착할게.", unit: "ud09281" },
+  { id: "w4776", en: "Tuesday", ko: "화요일", pos: "명사", exEn: "Are you free on Tuesday?", exKo: "화요일에 시간 돼?", unit: "ud09281" },
+  { id: "w4777", en: "Saturday", ko: "토요일", pos: "명사", exEn: "We usually sleep in on Saturday.", exKo: "우리는 토요일엔 보통 늦잠 자.", unit: "ud09281" },
+  { id: "w4778", en: "January", ko: "1월", pos: "명사", exEn: "My birthday is in January.", exKo: "내 생일은 1월이야.", unit: "ud09281" },
+  { id: "w4779", en: "pizza", ko: "피자", pos: "명사", exEn: "Let's just order pizza tonight.", exKo: "오늘 밤엔 그냥 피자 시켜 먹자.", unit: "ud09281" },
+  { id: "w4780", en: "autumn", ko: "가을", pos: "명사", exEn: "Autumn is the best time to visit.", exKo: "가을이 놀러 가기 제일 좋은 때야.", unit: "ud09281" },
+  { id: "w4781", en: "take out the trash", ko: "쓰레기를 내다 버리다", pos: "구동사", exEn: "Can you take out the trash before you leave?", exKo: "나가기 전에 쓰레기 좀 버려 줄래?", unit: "ud09282" },
+  { id: "w4782", en: "set the table", ko: "상을 차리다(식기 놓기)", pos: "표현", exEn: "Dinner's almost ready. Can you set the table?", exKo: "저녁 거의 다 됐어. 상 좀 차려 줄래?", unit: "ud09282" },
+  { id: "w4783", en: "clear the table", ko: "식탁을 치우다", pos: "표현", exEn: "I'll clear the table if you do the dishes.", exKo: "네가 설거지하면 내가 식탁 치울게.", unit: "ud09282" },
+  { id: "w4784", en: "water the plants", ko: "화분에 물을 주다", pos: "표현", exEn: "Don't forget to water the plants while I'm away.", exKo: "나 없는 동안 화분에 물 주는 거 잊지 마.", unit: "ud09282" },
+  { id: "w4785", en: "make the bed", ko: "침대를 정리하다", pos: "표현", exEn: "I make the bed every morning, no matter what.", exKo: "나는 무슨 일이 있어도 아침마다 침대 정리해.", unit: "ud09282" },
+  { id: "w4786", en: "walk the dog", ko: "개를 산책시키다", pos: "표현", exEn: "It's your turn to walk the dog tonight.", exKo: "오늘 밤엔 네가 개 산책시킬 차례야.", unit: "ud09282" },
+  { id: "w4787", en: "run late", ko: "(예정보다) 늦어지다", pos: "표현", exEn: "Sorry, I'm running late. Be there in ten.", exKo: "미안, 좀 늦어지고 있어. 10분 후에 도착해.", unit: "ud09282" },
+  { id: "w4788", en: "top up", ko: "(잔액·잔을) 채우다, 충전하다", pos: "구동사", exEn: "I need to top up my transit card.", exKo: "교통카드 충전해야 해.", unit: "ud09282" },
+  { id: "w4789", en: "pay stub", ko: "급여 명세서", pos: "명사", exEn: "The landlord asked for my last two pay stubs.", exKo: "집주인이 최근 두 달 치 급여 명세서를 달래.", unit: "ud09282" },
+  { id: "w4790", en: "grocery shopping", ko: "장보기", pos: "명사", exEn: "I usually do my grocery shopping on Sunday mornings.", exKo: "나는 보통 일요일 아침에 장을 봐.", unit: "ud09282" },
+  { id: "w4791", en: "spruce up", ko: "(깔끔하게) 단장하다, 꾸미다", pos: "구동사", exEn: "We spruced up the living room before the party.", exKo: "파티 전에 거실을 싹 단장했어.", unit: "ud09283" },
+  { id: "w4792", en: "pipe down", ko: "조용히 하다, 목소리 낮추다", pos: "구동사", exEn: "Could you guys pipe down? The baby's sleeping.", exKo: "얘들아 좀 조용히 해 줄래? 아기 자고 있어.", unit: "ud09283" },
+  { id: "w4793", en: "bog down", ko: "(일에) 발목 잡히다, 지지부진하게 만들다", pos: "구동사", exEn: "Don't get bogged down in the details.", exKo: "세부 사항에 너무 발목 잡히지 마.", unit: "ud09283" },
+  { id: "w4794", en: "sift through", ko: "(꼼꼼히) 뒤지다, 추려 내다", pos: "구동사", exEn: "I spent all morning sifting through old emails.", exKo: "오전 내내 옛날 이메일을 뒤졌어.", unit: "ud09283" },
+  { id: "w4795", en: "irked", ko: "짜증 난, 거슬린", pos: "형용사", exEn: "I was a little irked that nobody called me back.", exKo: "아무도 다시 전화를 안 줘서 좀 짜증 났어.", unit: "ud09283" },
+  { id: "w4796", en: "upheaval", ko: "격변, 대혼란", pos: "명사", exEn: "Moving to a new country was a huge upheaval for the kids.", exKo: "새 나라로 이사한 건 애들한테 엄청난 격변이었어.", unit: "ud09283" },
+  { id: "w4797", en: "watchdog", ko: "감시 기관, 감시자", pos: "명사", exEn: "A consumer watchdog is looking into the company.", exKo: "소비자 감시 단체가 그 회사를 조사하고 있어.", unit: "ud09283" },
+  { id: "w4798", en: "shortfall", ko: "부족액, 적자", pos: "명사", exEn: "The city is facing a big budget shortfall this year.", exKo: "시는 올해 큰 예산 부족에 직면해 있어.", unit: "ud09283" },
+  { id: "w4799", en: "bailout", ko: "구제 금융", pos: "명사", exEn: "The airline asked the government for a bailout.", exKo: "그 항공사가 정부에 구제 금융을 요청했어.", unit: "ud09283" },
+  { id: "w4800", en: "probe", ko: "(철저한) 조사; 조사하다", pos: "명사/동사", exEn: "Police launched a probe into the accident.", exKo: "경찰이 그 사고에 대한 조사에 착수했어.", unit: "ud09283" },
+  { id: "w4801", en: "go to bat for", ko: "~를 위해 적극 나서 주다, 편을 들어 주다", pos: "관용구", exEn: "My manager really went to bat for me when I asked for a raise.", exKo: "내가 연봉 인상 요청했을 때 매니저가 적극적으로 편을 들어 줬어.", unit: "ud09284" },
+  { id: "w4802", en: "fawn over", ko: "~에게 알랑거리다, 호들갑스럽게 치켜세우다", pos: "구동사", exEn: "Everyone was fawning over the new baby.", exKo: "다들 새로 태어난 아기한테 호들갑을 떨었어.", unit: "ud09284" },
+  { id: "w4803", en: "put a pin in it", ko: "(논의를) 잠깐 보류하다", pos: "관용구", exEn: "Let's put a pin in that and come back to it next week.", exKo: "그건 잠깐 보류해 두고 다음 주에 다시 얘기하자.", unit: "ud09284" },
+  { id: "w4804", en: "hold down the fort", ko: "(자리를 비운 사이) 대신 지키다", pos: "관용구", exEn: "Can you hold down the fort while I grab lunch?", exKo: "나 점심 먹고 오는 동안 자리 좀 지켜 줄래?", unit: "ud09284" },
+  { id: "w4805", en: "rain on someone's parade", ko: "남의 기분(계획)에 찬물을 끼얹다", pos: "관용구", exEn: "I hate to rain on your parade, but the concert's sold out.", exKo: "초 치기 싫은데, 그 콘서트 매진이야.", unit: "ud09284" },
+  { id: "w4806", en: "toot your own horn", ko: "자기 자랑을 하다", pos: "관용구", exEn: "I don't mean to toot my own horn, but I nailed that presentation.", exKo: "자랑하려는 건 아닌데, 나 그 발표 완전 잘했어.", unit: "ud09284" },
+  { id: "w4807", en: "at the drop of a hat", ko: "당장, 망설임 없이", pos: "관용구", exEn: "She'd fly to Paris at the drop of a hat.", exKo: "그녀는 기회만 되면 당장이라도 파리로 날아갈 거야.", unit: "ud09284" },
+  { id: "w4808", en: "persnickety", ko: "깐깐한, 까다로운", pos: "형용사", exEn: "My boss is persnickety about fonts in reports.", exKo: "우리 상사는 보고서 글꼴에 엄청 깐깐해.", unit: "ud09284" },
+  { id: "w4809", en: "rankle", ko: "(오래) 속을 긁다, 계속 짜증 나게 하다", pos: "동사", exEn: "It still rankles me that he never apologized.", exKo: "걔가 끝내 사과 안 한 게 아직도 속을 긁어.", unit: "ud09284" },
+  { id: "w4810", en: "facetious", ko: "(진지한 자리에서) 농담조의, 까부는", pos: "형용사", exEn: "I was being facetious. I didn't actually mean it.", exKo: "농담으로 한 말이었어. 진심 아니었어.", unit: "ud09284" }
+]);
+
 // end of data-daily.js

@@ -586,4 +586,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0928", level: "lv3", icon: "🔧", title: "집주인에게 고장 난 히터 수리 요청하기",
+  lines: [
+    { sp: "A", en: "Hi, it's Jenna from 3B. Sorry to bother you on a Sunday.", ko: "안녕하세요, 3B호 제나예요. 일요일에 연락드려 죄송해요." },
+    { sp: "B", en: "No worries. What's going on?", ko: "괜찮아요. 무슨 일이에요?" },
+    { sp: "A", en: "The heater's been acting up since Thursday. It keeps shutting off in the middle of the night.", ko: "목요일부터 히터가 말썽이에요. 밤중에 자꾸 꺼져요." },
+    { sp: "B", en: "Hmm, did you try resetting it? Sometimes that does the trick.", ko: "음, 리셋은 해 보셨어요? 가끔 그러면 해결되거든요." },
+    { sp: "A", en: "I did, a few times. It's getting pretty cold, so I'd rather not put this off.", ko: "몇 번 해 봤어요. 날이 꽤 추워져서 미루고 싶지 않아요." },
+    { sp: "B", en: "Fair enough. I'll call the repair guy first thing tomorrow morning.", ko: "그렇겠네요. 내일 아침 일찍 수리 기사한테 전화할게요." },
+    { sp: "A", en: "Thank you. Could you let me know what time he's coming? I'll try to be home.", ko: "감사합니다. 몇 시에 오시는지 알려 주실래요? 집에 있어 볼게요." },
+    { sp: "B", en: "Sure thing. In the meantime, there's a space heater in the storage room you can borrow.", ko: "물론이죠. 그동안 창고에 있는 전기 히터 빌려 쓰세요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
