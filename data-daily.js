@@ -3649,4 +3649,53 @@
   { id: "w4810", en: "facetious", ko: "(진지한 자리에서) 농담조의, 까부는", pos: "형용사", exEn: "I was being facetious. I didn't actually mean it.", exKo: "농담으로 한 말이었어. 진심 아니었어.", unit: "ud09284" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09291", level: "lv1", title: "데일리 9/29 · 기초" },
+  { id: "ud09292", level: "lv2", title: "데일리 9/29 · 중급" },
+  { id: "ud09293", level: "lv3", title: "데일리 9/29 · 고급" },
+  { id: "ud09294", level: "lv4", title: "데일리 9/29 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4811", en: "hairbrush", ko: "빗, 헤어브러시", pos: "명사", exEn: "Have you seen my hairbrush? It was right here.", exKo: "내 빗 봤어? 바로 여기 있었는데.", unit: "ud09291" },
+  { id: "w4812", en: "lipstick", ko: "립스틱", pos: "명사", exEn: "She put on some red lipstick before the party.", exKo: "그녀는 파티 전에 빨간 립스틱을 발랐어.", unit: "ud09291" },
+  { id: "w4813", en: "shorts", ko: "반바지", pos: "명사", exEn: "It's so hot today. I'm wearing shorts.", exKo: "오늘 너무 덥다. 나 반바지 입을래.", unit: "ud09291" },
+  { id: "w4814", en: "classmate", ko: "반 친구, 동급생", pos: "명사", exEn: "I ran into an old classmate at the grocery store.", exKo: "마트에서 옛날 반 친구를 우연히 만났어.", unit: "ud09291" },
+  { id: "w4815", en: "chocolate", ko: "초콜릿", pos: "명사", exEn: "Do you want a piece of chocolate?", exKo: "초콜릿 한 조각 먹을래?", unit: "ud09291" },
+  { id: "w4816", en: "bookstore", ko: "서점", pos: "명사", exEn: "Let's meet at the bookstore near the station.", exKo: "역 근처 서점에서 만나자.", unit: "ud09291" },
+  { id: "w4817", en: "police station", ko: "경찰서", pos: "명사", exEn: "The police station is two blocks down this street.", exKo: "경찰서는 이 길로 두 블록 가면 있어요.", unit: "ud09291" },
+  { id: "w4818", en: "fire station", ko: "소방서", pos: "명사", exEn: "My son loves waving at the trucks at the fire station.", exKo: "우리 아들은 소방서에 있는 소방차한테 손 흔드는 걸 좋아해.", unit: "ud09291" },
+  { id: "w4819", en: "yummy", ko: "맛있는(구어)", pos: "형용사", exEn: "Mmm, this soup is so yummy!", exKo: "음, 이 수프 진짜 맛있다!", unit: "ud09291" },
+  { id: "w4820", en: "draw", ko: "그리다", pos: "동사", exEn: "Can you draw me a map to your house?", exKo: "너희 집 가는 약도 좀 그려줄 수 있어?", unit: "ud09291" },
+  { id: "w4821", en: "return policy", ko: "환불·반품 규정", pos: "명사", exEn: "What's your return policy on shoes?", exKo: "신발은 반품 규정이 어떻게 돼요?", unit: "ud09292" },
+  { id: "w4822", en: "gift card", ko: "기프트 카드, 상품권", pos: "명사", exEn: "I got a gift card for my birthday, so dinner's on me.", exKo: "생일 선물로 기프트 카드 받았으니까 저녁은 내가 살게.", unit: "ud09292" },
+  { id: "w4823", en: "on hold", ko: "(전화) 대기 중인; 보류된", pos: "구", exEn: "I've been on hold with the bank for twenty minutes.", exKo: "은행 전화 대기만 20분째야.", unit: "ud09292" },
+  { id: "w4824", en: "binge-watch", ko: "(드라마를) 몰아 보다", pos: "동사", exEn: "We binge-watched the whole season last weekend.", exKo: "지난 주말에 시즌 전체를 몰아서 봤어.", unit: "ud09292" },
+  { id: "w4825", en: "spoiler", ko: "스포일러, 줄거리 누설", pos: "명사", exEn: "No spoilers! I haven't seen the finale yet.", exKo: "스포 금지! 나 아직 마지막 회 안 봤어.", unit: "ud09292" },
+  { id: "w4826", en: "double-check", ko: "다시 한번 확인하다", pos: "동사", exEn: "Let me double-check the address before we leave.", exKo: "출발하기 전에 주소 한 번 더 확인할게.", unit: "ud09292" },
+  { id: "w4827", en: "pull over", ko: "(차를) 길가에 세우다", pos: "구동사", exEn: "Can you pull over? I think I left my phone at the café.", exKo: "차 좀 세워줄래? 카페에 폰 두고 온 것 같아.", unit: "ud09292" },
+  { id: "w4828", en: "motion sickness", ko: "멀미", pos: "명사", exEn: "I get motion sickness if I read in the car.", exKo: "나는 차에서 책 읽으면 멀미 나.", unit: "ud09292" },
+  { id: "w4829", en: "dress code", ko: "복장 규정", pos: "명사", exEn: "Is there a dress code for the wedding?", exKo: "결혼식에 복장 규정 있어?", unit: "ud09292" },
+  { id: "w4830", en: "airplane mode", ko: "비행기 모드", pos: "명사", exEn: "Put your phone on airplane mode if you want the battery to last.", exKo: "배터리 오래 가게 하려면 폰을 비행기 모드로 해 둬.", unit: "ud09292" },
+  { id: "w4831", en: "bemused", ko: "어리둥절한, 멍한", pos: "형용사", exEn: "He gave me a bemused look when I started speaking Spanish.", exKo: "내가 스페인어로 말하기 시작하니까 걔가 어리둥절한 표정을 지었어.", unit: "ud09293" },
+  { id: "w4832", en: "step down", ko: "(직책에서) 물러나다, 사임하다", pos: "구동사", exEn: "The CEO is stepping down at the end of the year.", exKo: "그 CEO는 연말에 물러난대.", unit: "ud09293" },
+  { id: "w4833", en: "buy into", ko: "(생각·주장을) 믿다, 받아들이다", pos: "구동사", exEn: "I don't buy into all that hype about the new diet.", exKo: "그 새 다이어트에 대한 요란한 말들, 난 안 믿어.", unit: "ud09293" },
+  { id: "w4834", en: "backtrack", ko: "(말·입장을) 번복하다, 물러서다", pos: "동사", exEn: "He said the party was canceled, then backtracked an hour later.", exKo: "걔가 파티 취소됐다고 하더니 한 시간 뒤에 말을 바꿨어.", unit: "ud09293" },
+  { id: "w4835", en: "polarizing", ko: "의견이 극명하게 갈리는", pos: "형용사", exEn: "Pineapple on pizza is a surprisingly polarizing topic.", exKo: "피자에 파인애플은 의외로 호불호가 극명하게 갈리는 주제야.", unit: "ud09293" },
+  { id: "w4836", en: "unprecedented", ko: "전례 없는", pos: "형용사", exEn: "Prices went up at an unprecedented rate this year.", exKo: "올해 물가가 전례 없는 속도로 올랐어.", unit: "ud09293" },
+  { id: "w4837", en: "shaken up", ko: "(충격으로) 놀라서 떨리는, 경황없는", pos: "형용사구", exEn: "She wasn't hurt in the accident, but she's pretty shaken up.", exKo: "사고로 다치진 않았는데 많이 놀란 상태야.", unit: "ud09293" },
+  { id: "w4838", en: "rampant", ko: "(나쁜 것이) 만연한, 걷잡을 수 없는", pos: "형용사", exEn: "Rumors were rampant after the manager suddenly quit.", exKo: "매니저가 갑자기 그만두고 나서 소문이 걷잡을 수 없이 퍼졌어.", unit: "ud09293" },
+  { id: "w4839", en: "keep up with", ko: "~에 뒤처지지 않다, 따라가다", pos: "구동사", exEn: "I can't keep up with all these new apps.", exKo: "이 새로운 앱들 다 따라가기가 벅차.", unit: "ud09293" },
+  { id: "w4840", en: "piggyback", ko: "(남의 것에) 편승하다, 덧붙이다", pos: "동사", exEn: "Can I piggyback on your idea for a second?", exKo: "네 아이디어에 잠깐 하나 덧붙여도 될까?", unit: "ud09293" },
+  { id: "w4841", en: "flummoxed", ko: "완전히 당황한, 쩔쩔매는", pos: "형용사", exEn: "The new remote had me totally flummoxed.", exKo: "새 리모컨 때문에 완전히 쩔쩔맸어.", unit: "ud09294" },
+  { id: "w4842", en: "curmudgeon", ko: "괴팍한 사람, 투덜이", pos: "명사", exEn: "My neighbor's a bit of a curmudgeon, but he's got a good heart.", exKo: "우리 옆집 아저씨가 좀 투덜이긴 한데 마음은 착해.", unit: "ud09294" },
+  { id: "w4843", en: "hunky-dory", ko: "만사 순조로운, 아무 문제 없는", pos: "형용사", exEn: "On the surface everything seemed hunky-dory.", exKo: "겉으로 보기엔 다 아무 문제 없어 보였지.", unit: "ud09294" },
+  { id: "w4844", en: "go off the rails", ko: "엇나가다, 통제 불능이 되다", pos: "관용구", exEn: "The meeting went off the rails once they started talking about budgets.", exKo: "예산 얘기가 나오자 회의가 완전히 산으로 갔어.", unit: "ud09294" },
+  { id: "w4845", en: "commiserate", ko: "(함께) 위로하다, 신세를 한탄하다", pos: "동사", exEn: "We got coffee and commiserated about our terrible bosses.", exKo: "우리는 커피 마시면서 최악인 상사들 얘기로 서로 한탄했어.", unit: "ud09294" },
+  { id: "w4846", en: "bemoan", ko: "한탄하다, 불평하다", pos: "동사", exEn: "He's always bemoaning how expensive everything is.", exKo: "걔는 뭐든 너무 비싸다고 맨날 한탄해.", unit: "ud09294" },
+  { id: "w4847", en: "lackadaisical", ko: "의욕 없는, 설렁설렁하는", pos: "형용사", exEn: "His lackadaisical attitude is driving the team crazy.", exKo: "걔의 설렁설렁하는 태도 때문에 팀이 미치려고 해.", unit: "ud09294" },
+  { id: "w4848", en: "wheelhouse", ko: "전문 분야, 잘하는 영역", pos: "명사", exEn: "Fixing computers isn't really in my wheelhouse.", exKo: "컴퓨터 고치는 건 내 전문이 아니야.", unit: "ud09294" },
+  { id: "w4849", en: "put a sock in it", ko: "입 좀 다물어(구어·장난조)", pos: "관용구", exEn: "Oh, put a sock in it. Nobody wants to hear about your fantasy team.", exKo: "아 좀 조용히 해. 네 판타지 팀 얘기 듣고 싶은 사람 없어.", unit: "ud09294" },
+  { id: "w4850", en: "hoity-toity", ko: "잘난 척하는, 거만한", pos: "형용사", exEn: "That restaurant's a little too hoity-toity for me.", exKo: "그 식당은 나한텐 좀 너무 고상한 척해.", unit: "ud09294" }
+]);
+
 // end of data-daily.js
