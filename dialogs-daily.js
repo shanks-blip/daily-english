@@ -600,4 +600,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd0930", level: "lv3", icon: "🥛", title: "마트에서 상한 우유 환불받기",
+  lines: [
+    { sp: "A", en: "Hi, I bought this milk here yesterday, but it had already gone bad when I opened it.", ko: "안녕하세요, 어제 여기서 이 우유를 샀는데 열어 보니 이미 상해 있더라고요." },
+    { sp: "B", en: "Oh, I'm sorry about that. Do you have your receipt?", ko: "아, 죄송합니다. 영수증 가지고 계세요?" },
+    { sp: "A", en: "Yep, right here. And look, the expiration date was actually two days ago.", ko: "네, 여기요. 그리고 보세요, 유통기한이 사실 이틀 전이었어요." },
+    { sp: "B", en: "You're right. That should've been pulled off the shelf. I can give you a full refund or you can swap it for a new one.", ko: "맞네요. 진작 진열대에서 빼놨어야 했는데. 전액 환불해 드리거나 새 제품으로 바꿔 드릴게요." },
+    { sp: "A", en: "I'll just swap it, thanks. I'm not trying to make a big deal out of it.", ko: "그냥 교환할게요, 감사해요. 일을 크게 만들려는 건 아니라서요." },
+    { sp: "B", en: "No, we appreciate you letting us know. I'll have someone go through the dairy section right now.", ko: "아니에요, 알려 주셔서 감사해요. 지금 바로 직원 보내서 유제품 코너 전부 확인할게요." },
+    { sp: "A", en: "That's great. My kid almost drank it this morning, so I figured I should swing by.", ko: "잘됐네요. 오늘 아침에 애가 하마터면 그걸 마실 뻔해서 들러야겠다 싶었어요." },
+    { sp: "B", en: "Glad you caught it in time. Here's your new carton, and have a good one!", ko: "제때 발견하셔서 다행이에요. 새 우유 여기 있습니다. 좋은 하루 보내세요!" }
+  ]
+}]);
+
 // end of dialogs-daily.js

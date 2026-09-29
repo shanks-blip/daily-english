@@ -3698,4 +3698,53 @@
   { id: "w4850", en: "hoity-toity", ko: "잘난 척하는, 거만한", pos: "형용사", exEn: "That restaurant's a little too hoity-toity for me.", exKo: "그 식당은 나한텐 좀 너무 고상한 척해.", unit: "ud09294" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud09301", level: "lv1", title: "데일리 9/30 · 기초" },
+  { id: "ud09302", level: "lv2", title: "데일리 9/30 · 중급" },
+  { id: "ud09303", level: "lv3", title: "데일리 9/30 · 고급" },
+  { id: "ud09304", level: "lv4", title: "데일리 9/30 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4851", en: "city hall", ko: "시청", pos: "명사", exEn: "I need to go to city hall to renew my parking permit.", exKo: "주차 허가증 갱신하러 시청에 가야 해.", unit: "ud09301" },
+  { id: "w4852", en: "coconut", ko: "코코넛", pos: "명사", exEn: "This smoothie has coconut milk in it.", exKo: "이 스무디엔 코코넛 밀크가 들어가 있어.", unit: "ud09301" },
+  { id: "w4853", en: "vest", ko: "조끼", pos: "명사", exEn: "It's a little chilly, so I'm wearing a vest over my shirt.", exKo: "좀 쌀쌀해서 셔츠 위에 조끼 입었어.", unit: "ud09301" },
+  { id: "w4854", en: "glasses", ko: "안경", pos: "명사", exEn: "Have you seen my glasses? I can't read anything without them.", exKo: "내 안경 봤어? 안경 없으면 아무것도 못 읽어.", unit: "ud09301" },
+  { id: "w4855", en: "lighter", ko: "라이터", pos: "명사", exEn: "Do you have a lighter? I want to light these candles.", exKo: "라이터 있어? 이 초에 불 좀 붙이려고.", unit: "ud09301" },
+  { id: "w4856", en: "downstairs", ko: "아래층에(서), 아래층으로", pos: "부사", exEn: "Breakfast is ready. Come downstairs!", exKo: "아침 다 됐어. 내려와!", unit: "ud09301" },
+  { id: "w4857", en: "weekday", ko: "평일", pos: "명사", exEn: "The park is pretty quiet on weekdays.", exKo: "그 공원은 평일엔 꽤 한산해.", unit: "ud09301" },
+  { id: "w4858", en: "quarter", ko: "4분의 1, 15분, 25센트 동전", pos: "명사", exEn: "I'll meet you at a quarter to six.", exKo: "6시 15분 전에 만나자.", unit: "ud09301" },
+  { id: "w4859", en: "pair", ko: "한 쌍, 한 켤레", pos: "명사", exEn: "I just bought a new pair of sneakers.", exKo: "운동화 한 켤레 새로 샀어.", unit: "ud09301" },
+  { id: "w4860", en: "behind", ko: "~의 뒤에", pos: "전치사", exEn: "The bathroom is right behind the kitchen.", exKo: "화장실은 부엌 바로 뒤에 있어요.", unit: "ud09301" },
+  { id: "w4861", en: "expiration date", ko: "유통기한", pos: "명사", exEn: "Check the expiration date before you drink that milk.", exKo: "그 우유 마시기 전에 유통기한 확인해.", unit: "ud09302" },
+  { id: "w4862", en: "stuffed", ko: "배가 터질 듯 부른", pos: "형용사", exEn: "No dessert for me, thanks. I'm stuffed.", exKo: "디저트는 괜찮아요. 배 터질 것 같아요.", unit: "ud09302" },
+  { id: "w4863", en: "crunchy", ko: "바삭바삭한, 아삭한", pos: "형용사", exEn: "I like my cookies crunchy, not soft.", exKo: "나는 쿠키가 말랑한 것보다 바삭한 게 좋아.", unit: "ud09302" },
+  { id: "w4864", en: "undercooked", ko: "덜 익은", pos: "형용사", exEn: "The chicken looks a little undercooked. Can you put it back in?", exKo: "닭고기가 좀 덜 익은 것 같아. 다시 넣어줄래?", unit: "ud09302" },
+  { id: "w4865", en: "burnt", ko: "탄, 타 버린", pos: "형용사", exEn: "Sorry, the toast is a little burnt.", exKo: "미안, 토스트가 좀 탔어.", unit: "ud09302" },
+  { id: "w4866", en: "unload", ko: "(짐 등을) 내리다, (식기세척기를) 비우다", pos: "동사", exEn: "Can you help me unload the groceries from the car?", exKo: "차에서 장 본 거 내리는 것 좀 도와줄래?", unit: "ud09302" },
+  { id: "w4867", en: "mess", ko: "엉망, 어질러진 상태", pos: "명사", exEn: "Sorry about the mess. I haven't cleaned up yet.", exKo: "어질러져 있어서 미안. 아직 못 치웠어.", unit: "ud09302" },
+  { id: "w4868", en: "swing by", ko: "잠깐 들르다", pos: "구동사", exEn: "I'll swing by your place after work to drop off the charger.", exKo: "퇴근하고 충전기 갖다주러 너희 집에 잠깐 들를게.", unit: "ud09302" },
+  { id: "w4869", en: "stay up", ko: "(안 자고) 깨어 있다", pos: "구동사", exEn: "I stayed up way too late watching that show.", exKo: "그 드라마 보느라 너무 늦게까지 안 잤어.", unit: "ud09302" },
+  { id: "w4870", en: "frozen", ko: "얼어붙은, 냉동된", pos: "형용사", exEn: "We just had frozen pizza for dinner.", exKo: "저녁은 그냥 냉동 피자 먹었어.", unit: "ud09302" },
+  { id: "w4871", en: "poised", ko: "~할 태세를 갖춘, 침착한", pos: "형용사", exEn: "The company is poised to launch its new app next month.", exKo: "그 회사는 다음 달 새 앱 출시를 앞두고 있어.", unit: "ud09303" },
+  { id: "w4872", en: "allege", ko: "(증거 없이) 주장하다", pos: "동사", exEn: "The lawsuit alleges that the landlord ignored safety complaints.", exKo: "소송에선 집주인이 안전 관련 민원을 무시했다고 주장하고 있어.", unit: "ud09303" },
+  { id: "w4873", en: "speculate", ko: "추측하다, 짐작하다", pos: "동사", exEn: "There's no point speculating until we hear from the doctor.", exKo: "의사 얘기 듣기 전까지 추측해 봤자 소용없어.", unit: "ud09303" },
+  { id: "w4874", en: "verify", ko: "확인하다, 검증하다", pos: "동사", exEn: "The bank called to verify a purchase I made last night.", exKo: "어젯밤에 결제한 거 확인하려고 은행에서 전화 왔어.", unit: "ud09303" },
+  { id: "w4875", en: "comply", ko: "(규칙·요청에) 따르다", pos: "동사", exEn: "All restaurants have to comply with the new health rules.", exKo: "모든 식당이 새 위생 규정을 따라야 해.", unit: "ud09303" },
+  { id: "w4876", en: "enforce", ko: "(법·규칙을) 시행하다, 집행하다", pos: "동사", exEn: "They're finally starting to enforce the no-parking rule on our street.", exKo: "우리 동네 주차 금지 규칙을 드디어 제대로 단속하기 시작했어.", unit: "ud09303" },
+  { id: "w4877", en: "roll out", ko: "(제품·서비스를) 출시하다, 도입하다", pos: "구동사", exEn: "They're rolling out the update to everyone next week.", exKo: "다음 주에 모든 사용자한테 업데이트를 배포한대.", unit: "ud09303" },
+  { id: "w4878", en: "shy away from", ko: "~을 피하다, 꺼리다", pos: "구동사", exEn: "She never shies away from a tough conversation.", exKo: "그녀는 어려운 대화를 절대 피하지 않아.", unit: "ud09303" },
+  { id: "w4879", en: "pull through", ko: "(병·위기를) 이겨내다", pos: "구동사", exEn: "It was a rough surgery, but he pulled through.", exKo: "힘든 수술이었지만 그는 잘 이겨냈어.", unit: "ud09303" },
+  { id: "w4880", en: "crack up", ko: "빵 터지다, 웃음을 못 참다", pos: "구동사", exEn: "His impression of our boss totally cracked me up.", exKo: "걔가 우리 상사 흉내 내는 거 보고 완전 빵 터졌어.", unit: "ud09303" },
+  { id: "w4881", en: "ride shotgun", ko: "조수석에 타다", pos: "관용구", exEn: "I called it first, so I get to ride shotgun!", exKo: "내가 먼저 찜했으니까 조수석은 내 거야!", unit: "ud09304" },
+  { id: "w4882", en: "spill the tea", ko: "(뒷)이야기를 털어놓다", pos: "관용구", exEn: "Okay, spill the tea. What happened on your date?", exKo: "자, 다 털어놔 봐. 데이트에서 무슨 일 있었어?", unit: "ud09304" },
+  { id: "w4883", en: "pontificate", ko: "잘난 척 훈계하듯 늘어놓다", pos: "동사", exEn: "My uncle loves to pontificate about politics at dinner.", exKo: "우리 삼촌은 저녁 먹을 때 정치 얘기로 일장연설 늘어놓는 걸 좋아해.", unit: "ud09304" },
+  { id: "w4884", en: "tout", ko: "(장점을) 요란하게 내세우다, 치켜세우다", pos: "동사", exEn: "They're touting it as the best phone ever made, but I'm not convinced.", exKo: "역대 최고의 폰이라고 떠들어대는데 난 잘 모르겠어.", unit: "ud09304" },
+  { id: "w4885", en: "bumbling", ko: "허둥대는, 서툰", pos: "형용사", exEn: "He plays a bumbling detective who somehow solves every case.", exKo: "그는 허둥대면서도 어떻게든 모든 사건을 해결하는 형사 역을 맡았어.", unit: "ud09304" },
+  { id: "w4886", en: "feisty", ko: "당찬, 기가 센", pos: "형용사", exEn: "My grandma is 90, but she's still pretty feisty.", exKo: "우리 할머니는 아흔이신데 아직도 꽤 당차셔.", unit: "ud09304" },
+  { id: "w4887", en: "pesky", ko: "성가신, 귀찮은", pos: "형용사", exEn: "I can't get rid of this pesky cold.", exKo: "이 성가신 감기가 도무지 안 떨어져.", unit: "ud09304" },
+  { id: "w4888", en: "rambunctious", ko: "(아이가) 날뛰는, 시끌벅적한", pos: "형용사", exEn: "The kids get pretty rambunctious after too much sugar.", exKo: "애들이 단 걸 많이 먹으면 엄청 날뛰어.", unit: "ud09304" },
+  { id: "w4889", en: "squeamish", ko: "(피 등을 보면) 비위가 약한, 꺼리는", pos: "형용사", exEn: "I'm too squeamish to watch those surgery videos.", exKo: "나는 비위가 약해서 그런 수술 영상은 못 봐.", unit: "ud09304" },
+  { id: "w4890", en: "swanky", ko: "으리으리한, 고급스러운", pos: "형용사", exEn: "They had their wedding at some swanky hotel downtown.", exKo: "걔네는 시내에 있는 무슨 으리으리한 호텔에서 결혼식 했어.", unit: "ud09304" }
+]);
+
 // end of data-daily.js
