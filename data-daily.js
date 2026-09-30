@@ -3747,4 +3747,53 @@
   { id: "w4890", en: "swanky", ko: "으리으리한, 고급스러운", pos: "형용사", exEn: "They had their wedding at some swanky hotel downtown.", exKo: "걔네는 시내에 있는 무슨 으리으리한 호텔에서 결혼식 했어.", unit: "ud09304" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10011", level: "lv1", title: "데일리 10/1 · 기초" },
+  { id: "ud10012", level: "lv2", title: "데일리 10/1 · 중급" },
+  { id: "ud10013", level: "lv3", title: "데일리 10/1 · 고급" },
+  { id: "ud10014", level: "lv4", title: "데일리 10/1 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w4891", en: "swimsuit", ko: "수영복", pos: "명사", exEn: "Don't forget to pack your swimsuit for the beach.", exKo: "바닷가 갈 거니까 수영복 챙기는 거 잊지 마.", unit: "ud10011" },
+  { id: "w4892", en: "underwear", ko: "속옷", pos: "명사", exEn: "I always pack extra underwear when I travel.", exKo: "나는 여행 갈 때 항상 속옷을 넉넉히 챙겨.", unit: "ud10011" },
+  { id: "w4893", en: "vinegar", ko: "식초", pos: "명사", exEn: "Add a little vinegar to the salad dressing.", exKo: "샐러드 드레싱에 식초를 조금 넣어.", unit: "ud10011" },
+  { id: "w4894", en: "hamburger", ko: "햄버거", pos: "명사", exEn: "I'll have a hamburger and fries, please.", exKo: "햄버거랑 감자튀김 주세요.", unit: "ud10011" },
+  { id: "w4895", en: "beer", ko: "맥주", pos: "명사", exEn: "Do you want to grab a beer after work?", exKo: "퇴근하고 맥주 한잔할래?", unit: "ud10011" },
+  { id: "w4896", en: "light switch", ko: "전등 스위치", pos: "명사", exEn: "The light switch is right next to the door.", exKo: "전등 스위치는 문 바로 옆에 있어.", unit: "ud10011" },
+  { id: "w4897", en: "mother-in-law", ko: "시어머니, 장모님", pos: "명사", exEn: "My mother-in-law is coming over for dinner on Sunday.", exKo: "일요일에 장모님이 저녁 드시러 오셔.", unit: "ud10011" },
+  { id: "w4898", en: "good night", ko: "잘 자, 안녕히 주무세요", pos: "표현", exEn: "Good night, Mom. See you in the morning.", exKo: "엄마, 안녕히 주무세요. 내일 아침에 봬요.", unit: "ud10011" },
+  { id: "w4899", en: "nice to meet you", ko: "만나서 반가워요", pos: "표현", exEn: "Hi, I'm Sarah. Nice to meet you.", exKo: "안녕하세요, 저는 사라예요. 만나서 반가워요.", unit: "ud10011" },
+  { id: "w4900", en: "pencil case", ko: "필통", pos: "명사", exEn: "My daughter wants a new pencil case for school.", exKo: "딸이 학교에 가져갈 새 필통을 갖고 싶어 해.", unit: "ud10011" },
+  { id: "w4901", en: "log in", ko: "로그인하다", pos: "구동사", exEn: "I can't log in because I forgot my password.", exKo: "비밀번호를 까먹어서 로그인을 못 하겠어.", unit: "ud10012" },
+  { id: "w4902", en: "drafty", ko: "외풍이 드는, 바람이 새는", pos: "형용사", exEn: "Our old apartment is really drafty in the winter.", exKo: "우리 옛날 아파트는 겨울에 외풍이 진짜 심해.", unit: "ud10012" },
+  { id: "w4903", en: "bug spray", ko: "벌레 퇴치 스프레이, 모기 기피제", pos: "명사", exEn: "Put on some bug spray before we go hiking.", exKo: "등산 가기 전에 모기 기피제 좀 뿌려.", unit: "ud10012" },
+  { id: "w4904", en: "part-time", ko: "시간제의, 아르바이트의", pos: "형용사", exEn: "I work part-time at a coffee shop on weekends.", exKo: "나 주말마다 카페에서 아르바이트해.", unit: "ud10012" },
+  { id: "w4905", en: "full-time", ko: "정규직의, 전일제의", pos: "형용사", exEn: "She finally got a full-time job with benefits.", exKo: "걔 드디어 복지 되는 정규직 구했대.", unit: "ud10012" },
+  { id: "w4906", en: "pricey", ko: "값비싼, 좀 비싼", pos: "형용사", exEn: "That place is a little pricey, but the food is amazing.", exKo: "거기 좀 비싸긴 한데 음식이 끝내줘.", unit: "ud10012" },
+  { id: "w4907", en: "deserted", ko: "텅 빈, 인적이 없는", pos: "형용사", exEn: "The streets were totally deserted at 3 a.m.", exKo: "새벽 세 시엔 거리가 완전히 텅 비어 있었어.", unit: "ud10012" },
+  { id: "w4908", en: "on time", ko: "제시간에", pos: "표현", exEn: "The train actually showed up on time today.", exKo: "오늘은 기차가 웬일로 제시간에 왔어.", unit: "ud10012" },
+  { id: "w4909", en: "bedtime", ko: "잘 시간, 취침 시간", pos: "명사", exEn: "It's past your bedtime. Go brush your teeth.", exKo: "잘 시간 지났어. 가서 양치해.", unit: "ud10012" },
+  { id: "w4910", en: "jaywalk", ko: "무단횡단하다", pos: "동사", exEn: "Don't jaywalk here. The cops give tickets all the time.", exKo: "여기서 무단횡단하지 마. 경찰이 수시로 딱지 끊어.", unit: "ud10012" },
+  { id: "w4911", en: "beef up", ko: "강화하다, 보강하다", pos: "구동사", exEn: "The school is beefing up security after the break-in.", exKo: "학교가 도둑 든 이후로 보안을 강화하고 있어.", unit: "ud10013" },
+  { id: "w4912", en: "kick in", ko: "효과가 나타나기 시작하다", pos: "구동사", exEn: "The painkillers should kick in in about twenty minutes.", exKo: "진통제는 20분쯤 지나면 효과가 돌기 시작할 거야.", unit: "ud10013" },
+  { id: "w4913", en: "lay off", ko: "해고하다, 정리해고하다", pos: "구동사", exEn: "The company laid off two hundred workers last month.", exKo: "그 회사가 지난달에 직원 200명을 정리해고했어.", unit: "ud10013" },
+  { id: "w4914", en: "muster", ko: "(용기·힘 등을) 끌어모으다", pos: "동사", exEn: "I finally mustered the courage to ask her out.", exKo: "드디어 용기를 내서 그녀한테 데이트 신청했어.", unit: "ud10013" },
+  { id: "w4915", en: "leeway", ko: "재량의 여지, 여유", pos: "명사", exEn: "My boss gives us a lot of leeway with our schedules.", exKo: "우리 상사는 일정 짜는 건 꽤 자유롭게 맡겨 줘.", unit: "ud10013" },
+  { id: "w4916", en: "listless", ko: "무기력한, 축 처진", pos: "형용사", exEn: "I've been feeling listless ever since I got back from vacation.", exKo: "휴가 다녀온 뒤로 계속 기운이 없고 축 처져.", unit: "ud10013" },
+  { id: "w4917", en: "ticked off", ko: "짜증 난, 열 받은", pos: "형용사", exEn: "He was pretty ticked off when they canceled his flight.", exKo: "항공편이 취소되자 그는 꽤 열 받았어.", unit: "ud10013" },
+  { id: "w4918", en: "headway", ko: "진척, 진전", pos: "명사", exEn: "We're finally making some headway on the kitchen remodel.", exKo: "부엌 리모델링이 드디어 좀 진척이 있어.", unit: "ud10013" },
+  { id: "w4919", en: "naysayer", ko: "반대만 하는 사람, 비관론자", pos: "명사", exEn: "Don't listen to the naysayers. Just go for it.", exKo: "안 된다고만 하는 사람들 말은 듣지 마. 그냥 해 봐.", unit: "ud10013" },
+  { id: "w4920", en: "chip away at", ko: "조금씩 줄여 나가다, 야금야금 깎아 먹다", pos: "구동사", exEn: "I'm slowly chipping away at my student loans.", exKo: "학자금 대출을 조금씩 갚아 나가고 있어.", unit: "ud10013" },
+  { id: "w4921", en: "steal the show", ko: "주인공보다 더 주목받다, 인기를 독차지하다", pos: "이디엄", exEn: "The little flower girl totally stole the show at the wedding.", exKo: "결혼식에서 꼬마 화동이 완전히 시선을 독차지했어.", unit: "ud10014" },
+  { id: "w4922", en: "hobnob", ko: "(높은 사람들과) 어울리다, 친분을 쌓다", pos: "동사", exEn: "He loves to hobnob with celebrities at those fancy parties.", exKo: "그는 그런 화려한 파티에서 유명인들이랑 어울리는 걸 좋아해.", unit: "ud10014" },
+  { id: "w4923", en: "mooch", ko: "얻어먹다, 빌붙다", pos: "동사", exEn: "My brother keeps mooching off me for gas money.", exKo: "동생이 자꾸 기름값 달라고 나한테 빌붙어.", unit: "ud10014" },
+  { id: "w4924", en: "scrounge", ko: "(여기저기서) 긁어모으다, 구하러 다니다", pos: "동사", exEn: "Let me see if I can scrounge up some snacks for the kids.", exKo: "애들 먹일 간식이 좀 있나 뒤져 볼게.", unit: "ud10014" },
+  { id: "w4925", en: "skimp", ko: "(돈·재료 등을) 아끼다, 인색하게 굴다", pos: "동사", exEn: "Don't skimp on the cheese. That's the best part.", exKo: "치즈는 아끼지 마. 그게 제일 맛있는 부분이야.", unit: "ud10014" },
+  { id: "w4926", en: "chagrined", ko: "(창피해서) 속상한, 민망한", pos: "형용사", exEn: "He looked a little chagrined when his joke fell flat.", exKo: "농담이 안 먹히자 그는 좀 민망한 표정이었어.", unit: "ud10014" },
+  { id: "w4927", en: "effusive", ko: "(감정 표현이) 넘치는, 과할 정도로 열렬한", pos: "형용사", exEn: "She was effusive in her praise of the new chef.", exKo: "그녀는 새 셰프를 입이 마르도록 칭찬했어.", unit: "ud10014" },
+  { id: "w4928", en: "impish", ko: "장난기 가득한, 짓궂은", pos: "형용사", exEn: "He gave me an impish grin before pulling the prank.", exKo: "그는 장난 치기 직전에 짓궂게 씩 웃었어.", unit: "ud10014" },
+  { id: "w4929", en: "scrappy", ko: "악착같은, 투지 넘치는", pos: "형용사", exEn: "They're a scrappy little team that never gives up.", exKo: "걔네는 절대 포기 안 하는 악착같은 약체 팀이야.", unit: "ud10014" },
+  { id: "w4930", en: "zany", ko: "엉뚱하고 우스꽝스러운", pos: "형용사", exEn: "My uncle has a zany sense of humor.", exKo: "우리 삼촌은 유머 감각이 엉뚱하고 웃겨.", unit: "ud10014" }
+]);
+
 // end of data-daily.js
