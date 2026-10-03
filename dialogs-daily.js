@@ -614,4 +614,32 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1002", level: "lv3", icon: "📚", title: "도서관에서 회원증 만들고 책 빌리기",
+  lines: [
+    { sp: "A", en: "Hi, I just moved here. How do I sign up for a library card?", ko: "안녕하세요, 이 동네로 막 이사 왔는데요. 도서관 회원증은 어떻게 만드나요?" },
+    { sp: "B", en: "Welcome! I just need a photo ID and something with your current address on it.", ko: "어서 오세요! 사진이 있는 신분증하고 현재 주소가 적힌 서류만 있으면 돼요." },
+    { sp: "A", en: "I've got my license, and here's a utility bill. Will that do?", ko: "운전면허증이 있고, 여기 공과금 고지서도 있어요. 이거면 될까요?" },
+    { sp: "B", en: "That works. Go ahead and fill out this form, and I'll set you up in a minute.", ko: "그거면 돼요. 이 신청서를 작성해 주시면 금방 등록해 드릴게요." },
+    { sp: "A", en: "Thanks. How many books can I check out at a time, and when are they due?", ko: "감사해요. 한 번에 몇 권까지 빌릴 수 있고, 반납은 언제까지예요?" },
+    { sp: "B", en: "Up to ten, for three weeks. You can renew online unless someone's put a hold on it.", ko: "열 권까지 3주 동안이요. 다른 분이 예약을 걸어 두지 않았으면 온라인으로 연장하실 수 있어요." },
+    { sp: "A", en: "Good to know. I tend to fall behind on my reading, so I'll probably need that.", ko: "알아 두면 좋겠네요. 제가 책 읽는 게 자꾸 밀리는 편이라 아마 필요할 거예요." },
+    { sp: "B", en: "No worries, we did away with late fees last year. Just bring them back when you can.", ko: "걱정 마세요, 작년에 연체료를 없앴거든요. 되실 때 반납만 해 주세요." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd1004", level: "lv3", icon: "📦", title: "이웃에게 택배 대신 받아 달라 부탁하기",
+  lines: [
+    { sp: "A", en: "Hey, sorry to bother you. I'm expecting a package tomorrow, but I'll be out of town.", ko: "안녕하세요, 귀찮게 해서 죄송해요. 내일 택배가 올 예정인데 제가 집을 비우거든요." },
+    { sp: "B", en: "No problem at all. Do you want me to keep an eye out for it?", ko: "전혀요. 제가 오는지 봐 드릴까요?" },
+    { sp: "A", en: "That would be great. Packages have been disappearing from the lobby lately.", ko: "그래 주시면 정말 좋죠. 요즘 로비에서 택배가 자꾸 없어지더라고요." },
+    { sp: "B", en: "Yeah, I heard. I'll grab it as soon as it shows up and hold on to it for you.", ko: "네, 들었어요. 오자마자 챙겨서 제가 보관하고 있을게요." },
+    { sp: "A", en: "Thanks so much. It's a bit heavy, so don't feel like you have to lug it upstairs.", ko: "정말 감사해요. 좀 무거우니까 굳이 위층까지 끙끙대며 옮기실 필요는 없어요." },
+    { sp: "B", en: "I'll manage. Just swing by when you get back and pick it up.", ko: "괜찮아요. 돌아오시면 잠깐 들러서 가져가세요." },
+    { sp: "A", en: "Will do. I owe you one. Let me know if you ever need a favor.", ko: "그럴게요. 신세 졌네요. 부탁할 일 있으면 언제든 말씀하세요." },
+    { sp: "B", en: "I might take you up on that the next time I'm away.", ko: "다음에 제가 집 비울 때 그 말 믿고 부탁드릴지도 몰라요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
