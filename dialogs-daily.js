@@ -642,4 +642,32 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1006", level: "lv3", icon: "🔧", title: "세탁기 수리 기사 방문 일정 잡기",
+  lines: [
+    { sp: "A", en: "Hi, I'm calling about my washing machine. It stopped draining, and it's acting up again today.", ko: "안녕하세요, 세탁기 때문에 전화드렸어요. 물이 안 빠지더니 오늘 또 말썽이네요." },
+    { sp: "B", en: "Sorry to hear that. Is it still under warranty?", ko: "불편하시겠어요. 아직 보증 기간 안 지났나요?" },
+    { sp: "A", en: "I think so. I bought it about a year and a half ago.", ko: "그럴 거예요. 산 지 1년 반쯤 됐거든요." },
+    { sp: "B", en: "Then you're covered. I can send a technician out on Thursday between one and five.", ko: "그럼 보증 적용됩니다. 목요일 1시에서 5시 사이에 기사님을 보내 드릴 수 있어요." },
+    { sp: "A", en: "That's a pretty wide window. Is there any way to narrow it down?", ko: "시간대가 꽤 넓네요. 좀 좁혀 주실 방법은 없을까요?" },
+    { sp: "B", en: "I can't lock in a time, but he'll call you thirty minutes before he heads over.", ko: "시간을 확정해 드릴 순 없지만, 기사님이 출발하기 30분 전에 전화드릴 거예요." },
+    { sp: "A", en: "That works. I'll try to work from home that day so I don't miss him.", ko: "그럼 됐어요. 놓치지 않게 그날은 재택근무를 해 볼게요." },
+    { sp: "B", en: "Perfect. In the meantime, hold off on running any loads so it doesn't flood.", ko: "좋습니다. 그때까지는 물이 넘치지 않게 빨래는 돌리지 말고 기다려 주세요." }
+  ]
+}]);
+
+[].push.apply(DIALOGS, [{
+  id: "dd1008", level: "lv3", icon: "🎂", title: "동료 송별회 몰래 준비하기",
+  lines: [
+    { sp: "A", en: "So Dana's last day is Friday. Are we doing anything for her?", ko: "데이나가 금요일이 마지막 출근이잖아. 우리 뭐라도 해 줄 거야?" },
+    { sp: "B", en: "I was thinking a small farewell lunch, nothing over the top.", ko: "조촐하게 송별 점심 정도 생각하고 있었어. 너무 거창한 건 말고." },
+    { sp: "A", en: "Sounds good. If everyone chips in ten bucks, we can cover the cake and a gift.", ko: "좋네. 다들 10달러씩 보태면 케이크랑 선물까지 되겠다." },
+    { sp: "B", en: "Perfect. Can you round up the money? I'll book the restaurant.", ko: "딱 좋아. 돈은 네가 걷어 줄래? 식당은 내가 예약할게." },
+    { sp: "A", en: "Sure. Should we keep it a surprise, or give her a heads-up?", ko: "그래. 깜짝으로 할까, 아니면 미리 귀띔해 줄까?" },
+    { sp: "B", en: "Let's keep it under wraps. She'd turn it down if she knew.", ko: "비밀로 하자. 알면 괜찮다고 사양할 거야." },
+    { sp: "A", en: "True. I just hope we can pull it off without her finding out.", ko: "그러게. 안 들키고 잘 해낼 수 있으면 좋겠다." },
+    { sp: "B", en: "We will. Just don't bring it up in the team chat by mistake.", ko: "할 수 있어. 실수로 팀 단톡방에만 올리지 마." }
+  ]
+}]);
+
 // end of dialogs-daily.js
