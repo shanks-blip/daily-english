@@ -4090,4 +4090,53 @@
   { id: "w5170", en: "rude awakening", ko: "(뒤늦게) 호되게 현실을 깨닫는 일", pos: "이디엄", exEn: "If he thinks this job is easy, he's in for a rude awakening.", exKo: "걔가 이 일이 쉽다고 생각한다면 조만간 호되게 현실을 깨닫게 될 거야.", unit: "ud10084" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10091", level: "lv1", title: "데일리 10/9 · 기초" },
+  { id: "ud10092", level: "lv2", title: "데일리 10/9 · 중급" },
+  { id: "ud10093", level: "lv3", title: "데일리 10/9 · 고급" },
+  { id: "ud10094", level: "lv4", title: "데일리 10/9 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5171", en: "century", ko: "세기, 100년", pos: "명사", exEn: "This church was built a century ago.", exKo: "이 교회는 100년 전에 지어졌어.", unit: "ud10091" },
+  { id: "w5172", en: "forward", ko: "앞으로", pos: "부사", exEn: "Please move forward so more people can get on.", exKo: "더 많은 사람이 탈 수 있게 앞으로 좀 가 주세요.", unit: "ud10091" },
+  { id: "w5173", en: "backward", ko: "뒤로, 거꾸로", pos: "부사", exEn: "Take one step backward, please.", exKo: "한 걸음 뒤로 물러나 주세요.", unit: "ud10091" },
+  { id: "w5174", en: "indoors", ko: "실내에서, 집 안에서", pos: "부사", exEn: "It's raining, so let's stay indoors today.", exKo: "비 오니까 오늘은 집 안에 있자.", unit: "ud10091" },
+  { id: "w5175", en: "outdoors", ko: "야외에서, 밖에서", pos: "부사", exEn: "The kids love to play outdoors.", exKo: "애들은 밖에서 노는 걸 정말 좋아해.", unit: "ud10091" },
+  { id: "w5176", en: "vanilla", ko: "바닐라", pos: "명사", exEn: "I'll have a scoop of vanilla, please.", exKo: "바닐라 한 스쿱 주세요.", unit: "ud10091" },
+  { id: "w5177", en: "toilet paper", ko: "화장지, 두루마리 휴지", pos: "명사", exEn: "We're out of toilet paper again.", exKo: "화장지가 또 떨어졌어.", unit: "ud10091" },
+  { id: "w5178", en: "remote control", ko: "리모컨", pos: "명사", exEn: "Where's the remote control? I can't find it.", exKo: "리모컨 어디 있어? 못 찾겠어.", unit: "ud10091" },
+  { id: "w5179", en: "take out", ko: "꺼내다, (쓰레기를) 내다 놓다", pos: "구동사", exEn: "Can you take out the trash tonight?", exKo: "오늘 밤에 쓰레기 좀 내다 놔 줄래?", unit: "ud10091" },
+  { id: "w5180", en: "stop sign", ko: "정지 표지판", pos: "명사", exEn: "Turn right at the stop sign.", exKo: "정지 표지판에서 우회전하세요.", unit: "ud10091" },
+  { id: "w5181", en: "teammate", ko: "팀 동료, 같은 팀 선수", pos: "명사", exEn: "My teammate covered for me while I was out sick.", exKo: "내가 아파서 쉬는 동안 팀 동료가 대신 해 줬어.", unit: "ud10092" },
+  { id: "w5182", en: "tutor", ko: "과외 선생님, 개인 교사", pos: "명사", exEn: "We hired a math tutor for our daughter.", exKo: "딸아이 수학 과외 선생님을 구했어.", unit: "ud10092" },
+  { id: "w5183", en: "surgeon", ko: "외과 의사", pos: "명사", exEn: "The surgeon said the operation went well.", exKo: "외과 선생님이 수술이 잘됐다고 하셨어.", unit: "ud10092" },
+  { id: "w5184", en: "steering wheel", ko: "(자동차) 핸들, 운전대", pos: "명사", exEn: "Keep both hands on the steering wheel.", exKo: "두 손 다 핸들에 올려놓고 있어.", unit: "ud10092" },
+  { id: "w5185", en: "license plate", ko: "자동차 번호판", pos: "명사", exEn: "Did you get the license plate of the car that hit you?", exKo: "널 친 차 번호판은 봤어?", unit: "ud10092" },
+  { id: "w5186", en: "grapefruit", ko: "자몽", pos: "명사", exEn: "I usually have half a grapefruit for breakfast.", exKo: "난 보통 아침으로 자몽 반 개를 먹어.", unit: "ud10092" },
+  { id: "w5187", en: "meatball", ko: "미트볼, 고기 완자", pos: "명사", exEn: "I'll get the spaghetti with one extra meatball.", exKo: "저는 스파게티에 미트볼 하나 추가할게요.", unit: "ud10092" },
+  { id: "w5188", en: "unwrap", ko: "포장을 풀다, 뜯다", pos: "동사", exEn: "Go ahead and unwrap your present!", exKo: "어서 선물 뜯어 봐!", unit: "ud10092" },
+  { id: "w5189", en: "trip over", ko: "~에 걸려 넘어지다", pos: "구동사", exEn: "Be careful not to trip over that cord.", exKo: "저 전선에 걸려 넘어지지 않게 조심해.", unit: "ud10092" },
+  { id: "w5190", en: "underneath", ko: "~의 바로 밑에, 아래에", pos: "전치사", exEn: "I found my keys underneath the couch.", exKo: "소파 밑에서 열쇠를 찾았어.", unit: "ud10092" },
+  { id: "w5191", en: "contend with", ko: "(곤란한 문제와) 씨름하다, 상대해야 하다", pos: "구동사", exEn: "Small businesses have to contend with rising rent on top of everything else.", exKo: "소상공인들은 다른 문제에 더해 오르는 임대료와도 씨름해야 해.", unit: "ud10093" },
+  { id: "w5192", en: "tamper with", ko: "(허락 없이) 손대다, 함부로 건드리다", pos: "구동사", exEn: "Someone tried to tamper with the lock on the back door.", exKo: "누가 뒷문 자물쇠를 건드리려고 했어.", unit: "ud10093" },
+  { id: "w5193", en: "dabble in", ko: "(취미 삼아) 조금 해 보다, 손대 보다", pos: "구동사", exEn: "I dabble in photography, but I'm no expert.", exKo: "사진은 취미로 조금 해 보는 정도지 전문가는 아니야.", unit: "ud10093" },
+  { id: "w5194", en: "dredge up", ko: "(잊고 싶은 과거를) 다시 들춰내다", pos: "구동사", exEn: "Why do you always dredge up things that happened years ago?", exKo: "넌 왜 맨날 몇 년 전 일을 다시 들춰내?", unit: "ud10093" },
+  { id: "w5195", en: "well up", ko: "(눈물·감정이) 차오르다, 북받치다", pos: "구동사", exEn: "I could feel tears well up when she read her speech.", exKo: "걔가 연설문을 읽는데 눈물이 차오르는 게 느껴지더라.", unit: "ud10093" },
+  { id: "w5196", en: "drowsy", ko: "졸린, 나른한", pos: "형용사", exEn: "This allergy medicine makes me drowsy, so I take it at night.", exKo: "이 알레르기 약은 먹으면 졸려서 밤에 먹어.", unit: "ud10093" },
+  { id: "w5197", en: "double standard", ko: "이중 잣대", pos: "명사", exEn: "It's a double standard to expect her to work late when he never does.", exKo: "그 남자는 한 번도 안 하면서 그 여자한테만 야근을 바라는 건 이중 잣대야.", unit: "ud10093" },
+  { id: "w5198", en: "comfort zone", ko: "(익숙해서) 편안한 영역, 안전지대", pos: "명사", exEn: "Taking that class forced me to step out of my comfort zone.", exKo: "그 수업을 들으면서 어쩔 수 없이 익숙한 틀을 벗어나게 됐어.", unit: "ud10093" },
+  { id: "w5199", en: "loose end", ko: "아직 마무리 안 된 일, 미결 사항", pos: "명사", exEn: "I have one loose end to tie up before I leave for vacation.", exKo: "휴가 가기 전에 마무리해야 할 일이 하나 남았어.", unit: "ud10093" },
+  { id: "w5200", en: "dry run", ko: "예행연습, 리허설", pos: "명사", exEn: "Let's do a dry run of the presentation before the client shows up.", exKo: "고객 오기 전에 발표 예행연습 한번 해 보자.", unit: "ud10093" },
+  { id: "w5201", en: "bask in", ko: "(칭찬·관심·햇볕을) 흠뻑 누리다, 만끽하다", pos: "구동사", exEn: "Let her bask in the praise for a while; she earned it.", exKo: "걔가 칭찬을 좀 만끽하게 둬. 그럴 자격 있어.", unit: "ud10094" },
+  { id: "w5202", en: "wallow in", ko: "(슬픔·자기연민에) 빠져 허우적대다", pos: "구동사", exEn: "You can't just wallow in self-pity all weekend.", exKo: "주말 내내 자기연민에만 빠져 있을 순 없잖아.", unit: "ud10094" },
+  { id: "w5203", en: "stew over", ko: "(일을 두고) 속으로 계속 끙끙 앓다", pos: "구동사", exEn: "Don't stew over what he said; just ask him what he meant.", exKo: "걔가 한 말 가지고 속 끓이지 말고 무슨 뜻이었는지 그냥 물어봐.", unit: "ud10094" },
+  { id: "w5204", en: "irk", ko: "(은근히) 거슬리게 하다, 짜증 나게 하다", pos: "동사", exEn: "It really does irk me when people talk during movies.", exKo: "영화 보는데 떠드는 사람들 진짜 거슬려.", unit: "ud10094" },
+  { id: "w5205", en: "trite", ko: "(너무 흔해서) 진부한, 식상한", pos: "형용사", exEn: "I know it sounds trite, but time really does heal.", exKo: "식상하게 들리겠지만 시간이 정말 약이긴 해.", unit: "ud10094" },
+  { id: "w5206", en: "drab", ko: "칙칙한, 생기 없는", pos: "형용사", exEn: "The office looked so drab before they repainted it.", exKo: "페인트 다시 칠하기 전엔 사무실이 정말 칙칙했어.", unit: "ud10094" },
+  { id: "w5207", en: "balmy", ko: "(날씨가) 포근하고 기분 좋은, 훈훈한", pos: "형용사", exEn: "It was a balmy evening, so we ate out on the patio.", exKo: "포근한 저녁이라 테라스에 나가서 먹었어.", unit: "ud10094" },
+  { id: "w5208", en: "cut-and-dried", ko: "(이미) 명확히 정해진, 따질 것 없는", pos: "형용사", exEn: "I thought the case was cut-and-dried, but it turned out to be complicated.", exKo: "따질 것도 없는 일인 줄 알았는데 알고 보니 복잡하더라.", unit: "ud10094" },
+  { id: "w5209", en: "knee-jerk reaction", ko: "(생각 없이 나오는) 반사적인 반응", pos: "이디엄", exEn: "My knee-jerk reaction was to say no, but I'm glad I thought it over.", exKo: "반사적으로 싫다고 하려 했는데, 다시 생각해 보길 잘했어.", unit: "ud10094" },
+  { id: "w5210", en: "sore spot", ko: "(건드리면 아픈) 민감한 부분, 아픈 데", pos: "이디엄", exEn: "Don't mention his old job; it's still a sore spot for him.", exKo: "걔 예전 직장 얘긴 꺼내지 마. 아직도 아픈 데야.", unit: "ud10094" }
+]);
+
 // end of data-daily.js
