@@ -4139,4 +4139,53 @@
   { id: "w5210", en: "sore spot", ko: "(건드리면 아픈) 민감한 부분, 아픈 데", pos: "이디엄", exEn: "Don't mention his old job; it's still a sore spot for him.", exKo: "걔 예전 직장 얘긴 꺼내지 마. 아직도 아픈 데야.", unit: "ud10094" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10101", level: "lv1", title: "데일리 10/10 · 기초" },
+  { id: "ud10102", level: "lv2", title: "데일리 10/10 · 중급" },
+  { id: "ud10103", level: "lv3", title: "데일리 10/10 · 고급" },
+  { id: "ud10104", level: "lv4", title: "데일리 10/10 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5211", en: "number", ko: "숫자, 번호", pos: "명사", exEn: "Can I get your phone number?", exKo: "전화번호 좀 알려 줄래?", unit: "ud10101" },
+  { id: "w5212", en: "letter", ko: "편지; 글자", pos: "명사", exEn: "I got a letter from my grandma today.", exKo: "오늘 할머니한테서 편지를 받았어.", unit: "ud10101" },
+  { id: "w5213", en: "song", ko: "노래", pos: "명사", exEn: "I love this song. Turn it up!", exKo: "나 이 노래 진짜 좋아해. 소리 좀 키워 봐!", unit: "ud10101" },
+  { id: "w5214", en: "movie", ko: "영화", pos: "명사", exEn: "Do you want to watch a movie tonight?", exKo: "오늘 밤에 영화 볼래?", unit: "ud10101" },
+  { id: "w5215", en: "game", ko: "게임, 경기", pos: "명사", exEn: "Did you watch the game last night?", exKo: "어젯밤 경기 봤어?", unit: "ud10101" },
+  { id: "w5216", en: "question", ko: "질문", pos: "명사", exEn: "Can I ask you a question?", exKo: "뭐 하나 물어봐도 돼?", unit: "ud10101" },
+  { id: "w5217", en: "picture", ko: "사진, 그림", pos: "명사", exEn: "Can you take a picture of us?", exKo: "우리 사진 좀 찍어 줄래?", unit: "ud10101" },
+  { id: "w5218", en: "story", ko: "이야기", pos: "명사", exEn: "My dad told me a funny story.", exKo: "아빠가 웃긴 이야기를 해 주셨어.", unit: "ud10101" },
+  { id: "w5219", en: "minute", ko: "분; 잠깐", pos: "명사", exEn: "Wait a minute. I'm almost ready.", exKo: "잠깐만 기다려. 거의 다 준비됐어.", unit: "ud10101" },
+  { id: "w5220", en: "hour", ko: "시간(60분)", pos: "명사", exEn: "It takes about an hour to get there.", exKo: "거기까지 한 시간쯤 걸려.", unit: "ud10101" },
+  { id: "w5221", en: "mood", ko: "기분, 분위기", pos: "명사", exEn: "I'm not in the mood to go out tonight.", exKo: "오늘 밤은 나갈 기분이 아니야.", unit: "ud10102" },
+  { id: "w5222", en: "awake", ko: "깨어 있는", pos: "형용사", exEn: "Are you still awake? It's almost two.", exKo: "아직 안 자? 거의 두 시야.", unit: "ud10102" },
+  { id: "w5223", en: "asleep", ko: "잠든", pos: "형용사", exEn: "I fell asleep on the couch watching TV.", exKo: "TV 보다가 소파에서 잠들어 버렸어.", unit: "ud10102" },
+  { id: "w5224", en: "probably", ko: "아마", pos: "부사", exEn: "I'll probably stay home this weekend.", exKo: "이번 주말엔 아마 집에 있을 거야.", unit: "ud10102" },
+  { id: "w5225", en: "suddenly", ko: "갑자기", pos: "부사", exEn: "It suddenly started pouring on my way home.", exKo: "집에 오는 길에 갑자기 비가 쏟아지기 시작했어.", unit: "ud10102" },
+  { id: "w5226", en: "anyway", ko: "어쨌든, 그건 그렇고", pos: "부사", exEn: "Anyway, what are you up to this weekend?", exKo: "그건 그렇고, 이번 주말에 뭐 해?", unit: "ud10102" },
+  { id: "w5227", en: "actually", ko: "사실은, 실은", pos: "부사", exEn: "Actually, I've never been there before.", exKo: "사실 거기 한 번도 안 가 봤어.", unit: "ud10102" },
+  { id: "w5228", en: "instead", ko: "대신에", pos: "부사", exEn: "Let's stay in and order pizza instead.", exKo: "나가지 말고 대신 피자나 시켜 먹자.", unit: "ud10102" },
+  { id: "w5229", en: "nearly", ko: "거의", pos: "부사", exEn: "I nearly missed my bus this morning.", exKo: "오늘 아침에 버스 놓칠 뻔했어.", unit: "ud10102" },
+  { id: "w5230", en: "recently", ko: "최근에", pos: "부사", exEn: "Have you seen any good shows recently?", exKo: "최근에 괜찮은 드라마 본 거 있어?", unit: "ud10102" },
+  { id: "w5231", en: "error", ko: "오류, 실수", pos: "명사", exEn: "I keep getting an error message when I try to log in.", exKo: "로그인하려고 하면 계속 오류 메시지가 떠.", unit: "ud10103" },
+  { id: "w5232", en: "sample", ko: "샘플, 시식·시음용 견본", pos: "명사", exEn: "They were handing out free samples, so I had to try a sample.", exKo: "무료 시식을 나눠 주길래 하나 먹어 봤지.", unit: "ud10103" },
+  { id: "w5233", en: "panel", ko: "(전문가) 패널, 심사단; 판", pos: "명사", exEn: "A panel of experts is going to review the proposal.", exKo: "전문가 패널이 그 제안서를 검토할 거야.", unit: "ud10103" },
+  { id: "w5234", en: "absolute", ko: "완전한, 순전한", pos: "형용사", exEn: "That meeting was an absolute waste of time.", exKo: "그 회의는 완전히 시간 낭비였어.", unit: "ud10103" },
+  { id: "w5235", en: "ultimate", ko: "궁극적인, 최고의", pos: "형용사", exEn: "For me, the ultimate comfort food is mac and cheese.", exKo: "나한테 최고의 위로 음식은 맥앤치즈야.", unit: "ud10103" },
+  { id: "w5236", en: "officially", ko: "공식적으로", pos: "부사", exEn: "It's not officially announced yet, so keep it quiet.", exKo: "아직 공식 발표된 게 아니니까 조용히 해 줘.", unit: "ud10103" },
+  { id: "w5237", en: "injured", ko: "다친, 부상당한", pos: "형용사", exEn: "Luckily, nobody was injured in the accident.", exKo: "다행히 그 사고로 다친 사람은 없었어.", unit: "ud10103" },
+  { id: "w5238", en: "detailed", ko: "상세한, 꼼꼼한", pos: "형용사", exEn: "She sent me a detailed list of what to pack.", exKo: "걔가 챙길 것들을 상세하게 적은 목록을 보내 줬어.", unit: "ud10103" },
+  { id: "w5239", en: "external", ko: "외부의", pos: "형용사", exEn: "I back up all my photos on an external hard drive.", exKo: "난 사진을 전부 외장 하드에 백업해 둬.", unit: "ud10103" },
+  { id: "w5240", en: "loan", ko: "대출(금)", pos: "명사", exEn: "We're still paying off the loan on the car.", exKo: "우린 아직 자동차 대출을 갚고 있어.", unit: "ud10103" },
+  { id: "w5241", en: "bite your tongue", ko: "(하고 싶은 말을) 꾹 참다", pos: "이디엄", exEn: "I had to bite my tongue when he took credit for my idea.", exKo: "걔가 내 아이디어를 자기 공으로 돌릴 때 말하고 싶은 걸 꾹 참아야 했어.", unit: "ud10104" },
+  { id: "w5242", en: "a bone to pick", ko: "따질 일, 짚고 넘어갈 불만", pos: "이디엄", exEn: "I've got a bone to pick with you about last night.", exKo: "어젯밤 일로 너한테 따질 게 좀 있어.", unit: "ud10104" },
+  { id: "w5243", en: "on the tip of my tongue", ko: "(생각이 날 듯 말 듯) 혀끝에서 맴도는", pos: "이디엄", exEn: "Her name is on the tip of my tongue, but I just can't remember it.", exKo: "그 사람 이름이 혀끝에서 맴도는데 도무지 생각이 안 나.", unit: "ud10104" },
+  { id: "w5244", en: "keep a straight face", ko: "웃음을 참고 정색하다", pos: "이디엄", exEn: "I couldn't keep a straight face when he started singing.", exKo: "걔가 노래를 시작하니까 웃음을 참을 수가 없더라.", unit: "ud10104" },
+  { id: "w5245", en: "jump ship", ko: "(상황이 나빠지자) 조직을 떠나다, 갈아타다", pos: "이디엄", exEn: "Half the team decided to jump ship after the layoffs.", exKo: "정리해고 이후에 팀의 절반이 회사를 떠나기로 했어.", unit: "ud10104" },
+  { id: "w5246", en: "cut your losses", ko: "(더 손해 보기 전에) 손 떼다, 손절하다", pos: "이디엄", exEn: "The repairs cost more than the car is worth, so I'd cut your losses and sell it.", exKo: "수리비가 찻값보다 더 나오니까 나라면 손절하고 팔겠어.", unit: "ud10104" },
+  { id: "w5247", en: "play it safe", ko: "안전하게 가다, 모험하지 않다", pos: "이디엄", exEn: "I wasn't sure about the traffic, so I decided to play it safe and leave early.", exKo: "길이 막힐지 몰라서 안전하게 일찍 출발하기로 했어.", unit: "ud10104" },
+  { id: "w5248", en: "rub elbows", ko: "(유명인·높은 사람들과) 어울리다", pos: "이디엄", exEn: "She got to rub elbows with some big names at the conference.", exKo: "걔는 그 학회에서 쟁쟁한 사람들이랑 어울릴 기회가 있었어.", unit: "ud10104" },
+  { id: "w5249", en: "wishful thinking", ko: "희망 사항, 헛된 기대", pos: "명사", exEn: "Finishing by Friday is just wishful thinking at this point.", exKo: "금요일까지 끝낸다는 건 지금으로선 그냥 희망 사항이야.", unit: "ud10104" },
+  { id: "w5250", en: "smooth sailing", ko: "순조로운 진행, 순풍에 돛 단 듯함", pos: "이디엄", exEn: "Once we got past the first week, it was smooth sailing.", exKo: "첫 주만 넘기고 나니까 그다음부턴 순조로웠어.", unit: "ud10104" }
+]);
+
 // end of data-daily.js

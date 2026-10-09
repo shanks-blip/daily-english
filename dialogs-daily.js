@@ -670,4 +670,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1010", level: "lv3", icon: "🚗", title: "동료에게 카풀 같이 하자고 제안하기",
+  lines: [
+    { sp: "A", en: "Hey, I heard you moved out to Maplewood. That's right by my place.", ko: "야, 너 메이플우드로 이사했다며? 우리 집 바로 근처네." },
+    { sp: "B", en: "Yeah, and the commute is wearing me down. Gas alone is eating up my paycheck.", ko: "응, 근데 출퇴근 때문에 지쳐 가. 기름값만으로도 월급이 다 나가." },
+    { sp: "A", en: "Same here. Why don't we team up and carpool? We could take turns driving.", ko: "나도 그래. 우리 같이 카풀하는 거 어때? 번갈아 가며 운전하면 되잖아." },
+    { sp: "B", en: "I'm in. I'd have to drop my son off at school first, though. Would that throw you off?", ko: "좋아. 근데 난 먼저 아들을 학교에 내려 줘야 해. 그럼 네 일정이 꼬이려나?" },
+    { sp: "A", en: "Not at all. As long as we're on the road by 7:30, we'll beat the worst of the traffic.", ko: "전혀. 7시 반까지만 출발하면 제일 막히는 시간은 피할 수 있어." },
+    { sp: "B", en: "Perfect. And if one of us has to stay late, we just give each other a heads-up.", ko: "딱 좋네. 그리고 둘 중 누가 야근해야 하면 서로 미리 알려 주기로 하자." },
+    { sp: "A", en: "Deal. Let's try it out next week and see how it goes.", ko: "좋아. 다음 주에 한번 해 보고 어떤지 보자." },
+    { sp: "B", en: "Sounds like a plan. I'll swing by your place Monday morning.", ko: "그러자. 월요일 아침에 내가 너희 집으로 갈게." }
+  ]
+}]);
+
 // end of dialogs-daily.js
