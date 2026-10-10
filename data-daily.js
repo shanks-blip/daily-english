@@ -4188,4 +4188,53 @@
   { id: "w5250", en: "smooth sailing", ko: "순조로운 진행, 순풍에 돛 단 듯함", pos: "이디엄", exEn: "Once we got past the first week, it was smooth sailing.", exKo: "첫 주만 넘기고 나니까 그다음부턴 순조로웠어.", unit: "ud10104" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10111", level: "lv1", title: "데일리 10/11 · 기초" },
+  { id: "ud10112", level: "lv2", title: "데일리 10/11 · 중급" },
+  { id: "ud10113", level: "lv3", title: "데일리 10/11 · 고급" },
+  { id: "ud10114", level: "lv4", title: "데일리 10/11 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5251", en: "sixteen", ko: "열여섯, 16", pos: "숫자", exEn: "My little sister just turned sixteen.", exKo: "내 여동생이 이제 막 열여섯 살이 됐어.", unit: "ud10111" },
+  { id: "w5252", en: "heart", ko: "심장; 마음", pos: "명사", exEn: "My heart is beating so fast right now.", exKo: "지금 심장이 엄청 빨리 뛰어.", unit: "ud10111" },
+  { id: "w5253", en: "camel", ko: "낙타", pos: "명사", exEn: "We rode a camel in the desert.", exKo: "우리는 사막에서 낙타를 탔어.", unit: "ud10111" },
+  { id: "w5254", en: "panda", ko: "판다", pos: "명사", exEn: "The kids want to see the panda at the zoo.", exKo: "애들이 동물원에서 판다를 보고 싶어 해.", unit: "ud10111" },
+  { id: "w5255", en: "skateboard", ko: "스케이트보드", pos: "명사", exEn: "He rides his skateboard to school every day.", exKo: "걔는 매일 스케이트보드를 타고 학교에 가.", unit: "ud10111" },
+  { id: "w5256", en: "snowball", ko: "눈덩이, 눈뭉치", pos: "명사", exEn: "She threw a snowball at me!", exKo: "걔가 나한테 눈뭉치를 던졌어!", unit: "ud10111" },
+  { id: "w5257", en: "pudding", ko: "푸딩", pos: "명사", exEn: "Do you want some chocolate pudding for dessert?", exKo: "후식으로 초콜릿 푸딩 좀 먹을래?", unit: "ud10111" },
+  { id: "w5258", en: "oval", ko: "타원형(의)", pos: "명사", exEn: "The table is shaped like an oval.", exKo: "그 식탁은 타원형으로 생겼어.", unit: "ud10111" },
+  { id: "w5259", en: "rectangle", ko: "직사각형", pos: "명사", exEn: "Cut the paper into a rectangle.", exKo: "종이를 직사각형으로 잘라 봐.", unit: "ud10111" },
+  { id: "w5260", en: "stepmother", ko: "새어머니", pos: "명사", exEn: "My stepmother makes the best pancakes.", exKo: "우리 새어머니는 팬케이크를 정말 잘 만드셔.", unit: "ud10111" },
+  { id: "w5261", en: "hiking", ko: "등산, 하이킹", pos: "명사", exEn: "We're going hiking this Saturday if the weather's nice.", exKo: "날씨만 좋으면 이번 토요일에 등산 갈 거야.", unit: "ud10112" },
+  { id: "w5262", en: "camping", ko: "캠핑", pos: "명사", exEn: "We went camping by the lake last summer.", exKo: "작년 여름에 호숫가로 캠핑을 갔었어.", unit: "ud10112" },
+  { id: "w5263", en: "podcast", ko: "팟캐스트", pos: "명사", exEn: "I usually listen to a podcast on my way to work.", exKo: "난 출근길에 보통 팟캐스트를 들어.", unit: "ud10112" },
+  { id: "w5264", en: "selfie", ko: "셀카", pos: "명사", exEn: "Let's take a selfie before we leave.", exKo: "가기 전에 셀카 한 장 찍자.", unit: "ud10112" },
+  { id: "w5265", en: "toothache", ko: "치통", pos: "명사", exEn: "I've had a toothache since last night.", exKo: "어젯밤부터 이가 아파.", unit: "ud10112" },
+  { id: "w5266", en: "water bottle", ko: "물병", pos: "명사", exEn: "Don't forget to bring your water bottle to the gym.", exKo: "헬스장 갈 때 물병 챙기는 거 잊지 마.", unit: "ud10112" },
+  { id: "w5267", en: "convenience store", ko: "편의점", pos: "명사", exEn: "I'll grab some snacks at the convenience store.", exKo: "편의점에서 간식 좀 사 올게.", unit: "ud10112" },
+  { id: "w5268", en: "power outage", ko: "정전", pos: "명사", exEn: "There was a power outage in our neighborhood last night.", exKo: "어젯밤에 우리 동네가 정전됐었어.", unit: "ud10112" },
+  { id: "w5269", en: "lunch box", ko: "도시락(통)", pos: "명사", exEn: "I packed a sandwich in your lunch box.", exKo: "네 도시락에 샌드위치 싸 놨어.", unit: "ud10112" },
+  { id: "w5270", en: "flu shot", ko: "독감 예방 주사", pos: "명사", exEn: "Have you gotten your flu shot this year?", exKo: "올해 독감 주사 맞았어?", unit: "ud10112" },
+  { id: "w5271", en: "sentence", ko: "문장; (법원의) 형, 선고", pos: "명사", exEn: "Can you use that word in a sentence?", exKo: "그 단어를 문장에 넣어서 말해 줄 수 있어?", unit: "ud10113" },
+  { id: "w5272", en: "load", ko: "(세탁기·차에 싣는) 한 번 분량, 짐", pos: "명사", exEn: "I still have one more load of laundry to do.", exKo: "빨래를 아직 한 번 더 돌려야 해.", unit: "ud10113" },
+  { id: "w5273", en: "chat", ko: "수다 떨다, 이야기 나누다", pos: "동사", exEn: "Do you have a minute to chat?", exKo: "잠깐 얘기 좀 할 시간 있어?", unit: "ud10113" },
+  { id: "w5274", en: "item", ko: "물건, 품목, 항목", pos: "명사", exEn: "One item on my order was missing.", exKo: "주문한 것 중에 물건 하나가 빠졌어.", unit: "ud10113" },
+  { id: "w5275", en: "weekly", ko: "매주의, 주간의", pos: "형용사", exEn: "We have a weekly team meeting every Monday.", exKo: "우린 매주 월요일마다 주간 팀 회의를 해.", unit: "ud10113" },
+  { id: "w5276", en: "pregnant", ko: "임신한", pos: "형용사", exEn: "My sister just found out she's pregnant.", exKo: "우리 언니가 임신했다는 걸 막 알게 됐어.", unit: "ud10113" },
+  { id: "w5277", en: "tournament", ko: "토너먼트, 대회", pos: "명사", exEn: "My son's team made it to the tournament finals.", exKo: "우리 아들 팀이 대회 결승까지 올라갔어.", unit: "ud10113" },
+  { id: "w5278", en: "interior", ko: "내부(의), 실내(의)", pos: "명사", exEn: "I love the interior of this cafe.", exKo: "이 카페 실내 분위기가 정말 마음에 들어.", unit: "ud10113" },
+  { id: "w5279", en: "prepare", ko: "준비하다", pos: "동사", exEn: "I need a few days to prepare for the interview.", exKo: "면접 준비하려면 며칠은 필요해.", unit: "ud10113" },
+  { id: "w5280", en: "sight", ko: "시야; 광경, 볼거리", pos: "명사", exEn: "Don't let the kids out of your sight.", exKo: "애들한테서 눈을 떼지 마.", unit: "ud10113" },
+  { id: "w5281", en: "pull yourself together", ko: "마음을 추스르다, 정신 차리다", pos: "이디엄", exEn: "I know it's hard, but you need to pull yourself together before the meeting.", exKo: "힘든 건 알지만 회의 전에 마음을 좀 추슬러야 해.", unit: "ud10114" },
+  { id: "w5282", en: "think outside the box", ko: "틀에서 벗어나 생각하다", pos: "이디엄", exEn: "We need to think outside the box if we want to stand out.", exKo: "눈에 띄려면 틀을 깨고 생각해야 해.", unit: "ud10114" },
+  { id: "w5283", en: "get a kick out of", ko: "~에서 큰 재미를 느끼다", pos: "이디엄", exEn: "My dad would get a kick out of this video.", exKo: "우리 아빠가 이 영상 보면 엄청 재밌어하실 거야.", unit: "ud10114" },
+  { id: "w5284", en: "nip it in the bud", ko: "(문제를) 초장에 잡다, 싹을 자르다", pos: "이디엄", exEn: "If he's being rude to customers, we should nip it in the bud.", exKo: "걔가 손님한테 무례하게 군다면 초장에 바로잡아야 해.", unit: "ud10114" },
+  { id: "w5285", en: "put your foot down", ko: "단호하게 선을 긋다, 못 박아 말하다", pos: "이디엄", exEn: "I had to put my foot down and say no more screen time.", exKo: "이제 화면 보는 시간은 끝이라고 단호하게 말해야 했어.", unit: "ud10114" },
+  { id: "w5286", en: "raise eyebrows", ko: "사람들을 놀라게 하다, 눈살을 찌푸리게 하다", pos: "이디엄", exEn: "His comment is going to raise eyebrows at the office.", exKo: "걔가 한 말 때문에 사무실 사람들이 다들 뜨악해할 거야.", unit: "ud10114" },
+  { id: "w5287", en: "tighten your belt", ko: "허리띠를 졸라매다", pos: "이디엄", exEn: "We'll have to tighten our belts until I find a new job.", exKo: "내가 새 직장을 구할 때까지는 허리띠를 졸라매야 할 거야.", unit: "ud10114" },
+  { id: "w5288", en: "stick to your guns", ko: "소신을 굽히지 않다", pos: "이디엄", exEn: "Everyone pushed back, but I'm glad you decided to stick to your guns.", exKo: "다들 반대했지만 네가 소신을 굽히지 않기로 해서 다행이야.", unit: "ud10114" },
+  { id: "w5289", en: "sell yourself short", ko: "자신을 과소평가하다", pos: "이디엄", exEn: "Don't sell yourself short. You're more than qualified for this job.", exKo: "너 자신을 과소평가하지 마. 넌 이 일에 자격이 차고 넘쳐.", unit: "ud10114" },
+  { id: "w5290", en: "tread lightly", ko: "조심스럽게 접근하다, 말조심하다", pos: "이디엄", exEn: "I'd tread lightly around that topic with her.", exKo: "나라면 걔 앞에서 그 얘기는 조심스럽게 꺼내겠어.", unit: "ud10114" }
+]);
+
 // end of data-daily.js
