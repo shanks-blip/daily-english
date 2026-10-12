@@ -684,4 +684,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1012", level: "lv3", icon: "🛫", title: "친구에게 공항까지 태워 달라고 부탁하기",
+  lines: [
+    { sp: "A", en: "Hey, are you free Saturday morning? I need to ask you a favor.", ko: "저기, 토요일 아침에 시간 돼? 부탁할 게 하나 있어." },
+    { sp: "B", en: "Sure, what's up?", ko: "응, 무슨 일인데?" },
+    { sp: "A", en: "My flight leaves at nine, and I was wondering if you could drop me off at the airport.", ko: "비행기가 9시에 출발하는데, 혹시 공항까지 좀 태워다 줄 수 있을까 해서." },
+    { sp: "B", en: "No problem. What time should I pick you up?", ko: "그럼, 되지. 몇 시에 데리러 가면 돼?" },
+    { sp: "A", en: "Would six thirty work? I hate to drag you out of bed that early.", ko: "6시 반 괜찮아? 그렇게 일찍 깨워서 미안하네." },
+    { sp: "B", en: "Don't worry about it. I'm an early bird anyway. Just make sure you're packed and ready to go.", ko: "신경 쓰지 마. 나 원래 아침형 인간이야. 짐만 다 싸 놓고 바로 나올 수 있게 해 둬." },
+    { sp: "A", en: "I will. You're a lifesaver. Let me at least chip in for gas.", ko: "그럴게. 네 덕분에 살았다. 기름값이라도 보탤게." },
+    { sp: "B", en: "Forget it. Just bring me back something nice from your trip.", ko: "됐어. 여행 가서 괜찮은 거나 하나 사다 줘." }
+  ]
+}]);
+
 // end of dialogs-daily.js
