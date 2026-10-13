@@ -4335,4 +4335,53 @@
   { id: "w5370", en: "between a rock and a hard place", ko: "진퇴양난에 빠진", pos: "이디엄", exEn: "I'm between a rock and a hard place. Either choice will upset someone.", exKo: "진퇴양난이야. 어느 쪽을 골라도 누군가는 서운해할 거야.", unit: "ud10134" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10141", level: "lv1", title: "데일리 10/14 · 기초" },
+  { id: "ud10142", level: "lv2", title: "데일리 10/14 · 중급" },
+  { id: "ud10143", level: "lv3", title: "데일리 10/14 · 고급" },
+  { id: "ud10144", level: "lv4", title: "데일리 10/14 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5371", en: "soy sauce", ko: "간장", pos: "명사", exEn: "Could you pass me the soy sauce?", exKo: "간장 좀 건네줄래?", unit: "ud10141" },
+  { id: "w5372", en: "stomachache", ko: "배탈, 복통", pos: "명사", exEn: "I ate too much pizza and now I have a stomachache.", exKo: "피자를 너무 많이 먹었더니 배가 아파.", unit: "ud10141" },
+  { id: "w5373", en: "camera", ko: "카메라", pos: "명사", exEn: "Don't forget to bring your camera to the beach.", exKo: "해변 갈 때 카메라 챙기는 거 잊지 마.", unit: "ud10141" },
+  { id: "w5374", en: "lawyer", ko: "변호사", pos: "명사", exEn: "My sister is a lawyer in Chicago.", exKo: "우리 언니는 시카고에서 변호사로 일해.", unit: "ud10141" },
+  { id: "w5375", en: "engineer", ko: "엔지니어, 기술자", pos: "명사", exEn: "He works as an engineer at a car company.", exKo: "그는 자동차 회사에서 엔지니어로 일해.", unit: "ud10141" },
+  { id: "w5376", en: "scientist", ko: "과학자", pos: "명사", exEn: "My son wants to be a scientist when he grows up.", exKo: "우리 아들은 커서 과학자가 되고 싶대.", unit: "ud10141" },
+  { id: "w5377", en: "student", ko: "학생", pos: "명사", exEn: "I'm a student, so I get a discount at the movies.", exKo: "학생이라서 영화 볼 때 할인받아.", unit: "ud10141" },
+  { id: "w5378", en: "television", ko: "텔레비전, TV", pos: "명사", exEn: "We don't watch much television at home.", exKo: "우리 집은 TV를 별로 안 봐.", unit: "ud10141" },
+  { id: "w5379", en: "actor", ko: "배우", pos: "명사", exEn: "Who's your favorite actor?", exKo: "제일 좋아하는 배우가 누구야?", unit: "ud10141" },
+  { id: "w5380", en: "singer", ko: "가수", pos: "명사", exEn: "She's a great singer. You should hear her sing.", exKo: "걔 노래 진짜 잘해. 한번 들어 봐야 돼.", unit: "ud10141" },
+  { id: "w5381", en: "do the dishes", ko: "설거지하다", pos: "구동사", exEn: "You cooked, so I'll do the dishes.", exKo: "네가 요리했으니까 설거지는 내가 할게.", unit: "ud10142" },
+  { id: "w5382", en: "grab a bite", ko: "간단히 뭐 좀 먹다", pos: "표현", exEn: "Do you want to grab a bite after work?", exKo: "퇴근하고 간단하게 뭐 좀 먹을래?", unit: "ud10142" },
+  { id: "w5383", en: "battery life", ko: "배터리 수명, 배터리 지속 시간", pos: "명사", exEn: "The battery life on this phone is amazing. It lasts two days.", exKo: "이 폰 배터리 진짜 오래가. 이틀은 버텨.", unit: "ud10142" },
+  { id: "w5384", en: "grocery list", ko: "장보기 목록", pos: "명사", exEn: "Add eggs to the grocery list, please.", exKo: "장보기 목록에 계란 좀 추가해 줘.", unit: "ud10142" },
+  { id: "w5385", en: "speeding ticket", ko: "과속 딱지", pos: "명사", exEn: "I got a speeding ticket on my way to work this morning.", exKo: "오늘 아침 출근길에 과속 딱지 끊겼어.", unit: "ud10142" },
+  { id: "w5386", en: "forgetful", ko: "잘 잊어버리는, 건망증이 있는", pos: "형용사", exEn: "I've been so forgetful lately. I left my keys at home again.", exKo: "요즘 깜빡깜빡해. 또 열쇠를 집에 두고 왔어.", unit: "ud10142" },
+  { id: "w5387", en: "cramped", ko: "비좁은, 갑갑한", pos: "형용사", exEn: "The apartment is nice, but the kitchen is a little cramped.", exKo: "아파트는 괜찮은데 부엌이 좀 비좁아.", unit: "ud10142" },
+  { id: "w5388", en: "stressed out", ko: "스트레스를 잔뜩 받은", pos: "형용사", exEn: "You look stressed out. Is everything okay?", exKo: "너 스트레스 엄청 받은 것 같아 보여. 괜찮아?", unit: "ud10142" },
+  { id: "w5389", en: "punctual", ko: "시간을 잘 지키는", pos: "형용사", exEn: "She's always punctual, so if she's late, something's wrong.", exKo: "걔는 늘 시간을 칼같이 지켜서, 늦으면 무슨 일 있는 거야.", unit: "ud10142" },
+  { id: "w5390", en: "move out", ko: "(살던 집에서) 이사 나가다", pos: "구동사", exEn: "My roommate is moving out at the end of the month.", exKo: "룸메이트가 이번 달 말에 이사 나가.", unit: "ud10142" },
+  { id: "w5391", en: "lose touch", ko: "연락이 끊기다", pos: "표현", exEn: "We lost touch after high school, but I found her on Instagram.", exKo: "고등학교 졸업하고 연락이 끊겼는데, 인스타에서 찾았어.", unit: "ud10143" },
+  { id: "w5392", en: "piece together", ko: "(조각난 정보를) 짜 맞추다", pos: "구동사", exEn: "I'm still trying to piece together what happened last night.", exKo: "어젯밤에 무슨 일이 있었는지 아직 퍼즐 맞추듯 정리하는 중이야.", unit: "ud10143" },
+  { id: "w5393", en: "tap into", ko: "(자원·능력 등을) 활용하다, 끌어내다", pos: "구동사", exEn: "The company wants to tap into the younger market.", exKo: "그 회사는 젊은 층 시장을 공략하고 싶어 해.", unit: "ud10143" },
+  { id: "w5394", en: "wear down", ko: "(서서히) 지치게 하다, 닳게 하다", pos: "구동사", exEn: "The constant noise from the construction is really wearing me down.", exKo: "공사 소음이 끊이질 않아서 진짜 지쳐 가고 있어.", unit: "ud10143" },
+  { id: "w5395", en: "max out", ko: "(한도까지) 다 쓰다", pos: "구동사", exEn: "I maxed out my credit card on this trip.", exKo: "이번 여행에서 신용카드 한도를 꽉 채워 썼어.", unit: "ud10143" },
+  { id: "w5396", en: "lawsuit", ko: "소송", pos: "명사", exEn: "The neighbors filed a lawsuit against the developer.", exKo: "이웃들이 개발업체를 상대로 소송을 냈어.", unit: "ud10143" },
+  { id: "w5397", en: "settle down", ko: "자리를 잡다, 진정하다", pos: "구동사", exEn: "He finally wants to settle down and start a family.", exKo: "걔도 이제 정착해서 가정을 꾸리고 싶어 해.", unit: "ud10143" },
+  { id: "w5398", en: "go along with", ko: "(의견·계획에) 따르다, 동조하다", pos: "구동사", exEn: "I didn't love the idea, but I went along with it.", exKo: "그 아이디어가 썩 맘에 들진 않았는데 그냥 따랐어.", unit: "ud10143" },
+  { id: "w5399", en: "slip up", ko: "(사소한) 실수를 하다", pos: "구동사", exEn: "I slipped up and called him by the wrong name.", exKo: "실수로 그 사람 이름을 잘못 불렀어.", unit: "ud10143" },
+  { id: "w5400", en: "throw off", ko: "(리듬·계획을) 흐트러뜨리다, 헷갈리게 하다", pos: "구동사", exEn: "The time change totally threw off my sleep schedule.", exKo: "시간 바뀐 것 때문에 수면 패턴이 완전히 엉망이 됐어.", unit: "ud10143" },
+  { id: "w5401", en: "lock horns", ko: "(누구와) 정면으로 맞붙다, 대립하다", pos: "이디엄", exEn: "My dad and my brother always lock horns over politics.", exKo: "아빠랑 오빠는 정치 얘기만 나오면 늘 맞붙어.", unit: "ud10144" },
+  { id: "w5402", en: "psych out", ko: "(상대를) 기죽이다, 겁먹게 하다", pos: "구동사", exEn: "Don't let him psych you out. He's just trash-talking.", exKo: "쟤 때문에 기죽지 마. 그냥 입으로만 떠드는 거야.", unit: "ud10144" },
+  { id: "w5403", en: "scratch the surface", ko: "겉핥기만 하다, 빙산의 일각만 다루다", pos: "이디엄", exEn: "We've only scratched the surface of what this app can do.", exKo: "이 앱으로 할 수 있는 것 중에 아직 겉핥기만 해 본 거야.", unit: "ud10144" },
+  { id: "w5404", en: "sweep under the rug", ko: "(문제를) 덮어 버리다, 쉬쉬하다", pos: "이디엄", exEn: "You can't just sweep this under the rug and hope it goes away.", exKo: "이걸 그냥 덮어 두고 저절로 사라지길 바랄 순 없어.", unit: "ud10144" },
+  { id: "w5405", en: "ingratiate", ko: "(남의) 환심을 사다", pos: "동사", exEn: "He's always trying to ingratiate himself with the boss.", exKo: "걔는 맨날 사장한테 잘 보이려고 애써.", unit: "ud10144" },
+  { id: "w5406", en: "obsequious", ko: "지나치게 비위를 맞추는, 아첨하는", pos: "형용사", exEn: "The waiter was so obsequious that it got a little uncomfortable.", exKo: "웨이터가 너무 굽신거려서 좀 불편할 정도였어.", unit: "ud10144" },
+  { id: "w5407", en: "irreverent", ko: "(권위·관습을) 대수롭지 않게 여기는, 불경스러운", pos: "형용사", exEn: "I love the show's irreverent sense of humor.", exKo: "그 프로그램의 거침없는 유머 감각이 너무 좋아.", unit: "ud10144" },
+  { id: "w5408", en: "banal", ko: "진부한, 뻔한", pos: "형용사", exEn: "The conversation was pretty banal, mostly about the weather.", exKo: "대화가 꽤 뻔했어. 거의 날씨 얘기뿐이었지.", unit: "ud10144" },
+  { id: "w5409", en: "droll", ko: "(능청스럽게) 익살맞은", pos: "형용사", exEn: "He has a droll way of telling stories that cracks everyone up.", exKo: "걔는 능청스럽게 얘기를 풀어서 다들 빵 터지게 만들어.", unit: "ud10144" },
+  { id: "w5410", en: "schadenfreude", ko: "남의 불행을 고소해하는 마음", pos: "명사", exEn: "I felt a little schadenfreude when the bully got caught.", exKo: "그 괴롭히던 애가 걸렸을 때 솔직히 좀 고소했어.", unit: "ud10144" }
+]);
+
 // end of data-daily.js

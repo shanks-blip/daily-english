@@ -698,4 +698,17 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1014", level: "lv3", icon: "🚗", title: "중고차 매장에서 가격 흥정하기",
+  lines: [
+    { sp: "A", en: "So, what do you think? She's in great shape for her age.", ko: "어떠세요? 연식에 비해 상태가 정말 좋아요." },
+    { sp: "B", en: "It looks good, but the price is a little steep for a car with this many miles on it.", ko: "괜찮아 보이긴 하는데, 주행거리가 이 정도인 차치고는 가격이 좀 세네요." },
+    { sp: "A", en: "I hear you. But it just had new tires put on, and it's never been in an accident.", ko: "무슨 말씀인지 알아요. 그래도 타이어를 새로 갈았고, 사고 이력도 전혀 없어요." },
+    { sp: "B", en: "That's nice, but I saw a similar model online for about two thousand less.", ko: "그건 좋네요. 근데 인터넷에서 비슷한 모델을 2천 달러쯤 싸게 봤거든요." },
+    { sp: "A", en: "Let me talk to my manager and see if I can knock a little off the price.", ko: "매니저랑 얘기해서 가격을 좀 깎아 드릴 수 있는지 볼게요." },
+    { sp: "B", en: "If you can throw in a free oil change too, I think we can make a deal.", ko: "엔진오일 교환도 무료로 끼워 주시면 계약할 수 있을 것 같아요." },
+    { sp: "A", en: "I'll see what I can do. Don't go anywhere.", ko: "최대한 맞춰 볼게요. 어디 가지 마세요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
