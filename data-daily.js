@@ -4384,4 +4384,53 @@
   { id: "w5410", en: "schadenfreude", ko: "남의 불행을 고소해하는 마음", pos: "명사", exEn: "I felt a little schadenfreude when the bully got caught.", exKo: "그 괴롭히던 애가 걸렸을 때 솔직히 좀 고소했어.", unit: "ud10144" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10151", level: "lv1", title: "데일리 10/15 · 기초" },
+  { id: "ud10152", level: "lv2", title: "데일리 10/15 · 중급" },
+  { id: "ud10153", level: "lv3", title: "데일리 10/15 · 고급" },
+  { id: "ud10154", level: "lv4", title: "데일리 10/15 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5411", en: "grandparent", ko: "조부모 (할아버지·할머니)", pos: "명사", exEn: "I visit my grandparents every Thanksgiving.", exKo: "추수감사절마다 조부모님 댁에 가.", unit: "ud10151" },
+  { id: "w5412", en: "vet", ko: "수의사, 동물병원", pos: "명사", exEn: "I have to take my dog to the vet tomorrow.", exKo: "내일 강아지 데리고 동물병원 가야 돼.", unit: "ud10151" },
+  { id: "w5413", en: "dive", ko: "(물에) 뛰어들다, 다이빙하다", pos: "동사", exEn: "Don't dive into the shallow end of the pool.", exKo: "수영장 얕은 쪽에서는 다이빙하지 마.", unit: "ud10151" },
+  { id: "w5414", en: "tangerine", ko: "귤", pos: "명사", exEn: "I always keep a bag of tangerines in the fridge in winter.", exKo: "겨울엔 냉장고에 항상 귤 한 봉지 넣어 둬.", unit: "ud10151" },
+  { id: "w5415", en: "ice", ko: "얼음", pos: "명사", exEn: "Can I get a water with no ice, please?", exKo: "얼음 빼고 물 한 잔 주시겠어요?", unit: "ud10151" },
+  { id: "w5416", en: "billion", ko: "10억", pos: "수사", exEn: "The company is worth over a billion dollars.", exKo: "그 회사 가치가 10억 달러가 넘어.", unit: "ud10151" },
+  { id: "w5417", en: "often", ko: "자주, 흔히", pos: "부사", exEn: "How often do you go to the gym?", exKo: "헬스장에 얼마나 자주 가?", unit: "ud10151" },
+  { id: "w5418", en: "next", ko: "다음의, 그다음에", pos: "형용사", exEn: "Let's meet again next Friday.", exKo: "다음 주 금요일에 또 만나자.", unit: "ud10151" },
+  { id: "w5419", en: "last", ko: "지난, 마지막의", pos: "형용사", exEn: "I saw that movie last night.", exKo: "그 영화 어젯밤에 봤어.", unit: "ud10151" },
+  { id: "w5420", en: "hurry up", ko: "서두르다", pos: "구동사", exEn: "Hurry up, or we're going to miss the bus!", exKo: "서둘러, 안 그러면 버스 놓쳐!", unit: "ud10151" },
+  { id: "w5421", en: "rarely", ko: "좀처럼 ~하지 않는, 드물게", pos: "부사", exEn: "I rarely eat breakfast on weekdays.", exKo: "평일엔 아침을 거의 안 먹어.", unit: "ud10152" },
+  { id: "w5422", en: "in-law", ko: "인척 (시댁·처가 식구)", pos: "명사", exEn: "We're spending Christmas with my in-laws this year.", exKo: "올해 크리스마스는 시댁 식구들이랑 보내.", unit: "ud10152" },
+  { id: "w5423", en: "shelf life", ko: "유통기한, 보관 가능 기간", pos: "명사", exEn: "Fresh bread has a pretty short shelf life.", exKo: "갓 구운 빵은 오래 못 가.", unit: "ud10152" },
+  { id: "w5424", en: "update", ko: "(소식·정보를) 업데이트하다, 알려 주다", pos: "동사", exEn: "Can you update me after the meeting?", exKo: "회의 끝나고 어떻게 됐는지 알려 줄래?", unit: "ud10152" },
+  { id: "w5425", en: "screen", ko: "화면", pos: "명사", exEn: "My phone screen cracked when I dropped it.", exKo: "폰 떨어뜨려서 화면이 깨졌어.", unit: "ud10152" },
+  { id: "w5426", en: "make it", ko: "(제시간에) 도착하다, 참석하다", pos: "구동사", exEn: "Sorry, I can't make it to dinner tonight.", exKo: "미안, 오늘 저녁 못 갈 것 같아.", unit: "ud10152" },
+  { id: "w5427", en: "eat out", ko: "외식하다", pos: "구동사", exEn: "We've been eating out too much lately.", exKo: "요즘 외식을 너무 많이 했어.", unit: "ud10152" },
+  { id: "w5428", en: "dress up", ko: "차려입다, 분장하다", pos: "구동사", exEn: "Do I need to dress up for the party?", exKo: "파티에 차려입고 가야 돼?", unit: "ud10152" },
+  { id: "w5429", en: "clean up", ko: "치우다, 정리하다", pos: "구동사", exEn: "Can you help me clean up the kitchen?", exKo: "부엌 치우는 것 좀 도와줄래?", unit: "ud10152" },
+  { id: "w5430", en: "look after", ko: "돌보다", pos: "구동사", exEn: "Could you look after my cat while I'm away?", exKo: "나 없는 동안 고양이 좀 봐 줄 수 있어?", unit: "ud10152" },
+  { id: "w5431", en: "bow out", ko: "(정중히) 빠지다, 물러나다", pos: "구동사", exEn: "I'm going to bow out of the trip this time. Work is crazy.", exKo: "이번 여행은 빠질게. 일이 너무 바빠.", unit: "ud10153" },
+  { id: "w5432", en: "narrow down", ko: "(범위를) 좁히다", pos: "구동사", exEn: "I've narrowed it down to two apartments.", exKo: "집을 두 군데로 좁혔어.", unit: "ud10153" },
+  { id: "w5433", en: "cozy up to", ko: "(잘 보이려고) ~에게 알랑거리다, 가까워지다", pos: "구동사", exEn: "He's been cozying up to the new manager all week.", exKo: "걔 이번 주 내내 새 매니저한테 붙어서 알랑거리더라.", unit: "ud10153" },
+  { id: "w5434", en: "wise up", ko: "정신 차리다, 사정을 깨닫다", pos: "구동사", exEn: "You need to wise up. He's just using you.", exKo: "정신 좀 차려. 걔 너 이용하는 거야.", unit: "ud10153" },
+  { id: "w5435", en: "sit out", ko: "(활동에) 빠지다, 참여하지 않다", pos: "구동사", exEn: "My knee hurts, so I'm going to sit this one out.", exKo: "무릎이 아파서 이번 판은 쉴게.", unit: "ud10153" },
+  { id: "w5436", en: "wait out", ko: "(지나갈 때까지) 기다리다, 버티다", pos: "구동사", exEn: "Let's wait out the rain in this coffee shop.", exKo: "비 그칠 때까지 이 카페에서 기다리자.", unit: "ud10153" },
+  { id: "w5437", en: "weigh on", ko: "(마음을) 짓누르다, 부담이 되다", pos: "구동사", exEn: "The argument with my sister has been weighing on me.", exKo: "언니랑 싸운 게 계속 마음에 걸려.", unit: "ud10153" },
+  { id: "w5438", en: "taken aback", ko: "(뜻밖이라) 당황한, 놀란", pos: "형용사", exEn: "I was a little taken aback when she quit out of nowhere.", exKo: "걔가 갑자기 그만둬서 좀 당황했어.", unit: "ud10153" },
+  { id: "w5439", en: "stir-crazy", ko: "(갇혀 지내서) 답답해 미칠 것 같은", pos: "형용사", exEn: "After a week of rain, the kids are going stir-crazy.", exKo: "일주일 내내 비가 와서 애들이 답답해서 난리야.", unit: "ud10153" },
+  { id: "w5440", en: "in a funk", ko: "기분이 처진, 의욕이 없는", pos: "이디엄", exEn: "I've been in a funk ever since the holidays ended.", exKo: "연휴 끝나고 나서 계속 처져 있어.", unit: "ud10153" },
+  { id: "w5441", en: "ferret out", ko: "(끈질기게) 캐내다, 찾아내다", pos: "구동사", exEn: "It took months to ferret out who was leaking the info.", exKo: "누가 정보를 흘렸는지 캐내는 데 몇 달 걸렸어.", unit: "ud10154" },
+  { id: "w5442", en: "suss out", ko: "(상황·사람을) 파악하다, 간파하다", pos: "구동사", exEn: "Give me a few days to suss out how things work here.", exKo: "여기 돌아가는 사정 파악하게 며칠만 줘.", unit: "ud10154" },
+  { id: "w5443", en: "paper over", ko: "(문제를) 대충 덮다, 얼버무리다", pos: "구동사", exEn: "A bonus won't paper over the real problems on this team.", exKo: "보너스 준다고 이 팀의 진짜 문제가 덮어지진 않아.", unit: "ud10154" },
+  { id: "w5444", en: "even-keeled", ko: "(감정 기복 없이) 차분한, 한결같은", pos: "형용사", exEn: "She stays even-keeled even when everything goes wrong.", exKo: "걔는 일이 다 꼬여도 늘 차분해.", unit: "ud10154" },
+  { id: "w5445", en: "red herring", ko: "(관심을 딴 데로 돌리는) 미끼, 헛다리", pos: "이디엄", exEn: "That clue turned out to be a red herring.", exKo: "그 단서는 알고 보니 헛다리였어.", unit: "ud10154" },
+  { id: "w5446", en: "loose cannon", ko: "(언제 사고 칠지 모르는) 통제 불능인 사람", pos: "이디엄", exEn: "Don't put him in front of the client. He's a loose cannon.", exKo: "걔 고객 앞에 세우지 마. 무슨 말 할지 몰라.", unit: "ud10154" },
+  { id: "w5447", en: "wet blanket", ko: "분위기 깨는 사람", pos: "이디엄", exEn: "Don't be such a wet blanket. Come dance with us!", exKo: "분위기 깨지 말고 같이 춤추자!", unit: "ud10154" },
+  { id: "w5448", en: "kowtow", ko: "굽실거리다, 비위를 맞추다", pos: "동사", exEn: "I'm not going to kowtow to him just because he's rich.", exKo: "돈 많다고 내가 걔한테 굽실거릴 생각은 없어.", unit: "ud10154" },
+  { id: "w5449", en: "cloying", ko: "(너무 달거나 감상적이라) 질리는, 느끼한", pos: "형용사", exEn: "The ending was so sweet it felt a little cloying.", exKo: "결말이 너무 달달해서 좀 느끼했어.", unit: "ud10154" },
+  { id: "w5450", en: "inscrutable", ko: "속을 알 수 없는, 헤아릴 수 없는", pos: "형용사", exEn: "His face was completely inscrutable during the meeting.", exKo: "회의 내내 걔 표정에서 아무 속내도 읽을 수 없었어.", unit: "ud10154" }
+]);
+
 // end of data-daily.js
