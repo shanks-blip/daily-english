@@ -711,4 +711,17 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1016", level: "lv3", icon: "🎁", title: "친구들과 생일 선물 돈 모아 사기",
+  lines: [
+    { sp: "A", en: "Hey, Jenna's birthday is next Friday. Want to go in on a gift together?", ko: "야, 다음 주 금요일이 제나 생일이잖아. 선물 같이 돈 모아서 살래?" },
+    { sp: "B", en: "Sure, count me in. Did you have anything in mind?", ko: "좋지, 나도 낄게. 생각해 둔 거 있어?" },
+    { sp: "A", en: "She's been eyeing those wireless headphones for months, but they're pretty pricey.", ko: "몇 달째 그 무선 헤드폰을 눈여겨보던데, 좀 비싸더라고." },
+    { sp: "B", en: "If we get Mark and Tina to chip in too, it's only like forty bucks each.", ko: "마크랑 티나도 보태면 한 사람당 40달러 정도밖에 안 돼." },
+    { sp: "A", en: "Perfect. I'll float the idea in the group chat tonight.", ko: "딱 좋다. 오늘 밤에 단톡방에 슬쩍 얘기 꺼내 볼게." },
+    { sp: "B", en: "Just don't add Jenna by mistake. That would totally give it away.", ko: "실수로 제나 초대하지만 마. 그럼 다 들통나잖아." },
+    { sp: "A", en: "Ha, good call. I'll make a separate chat just to be safe.", ko: "하하, 맞는 말이야. 혹시 모르니까 방을 따로 만들게." }
+  ]
+}]);
+
 // end of dialogs-daily.js

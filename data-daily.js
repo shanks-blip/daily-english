@@ -4433,4 +4433,53 @@
   { id: "w5450", en: "inscrutable", ko: "속을 알 수 없는, 헤아릴 수 없는", pos: "형용사", exEn: "His face was completely inscrutable during the meeting.", exKo: "회의 내내 걔 표정에서 아무 속내도 읽을 수 없었어.", unit: "ud10154" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10161", level: "lv1", title: "데일리 10/16 · 기초" },
+  { id: "ud10162", level: "lv2", title: "데일리 10/16 · 중급" },
+  { id: "ud10163", level: "lv3", title: "데일리 10/16 · 고급" },
+  { id: "ud10164", level: "lv4", title: "데일리 10/16 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5451", en: "toy", ko: "장난감", pos: "명사", exEn: "My son left his toys all over the living room.", exKo: "아들이 거실 여기저기에 장난감을 늘어놨어.", unit: "ud10161" },
+  { id: "w5452", en: "ball", ko: "공", pos: "명사", exEn: "Can you throw the ball back to me?", exKo: "공 좀 다시 던져 줄래?", unit: "ud10161" },
+  { id: "w5453", en: "box", ko: "상자, 박스", pos: "명사", exEn: "I put all my old books in a box.", exKo: "옛날 책들은 전부 상자에 넣어 뒀어.", unit: "ud10161" },
+  { id: "w5454", en: "room", ko: "방; 공간, 자리", pos: "명사", exEn: "Is there room for one more in the car?", exKo: "차에 한 명 더 탈 자리 있어?", unit: "ud10161" },
+  { id: "w5455", en: "photo", ko: "사진", pos: "명사", exEn: "Can you take a photo of us?", exKo: "저희 사진 좀 찍어 주실래요?", unit: "ud10161" },
+  { id: "w5456", en: "young", ko: "어린, 젊은", pos: "형용사", exEn: "She looks really young for her age.", exKo: "그분은 나이에 비해 정말 젊어 보여.", unit: "ud10161" },
+  { id: "w5457", en: "wide", ko: "넓은, 폭이 넓은", pos: "형용사", exEn: "The road is wide enough for two trucks.", exKo: "그 길은 트럭 두 대가 지나갈 만큼 넓어.", unit: "ud10161" },
+  { id: "w5458", en: "narrow", ko: "좁은", pos: "형용사", exEn: "The hallway is too narrow for this couch.", exKo: "복도가 너무 좁아서 이 소파가 안 들어가.", unit: "ud10161" },
+  { id: "w5459", en: "rest", ko: "쉬다; 휴식", pos: "동사/명사", exEn: "You look tired. Go home and rest.", exKo: "피곤해 보여. 집에 가서 좀 쉬어.", unit: "ud10161" },
+  { id: "w5460", en: "bath", ko: "목욕, 욕조", pos: "명사", exEn: "I like to take a hot bath after work.", exKo: "난 퇴근하고 뜨거운 물에 목욕하는 걸 좋아해.", unit: "ud10161" },
+  { id: "w5461", en: "back up", ko: "(차를) 후진하다; (파일을) 백업하다", pos: "구동사", exEn: "Can you back up a little? I can't open my door.", exKo: "조금만 뒤로 빼 줄래요? 제 차 문이 안 열려서요.", unit: "ud10162" },
+  { id: "w5462", en: "lock out", ko: "(열쇠를 두고 나와) 못 들어가게 되다", pos: "구동사", exEn: "I locked myself out of my apartment again.", exKo: "또 열쇠를 집에 두고 나와서 못 들어가고 있어.", unit: "ud10162" },
+  { id: "w5463", en: "head out", ko: "나가다, 출발하다", pos: "구동사", exEn: "It's getting late. I think I'm gonna head out.", exKo: "시간이 늦었네. 난 이만 가 볼게.", unit: "ud10162" },
+  { id: "w5464", en: "shrink", ko: "(옷이) 줄어들다", pos: "동사", exEn: "My sweater shrank in the dryer.", exKo: "건조기에 돌렸더니 스웨터가 줄어들었어.", unit: "ud10162" },
+  { id: "w5465", en: "faded", ko: "(색이) 바랜", pos: "형용사", exEn: "These jeans look a little faded now.", exKo: "이 청바지 이제 색이 좀 바랬네.", unit: "ud10162" },
+  { id: "w5466", en: "U-turn", ko: "유턴", pos: "명사", exEn: "You can't make a U-turn here. Go to the next light.", exKo: "여기선 유턴 못 해요. 다음 신호등까지 가세요.", unit: "ud10162" },
+  { id: "w5467", en: "fill up", ko: "(기름을) 가득 넣다; 가득 채우다", pos: "구동사", exEn: "Let's fill up before we get on the highway.", exKo: "고속도로 타기 전에 기름 가득 넣고 가자.", unit: "ud10162" },
+  { id: "w5468", en: "heat up", ko: "데우다; 뜨거워지다", pos: "구동사", exEn: "I'll heat up some soup for lunch.", exKo: "점심으로 수프 좀 데울게.", unit: "ud10162" },
+  { id: "w5469", en: "on speaker", ko: "스피커폰으로", pos: "표현", exEn: "Hold on, let me put you on speaker.", exKo: "잠깐만, 스피커폰으로 돌릴게.", unit: "ud10162" },
+  { id: "w5470", en: "ripped", ko: "찢어진", pos: "형용사", exEn: "My bag is ripped at the bottom.", exKo: "가방 밑이 찢어졌어.", unit: "ud10162" },
+  { id: "w5471", en: "skittish", ko: "겁이 많은, 쉽게 놀라는; 주저하는", pos: "형용사", exEn: "Investors are skittish after last week's drop.", exKo: "지난주 폭락 이후로 투자자들이 잔뜩 몸을 사리고 있어.", unit: "ud10163" },
+  { id: "w5472", en: "palpable", ko: "확연히 느껴지는, 손에 잡힐 듯한", pos: "형용사", exEn: "The tension in the room was palpable.", exKo: "방 안의 긴장감이 확 느껴질 정도였어.", unit: "ud10163" },
+  { id: "w5473", en: "mete out", ko: "(벌을) 내리다, 가하다", pos: "구동사", exEn: "The judge meted out a tough sentence.", exKo: "판사가 무거운 형을 내렸어.", unit: "ud10163" },
+  { id: "w5474", en: "tamp down", ko: "(감정·기대를) 누그러뜨리다, 진정시키다", pos: "구동사", exEn: "The company tried to tamp down rumors about layoffs.", exKo: "회사가 정리해고 소문을 잠재우려고 애썼어.", unit: "ud10163" },
+  { id: "w5475", en: "squirrel away", ko: "(돈 등을) 몰래 모아 두다", pos: "구동사", exEn: "She squirreled away a little money every month.", exKo: "그녀는 매달 조금씩 돈을 따로 모아 뒀어.", unit: "ud10163" },
+  { id: "w5476", en: "misgiving", ko: "불안감, 의구심", pos: "명사", exEn: "I had some misgivings about the deal from the start.", exKo: "처음부터 그 거래가 좀 찜찜했어.", unit: "ud10163" },
+  { id: "w5477", en: "oust", ko: "(자리에서) 몰아내다, 축출하다", pos: "동사", exEn: "The board voted to oust the CEO.", exKo: "이사회가 투표로 CEO를 몰아냈어.", unit: "ud10163" },
+  { id: "w5478", en: "spur", ko: "자극하다, 박차를 가하다", pos: "동사", exEn: "The bonus spurred everyone to work harder.", exKo: "보너스 덕분에 다들 더 열심히 일하게 됐지.", unit: "ud10163" },
+  { id: "w5479", en: "pledge", ko: "(공식적으로) 약속하다, 서약하다", pos: "동사", exEn: "The mayor pledged to fix the roads by summer.", exKo: "시장이 여름까지 도로를 고치겠다고 약속했어.", unit: "ud10163" },
+  { id: "w5480", en: "plunge", ko: "급락하다, 곤두박질치다", pos: "동사", exEn: "Gas prices plunged last month.", exKo: "지난달에 기름값이 확 떨어졌어.", unit: "ud10163" },
+  { id: "w5481", en: "rueful", ko: "(씁쓸하게) 후회하는, 멋쩍은", pos: "형용사", exEn: "He gave me a rueful smile and said, \"I should've listened.\"", exKo: "걔가 씁쓸하게 웃으면서 \"네 말 들을걸\" 하더라.", unit: "ud10164" },
+  { id: "w5482", en: "take umbrage", ko: "언짢아하다, 불쾌하게 여기다", pos: "이디엄", exEn: "She took umbrage at my joke about her cooking.", exKo: "그녀는 요리 솜씨 가지고 한 내 농담에 기분 상해했어.", unit: "ud10164" },
+  { id: "w5483", en: "kerfuffle", ko: "(별것 아닌 일로 생긴) 소동, 법석", pos: "명사", exEn: "There was a little kerfuffle over who got the window seat.", exKo: "누가 창가 자리에 앉느냐로 작은 소동이 있었어.", unit: "ud10164" },
+  { id: "w5484", en: "officious", ko: "참견하기 좋아하는, 거들먹거리며 나서는", pos: "형용사", exEn: "An officious security guard wouldn't let us in.", exKo: "괜히 깐깐하게 구는 경비원이 우리를 안 들여보내 줬어.", unit: "ud10164" },
+  { id: "w5485", en: "pussyfoot around", ko: "(눈치 보며) 말을 돌리다, 머뭇거리다", pos: "구동사", exEn: "Stop pussyfooting around and tell me what happened.", exKo: "빙빙 돌리지 말고 무슨 일인지 말해 봐.", unit: "ud10164" },
+  { id: "w5486", en: "mealy-mouthed", ko: "(책임 피하려고) 말을 얼버무리는", pos: "형용사", exEn: "I'm tired of his mealy-mouthed apologies.", exKo: "걔가 얼버무리듯 하는 사과는 이제 지겨워.", unit: "ud10164" },
+  { id: "w5487", en: "long in the tooth", ko: "나이 든, 한물간", pos: "이디엄", exEn: "This laptop is getting a bit long in the tooth.", exKo: "이 노트북도 이제 좀 늙었네.", unit: "ud10164" },
+  { id: "w5488", en: "fair-weather friend", ko: "좋을 때만 친구인 사람", pos: "이디엄", exEn: "When I lost my job, I found out who my fair-weather friends were.", exKo: "실직하고 나니까 누가 좋을 때만 친구였는지 알겠더라.", unit: "ud10164" },
+  { id: "w5489", en: "crocodile tears", ko: "거짓 눈물, 악어의 눈물", pos: "이디엄", exEn: "Don't fall for his crocodile tears.", exKo: "걔 거짓 눈물에 넘어가지 마.", unit: "ud10164" },
+  { id: "w5490", en: "busybody", ko: "남의 일에 참견하는 사람, 오지랖", pos: "명사", exEn: "Our neighbor is such a busybody. She knows everyone's business.", exKo: "우리 옆집 사람 오지랖이 장난 아니야. 남의 집 사정을 다 알아.", unit: "ud10164" }
+]);
+
 // end of data-daily.js
