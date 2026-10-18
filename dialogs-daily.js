@@ -724,4 +724,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1019", level: "lv3", icon: "🙇", title: "동료에게 실수를 털어놓고 수습하기",
+  lines: [
+    { sp: "A", en: "Hey, do you have a minute? I need to own up to something.", ko: "저기, 잠깐 시간 돼? 솔직히 털어놓을 게 있어." },
+    { sp: "B", en: "Uh-oh. That sounds ominous. What happened?", ko: "어라, 느낌이 불길한데. 무슨 일이야?" },
+    { sp: "A", en: "I accidentally sent the client last week's numbers instead of the updated ones.", ko: "실수로 고객한테 수정본 대신 지난주 수치를 보냈어." },
+    { sp: "B", en: "Okay, that's not ideal, but it's fixable. Have they replied yet?", ko: "음, 좋진 않지만 해결할 수 있어. 혹시 답장 왔어?" },
+    { sp: "A", en: "Not yet. I was going to send a correction, but I didn't want to make it worse.", ko: "아직. 정정 메일 보내려 했는데 일을 더 키울까 봐 걱정돼서." },
+    { sp: "B", en: "Just send it now and keep it short. No need to grovel—just say it was an error and attach the right file.", ko: "지금 바로 짧게 보내. 싹싹 빌 필요 없고, 실수였다고 하고 맞는 파일 첨부하면 돼." },
+    { sp: "A", en: "Thanks. I really thought I was going to be in hot water for this.", ko: "고마워. 이걸로 크게 혼나는 줄 알았어." },
+    { sp: "B", en: "Everyone slips up sometimes. Owning it right away is the best thing you could do.", ko: "누구나 가끔 실수해. 바로 인정한 게 제일 잘한 거야." }
+  ]
+}]);
+
 // end of dialogs-daily.js
