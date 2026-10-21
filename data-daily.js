@@ -4580,4 +4580,53 @@
   { id: "w5570", en: "at loggerheads", ko: "사사건건 대립하는, 첨예하게 맞선", pos: "이디엄", exEn: "My neighbors have been at loggerheads over the fence for years.", exKo: "우리 이웃들은 몇 년째 울타리 문제로 맞서고 있어.", unit: "ud10204" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10211", level: "lv1", title: "데일리 10/21 · 기초" },
+  { id: "ud10212", level: "lv2", title: "데일리 10/21 · 중급" },
+  { id: "ud10213", level: "lv3", title: "데일리 10/21 · 고급" },
+  { id: "ud10214", level: "lv4", title: "데일리 10/21 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5571", en: "exit", ko: "출구, 나가다", pos: "명사/동사", exEn: "Where's the exit? I can't find the way out.", exKo: "출구가 어디예요? 나가는 길을 못 찾겠어요.", unit: "ud10211" },
+  { id: "w5572", en: "entrance", ko: "입구", pos: "명사", exEn: "Let's meet at the main entrance at six.", exKo: "6시에 정문 입구에서 만나자.", unit: "ud10211" },
+  { id: "w5573", en: "restroom", ko: "화장실(공공장소)", pos: "명사", exEn: "Excuse me, is there a restroom on this floor?", exKo: "실례지만 이 층에 화장실 있어요?", unit: "ud10211" },
+  { id: "w5574", en: "newborn", ko: "갓난아기, 갓 태어난", pos: "명사/형용사", exEn: "They just had a newborn, so they're not sleeping much.", exKo: "걔네 얼마 전에 아기 낳아서 잠을 거의 못 자.", unit: "ud10211" },
+  { id: "w5575", en: "best friend", ko: "가장 친한 친구", pos: "명사", exEn: "She's been my best friend since kindergarten.", exKo: "걔는 유치원 때부터 제일 친한 친구야.", unit: "ud10211" },
+  { id: "w5576", en: "hair dryer", ko: "헤어드라이어", pos: "명사", exEn: "Does the hotel room have a hair dryer?", exKo: "호텔 방에 드라이어 있어요?", unit: "ud10211" },
+  { id: "w5577", en: "dish soap", ko: "주방 세제", pos: "명사", exEn: "We're out of dish soap. Can you grab some?", exKo: "주방 세제 다 떨어졌어. 하나 사다 줄래?", unit: "ud10211" },
+  { id: "w5578", en: "train station", ko: "기차역", pos: "명사", exEn: "I'll pick you up at the train station.", exKo: "기차역으로 데리러 갈게.", unit: "ud10211" },
+  { id: "w5579", en: "smooth", ko: "매끄러운, 순조로운", pos: "형용사", exEn: "The flight was really smooth. No bumps at all.", exKo: "비행이 정말 편안했어. 한 번도 안 흔들렸어.", unit: "ud10211" },
+  { id: "w5580", en: "rough", ko: "거친, 힘든", pos: "형용사", exEn: "You look tired. Rough day?", exKo: "피곤해 보이네. 오늘 힘들었어?", unit: "ud10211" },
+  { id: "w5581", en: "on the way", ko: "가는 중인, 오는 길에", pos: "표현", exEn: "I'm on the way. Be there in ten minutes.", exKo: "가는 중이야. 10분 뒤에 도착해.", unit: "ud10212" },
+  { id: "w5582", en: "out of stock", ko: "품절된, 재고가 없는", pos: "표현", exEn: "Sorry, that size is out of stock right now.", exKo: "죄송해요, 그 사이즈는 지금 재고가 없어요.", unit: "ud10212" },
+  { id: "w5583", en: "plus one", ko: "동반 1인(초대 손님이 데려오는 사람)", pos: "명사", exEn: "Can I bring a plus one to the wedding?", exKo: "결혼식에 한 명 데려가도 돼?", unit: "ud10212" },
+  { id: "w5584", en: "autocorrect", ko: "자동 맞춤법 수정", pos: "명사", exEn: "Sorry, autocorrect changed my message. I meant 'see you soon.'", exKo: "미안, 자동 수정 때문에 메시지가 바뀌었어. '곧 보자'라고 쓰려던 거야.", unit: "ud10212" },
+  { id: "w5585", en: "move in", ko: "이사 들어오다, 입주하다", pos: "구동사", exEn: "When are you moving in to the new place?", exKo: "새 집에 언제 들어가?", unit: "ud10212" },
+  { id: "w5586", en: "warm up", ko: "준비 운동을 하다, 데우다", pos: "구동사", exEn: "Let's warm up for five minutes before we run.", exKo: "뛰기 전에 5분 동안 몸 좀 풀자.", unit: "ud10212" },
+  { id: "w5587", en: "cool down", ko: "식다, 진정하다", pos: "구동사", exEn: "Just cool down. We can talk about it later.", exKo: "일단 진정해. 그건 나중에 얘기하자.", unit: "ud10212" },
+  { id: "w5588", en: "catch a cold", ko: "감기에 걸리다", pos: "표현", exEn: "Put on a jacket or you'll catch a cold.", exKo: "재킷 입어, 안 그러면 감기 걸려.", unit: "ud10212" },
+  { id: "w5589", en: "payday", ko: "월급날", pos: "명사", exEn: "Let's go out for dinner on Friday. It's payday.", exKo: "금요일에 외식하자. 월급날이잖아.", unit: "ud10212" },
+  { id: "w5590", en: "discount code", ko: "할인 코드", pos: "명사", exEn: "I have a discount code for 20% off. Want to use it?", exKo: "20% 할인 코드 있는데 쓸래?", unit: "ud10212" },
+  { id: "w5591", en: "drought", ko: "가뭄", pos: "명사", exEn: "The drought has been so bad that farmers are losing their crops.", exKo: "가뭄이 너무 심해서 농부들이 농작물을 잃고 있대.", unit: "ud10213" },
+  { id: "w5592", en: "evacuate", ko: "대피하다, 대피시키다", pos: "동사", exEn: "They had to evacuate the whole building because of a gas leak.", exKo: "가스 누출 때문에 건물 전체를 대피시켜야 했어.", unit: "ud10213" },
+  { id: "w5593", en: "ransom", ko: "(인질·데이터의) 몸값", pos: "명사", exEn: "The hackers locked the hospital's files and demanded a ransom.", exKo: "해커들이 병원 파일을 잠그고 돈을 요구했대.", unit: "ud10213" },
+  { id: "w5594", en: "smuggle", ko: "밀수하다, 몰래 들여오다", pos: "동사", exEn: "We used to smuggle snacks into the movie theater.", exKo: "우리 예전엔 영화관에 과자를 몰래 들고 들어갔었지.", unit: "ud10213" },
+  { id: "w5595", en: "stagnant", ko: "정체된, 고여 있는", pos: "형용사", exEn: "My salary's been stagnant for three years.", exKo: "내 월급은 3년째 제자리야.", unit: "ud10213" },
+  { id: "w5596", en: "down payment", ko: "(집·차 구입 시) 계약금, 선금", pos: "명사", exEn: "We're saving up for a down payment on a house.", exKo: "집 계약금 마련하려고 돈 모으는 중이야.", unit: "ud10213" },
+  { id: "w5597", en: "nest egg", ko: "비상금, 노후 자금", pos: "명사", exEn: "Don't touch that money. It's our nest egg.", exKo: "그 돈은 건드리지 마. 우리 노후 자금이야.", unit: "ud10213" },
+  { id: "w5598", en: "side hustle", ko: "부업", pos: "명사", exEn: "He drives for a delivery app as a side hustle.", exKo: "걔는 부업으로 배달 앱 기사 일을 해.", unit: "ud10213" },
+  { id: "w5599", en: "fob off", ko: "(대충 둘러대며) 떠넘기다, 얼버무리다", pos: "구동사", exEn: "Don't let them fob you off with some lame excuse.", exKo: "말도 안 되는 핑계로 대충 넘기게 두지 마.", unit: "ud10213" },
+  { id: "w5600", en: "reshuffle", ko: "(조직·내각을) 개편하다, 개편", pos: "동사/명사", exEn: "The company reshuffled the whole team after the merger talks.", exKo: "회사가 합병 얘기 나온 뒤에 팀을 통째로 개편했어.", unit: "ud10213" },
+  { id: "w5601", en: "make no bones about", ko: "~을 숨기지 않다, 대놓고 말하다", pos: "이디엄", exEn: "She makes no bones about hating her job.", exKo: "걔는 자기 일 싫어하는 걸 전혀 숨기지 않아.", unit: "ud10214" },
+  { id: "w5602", en: "call a spade a spade", ko: "있는 그대로 말하다, 돌려 말하지 않다", pos: "이디엄", exEn: "Let's call a spade a spade. This plan isn't working.", exKo: "돌려 말하지 말자. 이 계획은 안 되고 있어.", unit: "ud10214" },
+  { id: "w5603", en: "cherry-pick", ko: "(유리한 것만) 골라 뽑다", pos: "동사", exEn: "You can't just cherry-pick the numbers that make you look good.", exKo: "너한테 유리한 숫자만 골라서 보여 주면 안 되지.", unit: "ud10214" },
+  { id: "w5604", en: "saccharine", ko: "지나치게 달달한, 낯간지러운", pos: "형용사", exEn: "The movie was nice, but the ending was a little saccharine.", exKo: "영화는 괜찮았는데 결말이 좀 오글거렸어.", unit: "ud10214" },
+  { id: "w5605", en: "brouhaha", ko: "(별것 아닌 일로 생긴) 소동, 법석", pos: "명사", exEn: "All that brouhaha over a parking spot? Seriously?", exKo: "주차 자리 하나 갖고 그 난리를 쳤다고? 진짜?", unit: "ud10214" },
+  { id: "w5606", en: "gobsmacked", ko: "너무 놀라 말문이 막힌", pos: "형용사", exEn: "I was gobsmacked when she said she was quitting.", exKo: "걔가 그만둔다고 했을 때 말문이 턱 막혔어.", unit: "ud10214" },
+  { id: "w5607", en: "discombobulated", ko: "정신이 하나도 없는, 어리둥절한", pos: "형용사", exEn: "Sorry, I'm a bit discombobulated. I just got off a twelve-hour flight.", exKo: "미안, 정신이 좀 없어. 열두 시간 비행하고 방금 내렸거든.", unit: "ud10214" },
+  { id: "w5608", en: "eat crow", ko: "(틀렸음을 인정하고) 굴욕을 삼키다", pos: "이디엄", exEn: "I said they'd lose, and now I have to eat crow.", exKo: "걔네 진다고 큰소리쳤는데 이제 내가 체면 구기게 생겼네.", unit: "ud10214" },
+  { id: "w5609", en: "get the short end of the stick", ko: "손해 보는 쪽이 되다, 불리한 몫을 받다", pos: "이디엄", exEn: "Why do I always get the short end of the stick when we split chores?", exKo: "집안일 나눌 때 왜 맨날 내가 손해 보는 거야?", unit: "ud10214" },
+  { id: "w5610", en: "milquetoast", ko: "소심하고 줏대 없는 사람; 무난하기만 한", pos: "명사/형용사", exEn: "He's too milquetoast to ever stand up to his boss.", exKo: "걔는 너무 소심해서 상사한테 절대 대들지 못해.", unit: "ud10214" }
+]);
+
 // end of data-daily.js

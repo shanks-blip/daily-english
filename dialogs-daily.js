@@ -738,4 +738,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1021", level: "lv4", icon: "💸", title: "친구에게 밀린 여행비 받아내기",
+  lines: [
+    { sp: "A", en: "Hey, do you have a sec? I need to talk about the group trip money.", ko: "야, 잠깐 시간 돼? 단체 여행 비용 얘기 좀 하려고." },
+    { sp: "B", en: "Sure. Did someone not pay yet?", ko: "그래. 누가 아직 돈 안 냈어?" },
+    { sp: "A", en: "Jake still owes for the cabin, and every time I ask, he fobs me off with 'next week.'", ko: "제이크가 아직 숙소 비용을 안 냈는데, 물어볼 때마다 '다음 주에'라며 얼버무려." },
+    { sp: "B", en: "Ugh, typical. Do you want me to bring it up in the group chat?", ko: "에휴, 걔답다. 내가 단톡방에 얘기 꺼내 볼까?" },
+    { sp: "A", en: "Maybe not in front of everyone. I don't want to cause a whole brouhaha.", ko: "다 보는 데서는 좀 그래. 괜히 소동 일으키고 싶지 않아." },
+    { sp: "B", en: "Fair. Then just call a spade a spade and tell him privately you need it by Friday.", ko: "그렇긴 하네. 그럼 따로 돌려 말하지 말고 금요일까지 필요하다고 해." },
+    { sp: "A", en: "You're right. I keep covering for him, and I always get the short end of the stick.", ko: "맞아. 내가 계속 대신 메워 주니까 늘 손해 보는 건 나야." },
+    { sp: "B", en: "Exactly. Text him tonight, and let me know if he tries to wriggle out of it.", ko: "그러니까. 오늘 밤에 문자하고, 또 빠져나가려고 하면 나한테 말해." }
+  ]
+}]);
+
 // end of dialogs-daily.js
