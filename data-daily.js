@@ -4629,4 +4629,53 @@
   { id: "w5610", en: "milquetoast", ko: "소심하고 줏대 없는 사람; 무난하기만 한", pos: "명사/형용사", exEn: "He's too milquetoast to ever stand up to his boss.", exKo: "걔는 너무 소심해서 상사한테 절대 대들지 못해.", unit: "ud10214" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10221", level: "lv1", title: "데일리 10/22 · 기초" },
+  { id: "ud10222", level: "lv2", title: "데일리 10/22 · 중급" },
+  { id: "ud10223", level: "lv3", title: "데일리 10/22 · 고급" },
+  { id: "ud10224", level: "lv4", title: "데일리 10/22 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5611", en: "fries", ko: "감자튀김", pos: "명사", exEn: "Can I get a burger and a large order of fries?", exKo: "햄버거 하나랑 감자튀김 큰 걸로 주세요.", unit: "ud10221" },
+  { id: "w5612", en: "pool", ko: "수영장", pos: "명사", exEn: "The kids spent all afternoon in the pool.", exKo: "애들이 오후 내내 수영장에서 놀았어.", unit: "ud10221" },
+  { id: "w5613", en: "mall", ko: "쇼핑몰", pos: "명사", exEn: "Let's meet at the mall and grab lunch there.", exKo: "쇼핑몰에서 만나서 거기서 점심 먹자.", unit: "ud10221" },
+  { id: "w5614", en: "radio", ko: "라디오", pos: "명사", exEn: "I heard that song on the radio this morning.", exKo: "오늘 아침에 라디오에서 그 노래 나오더라.", unit: "ud10221" },
+  { id: "w5615", en: "armchair", ko: "안락의자, 팔걸이의자", pos: "명사", exEn: "My dad always falls asleep in his armchair after dinner.", exKo: "우리 아빠는 저녁 먹고 나면 꼭 안락의자에서 잠드셔.", unit: "ud10221" },
+  { id: "w5616", en: "poster", ko: "포스터, 벽보", pos: "명사", exEn: "He has a big movie poster on his bedroom wall.", exKo: "걔 방 벽에 커다란 영화 포스터가 붙어 있어.", unit: "ud10221" },
+  { id: "w5617", en: "fishing", ko: "낚시", pos: "명사", exEn: "My grandpa takes me fishing at the lake every summer.", exKo: "할아버지가 여름마다 호수로 낚시하러 데려가셔.", unit: "ud10221" },
+  { id: "w5618", en: "bless you", ko: "(재채기한 사람에게) 몸조심해요", pos: "표현", exEn: "\"Achoo!\" \"Bless you!\" \"Thanks.\"", exKo: "\"에취!\" \"어머, 조심해!\" \"고마워.\"", unit: "ud10221" },
+  { id: "w5619", en: "see you later", ko: "나중에 봐, 이따 봐", pos: "표현", exEn: "I've got to run. See you later!", exKo: "나 먼저 가볼게. 이따 봐!", unit: "ud10221" },
+  { id: "w5620", en: "how are you", ko: "잘 지내? 어떻게 지내?", pos: "표현", exEn: "Hi, Mrs. Kim! How are you today?", exKo: "김 선생님, 안녕하세요! 오늘 어떠세요?", unit: "ud10221" },
+  { id: "w5621", en: "karaoke", ko: "노래방, 가라오케", pos: "명사", exEn: "We ended up doing karaoke until two in the morning.", exKo: "결국 새벽 두 시까지 노래방에서 놀았어.", unit: "ud10222" },
+  { id: "w5622", en: "bowling", ko: "볼링", pos: "명사", exEn: "Want to go bowling this Friday night?", exKo: "이번 금요일 밤에 볼링 치러 갈래?", unit: "ud10222" },
+  { id: "w5623", en: "movie theater", ko: "영화관", pos: "명사", exEn: "The movie theater near my place just got new recliner seats.", exKo: "우리 집 근처 영화관에 리클라이너 좌석이 새로 들어왔어.", unit: "ud10222" },
+  { id: "w5624", en: "salon", ko: "미용실, 헤어숍", pos: "명사", exEn: "I have an appointment at the salon to get my hair colored.", exKo: "미용실에 염색 예약해 놨어.", unit: "ud10222" },
+  { id: "w5625", en: "knit", ko: "뜨개질하다, (실로) 뜨다", pos: "동사", exEn: "My mom knit me a sweater for my birthday.", exKo: "엄마가 생일 선물로 스웨터를 떠 주셨어.", unit: "ud10222" },
+  { id: "w5626", en: "cocoa", ko: "코코아, 핫초코", pos: "명사", exEn: "Nothing beats a mug of hot cocoa on a snowy day.", exKo: "눈 오는 날엔 따뜻한 코코아 한 잔이 최고지.", unit: "ud10222" },
+  { id: "w5627", en: "campfire", ko: "모닥불, 캠프파이어", pos: "명사", exEn: "We sat around the campfire and roasted marshmallows.", exKo: "모닥불 둘러앉아서 마시멜로 구워 먹었어.", unit: "ud10222" },
+  { id: "w5628", en: "arcade", ko: "오락실, 게임센터", pos: "명사", exEn: "I wasted all my quarters at the arcade.", exKo: "오락실에서 동전을 다 써 버렸어.", unit: "ud10222" },
+  { id: "w5629", en: "fiancé", ko: "약혼자", pos: "명사", exEn: "This is Mark, my fiancé. We're getting married in May.", exKo: "이쪽은 마크, 제 약혼자예요. 5월에 결혼해요.", unit: "ud10222" },
+  { id: "w5630", en: "yoga", ko: "요가", pos: "명사", exEn: "I started doing yoga to help with my back pain.", exKo: "허리 아파서 요가를 시작했어.", unit: "ud10222" },
+  { id: "w5631", en: "riled up", ko: "잔뜩 흥분한, 열받은", pos: "형용사구", exEn: "Don't get all riled up. It was just a joke.", exKo: "그렇게 열 낼 거 없어. 그냥 농담이었어.", unit: "ud10223" },
+  { id: "w5632", en: "in a pickle", ko: "곤란한 처지에 빠진", pos: "이디엄", exEn: "I locked my keys in the car, so I'm in a bit of a pickle.", exKo: "차 안에 열쇠를 두고 문을 잠가 버려서 좀 난처하게 됐어.", unit: "ud10223" },
+  { id: "w5633", en: "upcycle", ko: "(버려질 물건을) 새로 고쳐 쓰다, 업사이클하다", pos: "동사", exEn: "She upcycled an old ladder into a bookshelf.", exKo: "걔는 낡은 사다리를 책장으로 리폼했어.", unit: "ud10223" },
+  { id: "w5634", en: "rubberneck", ko: "(사고 현장 등을) 구경하느라 목을 빼다", pos: "동사", exEn: "Traffic is slow because everyone's rubbernecking at the accident.", exKo: "다들 사고 구경하느라 속도를 줄여서 길이 막혀.", unit: "ud10223" },
+  { id: "w5635", en: "pull a fast one", ko: "속여 넘기다, 한 방 먹이다", pos: "이디엄", exEn: "Check the bill. I think the mechanic is trying to pull a fast one on us.", exKo: "청구서 잘 봐. 정비사가 우리 눈속임하려는 것 같아.", unit: "ud10223" },
+  { id: "w5636", en: "step up", ko: "나서다, (책임을) 맡고 나서다", pos: "구동사", exEn: "When our manager quit, Jenna really stepped up.", exKo: "팀장님이 그만뒀을 때 제나가 제대로 나서 줬어.", unit: "ud10223" },
+  { id: "w5637", en: "blindsided", ko: "뒤통수 맞은, 허를 찔린", pos: "형용사", exEn: "I was totally blindsided when they announced the layoffs.", exKo: "정리해고 발표 났을 때 완전히 뒤통수 맞은 기분이었어.", unit: "ud10223" },
+  { id: "w5638", en: "furlough", ko: "무급 휴직(시키다)", pos: "명사/동사", exEn: "Half the staff got furloughed during the shutdown.", exKo: "셧다운 때 직원 절반이 무급 휴직에 들어갔어.", unit: "ud10223" },
+  { id: "w5639", en: "merger", ko: "(기업) 합병", pos: "명사", exEn: "Nobody knows what the merger means for our jobs yet.", exKo: "합병 때문에 우리 일자리가 어떻게 될지 아직 아무도 몰라.", unit: "ud10223" },
+  { id: "w5640", en: "bipartisan", ko: "양당이 함께하는, 초당적인", pos: "형용사", exEn: "Surprisingly, the bill got bipartisan support.", exKo: "의외로 그 법안은 양당 모두의 지지를 받았어.", unit: "ud10223" },
+  { id: "w5641", en: "boondoggle", ko: "돈·시간만 낭비하는 쓸데없는 일", pos: "명사", exEn: "That new stadium project is a total boondoggle.", exKo: "그 새 경기장 사업은 완전 세금 낭비야.", unit: "ud10224" },
+  { id: "w5642", en: "kibitz", ko: "(남의 일에) 훈수 두다, 참견하다", pos: "동사", exEn: "Stop kibitzing and let me play my own hand.", exKo: "훈수 그만 두고 내가 알아서 하게 좀 둬.", unit: "ud10224" },
+  { id: "w5643", en: "copacetic", ko: "다 괜찮은, 문제없는", pos: "형용사", exEn: "We had a little argument, but everything's copacetic now.", exKo: "좀 다투긴 했는데 지금은 다 괜찮아.", unit: "ud10224" },
+  { id: "w5644", en: "cattywampus", ko: "삐뚤어진, 비스듬한", pos: "형용사", exEn: "The picture frame's all cattywampus. Can you straighten it?", exKo: "액자가 완전 삐뚤어졌네. 좀 바로 해 줄래?", unit: "ud10224" },
+  { id: "w5645", en: "shenanigans", ko: "장난, 수작, 허튼짓", pos: "명사", exEn: "No shenanigans while I'm gone, okay?", exKo: "나 없는 동안 허튼짓하지 마, 알았지?", unit: "ud10224" },
+  { id: "w5646", en: "hullabaloo", ko: "야단법석, 소동", pos: "명사", exEn: "What's all the hullabaloo out in the hallway?", exKo: "복도에서 왜 이렇게 시끌벅적해?", unit: "ud10224" },
+  { id: "w5647", en: "gussy up", ko: "한껏 꾸미다, 치장하다", pos: "구동사", exEn: "She got all gussied up for the reunion.", exKo: "걔 동창회 간다고 한껏 차려입었더라.", unit: "ud10224" },
+  { id: "w5648", en: "malarkey", ko: "헛소리, 터무니없는 말", pos: "명사", exEn: "He says he was stuck in traffic for three hours? What a bunch of malarkey.", exKo: "세 시간 동안 차가 막혔다고? 다 헛소리야.", unit: "ud10224" },
+  { id: "w5649", en: "armchair quarterback", ko: "훈수꾼, 말로만 아는 척하는 사람", pos: "이디엄", exEn: "Everyone's an armchair quarterback until they actually have to do the job.", exKo: "직접 해 보기 전엔 다들 말로는 전문가지.", unit: "ud10224" },
+  { id: "w5650", en: "doozy", ko: "대단한 것, 엄청난 것(좋든 나쁘든)", pos: "명사", exEn: "I've had some bad days, but today was a doozy.", exKo: "힘든 날이야 많았지만 오늘은 진짜 역대급이었어.", unit: "ud10224" }
+]);
+
 // end of data-daily.js
