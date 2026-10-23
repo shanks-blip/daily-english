@@ -752,4 +752,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1023", level: "lv3", icon: "🐶", title: "동물병원에서 강아지 진료받기",
+  lines: [
+    { sp: "A", en: "Hi, I called earlier. Thanks for squeezing us in today.", ko: "안녕하세요, 아까 전화했던 사람이에요. 오늘 시간 내 주셔서 감사해요." },
+    { sp: "B", en: "No problem. So what's going on with Max?", ko: "괜찮아요. 맥스가 어디가 안 좋아요?" },
+    { sp: "A", en: "He's been off his food for two days, and he keeps scratching his ear.", ko: "이틀째 밥을 잘 안 먹고, 계속 귀를 긁어요." },
+    { sp: "B", en: "Let me take a look. Hmm, it's a little red. Looks like an ear infection.", ko: "한번 볼게요. 음, 좀 빨갛네요. 귀에 염증이 생긴 것 같아요." },
+    { sp: "A", en: "Is it serious? I've been worried sick.", ko: "심각한 건가요? 걱정돼서 혼났어요." },
+    { sp: "B", en: "Not at all. We caught it early. I'll give you some drops to put in twice a day.", ko: "전혀요. 일찍 발견했어요. 하루 두 번 넣는 귀약 드릴게요." },
+    { sp: "A", en: "Great. Anything else I should keep an eye on?", ko: "다행이네요. 그 밖에 더 신경 써서 봐야 할 게 있을까요?" },
+    { sp: "B", en: "If he's not back to his old self in a week, just bring him back in.", ko: "일주일 안에 원래 모습으로 안 돌아오면 다시 데려오세요." }
+  ]
+}]);
+
 // end of dialogs-daily.js

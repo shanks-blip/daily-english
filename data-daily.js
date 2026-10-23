@@ -4678,4 +4678,53 @@
   { id: "w5650", en: "doozy", ko: "대단한 것, 엄청난 것(좋든 나쁘든)", pos: "명사", exEn: "I've had some bad days, but today was a doozy.", exKo: "힘든 날이야 많았지만 오늘은 진짜 역대급이었어.", unit: "ud10224" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10231", level: "lv1", title: "데일리 10/23 · 기초" },
+  { id: "ud10232", level: "lv2", title: "데일리 10/23 · 중급" },
+  { id: "ud10233", level: "lv3", title: "데일리 10/23 · 고급" },
+  { id: "ud10234", level: "lv4", title: "데일리 10/23 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5651", en: "old", ko: "오래된, 나이 든", pos: "형용사", exEn: "This couch is really old. We should get a new one.", exKo: "이 소파 진짜 오래됐다. 하나 새로 사야겠어.", unit: "ud10231" },
+  { id: "w5652", en: "new", ko: "새로운, 새", pos: "형용사", exEn: "Is that a new jacket? It looks great on you.", exKo: "그거 새 재킷이야? 너한테 잘 어울린다.", unit: "ud10231" },
+  { id: "w5653", en: "sell", ko: "팔다", pos: "동사", exEn: "We're going to sell our car and just take the bus.", exKo: "우리 차 팔고 그냥 버스 타고 다니려고.", unit: "ud10231" },
+  { id: "w5654", en: "scared", ko: "무서워하는, 겁먹은", pos: "형용사", exEn: "My little brother is scared of the dark.", exKo: "내 남동생은 어두운 걸 무서워해.", unit: "ud10231" },
+  { id: "w5655", en: "ugly", ko: "못생긴, 보기 흉한", pos: "형용사", exEn: "I know the sweater's ugly, but it's really warm.", exKo: "스웨터 못생긴 거 알아. 근데 진짜 따뜻해.", unit: "ud10231" },
+  { id: "w5656", en: "rich", ko: "부자인, 돈 많은", pos: "형용사", exEn: "If I were rich, I'd travel all year.", exKo: "내가 부자라면 일 년 내내 여행 다닐 거야.", unit: "ud10231" },
+  { id: "w5657", en: "poor", ko: "가난한; 불쌍한", pos: "형용사", exEn: "Oh, poor thing. You must be so tired.", exKo: "아이고, 불쌍해라. 엄청 피곤하겠다.", unit: "ud10231" },
+  { id: "w5658", en: "same", ko: "같은, 똑같은", pos: "형용사", exEn: "We ordered the same thing again.", exKo: "우리 또 똑같은 거 시켰네.", unit: "ud10231" },
+  { id: "w5659", en: "different", ko: "다른, 색다른", pos: "형용사", exEn: "Let's try a different restaurant tonight.", exKo: "오늘 저녁은 다른 식당 가 보자.", unit: "ud10231" },
+  { id: "w5660", en: "Sunday", ko: "일요일", pos: "명사", exEn: "I usually just stay home on Sunday.", exKo: "나 일요일엔 보통 그냥 집에 있어.", unit: "ud10231" },
+  { id: "w5661", en: "dandruff", ko: "비듬", pos: "명사", exEn: "I switched shampoos because of my dandruff.", exKo: "비듬 때문에 샴푸를 바꿨어.", unit: "ud10232" },
+  { id: "w5662", en: "pimple", ko: "여드름, 뾰루지", pos: "명사", exEn: "Don't pop that pimple. It'll leave a mark.", exKo: "그 뾰루지 짜지 마. 자국 남아.", unit: "ud10232" },
+  { id: "w5663", en: "hangnail", ko: "거스러미(손톱 옆 일어난 살갗)", pos: "명사", exEn: "I've got a hangnail, and it's driving me crazy.", exKo: "손톱 옆에 거스러미가 일어나서 미치겠어.", unit: "ud10232" },
+  { id: "w5664", en: "nosebleed", ko: "코피", pos: "명사", exEn: "He got a nosebleed during class, so the nurse sent him home.", exKo: "걔 수업 중에 코피가 나서 보건실에서 집에 보냈대.", unit: "ud10232" },
+  { id: "w5665", en: "sideburns", ko: "구레나룻", pos: "명사", exEn: "Can you trim my sideburns a little shorter?", exKo: "구레나룻 조금만 더 짧게 다듬어 주실래요?", unit: "ud10232" },
+  { id: "w5666", en: "stubble", ko: "까칠하게 자란 수염", pos: "명사", exEn: "You've got some stubble. Didn't you shave this morning?", exKo: "수염 좀 났네. 오늘 아침에 면도 안 했어?", unit: "ud10232" },
+  { id: "w5667", en: "aluminum foil", ko: "알루미늄 포일, 쿠킹 포일", pos: "명사", exEn: "Cover the leftovers with aluminum foil and put them in the fridge.", exKo: "남은 음식은 포일로 덮어서 냉장고에 넣어 둬.", unit: "ud10232" },
+  { id: "w5668", en: "fire extinguisher", ko: "소화기", pos: "명사", exEn: "Do you know where the fire extinguisher is in this building?", exKo: "이 건물 소화기 어디 있는지 알아?", unit: "ud10232" },
+  { id: "w5669", en: "duct tape", ko: "강력 접착테이프(덕트 테이프)", pos: "명사", exEn: "Just fix it with some duct tape for now.", exKo: "일단은 덕트 테이프로 대충 붙여 놔.", unit: "ud10232" },
+  { id: "w5670", en: "nanny", ko: "보모, 아이 돌보미", pos: "명사", exEn: "We hired a nanny so we can both go back to work.", exKo: "둘 다 다시 일하려고 아이 돌보미를 구했어.", unit: "ud10232" },
+  { id: "w5671", en: "horse around", ko: "장난치며 놀다, 까불다", pos: "구동사", exEn: "Stop horsing around in the pool before someone gets hurt.", exKo: "누구 다치기 전에 수영장에서 그만 까불어.", unit: "ud10233" },
+  { id: "w5672", en: "hole up", ko: "틀어박히다, 숨어 지내다", pos: "구동사", exEn: "I'm going to hole up at home this weekend and finish my report.", exKo: "이번 주말엔 집에 틀어박혀서 보고서 끝낼 거야.", unit: "ud10233" },
+  { id: "w5673", en: "tick off", ko: "짜증 나게 하다, 열 받게 하다", pos: "구동사", exEn: "It really ticks me off when people cut in line.", exKo: "사람들이 새치기하면 진짜 열 받아.", unit: "ud10233" },
+  { id: "w5674", en: "stick around", ko: "가지 않고 남아 있다", pos: "구동사", exEn: "Can you stick around for a bit after the meeting?", exKo: "회의 끝나고 잠깐 남아 줄 수 있어?", unit: "ud10233" },
+  { id: "w5675", en: "squeeze in", ko: "(바쁜 일정에) 겨우 끼워 넣다", pos: "구동사", exEn: "The dentist can squeeze me in at four.", exKo: "치과에서 4시에 겨우 끼워 줄 수 있대.", unit: "ud10233" },
+  { id: "w5676", en: "sniff out", ko: "찾아내다, 알아채다", pos: "구동사", exEn: "My mom can sniff out a lie in two seconds.", exKo: "우리 엄마는 거짓말을 2초 만에 알아채.", unit: "ud10233" },
+  { id: "w5677", en: "glaze over", ko: "(눈이) 멍해지다, 흐리멍덩해지다", pos: "구동사", exEn: "His eyes glazed over as soon as I started talking about taxes.", exKo: "내가 세금 얘기 꺼내자마자 걔 눈이 멍해지더라.", unit: "ud10233" },
+  { id: "w5678", en: "mooch off", ko: "빌붙다, 얻어먹고 살다", pos: "구동사", exEn: "He's thirty and still mooching off his parents.", exKo: "걔 서른인데 아직도 부모님한테 빌붙어 살아.", unit: "ud10233" },
+  { id: "w5679", en: "scarf down", ko: "허겁지겁 먹어 치우다", pos: "구동사", exEn: "I scarfed down a sandwich between meetings.", exKo: "회의 사이에 샌드위치를 허겁지겁 먹어 치웠어.", unit: "ud10233" },
+  { id: "w5680", en: "rough it", ko: "불편하게 지내다(캠핑 등)", pos: "이디엄", exEn: "No hotel this time. We're roughing it in a tent.", exKo: "이번엔 호텔 없어. 텐트에서 고생 좀 할 거야.", unit: "ud10233" },
+  { id: "w5681", en: "on the fritz", ko: "고장 난, 말을 안 듣는", pos: "이디엄", exEn: "The microwave is on the fritz again.", exKo: "전자레인지가 또 맛이 갔어.", unit: "ud10234" },
+  { id: "w5682", en: "out of whack", ko: "엉망인, 균형이 깨진", pos: "이디엄", exEn: "My sleep schedule is totally out of whack since the trip.", exKo: "여행 다녀온 뒤로 수면 패턴이 완전 엉망이야.", unit: "ud10234" },
+  { id: "w5683", en: "in the doghouse", ko: "(잘못해서) 눈 밖에 난, 찍힌", pos: "이디엄", exEn: "I forgot our anniversary, so I'm in the doghouse.", exKo: "기념일 까먹어서 지금 완전 찍혔어.", unit: "ud10234" },
+  { id: "w5684", en: "scot-free", ko: "아무 처벌 없이, 무사히", pos: "형용사/부사", exEn: "He broke the window and got off scot-free.", exKo: "걔 창문 깨 놓고 아무 벌도 안 받았어.", unit: "ud10234" },
+  { id: "w5685", en: "shindig", ko: "(떠들썩한) 파티, 잔치", pos: "명사", exEn: "We're throwing a little shindig for Mike's birthday on Saturday.", exKo: "토요일에 마이크 생일 파티 조촐하게 열 거야.", unit: "ud10234" },
+  { id: "w5686", en: "snafu", ko: "(어이없는) 혼선, 대혼란", pos: "명사", exEn: "There was a snafu with our booking, so we had to wait an hour.", exKo: "예약에 착오가 생겨서 한 시간이나 기다렸어.", unit: "ud10234" },
+  { id: "w5687", en: "chutzpah", ko: "뻔뻔함, 배짱", pos: "명사", exEn: "He had the chutzpah to ask for a raise on his first day.", exKo: "걔 출근 첫날에 연봉 올려 달라고 할 만큼 배짱이 두둑하더라.", unit: "ud10234" },
+  { id: "w5688", en: "highfalutin", ko: "잘난 척하는, 허세 부리는", pos: "형용사", exEn: "I don't need some highfalutin restaurant. A burger is fine.", exKo: "무슨 거창한 식당 필요 없어. 버거면 돼.", unit: "ud10234" },
+  { id: "w5689", en: "raring to go", ko: "하고 싶어 안달 난, 의욕이 넘치는", pos: "이디엄", exEn: "The kids were up at six and raring to go.", exKo: "애들이 6시에 일어나서 빨리 나가자고 난리였어.", unit: "ud10234" },
+  { id: "w5690", en: "high and dry", ko: "(도움 없이) 곤경에 버려진", pos: "이디엄", exEn: "He quit without notice and left us high and dry.", exKo: "걔가 말도 없이 그만둬서 우리만 곤란해졌어.", unit: "ud10234" }
+]);
+
 // end of data-daily.js
