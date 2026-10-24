@@ -4727,4 +4727,53 @@
   { id: "w5690", en: "high and dry", ko: "(도움 없이) 곤경에 버려진", pos: "이디엄", exEn: "He quit without notice and left us high and dry.", exKo: "걔가 말도 없이 그만둬서 우리만 곤란해졌어.", unit: "ud10234" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10241", level: "lv1", title: "데일리 10/24 · 기초" },
+  { id: "ud10242", level: "lv2", title: "데일리 10/24 · 중급" },
+  { id: "ud10243", level: "lv3", title: "데일리 10/24 · 고급" },
+  { id: "ud10244", level: "lv4", title: "데일리 10/24 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5691", en: "March", ko: "3월", pos: "명사", exEn: "My birthday is in March.", exKo: "내 생일은 3월이야.", unit: "ud10241" },
+  { id: "w5692", en: "April", ko: "4월", pos: "명사", exEn: "The cherry blossoms come out in April.", exKo: "벚꽃은 4월에 펴.", unit: "ud10241" },
+  { id: "w5693", en: "June", ko: "6월", pos: "명사", exEn: "School ends in June.", exKo: "학교는 6월에 끝나.", unit: "ud10241" },
+  { id: "w5694", en: "July", ko: "7월", pos: "명사", exEn: "It's super hot here in July.", exKo: "여긴 7월에 엄청 더워.", unit: "ud10241" },
+  { id: "w5695", en: "man", ko: "남자, 사람", pos: "명사", exEn: "Who's that man by the door?", exKo: "문 옆에 있는 저 남자 누구야?", unit: "ud10241" },
+  { id: "w5696", en: "woman", ko: "여자, 여성", pos: "명사", exEn: "The woman at the front desk was really nice.", exKo: "프런트에 있던 여자분이 정말 친절했어.", unit: "ud10241" },
+  { id: "w5697", en: "mom", ko: "엄마", pos: "명사", exEn: "I'll ask my mom if I can come.", exKo: "갈 수 있는지 엄마한테 물어볼게.", unit: "ud10241" },
+  { id: "w5698", en: "dad", ko: "아빠", pos: "명사", exEn: "My dad makes the best pancakes.", exKo: "우리 아빠가 팬케이크를 제일 잘 만들어.", unit: "ud10241" },
+  { id: "w5699", en: "computer", ko: "컴퓨터", pos: "명사", exEn: "My computer froze again.", exKo: "내 컴퓨터 또 멈췄어.", unit: "ud10241" },
+  { id: "w5700", en: "city", ko: "도시", pos: "명사", exEn: "I like living in the city.", exKo: "나는 도시에 사는 게 좋아.", unit: "ud10241" },
+  { id: "w5701", en: "goosebumps", ko: "소름, 닭살", pos: "명사", exEn: "That song always gives me goosebumps.", exKo: "그 노래 들으면 항상 소름 돋아.", unit: "ud10242" },
+  { id: "w5702", en: "cotton swab", ko: "면봉", pos: "명사", exEn: "Don't put a cotton swab too deep in your ear.", exKo: "면봉을 귀에 너무 깊이 넣지 마.", unit: "ud10242" },
+  { id: "w5703", en: "lip balm", ko: "립밤", pos: "명사", exEn: "My lips are so dry. Do you have any lip balm?", exKo: "입술이 너무 건조해. 립밤 있어?", unit: "ud10242" },
+  { id: "w5704", en: "cardigan", ko: "카디건", pos: "명사", exEn: "Bring a cardigan. The office gets cold.", exKo: "카디건 챙겨. 사무실 추워지거든.", unit: "ud10242" },
+  { id: "w5705", en: "sweatshirt", ko: "맨투맨 티셔츠, 스웨트셔츠", pos: "명사", exEn: "I just threw on a sweatshirt and ran out.", exKo: "그냥 맨투맨 하나 걸치고 뛰어나왔어.", unit: "ud10242" },
+  { id: "w5706", en: "tote bag", ko: "토트백, 천 가방", pos: "명사", exEn: "I keep a tote bag in my car for groceries.", exKo: "장 볼 때 쓰려고 차에 천 가방 하나 넣어 둬.", unit: "ud10242" },
+  { id: "w5707", en: "toothpick", ko: "이쑤시개", pos: "명사", exEn: "Can I get a toothpick? Something's stuck in my teeth.", exKo: "이쑤시개 하나 주실래요? 이에 뭐가 꼈어요.", unit: "ud10242" },
+  { id: "w5708", en: "beanie", ko: "비니(챙 없는 털모자)", pos: "명사", exEn: "I wear a beanie when I'm having a bad hair day.", exKo: "머리가 엉망인 날엔 비니 써.", unit: "ud10242" },
+  { id: "w5709", en: "bobby pin", ko: "실핀, 머리핀", pos: "명사", exEn: "Can you hand me a bobby pin? My bangs keep falling.", exKo: "실핀 하나만 줄래? 앞머리가 자꾸 내려와.", unit: "ud10242" },
+  { id: "w5710", en: "fanny pack", ko: "힙색, 허리 가방", pos: "명사", exEn: "Fanny packs are actually back in style.", exKo: "힙색이 다시 유행이더라.", unit: "ud10242" },
+  { id: "w5711", en: "chill out", ko: "진정하다, 느긋하게 쉬다", pos: "구동사", exEn: "Chill out. We've got plenty of time.", exKo: "진정해. 시간 충분해.", unit: "ud10243" },
+  { id: "w5712", en: "black out", ko: "(잠깐) 의식을 잃다, 필름이 끊기다", pos: "구동사", exEn: "I stood up too fast and almost blacked out.", exKo: "너무 빨리 일어나서 정신 잃을 뻔했어.", unit: "ud10243" },
+  { id: "w5713", en: "pass out", ko: "기절하다; 곯아떨어지다", pos: "구동사", exEn: "I passed out on the couch as soon as I got home.", exKo: "집에 오자마자 소파에서 곯아떨어졌어.", unit: "ud10243" },
+  { id: "w5714", en: "drift off", ko: "(스르르) 잠들다", pos: "구동사", exEn: "I drifted off halfway through the movie.", exKo: "영화 보다가 중간에 스르르 잠들었어.", unit: "ud10243" },
+  { id: "w5715", en: "sleep off", ko: "자고 나서 (숙취·피로를) 풀다", pos: "구동사", exEn: "He's still sleeping off last night's party.", exKo: "걔 아직도 어젯밤 파티 여파로 자고 있어.", unit: "ud10243" },
+  { id: "w5716", en: "walk off", ko: "걸으면서 (통증·과식을) 풀다; 휙 가 버리다", pos: "구동사", exEn: "Let's take a walk and walk off that huge dinner.", exKo: "좀 걸으면서 저녁 배 꺼트리자.", unit: "ud10243" },
+  { id: "w5717", en: "rifle through", ko: "(뭘 찾으려고) 마구 뒤지다", pos: "구동사", exEn: "Who's been rifling through my desk?", exKo: "누가 내 책상 뒤졌어?", unit: "ud10243" },
+  { id: "w5718", en: "leaf through", ko: "(책장을) 휙휙 넘겨 보다", pos: "구동사", exEn: "I leafed through a magazine while I waited.", exKo: "기다리면서 잡지를 휙휙 넘겨 봤어.", unit: "ud10243" },
+  { id: "w5719", en: "pine for", ko: "(그리워서) 애타게 바라다", pos: "구동사", exEn: "She's still pining for her ex.", exKo: "걔 아직도 전 남친 못 잊고 그리워해.", unit: "ud10243" },
+  { id: "w5720", en: "timid", ko: "소심한, 겁 많은", pos: "형용사", exEn: "He's a little timid at first, but he warms up fast.", exKo: "걔 처음엔 좀 소심한데, 금방 친해져.", unit: "ud10243" },
+  { id: "w5721", en: "cold turkey", ko: "(습관을) 한 번에 딱 끊는", pos: "이디엄", exEn: "I quit coffee cold turkey, and the headaches were awful.", exKo: "커피를 한 번에 딱 끊었더니 두통이 장난 아니었어.", unit: "ud10244" },
+  { id: "w5722", en: "go bananas", ko: "난리 나다, 미쳐 날뛰다", pos: "이디엄", exEn: "The kids went bananas when they saw the puppy.", exKo: "애들이 강아지 보자마자 난리가 났어.", unit: "ud10244" },
+  { id: "w5723", en: "rub salt in the wound", ko: "상처에 소금을 뿌리다, 염장 지르다", pos: "이디엄", exEn: "He lost the game, and then you rub salt in the wound by laughing?", exKo: "걔 경기 졌는데 웃기까지 하면서 염장 지르냐?", unit: "ud10244" },
+  { id: "w5724", en: "a hot mess", ko: "엉망진창(인 사람·상황)", pos: "이디엄", exEn: "I was a hot mess this morning. I forgot my keys and my lunch.", exKo: "오늘 아침 나 완전 엉망이었어. 열쇠도 점심도 다 두고 나왔어.", unit: "ud10244" },
+  { id: "w5725", en: "brownie points", ko: "(윗사람에게 얻는) 점수, 환심", pos: "이디엄", exEn: "Bringing donuts for the team should earn you some brownie points.", exKo: "팀에 도넛 사 가면 점수 좀 딸 거야.", unit: "ud10244" },
+  { id: "w5726", en: "dark horse", ko: "다크호스, 의외의 강자", pos: "명사", exEn: "Nobody expected much from her, but she turned out to be the dark horse.", exKo: "다들 별 기대 안 했는데, 걔가 다크호스였어.", unit: "ud10244" },
+  { id: "w5727", en: "go-getter", ko: "의욕 넘치는 사람, 추진력 있는 사람", pos: "명사", exEn: "She's a real go-getter. She'll be running this place in five years.", exKo: "걔 진짜 추진력 대단해. 5년 뒤엔 여기 운영하고 있을걸.", unit: "ud10244" },
+  { id: "w5728", en: "willy-nilly", ko: "되는대로, 마구잡이로", pos: "부사", exEn: "You can't just spend money willy-nilly.", exKo: "돈을 그렇게 아무렇게나 쓰면 안 돼.", unit: "ud10244" },
+  { id: "w5729", en: "jam-packed", ko: "꽉 들어찬, 빽빽한", pos: "형용사", exEn: "The train was jam-packed this morning.", exKo: "오늘 아침 지하철 완전 미어터졌어.", unit: "ud10244" },
+  { id: "w5730", en: "janky", ko: "허접한, 엉성하고 불안한", pos: "형용사", exEn: "The Wi-Fi here is kind of janky, so it might cut out.", exKo: "여기 와이파이가 좀 허접해서 끊길 수도 있어.", unit: "ud10244" }
+]);
+
 // end of data-daily.js
