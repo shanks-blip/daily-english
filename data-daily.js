@@ -4776,4 +4776,53 @@
   { id: "w5730", en: "janky", ko: "허접한, 엉성하고 불안한", pos: "형용사", exEn: "The Wi-Fi here is kind of janky, so it might cut out.", exKo: "여기 와이파이가 좀 허접해서 끊길 수도 있어.", unit: "ud10244" }
 ]);
 
+[].push.apply(UNITS, [
+  { id: "ud10251", level: "lv1", title: "데일리 10/25 · 기초" },
+  { id: "ud10252", level: "lv2", title: "데일리 10/25 · 중급" },
+  { id: "ud10253", level: "lv3", title: "데일리 10/25 · 고급" },
+  { id: "ud10254", level: "lv4", title: "데일리 10/25 · 뉘앙스" }
+]);
+[].push.apply(WORDS, [
+  { id: "w5731", en: "fire truck", ko: "소방차", pos: "명사", exEn: "Look, a fire truck! Wave to the firefighters.", exKo: "저기 봐, 소방차다! 소방관 아저씨들한테 손 흔들어.", unit: "ud10251" },
+  { id: "w5732", en: "school bus", ko: "스쿨버스, 통학 버스", pos: "명사", exEn: "The school bus comes at 7:30, so hurry up.", exKo: "스쿨버스 7시 반에 오니까 서둘러.", unit: "ud10251" },
+  { id: "w5733", en: "toy store", ko: "장난감 가게", pos: "명사", exEn: "There's a big toy store next to the mall.", exKo: "쇼핑몰 옆에 큰 장난감 가게가 있어.", unit: "ud10251" },
+  { id: "w5734", en: "gift shop", ko: "기념품 가게, 선물 가게", pos: "명사", exEn: "Let's stop by the gift shop before we leave.", exKo: "가기 전에 기념품 가게 들렀다 가자.", unit: "ud10251" },
+  { id: "w5735", en: "orange juice", ko: "오렌지 주스", pos: "명사", exEn: "Can I get a glass of orange juice, please?", exKo: "오렌지 주스 한 잔 주시겠어요?", unit: "ud10251" },
+  { id: "w5736", en: "brown rice", ko: "현미", pos: "명사", exEn: "I've been eating brown rice instead of white rice.", exKo: "요즘 흰쌀밥 대신 현미 먹고 있어.", unit: "ud10251" },
+  { id: "w5737", en: "rice cooker", ko: "전기밥솥", pos: "명사", exEn: "Just put the rice in the rice cooker and press start.", exKo: "쌀을 밥솥에 넣고 시작 버튼만 누르면 돼.", unit: "ud10251" },
+  { id: "w5738", en: "high chair", ko: "(아기용) 높은 의자, 유아 식탁 의자", pos: "명사", exEn: "Could we get a high chair for the baby?", exKo: "아기 앉힐 유아 의자 하나 주실 수 있어요?", unit: "ud10251" },
+  { id: "w5739", en: "father-in-law", ko: "시아버지, 장인어른", pos: "명사", exEn: "My father-in-law is coming over for dinner tonight.", exKo: "오늘 저녁에 장인어른이 식사하러 오셔.", unit: "ud10251" },
+  { id: "w5740", en: "brother-in-law", ko: "처남, 매형, 시아주버니 등 (배우자의 형제·형제자매의 남편)", pos: "명사", exEn: "My brother-in-law helped us move last weekend.", exKo: "지난주에 처남이 이사 도와줬어.", unit: "ud10251" },
+  { id: "w5741", en: "free trial", ko: "무료 체험 (기간)", pos: "명사", exEn: "I signed up for the free trial, but I forgot to cancel it.", exKo: "무료 체험 신청했는데 해지하는 걸 깜빡했어.", unit: "ud10252" },
+  { id: "w5742", en: "store credit", ko: "(환불 대신 주는) 매장 적립금", pos: "명사", exEn: "They wouldn't give me cash back, just store credit.", exKo: "현금 환불은 안 해 주고 적립금으로만 주더라.", unit: "ud10252" },
+  { id: "w5743", en: "delivery fee", ko: "배달비, 배송비", pos: "명사", exEn: "The food was cheap, but the delivery fee was crazy.", exKo: "음식은 쌌는데 배달비가 말도 안 됐어.", unit: "ud10252" },
+  { id: "w5744", en: "baby shower", ko: "베이비 샤워 (출산 축하 파티)", pos: "명사", exEn: "We're throwing a baby shower for Jenna next Saturday.", exKo: "다음 주 토요일에 제나 베이비 샤워 열어 줄 거야.", unit: "ud10252" },
+  { id: "w5745", en: "overbooked", ko: "(예약을) 정원보다 많이 받은, 초과 예약된", pos: "형용사", exEn: "The flight was overbooked, so they asked for volunteers.", exKo: "비행기가 초과 예약돼서 자리 양보할 사람을 찾더라.", unit: "ud10252" },
+  { id: "w5746", en: "time off", ko: "휴가, 쉬는 기간", pos: "명사", exEn: "I really need some time off after this project.", exKo: "이 프로젝트 끝나면 진짜 좀 쉬어야겠어.", unit: "ud10252" },
+  { id: "w5747", en: "night shift", ko: "야간 근무", pos: "명사", exEn: "She works the night shift, so she sleeps during the day.", exKo: "걔는 야간 근무라서 낮에 자.", unit: "ud10252" },
+  { id: "w5748", en: "to-do list", ko: "할 일 목록", pos: "명사", exEn: "My to-do list keeps getting longer.", exKo: "할 일 목록이 계속 늘어나기만 해.", unit: "ud10252" },
+  { id: "w5749", en: "check in", ko: "(호텔·공항에서) 체크인하다; (안부를) 확인하다", pos: "구동사", exEn: "I just wanted to check in and see how you're doing.", exKo: "그냥 잘 지내나 궁금해서 연락해 봤어.", unit: "ud10252" },
+  { id: "w5750", en: "sister-in-law", ko: "올케, 형수, 처형, 시누이 등 (배우자의 자매·형제의 아내)", pos: "명사", exEn: "My sister-in-law makes the best lasagna.", exKo: "우리 형수님 라자냐가 최고야.", unit: "ud10252" },
+  { id: "w5751", en: "trip up", ko: "실수하게 만들다, 헷갈리게 하다", pos: "구동사", exEn: "That last question on the test really tripped me up.", exKo: "시험 마지막 문제에서 완전히 헷갈렸어.", unit: "ud10253" },
+  { id: "w5752", en: "tough it out", ko: "(힘든 상황을) 꾹 참고 버티다", pos: "구동사", exEn: "The job is hard, but I'm going to tough it out until summer.", exKo: "일이 힘들긴 한데 여름까지는 버텨 보려고.", unit: "ud10253" },
+  { id: "w5753", en: "cocky", ko: "건방진, 자신만만해서 우쭐대는", pos: "형용사", exEn: "He's good, but he's getting a little too cocky.", exKo: "걔 잘하긴 하는데 좀 너무 우쭐대기 시작했어.", unit: "ud10253" },
+  { id: "w5754", en: "crabby", ko: "짜증 잘 내는, 심술 난", pos: "형용사", exEn: "Sorry I'm so crabby. I didn't sleep well.", exKo: "까칠하게 굴어서 미안. 잠을 잘 못 잤어.", unit: "ud10253" },
+  { id: "w5755", en: "snippy", ko: "말을 톡 쏘는, 쌀쌀맞게 대꾸하는", pos: "형용사", exEn: "No need to get snippy. I was just asking.", exKo: "그렇게 톡 쏠 필요 없잖아. 그냥 물어본 건데.", unit: "ud10253" },
+  { id: "w5756", en: "spunky", ko: "기운 넘치고 당찬", pos: "형용사", exEn: "Their daughter is a spunky little kid. She's not scared of anything.", exKo: "그 집 딸 진짜 당차. 무서워하는 게 없어.", unit: "ud10253" },
+  { id: "w5757", en: "sappy", ko: "지나치게 감상적인, 오글거리는", pos: "형용사", exEn: "I know it's sappy, but I cried at the end of the movie.", exKo: "오글거리는 거 아는데 영화 마지막에 울었어.", unit: "ud10253" },
+  { id: "w5758", en: "learn the hard way", ko: "된통 당하고 나서야 깨닫다", pos: "이디엄", exEn: "I learned the hard way to always back up my files.", exKo: "파일은 꼭 백업해야 한다는 걸 크게 당하고 나서 배웠지.", unit: "ud10253" },
+  { id: "w5759", en: "zip it", ko: "입 다물어, 조용히 해", pos: "표현", exEn: "Zip it! I'm trying to hear the announcement.", exKo: "조용히 좀 해! 안내 방송 들으려고 하잖아.", unit: "ud10253" },
+  { id: "w5760", en: "time flies", ko: "시간 참 빠르다", pos: "표현", exEn: "Wow, it's already November? Time flies.", exKo: "와, 벌써 11월이야? 시간 진짜 빠르다.", unit: "ud10253" },
+  { id: "w5761", en: "skeleton in the closet", ko: "남에게 숨기고 싶은 과거, 감춰진 비밀", pos: "이디엄", exEn: "Every family has a few skeletons in the closet.", exKo: "어느 집이나 숨기고 싶은 비밀 몇 개쯤은 있지.", unit: "ud10254" },
+  { id: "w5762", en: "pipe dream", ko: "헛된 꿈, 이룰 수 없는 공상", pos: "명사", exEn: "Buying a house in this city feels like a pipe dream.", exKo: "이 도시에서 집 사는 건 꿈같은 얘기 같아.", unit: "ud10254" },
+  { id: "w5763", en: "sweat the small stuff", ko: "사소한 일에 끙끙 앓다", pos: "이디엄", exEn: "Don't sweat the small stuff. The party will be fine.", exKo: "사소한 거에 너무 신경 쓰지 마. 파티 잘될 거야.", unit: "ud10254" },
+  { id: "w5764", en: "sell like hotcakes", ko: "불티나게 팔리다", pos: "이디엄", exEn: "These new sneakers are selling like hotcakes.", exKo: "이번 신상 운동화 불티나게 팔리고 있어.", unit: "ud10254" },
+  { id: "w5765", en: "spread yourself too thin", ko: "너무 많은 일을 벌여 힘이 분산되다", pos: "이디엄", exEn: "You're spreading yourself too thin. Just pick one or two projects.", exKo: "너 일을 너무 많이 벌였어. 한두 개만 골라.", unit: "ud10254" },
+  { id: "w5766", en: "keep your shirt on", ko: "진정해, 너무 서두르지 마", pos: "이디엄", exEn: "Keep your shirt on! I'll be ready in two minutes.", exKo: "좀 진정해! 2분이면 준비 끝나.", unit: "ud10254" },
+  { id: "w5767", en: "a chip off the old block", ko: "부전자전, 부모를 쏙 빼닮은 자식", pos: "이디엄", exEn: "He fixes cars just like his dad. He's a chip off the old block.", exKo: "걔 아빠처럼 차 고치는 거 봐. 완전 부전자전이야.", unit: "ud10254" },
+  { id: "w5768", en: "close but no cigar", ko: "아깝게 빗나갔어, 거의 맞았는데 아니야", pos: "이디엄", exEn: "Is it 40? Close, but no cigar. It's 42.", exKo: "40이야? 아깝다, 땡. 42야.", unit: "ud10254" },
+  { id: "w5769", en: "fat chance", ko: "퍽이나, 그럴 리가 없지", pos: "표현", exEn: "Him? Apologize first? Fat chance.", exKo: "걔가? 먼저 사과를? 퍽이나.", unit: "ud10254" },
+  { id: "w5770", en: "party pooper", ko: "분위기 깨는 사람", pos: "명사", exEn: "Don't be a party pooper. Stay for one more song.", exKo: "분위기 깨지 말고 한 곡만 더 있다 가.", unit: "ud10254" }
+]);
+
 // end of data-daily.js

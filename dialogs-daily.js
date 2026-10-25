@@ -766,4 +766,18 @@
   ]
 }]);
 
+[].push.apply(DIALOGS, [{
+  id: "dd1025", level: "lv3", icon: "✈️", title: "비행기 연착으로 연결편 놓쳤을 때",
+  lines: [
+    { sp: "A", en: "Excuse me, my flight from Denver got delayed and I missed my connection.", ko: "저기요, 덴버에서 오는 비행기가 연착돼서 연결편을 놓쳤어요." },
+    { sp: "B", en: "I'm sorry about that. Let me pull up your booking.", ko: "불편을 드려 죄송합니다. 예약 내역 좀 확인해 볼게요." },
+    { sp: "A", en: "Is there any way I can still get to Boston tonight?", ko: "오늘 밤 안에 보스턴에 갈 방법이 있을까요?" },
+    { sp: "B", en: "The next flight is overbooked, but I can put you on standby or rebook you on the 7 a.m.", ko: "다음 편은 초과 예약 상태인데, 대기 명단에 올리거나 아침 7시 비행기로 다시 예약해 드릴 수 있어요." },
+    { sp: "A", en: "Standby sounds risky. I'll take the morning flight. Will the airline cover a hotel?", ko: "대기는 좀 불안하네요. 아침 비행기로 할게요. 호텔은 항공사에서 지원해 주나요?" },
+    { sp: "B", en: "Since the delay was on our end, yes. Here's a voucher for the airport hotel and one for dinner.", ko: "저희 쪽 사정으로 지연된 거라 지원됩니다. 공항 호텔 바우처랑 저녁 식사 쿠폰 드릴게요." },
+    { sp: "A", en: "That should tide me over. What about my checked bag?", ko: "그거면 그럭저럭 버틸 수 있겠네요. 부친 짐은 어떻게 되나요?" },
+    { sp: "B", en: "It'll be rerouted to your new flight automatically, so you don't need to worry about it.", ko: "새 비행기로 자동으로 옮겨지니까 신경 안 쓰셔도 돼요." }
+  ]
+}]);
+
 // end of dialogs-daily.js
